@@ -1,0 +1,152 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Stand1_Action03",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleM/Aimisi/CommonAnim/AM_Stand1_Action03",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.3,
+        "BlendOption": "EAlphaBlendOption::HermiteCubic"
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Stand1_Action03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Aimisi/CommonAnim/AM_Stand1_Action03.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Stand1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim2/Stand1.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Stand1'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim2/Stand1.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.3,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Stand1_Action03'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Aimisi/CommonAnim/Stand1_Action03.9"
+                },
+                "StartPos": 0.3,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 21.866667,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "AnimNotifyStateScreenEffect_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateScreenEffect_C'AM_Stand1_Action03:AnimNotifyStateScreenEffect_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Aimisi/CommonAnim/AM_Stand1_Action03.1"
+          },
+          "Duration": 15.633332,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Stand1_Action03'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Aimisi/CommonAnim/AM_Stand1_Action03.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.3,
+            "SegmentLength": 21.866667,
+            "LinkValue": 18.766666,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Stand1_Action03'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Aimisi/CommonAnim/Stand1_Action03.9"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Stand1_Action03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Aimisi/CommonAnim/AM_Stand1_Action03.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.3,
+          "SegmentLength": 21.866667,
+          "LinkValue": 3.1333332,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Stand1_Action03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Aimisi/CommonAnim/Stand1_Action03.9"
+          }
+        }
+      ],
+      "SequenceLength": 22.166666,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1AimisiMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Aimisi/R2T1AimisiMd10011/Model/R2T1AimisiMd10011_Skeleton.12"
+      }
+    },
+    "SkeletonGuid": "A1DADDAA-4FBA58A3-3B3361B6-DFF9AE08"
+  },
+  {
+    "Type": "AnimNotifyStateScreenEffect_C",
+    "Name": "AnimNotifyStateScreenEffect_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateScreenEffect.AnimNotifyStateScreenEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Stand1_Action03'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Aimisi/CommonAnim/AM_Stand1_Action03.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateScreenEffect_C'Default__AnimNotifyStateScreenEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateScreenEffect.4"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/DataAsset/ScreenDA/SD_Fight/NI_R2T1AimisiMd10011/DA_Fx_Screen_Aimisi_Small_P_UI.DA_Fx_Screen_Aimisi_Small_P_UI",
+        "SubPathString": ""
+      },
+      "exportIndex": 9,
+      "CurrentTimeLength": 5.986684
+    }
+  }
+]
