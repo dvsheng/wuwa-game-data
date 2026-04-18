@@ -1,0 +1,138 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Move_Limit_F",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/MaleXL/Baer/CommonAnim/AM_Move_Limit_F",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Limit_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Baer/CommonAnim/AM_Move_Limit_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.233333,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Move_Limit_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/BaseAnim/Move_Limit_F.1"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Move_Limit_F'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/BaseAnim/Move_Limit_F.1"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 2.233333,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TimedNiagaraEffect",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateEffect_C'AM_Move_Limit_F:AnimNotifyStateEffect_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Baer/CommonAnim/AM_Move_Limit_F.1"
+          },
+          "Duration": 0.464463,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Limit_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Baer/CommonAnim/AM_Move_Limit_F.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.233333,
+            "LinkValue": 0.49899,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Move_Limit_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/BaseAnim/Move_Limit_F.1"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Limit_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Baer/CommonAnim/AM_Move_Limit_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.233333,
+          "LinkValue": 0.034527,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Move_Limit_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/BaseAnim/Move_Limit_F.1"
+          }
+        }
+      ],
+      "SequenceLength": 2.233333,
+      "AnimOrigin": "6901",
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1BaerMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Baer/R2T1BaerMd10011/Model/R2T1BaerMd10011_Skeleton.16"
+      }
+    },
+    "SkeletonGuid": "AE80D4C4-413495EC-5364DAB5-1CC9BAB3"
+  },
+  {
+    "Type": "AnimNotifyStateEffect_C",
+    "Name": "AnimNotifyStateEffect_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.AnimNotifyStateEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Limit_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Baer/CommonAnim/AM_Move_Limit_F.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateEffect_C'Default__AnimNotifyStateEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.11"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Move.DA_Fx_Group_Move",
+        "SubPathString": ""
+      },
+      "SocketName": "Bip001Spine1",
+      "CurrentTimeLength": 0.4681208
+    }
+  }
+]
