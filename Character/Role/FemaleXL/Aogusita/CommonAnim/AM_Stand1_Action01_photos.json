@@ -1,0 +1,149 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Stand1_Action01_photos",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_Stand1_Action01_photos",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Stand1_Action01_photos'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_Stand1_Action01_photos.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Stand1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/Stand1.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Stand1'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/Stand1.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.3,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Stand1_Action01'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/Stand1_Action01.4"
+                },
+                "StartPos": 0.3,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 22.933332,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "场景物件交互",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSceneInteract_C'AM_Stand1_Action01_photos:TsAnimNotifyStateSceneInteract_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_Stand1_Action01_photos.1"
+          },
+          "Duration": 6.1666665,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Stand1_Action01_photos'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_Stand1_Action01_photos.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.3,
+            "SegmentLength": 22.933332,
+            "LinkValue": 6.1666665,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Stand1_Action01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/Stand1_Action01.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Stand1_Action01_photos'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_Stand1_Action01_photos.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Stand1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/Stand1.0"
+          }
+        }
+      ],
+      "SequenceLength": 23.233332,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1AogusitaMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/R2T1AogusitaMd10011/Model/R2T1AogusitaMd10011_Skeleton.11"
+      }
+    },
+    "SkeletonGuid": "B989AE45-40DBD563-E87046B7-1A580A95"
+  },
+  {
+    "Type": "TsAnimNotifyStateSceneInteract_C",
+    "Name": "TsAnimNotifyStateSceneInteract_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSceneInteract.TsAnimNotifyStateSceneInteract_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Stand1_Action01_photos'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_Stand1_Action01_photos.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSceneInteract_C'Default__TsAnimNotifyStateSceneInteract_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSceneInteract.4"
+    },
+    "Properties": {
+      "SocketName": "WeaponProp05",
+      "DataAssetRef": {
+        "AssetPathName": "/Game/Aki/Data/Fight/SceneInteract/Role/Aogusita/DA_PropSceneInteract_Aogusita_Weapon.DA_PropSceneInteract_Aogusita_Weapon",
+        "SubPathString": ""
+      },
+      "exportIndex": 12,
+      "CurrentTimeLength": 5.818291
+    }
+  }
+]

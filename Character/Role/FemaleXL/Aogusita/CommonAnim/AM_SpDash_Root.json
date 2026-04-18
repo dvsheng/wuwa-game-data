@@ -1,0 +1,664 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_SpDash_Root",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SpDash_Root'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.8333333,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SpWalk_Dash_Root'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/SpWalk_Dash_Root.9"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'SpWalk_Dash_Root'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/SpWalk_Dash_Root.9"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 2.8333333,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyStateGoThrough_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateGoThrough_C'AM_SpDash_Root:TsAnimNotifyStateGoThrough_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.6"
+          },
+          "Duration": 0.2,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SpDash_Root'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.8333333,
+            "LinkValue": 0.2,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SpWalk_Dash_Root'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/SpWalk_Dash_Root.9"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SpDash_Root'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.8333333,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SpWalk_Dash_Root'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/SpWalk_Dash_Root.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStateCurveMove_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateCurveMove_C'AM_SpDash_Root:TsAnimNotifyStateCurveMove_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.5"
+          },
+          "Duration": 0.16666667,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SpDash_Root'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.8333333,
+            "LinkValue": 0.16666667,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SpWalk_Dash_Root'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/SpWalk_Dash_Root.9"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SpDash_Root'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.8333333,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SpWalk_Dash_Root'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/SpWalk_Dash_Root.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStateGoThrough_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateGoThrough_C'AM_SpDash_Root:TsAnimNotifyStateGoThrough_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.7"
+          },
+          "Duration": 0.166667,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SpDash_Root'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.8333333,
+            "LinkValue": 0.166667,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SpWalk_Dash_Root'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/SpWalk_Dash_Root.9"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SpDash_Root'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.8333333,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SpWalk_Dash_Root'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/SpWalk_Dash_Root.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "场景物件交互",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSceneInteract_C'AM_SpDash_Root:TsAnimNotifyStateSceneInteract_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.8"
+          },
+          "Duration": 2.833333,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SpDash_Root'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.8333333,
+            "LinkValue": 2.833333,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SpWalk_Dash_Root'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/SpWalk_Dash_Root.9"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SpDash_Root'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.8333333,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SpWalk_Dash_Root'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/SpWalk_Dash_Root.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyAudioEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAudioEvent_C'AM_SpDash_Root:TsAnimNotifyAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.03333333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SpDash_Root'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.8333333,
+          "LinkValue": 0.03333333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SpWalk_Dash_Root'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/SpWalk_Dash_Root.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyControllerShake_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyControllerShake_C'AM_SpDash_Root:TsAnimNotifyControllerShake_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.089195,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SpDash_Root'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.8333333,
+          "LinkValue": 0.033614054,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SpWalk_Dash_Root'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/SpWalk_Dash_Root.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyChangeSkillPriority_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyChangeSkillPriority_C'AM_SpDash_Root:TsAnimNotifyChangeSkillPriority_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SpDash_Root'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.8333333,
+          "LinkValue": 0.2,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SpWalk_Dash_Root'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/SpWalk_Dash_Root.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyEndSkill_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyEndSkill_C'AM_SpDash_Root:TsAnimNotifyEndSkill_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SpDash_Root'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.8333333,
+          "LinkValue": 0.3,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SpWalk_Dash_Root'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/SpWalk_Dash_Root.9"
+          }
+        }
+      ],
+      "SequenceLength": 2.8333333,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1AogusitaMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/R2T1AogusitaMd10011/Model/R2T1AogusitaMd10011_Skeleton.11"
+      }
+    },
+    "SkeletonGuid": "415B7ED6-4ECF6D8E-A3143188-5E30D75B"
+  },
+  {
+    "Type": "TsAnimNotifyAudioEvent_C",
+    "Name": "TsAnimNotifyAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.TsAnimNotifyAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SpDash_Root'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAudioEvent_C'Default__TsAnimNotifyAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.3"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_augusta_am_spdash.play_augusta_am_spdash",
+        "SubPathString": ""
+      },
+      "exportIndex": 16
+    }
+  },
+  {
+    "Type": "TsAnimNotifyChangeSkillPriority_C",
+    "Name": "TsAnimNotifyChangeSkillPriority_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.TsAnimNotifyChangeSkillPriority_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SpDash_Root'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyChangeSkillPriority_C'Default__TsAnimNotifyChangeSkillPriority_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.3"
+    },
+    "Properties": {
+      "Priority": 6.0,
+      "exportIndex": 18
+    }
+  },
+  {
+    "Type": "TsAnimNotifyControllerShake_C",
+    "Name": "TsAnimNotifyControllerShake_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyControllerShake.TsAnimNotifyControllerShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SpDash_Root'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyControllerShake_C'Default__TsAnimNotifyControllerShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyControllerShake.3"
+    },
+    "Properties": {
+      "Effect": {
+        "ObjectName": "KuroForceFeedbackEffect'FF_AGST_Down_SP'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/Data/ControllerShake/FF_AGST_Down_SP.0"
+      },
+      "IsIgnoreTimeDilation": false,
+      "exportIndex": 17
+    }
+  },
+  {
+    "Type": "TsAnimNotifyEndSkill_C",
+    "Name": "TsAnimNotifyEndSkill_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.TsAnimNotifyEndSkill_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SpDash_Root'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyEndSkill_C'Default__TsAnimNotifyEndSkill_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.3"
+    },
+    "Properties": {
+      "exportIndex": 19
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateCurveMove_C",
+    "Name": "TsAnimNotifyStateCurveMove_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateCurveMove.TsAnimNotifyStateCurveMove_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SpDash_Root'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateCurveMove_C'Default__TsAnimNotifyStateCurveMove_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateCurveMove.5"
+    },
+    "Properties": {
+      "技能条件": [
+        {
+          "ConditionType_31_FDE61D77427DCD4BC0F2A7AA3D27695C": "ESkillBehaviorConditionType::NewEnumerator1",
+          "IgnoreZ_37_F6CCC57746F2CC2ECC2C2C8B8697BAE3": false,
+          "Sign_72_F5B15D704A9FA4243D4D888D6E838352": false,
+          "ComparisonLogic_41_BFD626EA4ADC6ECB646CA6B4C474889C": "ESkillBehaviorComparisonLogic::NewEnumerator6",
+          "Value_45_2649759445759C286E73938D5318AA99": 2500.0,
+          "RangeL_47_7B13704A41AF164405A70085BB8683AB": 0.0,
+          "RangeR_49_6D00959F40FAE4F69CAF15A1F177BDD9": 0.0,
+          "AttributeId1_57_B049A05E4E70C63D62BE2BA6A045D0AB": 0,
+          "AttributeId2_55_F810A3BA4E7646BDF7859F8D04BC9E20": 0,
+          "AttributeRate_61_C001B3DF4577447AB9519DA1B72FF66F": 0,
+          "TagToCheck_64_464EE5B34705853741899A9D4F266404": [],
+          "AnyTag_67_51D28A91427519B4E10E76B922EE7E9B": false,
+          "Reverse_35_73079DDF426EC7983ADE55B35FEC138A": false
+        }
+      ],
+      "无视障碍阻挡": true,
+      "位置基准目标": "EPositionDatumTarget::NewEnumerator1",
+      "基于目标骨骼位置": "Root",
+      "偏移方向基准": "EOffsetDirectionDatum::NewEnumerator2",
+      "目标位置偏移": {
+        "X": 500.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "终点贴地检测": true,
+      "终点贴地检测距离": 2000.0,
+      "exportIndex": 13,
+      "CurrentTimeLength": 0.16750109
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateGoThrough_C",
+    "Name": "TsAnimNotifyStateGoThrough_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateGoThrough.TsAnimNotifyStateGoThrough_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SpDash_Root'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateGoThrough_C'Default__TsAnimNotifyStateGoThrough_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateGoThrough.5"
+    },
+    "Properties": {
+      "FirstGoThroughPriority": 71,
+      "SecondHitPriority": 71,
+      "OldGoThroughPriority": 50.0,
+      "OldHitPriority": 50.0,
+      "LeftTime": -0.022394698,
+      "IsEnd": true,
+      "exportIndex": 12,
+      "CurrentTimeLength": 0.2006193
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateGoThrough_C",
+    "Name": "TsAnimNotifyStateGoThrough_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateGoThrough.TsAnimNotifyStateGoThrough_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SpDash_Root'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateGoThrough_C'Default__TsAnimNotifyStateGoThrough_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateGoThrough.5"
+    },
+    "Properties": {
+      "FirstGoThroughPriority": 71,
+      "SecondHitPriority": 71,
+      "OldGoThroughPriority": 71.0,
+      "OldHitPriority": 50.0,
+      "LeftTime": -0.010686599,
+      "IsEnd": true,
+      "exportIndex": 14,
+      "CurrentTimeLength": 0.16750109
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSceneInteract_C",
+    "Name": "TsAnimNotifyStateSceneInteract_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSceneInteract.TsAnimNotifyStateSceneInteract_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SpDash_Root'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_SpDash_Root.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSceneInteract_C'Default__TsAnimNotifyStateSceneInteract_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSceneInteract.4"
+    },
+    "Properties": {
+      "SocketName": "WeaponProp02",
+      "DataAssetRef": {
+        "AssetPathName": "/Game/Aki/Data/Fight/SceneInteract/Role/Aogusita/DA_PropSceneInteract_Aogusita_WeaponLong.DA_PropSceneInteract_Aogusita_WeaponLong",
+        "SubPathString": ""
+      },
+      "exportIndex": 15,
+      "CurrentTimeLength": 2.4338672
+    }
+  }
+]

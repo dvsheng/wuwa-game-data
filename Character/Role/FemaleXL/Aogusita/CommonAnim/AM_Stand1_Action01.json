@@ -1,0 +1,231 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Stand1_Action01",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_Stand1_Action01",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Stand1_Action01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_Stand1_Action01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Stand1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/Stand1.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Stand1'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/Stand1.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.3,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Stand1_Action01'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/Stand1_Action01.4"
+                },
+                "StartPos": 0.3,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 22.933332,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "场景物件交互",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSceneInteract_C'AM_Stand1_Action01:TsAnimNotifyStateSceneInteract_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_Stand1_Action01.2"
+          },
+          "Duration": 6.1666665,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Stand1_Action01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_Stand1_Action01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.3,
+            "SegmentLength": 22.933332,
+            "LinkValue": 6.1666665,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Stand1_Action01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/Stand1_Action01.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Stand1_Action01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_Stand1_Action01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Stand1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/Stand1.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "AnimNotifyStateEffect_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateEffect_C'AM_Stand1_Action01:AnimNotifyStateEffect_C_12'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_Stand1_Action01.1"
+          },
+          "Duration": 23.233332,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Stand1_Action01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_Stand1_Action01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.3,
+            "SegmentLength": 22.933332,
+            "LinkValue": 23.233332,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Stand1_Action01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/Stand1_Action01.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Stand1_Action01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_Stand1_Action01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Stand1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/Stand1.0"
+          }
+        }
+      ],
+      "SequenceLength": 23.233332,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1AogusitaMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/R2T1AogusitaMd10011/Model/R2T1AogusitaMd10011_Skeleton.11"
+      }
+    },
+    "SkeletonGuid": "30714C79-47A74465-C8D721AF-0C647DAF"
+  },
+  {
+    "Type": "AnimNotifyStateEffect_C",
+    "Name": "AnimNotifyStateEffect_C_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.AnimNotifyStateEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Stand1_Action01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_Stand1_Action01.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateEffect_C'Default__AnimNotifyStateEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.11"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1AogusitaMd10011/DA_Fx_Group_Stand1_idle.DA_Fx_Group_Stand1_idle",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      },
+      "SocketName": "Bone_Hair001_M",
+      "exportIndex": 12,
+      "CurrentTimeLength": 10.892535
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSceneInteract_C",
+    "Name": "TsAnimNotifyStateSceneInteract_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSceneInteract.TsAnimNotifyStateSceneInteract_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Stand1_Action01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Aogusita/CommonAnim/AM_Stand1_Action01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSceneInteract_C'Default__TsAnimNotifyStateSceneInteract_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSceneInteract.4"
+    },
+    "Properties": {
+      "SocketName": "WeaponProp05",
+      "DataAssetRef": {
+        "AssetPathName": "/Game/Aki/Data/Fight/SceneInteract/Role/Aogusita/DA_PropSceneInteract_Aogusita_Weapon.DA_PropSceneInteract_Aogusita_Weapon",
+        "SubPathString": ""
+      },
+      "exportIndex": 9,
+      "CurrentTimeLength": 9.552382
+    }
+  }
+]
