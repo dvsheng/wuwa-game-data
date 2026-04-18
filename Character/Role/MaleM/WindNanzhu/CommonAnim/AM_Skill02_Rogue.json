@@ -1,0 +1,1927 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Skill02_Rogue",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.03
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 3.3666666,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyWeaponHide_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_Skill02_Rogue:TsAnimNotifyWeaponHide_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.25"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateHideMesh_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateHideMesh_C'AM_Skill02_Rogue:TsAnimNotifyStateHideMesh_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.20"
+          },
+          "Duration": 0.519759,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.3666666,
+            "LinkValue": 0.519759,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateSetCollisionChannel_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSetCollisionChannel_C'AM_Skill02_Rogue:TsAnimNotifyStateSetCollisionChannel_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.23"
+          },
+          "Duration": 0.565093,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.3666666,
+            "LinkValue": 0.565093,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateSubMeshControl_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSubMeshControl_C'AM_Skill02_Rogue:TsAnimNotifyStateSubMeshControl_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.24"
+          },
+          "Duration": 0.085833,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.3666666,
+            "LinkValue": 0.085833,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_Skill02_Rogue:TsAnimNotifyAddBuff_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 9,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyStateAddMaterialControllerData_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateAddMaterialControllerData_C'AM_Skill02_Rogue:AnimNotifyStateAddMaterialControllerData_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.1"
+          },
+          "Duration": 0.119966,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.3666666,
+            "LinkValue": 0.119966,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 10,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyAudioEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAudioEvent_C'AM_Skill02_Rogue:TsAnimNotifyAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 14,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Skill02_Rogue:TsAnimNotifyStateAddTag_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.15"
+          },
+          "Duration": 1.339135,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.3666666,
+            "LinkValue": 1.339135,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 18,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateControllerShake_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateControllerShake_C'AM_Skill02_Rogue:TsAnimNotifyStateControllerShake_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.18"
+          },
+          "Duration": 1.313923,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.3666666,
+            "LinkValue": 1.313923,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 19,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "场景物件交互",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSceneInteract_C'AM_Skill02_Rogue:TsAnimNotifyStateSceneInteract_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.22"
+          },
+          "Duration": 0.085833,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.3666666,
+            "LinkValue": 0.085933,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 24,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.0001,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Skill02_Rogue:TsAnimNotifyStateAddTag_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.16"
+          },
+          "Duration": 1.3666666,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.3666666,
+            "LinkValue": 1.3666666,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 24,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyAudioEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAudioEvent_C'AM_Skill02_Rogue:TsAnimNotifyAudioEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.033333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.033333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Skill02_Rogue:TsAnimNotifyReSkillEvent_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.10"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.124053,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 20,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.03446614,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraModify_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'AM_Skill02_Rogue:TsAnimNotifyCameraModify_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 21,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.058364,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateHideMesh_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateHideMesh_C'AM_Skill02_Rogue:TsAnimNotifyStateHideMesh_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.19"
+          },
+          "Duration": 0.43434197,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.3666666,
+            "LinkValue": 0.51754,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.083198,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Skill02_Rogue:TsAnimNotifyReSkillEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.9"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 23,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.098011,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateBulletDuration_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateBulletDuration_C'AM_Skill02_Rogue:TsAnimNotifyStateBulletDuration_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.17"
+          },
+          "Duration": 0.79929507,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.3666666,
+            "LinkValue": 1.206894,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 9,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.407599,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddBuff_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddBuff_C'AM_Skill02_Rogue:TsAnimNotifyStateAddBuff_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.12"
+          },
+          "Duration": 2.8973305,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.3666666,
+            "LinkValue": 3.3666666,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 16,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.469336,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddBuff_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddBuff_C'AM_Skill02_Rogue:TsAnimNotifyStateAddBuff_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.13"
+          },
+          "Duration": 2.8910286,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.3666666,
+            "LinkValue": 3.3666666,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 17,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.475638,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_Skill02_Rogue:TsAnimNotifyAddBuff_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 12,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.480366,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddBuff_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddBuff_C'AM_Skill02_Rogue:TsAnimNotifyStateAddBuff_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.14"
+          },
+          "Duration": 2.8847246,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.3666666,
+            "LinkValue": 3.3666666,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 13,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.481942,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraModify_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'AM_Skill02_Rogue:TsAnimNotifyCameraModify_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.7"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.398428,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 22,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.560216,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateNextAtt",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateNextAtt_C'AM_Skill02_Rogue:TsAnimNotifyStateNextAtt_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.21"
+          },
+          "Duration": 0.562101,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.3666666,
+            "LinkValue": 1.330824,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.768723,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifySendGamePlayEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifySendGamePlayEvent_C'AM_Skill02_Rogue:TsAnimNotifySendGamePlayEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.11"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 0.798662,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyEndSkill",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyEndSkill_C'AM_Skill02_Rogue:TsAnimNotifyEndSkill_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.8"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.3666666,
+          "LinkValue": 1.339119,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill02_1_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/Skill02_1_Rogue.5"
+          }
+        }
+      ],
+      "SequenceLength": 3.3666666,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1PlayerMaleMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Nanzhu/R2T1PlayerMaleMd10011/Model/R2T1PlayerMaleMd10011_Skeleton.22"
+      }
+    },
+    "SkeletonGuid": "490646F1-407EB634-014FDCB6-4F93204D"
+  },
+  {
+    "Type": "AnimNotifyStateAddMaterialControllerData_C",
+    "Name": "AnimNotifyStateAddMaterialControllerData_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Character/AnimNotify/AnimNotifyStateAddMaterialControllerData.AnimNotifyStateAddMaterialControllerData_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateAddMaterialControllerData_C'Default__AnimNotifyStateAddMaterialControllerData_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Character/AnimNotify/AnimNotifyStateAddMaterialControllerData.4"
+    },
+    "Properties": {
+      "MaterialAssetData": {
+        "ObjectName": "PD_CharacterControllerData_C'DA_Fx_Windnanzhu_R2b_Jian02'",
+        "ObjectPath": "Client/Content/Aki/Effect/MaterialController/DA_Character/Windnanzhu/DA_Fx_Windnanzhu_R2b_Jian02.1"
+      },
+      "exportIndex": 10,
+      "CurrentTimeLength": 0.18432692
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 1406005001,
+      "exportIndex": 9
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 1406999014,
+      "exportIndex": 23
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAudioEvent_C",
+    "Name": "TsAnimNotifyAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.TsAnimNotifyAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAudioEvent_C'Default__TsAnimNotifyAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.3"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_role_windlead_bat_attack_rotate_heavy.play_role_windlead_bat_attack_rotate_heavy",
+        "SubPathString": ""
+      },
+      "exportIndex": 11
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAudioEvent_C",
+    "Name": "TsAnimNotifyAudioEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.TsAnimNotifyAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAudioEvent_C'Default__TsAnimNotifyAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.3"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_vo_wind_nanzhu_skill_skill02.play_vo_wind_nanzhu_skill_skill02",
+        "SubPathString": ""
+      },
+      "exportIndex": 15
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "持续时间": 0.4,
+      "淡入时间": 0.3,
+      "淡出时间": 0.1,
+      "打断淡出时间": 0.1,
+      "相机修改配置": {
+        "Priority_101_E74404724F7BCD1A815B9E8ECCEE64EC": 7,
+        "IsModifiedArmLength_73_1686AE5842DD198072484BB2D855CAEB": true,
+        "ArmLength_74_192752C04380D5CAF2EB7E910DC5C9C5": 900.0,
+        "IsModifiedArmRotationRoll_93_6CBBDC9043D8BF5E4EC3AB8E5473C625": false,
+        "IsModifiedArmRotationPitch_94_6C16441D44C806A072B75DA882811D0C": true,
+        "IsModifiedArmRotationYaw_95_FBE820DB4C8D5B75CEF242854F6F3774": true,
+        "ArmRotation_77_B66F0D944DE7F4829886B997E0B1B89F": {
+          "Pitch": -15.0,
+          "Yaw": 15.0,
+          "Roll": 0.0
+        },
+        "CameraOffset_80_EB37D424428EBE421F9AAEB064701EAD": {
+          "X": 0.0,
+          "Y": -30.0,
+          "Z": 0.0
+        },
+        "CameraOffsetAdditional_81_DABDCE1243662E3E72DB62A0B56CEA53": {
+          "X": 0.0,
+          "Y": -50.0,
+          "Z": 0.0
+        },
+        "CameraFov_63_A418591F41F5EF0F2D3D19B8F9967FC9": 75.0,
+        "IsLockInput_86_CDDE4FA4418F23E40016969CB0D3623C": true,
+        "ModifySettingsAdditional_222_7DE2E3E64B6017435B7C1A8AA32C25C1": {
+          "ArmLengthFloatCurve_4_912E7E254D65CD0C83E800B39BF5F2F3": {
+            "FloatCurve_7_359BA05547FEF437AB4D5FA2DFC1F098": {
+              "ObjectName": "CurveFloat'skill02'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/Data/skill02.0"
+            }
+          },
+          "ArmRotationFloatCurve_10_2FA9DAD84AB5C83CE10C209E9FF19595": {
+            "FloatCurve_7_359BA05547FEF437AB4D5FA2DFC1F098": {
+              "ObjectName": "CurveFloat'skill02_angle'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/Data/skill02_angle.0"
+            }
+          },
+          "CameraOffsetFloatCurve_34_0F2C641E4C33AE88EECCB49DD4AA8D30": {
+            "FloatCurve_7_359BA05547FEF437AB4D5FA2DFC1F098": {
+              "ObjectName": "CurveFloat'skill02_angle'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/Data/skill02_angle.0"
+            }
+          }
+        }
+      },
+      "exportIndex": 17
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "持续时间": 0.8,
+      "淡入时间": 0.3,
+      "淡出时间": 0.3,
+      "相机修改配置": {
+        "Priority_101_E74404724F7BCD1A815B9E8ECCEE64EC": 8,
+        "IsModifiedArmLength_73_1686AE5842DD198072484BB2D855CAEB": true,
+        "ArmLength_74_192752C04380D5CAF2EB7E910DC5C9C5": 300.0,
+        "IsModifiedArmRotationRoll_93_6CBBDC9043D8BF5E4EC3AB8E5473C625": false,
+        "IsModifiedArmRotationPitch_94_6C16441D44C806A072B75DA882811D0C": true,
+        "IsModifiedArmRotationYaw_95_FBE820DB4C8D5B75CEF242854F6F3774": true,
+        "ArmRotation_77_B66F0D944DE7F4829886B997E0B1B89F": {
+          "Pitch": -5.0,
+          "Yaw": 15.0,
+          "Roll": 0.0
+        },
+        "CameraOffset_80_EB37D424428EBE421F9AAEB064701EAD": {
+          "X": 0.0,
+          "Y": -30.0,
+          "Z": 0.0
+        },
+        "ModifySettingsAdditional_222_7DE2E3E64B6017435B7C1A8AA32C25C1": {
+          "ArmLengthFloatCurve_4_912E7E254D65CD0C83E800B39BF5F2F3": {
+            "FloatCurve_7_359BA05547FEF437AB4D5FA2DFC1F098": {
+              "ObjectName": "CurveFloat'skill02'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/Data/skill02.0"
+            }
+          },
+          "ArmRotationFloatCurve_10_2FA9DAD84AB5C83CE10C209E9FF19595": {
+            "FloatCurve_7_359BA05547FEF437AB4D5FA2DFC1F098": {
+              "ObjectName": "CurveFloat'skill02_angle'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/Data/skill02_angle.0"
+            }
+          },
+          "CameraOffsetFloatCurve_34_0F2C641E4C33AE88EECCB49DD4AA8D30": {
+            "FloatCurve_7_359BA05547FEF437AB4D5FA2DFC1F098": {
+              "ObjectName": "CurveFloat'skill02_angle'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/Data/skill02_angle.0"
+            }
+          }
+        }
+      },
+      "exportIndex": 25
+    }
+  },
+  {
+    "Type": "TsAnimNotifyEndSkill_C",
+    "Name": "TsAnimNotifyEndSkill_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.TsAnimNotifyEndSkill_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyEndSkill_C'Default__TsAnimNotifyEndSkill_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.3"
+    },
+    "Properties": {
+      "exportIndex": 28
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "使用子弹id数组": true,
+      "子弹数据名": "1406777301",
+      "子弹id数组": [
+        "1406777301",
+        "1406777302"
+      ],
+      "exportIndex": 19
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1406777305",
+      "exportIndex": 16
+    }
+  },
+  {
+    "Type": "TsAnimNotifySendGamePlayEvent_C",
+    "Name": "TsAnimNotifySendGamePlayEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySendGamePlayEvent.TsAnimNotifySendGamePlayEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifySendGamePlayEvent_C'Default__TsAnimNotifySendGamePlayEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySendGamePlayEvent.3"
+    },
+    "Properties": {
+      "事件Tag": {
+        "TagName": "怪物.common.状态标识.变招点"
+      },
+      "exportIndex": 27
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddBuff_C",
+    "Name": "TsAnimNotifyStateAddBuff_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddBuff.TsAnimNotifyStateAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddBuff_C'Default__TsAnimNotifyStateAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddBuff.4"
+    },
+    "Properties": {
+      "BuffId": 1406999010,
+      "exportIndex": 21,
+      "CurrentTimeLength": 2.0437803
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddBuff_C",
+    "Name": "TsAnimNotifyStateAddBuff_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddBuff.TsAnimNotifyStateAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddBuff_C'Default__TsAnimNotifyStateAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddBuff.4"
+    },
+    "Properties": {
+      "BuffId": 1406999011,
+      "exportIndex": 22,
+      "CurrentTimeLength": 2.0437803
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddBuff_C",
+    "Name": "TsAnimNotifyStateAddBuff_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddBuff.TsAnimNotifyStateAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddBuff_C'Default__TsAnimNotifyStateAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddBuff.4"
+    },
+    "Properties": {
+      "BuffId": 1406999008,
+      "exportIndex": 24,
+      "CurrentTimeLength": 2.0437803
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.d9a4be71.ccc186ad.68c121ae"
+      },
+      "exportIndex": 12,
+      "CurrentTimeLength": 0.016448855
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "功能.逻辑状态标识.霸体"
+      },
+      "exportIndex": 14,
+      "CurrentTimeLength": 0.025905728
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateBulletDuration_C",
+    "Name": "TsAnimNotifyStateBulletDuration_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateBulletDuration.TsAnimNotifyStateBulletDuration_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateBulletDuration_C'Default__TsAnimNotifyStateBulletDuration_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateBulletDuration.5"
+    },
+    "Properties": {
+      "BulletIds": [
+        "1406999999"
+      ],
+      "exportIndex": 20,
+      "CurrentTimeLength": 0.8190197
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateControllerShake_C",
+    "Name": "TsAnimNotifyStateControllerShake_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateControllerShake.TsAnimNotifyStateControllerShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateControllerShake_C'Default__TsAnimNotifyStateControllerShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateControllerShake.4"
+    },
+    "Properties": {
+      "Effect": {
+        "ObjectName": "KuroForceFeedbackEffect'FF_Skill02'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/Data/GamepadShake/Skill02/FF_Skill02.0"
+      },
+      "Name": "划一刀",
+      "exportIndex": 13,
+      "CurrentTimeLength": 1.3207437
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateHideMesh_C",
+    "Name": "TsAnimNotifyStateHideMesh_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateHideMesh.TsAnimNotifyStateHideMesh_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateHideMesh_C'Default__TsAnimNotifyStateHideMesh_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateHideMesh.4"
+    },
+    "Properties": {
+      "HideChildren": false,
+      "exportIndex": 18,
+      "CurrentTimeLength": 0.4417932
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateHideMesh_C",
+    "Name": "TsAnimNotifyStateHideMesh_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateHideMesh.TsAnimNotifyStateHideMesh_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateHideMesh_C'Default__TsAnimNotifyStateHideMesh_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateHideMesh.4"
+    },
+    "Properties": {
+      "ChildMeshName": "HuluCase",
+      "HideChildren": false,
+      "exportIndex": 6,
+      "CurrentTimeLength": 0.5248912
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateNextAtt_C",
+    "Name": "TsAnimNotifyStateNextAtt_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.TsAnimNotifyStateNextAtt_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateNextAtt_C'Default__TsAnimNotifyStateNextAtt_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.4"
+    },
+    "Properties": {
+      "exportIndex": 26,
+      "CurrentTimeLength": 0.008037806
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSceneInteract_C",
+    "Name": "TsAnimNotifyStateSceneInteract_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSceneInteract.TsAnimNotifyStateSceneInteract_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSceneInteract_C'Default__TsAnimNotifyStateSceneInteract_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSceneInteract.4"
+    },
+    "Properties": {
+      "SocketName": "WeaponProp02",
+      "DataAssetRef": {
+        "AssetPathName": "/Game/Aki/Data/Fight/SceneInteract/Role/WindNvzhu/DA_PropSceneInteract_WindNvzhu_Sword1.DA_PropSceneInteract_WindNvzhu_Sword1",
+        "SubPathString": ""
+      },
+      "exportIndex": 29
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSetCollisionChannel_C",
+    "Name": "TsAnimNotifyStateSetCollisionChannel_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSetCollisionChannel.TsAnimNotifyStateSetCollisionChannel_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSetCollisionChannel_C'Default__TsAnimNotifyStateSetCollisionChannel_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSetCollisionChannel.4"
+    },
+    "Properties": {
+      "exportIndex": 7,
+      "CurrentTimeLength": 0.5804044
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSubMeshControl_C",
+    "Name": "TsAnimNotifyStateSubMeshControl_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.TsAnimNotifyStateSubMeshControl_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSubMeshControl_C'Default__TsAnimNotifyStateSubMeshControl_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.4"
+    },
+    "Properties": {
+      "MeshName": "OtherCase1",
+      "开始是否可见": true,
+      "exportIndex": 8,
+      "CurrentTimeLength": 0.105060816
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill02_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Skill02_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "exportIndex": 5
+    }
+  }
+]
