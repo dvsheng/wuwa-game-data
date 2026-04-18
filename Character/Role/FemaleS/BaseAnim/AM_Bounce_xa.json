@@ -1,0 +1,211 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Bounce_XA",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleS/BaseAnim/AM_Bounce_xa",
+    "Properties": {
+      "BlendOut": {
+        "BlendTime": 0.2
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Bounce_XA'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/BaseAnim/AM_Bounce_xa.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.45000002,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Jump_Walk_RF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/BaseAnim3/Jump_Walk_RF.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Jump_Walk_RF'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/BaseAnim3/Jump_Walk_RF.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.1,
+                "AnimEndTime": 0.55,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Bounce_XA:AnimNotifyEffect_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/BaseAnim/AM_Bounce_xa.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": -0.01,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Bounce_XA'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/BaseAnim/AM_Bounce_xa.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.45000002,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Jump_Walk_RF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/BaseAnim3/Jump_Walk_RF.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyBounce_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyBounce_C'AM_Bounce_XA:TsAnimNotifyBounce_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/BaseAnim/AM_Bounce_xa.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": -0.01,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Bounce_XA'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/BaseAnim/AM_Bounce_xa.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.45000002,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Jump_Walk_RF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/BaseAnim3/Jump_Walk_RF.0"
+          }
+        }
+      ],
+      "SequenceLength": 0.45000002,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1AnkeMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Anke/R2T1AnkeMd10011/Model/R2T1AnkeMd10011_Skeleton.14"
+      }
+    },
+    "SkeletonGuid": "235A8EE1-46B0B25E-75A79E8C-44629B88"
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Bounce_XA'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/BaseAnim/AM_Bounce_xa.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "WhenSkillEnd": "ESkillEffectType::NewEnumerator1",
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/BigWorld/Paoku/DA_Fx_Group_Sl3_Paoku_Jiasu_01Feng.DA_Fx_Group_Sl3_Paoku_Jiasu_01Feng",
+        "SubPathString": ""
+      },
+      "Scale": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.8
+      },
+      "Attached": false,
+      "exportIndex": 7
+    }
+  },
+  {
+    "Type": "TsAnimNotifyBounce_C",
+    "Name": "TsAnimNotifyBounce_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyBounce.TsAnimNotifyBounce_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Bounce_XA'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/BaseAnim/AM_Bounce_xa.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyBounce_C'Default__TsAnimNotifyBounce_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyBounce.3"
+    },
+    "Properties": {
+      "Time": 0.45,
+      "Height": 650.0,
+      "MotionCurve": {
+        "AssetPathName": "/Game/Aki/Data/Fight/Curves/CV_Bounce_Motion.CV_Bounce_Motion",
+        "SubPathString": ""
+      },
+      "exportIndex": 8
+    }
+  }
+]
