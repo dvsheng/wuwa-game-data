@@ -1,0 +1,3184 @@
+[
+  {
+    "Type": "AnimBlueprintGeneratedClass",
+    "Name": "ABP_Jinxi_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimBlueprintGeneratedClass'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/ABP_Jinxi",
+    "Super": {
+      "ObjectName": "AnimBlueprintGeneratedClass'ABP_BaseRole_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/Common/ABP_BaseRole.429"
+    },
+    "Properties": {
+      "TargetSkeleton": {
+        "ObjectName": "Skeleton'R2T1JinxiMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/Model/R2T1JinxiMd10011_Skeleton.12"
+      },
+      "SyncGroupNames": [
+        "运动",
+        "起跑",
+        "落地",
+        "下落",
+        "下楼",
+        "着陆",
+        "Swimming",
+        "Climb",
+        "Group1",
+        "前运动",
+        "后运动",
+        "瞄准射击",
+        "XA",
+        "起跳"
+      ]
+    },
+    "SuperStruct": {
+      "ObjectName": "AnimBlueprintGeneratedClass'ABP_BaseRole_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/Common/ABP_BaseRole.429"
+    },
+    "ClassFlags": "CLASS_Transient | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'SkeletalMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ABP_Jinxi_C'Default__ABP_Jinxi_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/ABP_Jinxi.1"
+    }
+  },
+  {
+    "Type": "ABP_Jinxi_C",
+    "Name": "Default__ABP_Jinxi_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "AnimBlueprintGeneratedClass'Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/ABP_Jinxi.ABP_Jinxi_C'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/ABP_Jinxi",
+    "Template": {
+      "ObjectName": "ABP_BaseRole_C'Default__ABP_BaseRole_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/Common/ABP_BaseRole.430"
+    },
+    "Properties": {
+      "AnimGraphNode_SequencePlayer_201": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Addition_Walk_Up'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Addition_Walk_Up.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_199": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Blend_BasePose'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Blend_BasePose.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_196": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Pose'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Pose.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_193": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Manipulate_Hold'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Manipulate_Hold.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_192": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Manipulate_Absorb_Loop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Manipulate_Absorb_Loop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_191": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Manipulate_Absorb_Loop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Manipulate_Absorb_Loop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_190": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Manipulate_Absorb_Start'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Manipulate_Absorb_Start.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_187": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'SecondaryMotion'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/SecondaryMotion.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_186": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Pose'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Pose.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_38": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'Climb_Boost_Start'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Boost_Start.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_37": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_ClimbBoost'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_ClimbBoost.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_179": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Landslide_Sprint_Loop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Landslide_Sprint_Loop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_178": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Landslide_Sprint_Loop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Landslide_Sprint_Loop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_174": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Jump_Loop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Jump_Loop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_173": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Jump_Run_LF'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Jump_Run_LF.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_172": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Jump_Loop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Jump_Loop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_171": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Jump_Run_LF'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Jump_Run_LF.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_35": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_LandSlideSprint2D'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_LandSlideSprint2D.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_169": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Landslide_Sprint_Loop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Landslide_Sprint_Loop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_165": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Fall_Loop_Fast'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Fall_Loop_Fast.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_164": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Fall_Loop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Fall_Loop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_163": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Fall_Loop_Fast'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Fall_Loop_Fast.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_162": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Fall_Loop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Fall_Loop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_161": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Sit_Stand'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Sit_Stand.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_160": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Sit_M_End'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Sit_M_End.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_159": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Sit_Stand_L'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Sit_Stand_L.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_158": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Sit_Stand_B'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Sit_Stand_B.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_157": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Sit_Stand_R'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Sit_Stand_R.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_156": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Sit_Stand_F'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Sit_Stand_F.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_155": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Sit_Stand_L'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Sit_Stand_L.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_154": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Sit_Stand_B'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Sit_Stand_B.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_153": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Sit_Stand_R'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Sit_Stand_R.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_152": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Sit_Stand_F'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Sit_Stand_F.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_151": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Sit_Stand'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Sit_Stand.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_150": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Drag_End'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Drag_End.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_34": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_Drag_Loop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_Drag_Loop.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_33": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_Drag_Start'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_Drag_Start.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_149": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Fall_Loop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Fall_Loop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_146": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Fly_BasePose'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Fly_BasePose.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_32": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace'BS_Flying'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/BS_Flying.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_145": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'FixHook_End_Fast'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/FixHook_End_Fast.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_31": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_FixHook_Start02'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_FixHook_Start02.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_144": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'FixHook_End'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/FixHook_End.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_30": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace'BS_FixHook_Loop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_FixHook_Loop.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_29": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_FixHook_Start'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_FixHook_Start.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_143": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Captured'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Captured.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_28": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_LandSlideSprint2D'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_LandSlideSprint2D.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_142": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Landslide_Sprint_Loop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Landslide_Sprint_Loop.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_27": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_LandSlide2D'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_LandSlide2D.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_26": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_LandSlideSprint2D'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_LandSlideSprint2D.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_141": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Landslide_Sprint_Start'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Landslide_Sprint_Start.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_140": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'XA_Shake_Loop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/XA_Shake_Loop.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_25": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_XA_RL'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/BS_XA_RL.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_24": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_XA_UD'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/BS_XA_UD.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_139": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'XA_Start'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/XA_Start.6"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_138": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Boost_VaultTop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Climb_Boost_VaultTop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_136": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Sit_R_End'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Sit_R_End.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_135": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Sit_L_End'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Sit_L_End.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_134": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Sit_M_End'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Sit_M_End.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_133": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Sit_M_End'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Sit_M_End.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_131": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Sit_Stand'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Sit_Stand.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_129": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Sit_R_Start'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Sit_R_Start.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_128": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Sit_L_Start'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Sit_L_Start.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_127": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Sit_M_Start'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Sit_M_Start.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_126": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Land_Light'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Land_Light.1"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_23": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_LandSlideSprint2D'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_LandSlideSprint2D.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_125": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Landslide_Sprint_Loop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Landslide_Sprint_Loop.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_22": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_LandSlide2D'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_LandSlide2D.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_124": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Landslide_Sprint_Start'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Landslide_Sprint_Start.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_123": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Fall_Loop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Fall_Loop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_122": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Boost_VaultToFall'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Climb_Boost_VaultToFall.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_21": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace'BS_Lean_Falling'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_Lean_Falling.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_121": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Boost_ShortVaultToSprint_LF'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Boost_ShortVaultToSprint_LF.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_120": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Boost_ShortVaultToSprint_RF'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Boost_ShortVaultToSprint_RF.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_119": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Stop_Sprint_L'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Stop_Sprint_L.1"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_118": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Stop_Sprint_L'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Stop_Sprint_L.1"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_117": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Boost_ShortVault_LF'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Boost_ShortVault_LF.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_116": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Boost_ShortVault_RF'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Boost_ShortVault_RF.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_20": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace'BS_Lean_Falling'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_Lean_Falling.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_115": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Stop_Sprint_L'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Stop_Sprint_L.1"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_19": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace'BS_Lean_Falling'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_Lean_Falling.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_114": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Boost_OnTopToSprint_LF'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Boost_OnTopToSprint_LF.3"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_113": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Boost_OnTopToSprint_RF'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Boost_OnTopToSprint_RF.3"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_112": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Stop_Sprint_L'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Stop_Sprint_L.1"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_111": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Boost_Vault'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Climb_Boost_Vault.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_110": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Fall_Loop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Fall_Loop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_109": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_OnTop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_OnTop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_108": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Vault'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Vault.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_107": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Boost_Vault'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Climb_Boost_Vault.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_106": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Boost_ShortVault_LF'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Boost_ShortVault_LF.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_105": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Boost_ShortVault_RF'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Boost_ShortVault_RF.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_104": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Dash_D'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Dash_D.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_103": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Dash_UL'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Dash_UL.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_102": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Dash_L'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Dash_L.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_101": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Dash_DL'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Dash_DL.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_100": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Dash_DR'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Dash_DR.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_99": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Dash_R'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Dash_R.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_98": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Dash_UR'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Dash_UR.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_97": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Dash_U'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Dash_U.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_18": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace'BS_Lean_Falling'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_Lean_Falling.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_96": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Boost_OnTop_LF'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Boost_OnTop_LF.2"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_95": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Boost_OnTop_RF'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Boost_OnTop_RF.2"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_17": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_Climb_Boost_Stop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/BS_Climb_Boost_Stop.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_16": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'Climb_Boost_Start'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Boost_Start.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_15": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_ClimbBoost'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_ClimbBoost.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_94": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Dash_DR'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Dash_DR.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_93": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Dash_DL'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Dash_DL.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_92": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Dash_D'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Dash_D.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_91": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Stand'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Stand.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_90": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Move'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Move.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_89": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Start_Down'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Start_Down.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_88": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Start_Up'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Start_Up.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_87": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_UL2_Stop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_UL2_Stop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_86": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_UL1_Stop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_UL1_Stop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_85": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_UL_2'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_UL_2.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_84": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_UL_1'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_UL_1.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_83": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_L2_Stop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_L2_Stop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_82": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_L1_Stop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_L1_Stop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_81": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_L_2'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_L_2.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_80": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_L_1'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_L_1.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_79": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_DL2_Stop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_DL2_Stop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_78": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_DL1_Stop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_DL1_Stop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_77": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_DL_2'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_DL_2.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_76": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_DL_1'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_DL_1.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_75": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_D1_Stop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_D1_Stop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_74": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_D2_Stop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_D2_Stop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_73": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_D_1'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_D_1.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_72": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_D_2'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_D_2.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_71": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_DR2_Stop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_DR2_Stop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_70": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_DR1_Stop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_DR1_Stop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_69": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_DR_2'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_DR_2.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_68": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_DR_1'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_DR_1.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_67": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_R2_Stop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_R2_Stop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_66": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_R1_Stop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_R1_Stop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_65": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_R_2'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_R_2.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_64": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_R_1'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_R_1.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_63": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_UR2_Stop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_UR2_Stop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_62": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_UR1_Stop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_UR1_Stop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_61": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_UR_2'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_UR_2.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_60": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_UR_1'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_UR_1.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_59": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_U2_Stop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_U2_Stop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_58": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_U1_Stop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_U1_Stop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_57": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_U_2'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_U_2.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_56": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_U_1'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_U_1.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_55": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Death_InWater'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Death_InWater.2"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_54": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Death'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Death.3"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_53": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Fly_BasePose'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Fly_BasePose.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_14": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace'BS_Flying'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/BS_Flying.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_52": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Fly_BasePose'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Fly_BasePose.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_51": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Fly_Start'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Fly_Start.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_50": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Behit_Fly_Loop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Behit_Fly_Loop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_49": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Behit_Fly_Loop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Behit_Fly_Loop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_48": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Behit_Push_Loop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Behit_Push_Loop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_47": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Behit_Fly_Loop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Behit_Fly_Loop.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_46": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Behit_Hover'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Behit_Hover.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_45": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Behit_Push_Start'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Behit_Push_Start.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_44": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Behit_Fly_Start'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Behit_Fly_Start.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_43": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Behit_S_L'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Behit_S_L.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_42": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Behit_Press'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Behit_Press.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_41": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Behit_B_R'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Behit_B_R.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_40": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Behit_B_L'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Behit_B_L.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_39": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Behit_S_R'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Behit_S_R.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_38": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Behit_S_L'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Behit_S_L.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_37": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'StandUp'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/StandUp.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_36": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Behit_Fly_Fall'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Behit_Fly_Fall.1"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_35": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Behit_Push_Fall'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Behit_Push_Fall.1"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_34": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Swim_Fall'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Swim_Fall.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_33": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Boost_OnTopToSprint'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Boost_OnTopToSprint.4"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_32": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Land_Roll'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Land_Roll.3"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_13": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_SwimUpRoot'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_SwimUpRoot.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_12": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_SwimRoot'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_SwimRoot.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_31": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Swim_Stand'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Swim_Stand.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_30": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Land_Heavy'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Land_Heavy.1"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_29": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Climb_Boost_OnTopToSprint_RF'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Climb_Boost_OnTopToSprint_RF.3"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_28": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Land_Heavy'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Land_Heavy.1"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_27": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Land_Light'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Land_Light.1"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_26": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Land_Light'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Land_Light.1"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_25": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Land_Heavy'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Land_Heavy.1"
+        }
+      },
+      "AnimGraphNode_SequenceEvaluator_2": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Land_Light'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Land_Light.1"
+        }
+      },
+      "AnimGraphNode_SequenceEvaluator_1": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Land_Heavy'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Land_Heavy.1"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_11": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace'BS_Lean_Falling'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_Lean_Falling.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_24": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Fall_Loop_Fast'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Fall_Loop_Fast.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_23": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Fall_Loop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Fall_Loop.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_10": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace'BS_Lean_Falling'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_Lean_Falling.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_22": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Fall_Loop_Fast'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Fall_Loop_Fast.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_21": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Jump_Loop'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Jump_Loop.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_9": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_Jump_RF'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/BS_Jump_RF.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_8": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_Jump_LF'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/BS_Jump_LF.0"
+        }
+      },
+      "AnimGraphNode_SequenceEvaluator": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Stand1'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Stand1.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_7": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace'BS_WalkRun_UpHill_F'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/BS_WalkRun_UpHill_F.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_6": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace'BS_WalkRun_BR'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_WalkRun_BR.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_5": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace'BS_WalkRun_FR'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_WalkRun_FR.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_4": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace'BS_WalkRun_BL'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_WalkRun_BL.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_3": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace'BS_WalkRun_FL'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_WalkRun_FL.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_2": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace'BS_WalkRun_B'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_WalkRun_B.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer_1": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace'BS_WalkRun_F'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/BS_WalkRun_F.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_20": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Sprint_Impulse_F'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Sprint_Impulse_F.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_19": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Sprint_F'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Sprint_F.0"
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer": {
+        "BlendSpace": {
+          "ObjectName": "BlendSpace'BS_Lean'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/BS_Lean.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_18": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Stand1_Turn_R90D'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Stand1_Turn_R90D.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_17": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Stand1_Turn_L90D'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Stand1_Turn_L90D.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_16": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Run_Turnback'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Run_Turnback.1"
+        }
+      },
+      "AnimGraphNode_SequenceSyncMarkerPlayer_3": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Stop_Walk_R'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Stop_Walk_R.0"
+        }
+      },
+      "AnimGraphNode_SequenceSyncMarkerPlayer_2": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Stop_Walk_L'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Stop_Walk_L.0"
+        }
+      },
+      "AnimGraphNode_SequenceSyncMarkerPlayer_1": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Stop_Run_R'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Stop_Run_R.0"
+        }
+      },
+      "AnimGraphNode_SequenceSyncMarkerPlayer": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Stop_Run_L'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Stop_Run_L.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_15": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Stop_Sprint_R'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Stop_Sprint_R.1"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_14": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Stop_Sprint_L'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim3/Stop_Sprint_L.1"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_13": {
+        "Sequence": null,
+        "SequenceSoft": {
+          "AssetPathName": "/Game/Aki/Character/Role/FemaleM/Jinxi/CommonAnim/Stand1_Action03.Stand1_Action03",
+          "SubPathString": ""
+        },
+        "CachedNumOfFrames": 459,
+        "CachedSequenceLength": 15.266666
+      },
+      "AnimGraphNode_SequencePlayer_12": {
+        "Sequence": null,
+        "SequenceSoft": {
+          "AssetPathName": "/Game/Aki/Character/Role/FemaleM/Jinxi/CommonAnim/Stand1_Action02.Stand1_Action02",
+          "SubPathString": ""
+        },
+        "CachedNumOfFrames": 444,
+        "CachedSequenceLength": 14.766666
+      },
+      "AnimGraphNode_SequencePlayer_11": {
+        "Sequence": null,
+        "SequenceSoft": {
+          "AssetPathName": "/Game/Aki/Character/Role/FemaleM/Jinxi/CommonAnim/Stand1_Action01.Stand1_Action01",
+          "SubPathString": ""
+        },
+        "CachedNumOfFrames": 381,
+        "CachedSequenceLength": 12.666667
+      },
+      "AnimGraphNode_SequencePlayer_10": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'StandChange'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/CommonAnim/StandChange.1"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_9": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Stand2'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/CommonAnim/Stand2.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_8": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Stand1'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Stand1.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_7": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'LocoDetail_Accel_L'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/LocoDetail_Accel_L.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_6": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'LocoDetail_Accel_R'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/LocoDetail_Accel_R.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_5": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'LocoDetail_Accel_B'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/LocoDetail_Accel_B.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_4": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'LocoDetail_Accel_F'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/LocoDetail_Accel_F.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_3": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'LocoDetail_Accel_L'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/LocoDetail_Accel_L.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_2": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'LocoDetail_Accel_R'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/LocoDetail_Accel_R.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer_1": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'LocoDetail_Accel_B'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/LocoDetail_Accel_B.0"
+        }
+      },
+      "AnimGraphNode_SequencePlayer": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'LocoDetail_Accel_F'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/LocoDetail_Accel_F.0"
+        }
+      },
+      "RibbonAnims": [
+        {
+          "Key": "Climb_Boost_L_Start",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Boost_L_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Boost_L_Start.0"
+          }
+        },
+        {
+          "Key": "Climb_Boost_L_Stop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Boost_L_Stop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Boost_L_Stop.0"
+          }
+        },
+        {
+          "Key": "Climb_Boost_OnTopToSprint_LF",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Boost_OnTopToSprint_LF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Boost_OnTopToSprint_LF.0"
+          }
+        },
+        {
+          "Key": "Climb_Boost_OnTopToSprint_RF",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Boost_OnTopToSprint_RF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Boost_OnTopToSprint_RF.0"
+          }
+        },
+        {
+          "Key": "Climb_Boost_OnTop_LF",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Boost_OnTop_LF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Boost_OnTop_LF.0"
+          }
+        },
+        {
+          "Key": "Climb_Boost_OnTop_RF",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Boost_OnTop_RF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Boost_OnTop_RF.0"
+          }
+        },
+        {
+          "Key": "Climb_Boost_R_Start",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Boost_R_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Boost_R_Start.0"
+          }
+        },
+        {
+          "Key": "Climb_Boost_R_Stop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Boost_R_Stop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Boost_R_Stop.0"
+          }
+        },
+        {
+          "Key": "Climb_Boost_ShortVaultToSprint_LF",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Boost_ShortVaultToSprint_LF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Boost_ShortVaultToSprint_LF.0"
+          }
+        },
+        {
+          "Key": "Climb_Boost_ShortVaultToSprint_RF",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Boost_ShortVaultToSprint_RF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Boost_ShortVaultToSprint_RF.0"
+          }
+        },
+        {
+          "Key": "Climb_Boost_ShortVault_LF",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Boost_ShortVault_LF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Boost_ShortVault_LF.0"
+          }
+        },
+        {
+          "Key": "Climb_Boost_ShortVault_RF",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Boost_ShortVault_RF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Boost_ShortVault_RF.0"
+          }
+        },
+        {
+          "Key": "Climb_Boost_U_Start",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Boost_U_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Boost_U_Start.0"
+          }
+        },
+        {
+          "Key": "Climb_Boost_U_Stop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Boost_U_Stop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Boost_U_Stop.0"
+          }
+        },
+        {
+          "Key": "Climb_D1_Stop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_D1_Stop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_D1_Stop.0"
+          }
+        },
+        {
+          "Key": "Climb_D2_Stop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_D2_Stop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_D2_Stop.0"
+          }
+        },
+        {
+          "Key": "Climb_Dash_D",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Dash_D'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Dash_D.0"
+          }
+        },
+        {
+          "Key": "Climb_Dash_DL",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Dash_DL'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Dash_DL.0"
+          }
+        },
+        {
+          "Key": "Climb_Dash_DR",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Dash_DR'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Dash_DR.0"
+          }
+        },
+        {
+          "Key": "Climb_Dash_L",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Dash_L'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Dash_L.0"
+          }
+        },
+        {
+          "Key": "Climb_Dash_R",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Dash_R'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Dash_R.0"
+          }
+        },
+        {
+          "Key": "Climb_Dash_U",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Dash_U'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Dash_U.0"
+          }
+        },
+        {
+          "Key": "Climb_Dash_UL",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Dash_UL'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Dash_UL.0"
+          }
+        },
+        {
+          "Key": "Climb_Dash_UR",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Dash_UR'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Dash_UR.0"
+          }
+        },
+        {
+          "Key": "Climb_DL1_Stop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_DL1_Stop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_DL1_Stop.0"
+          }
+        },
+        {
+          "Key": "Climb_DL2_Stop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_DL2_Stop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_DL2_Stop.0"
+          }
+        },
+        {
+          "Key": "Climb_DL_1",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_DL_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_DL_1.0"
+          }
+        },
+        {
+          "Key": "Climb_DL_2",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_DL_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_DL_2.0"
+          }
+        },
+        {
+          "Key": "Climb_DR1_Stop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_DR1_Stop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_DR1_Stop.0"
+          }
+        },
+        {
+          "Key": "Climb_DR2_Stop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_DR2_Stop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_DR2_Stop.0"
+          }
+        },
+        {
+          "Key": "Climb_DR_1",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_DR_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_DR_1.0"
+          }
+        },
+        {
+          "Key": "Climb_DR_2",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_DR_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_DR_2.0"
+          }
+        },
+        {
+          "Key": "Climb_D_1",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_D_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_D_1.0"
+          }
+        },
+        {
+          "Key": "Climb_D_2",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_D_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_D_2.0"
+          }
+        },
+        {
+          "Key": "Climb_L1_Stop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_L1_Stop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_L1_Stop.0"
+          }
+        },
+        {
+          "Key": "Climb_L2_Stop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_L2_Stop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_L2_Stop.0"
+          }
+        },
+        {
+          "Key": "Climb_L_1",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_L_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_L_1.0"
+          }
+        },
+        {
+          "Key": "Climb_L_2",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_L_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_L_2.0"
+          }
+        },
+        {
+          "Key": "Climb_Move",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Move'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Move.0"
+          }
+        },
+        {
+          "Key": "Climb_OnTop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_OnTop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_OnTop.0"
+          }
+        },
+        {
+          "Key": "Climb_R1_Stop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_R1_Stop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_R1_Stop.0"
+          }
+        },
+        {
+          "Key": "Climb_R2_Stop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_R2_Stop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_R2_Stop.0"
+          }
+        },
+        {
+          "Key": "Climb_R_1",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_R_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_R_1.0"
+          }
+        },
+        {
+          "Key": "Climb_R_2",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_R_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_R_2.0"
+          }
+        },
+        {
+          "Key": "Climb_Stand",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Stand'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Stand.0"
+          }
+        },
+        {
+          "Key": "Climb_Start_Down",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Start_Down'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Start_Down.0"
+          }
+        },
+        {
+          "Key": "Climb_Start_Up",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Start_Up'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Start_Up.0"
+          }
+        },
+        {
+          "Key": "Climb_U1_Stop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_U1_Stop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_U1_Stop.0"
+          }
+        },
+        {
+          "Key": "Climb_U2_Stop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_U2_Stop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_U2_Stop.0"
+          }
+        },
+        {
+          "Key": "Climb_UL1_Stop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_UL1_Stop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_UL1_Stop.0"
+          }
+        },
+        {
+          "Key": "Climb_UL2_Stop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_UL2_Stop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_UL2_Stop.0"
+          }
+        },
+        {
+          "Key": "Climb_UL_1",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_UL_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_UL_1.0"
+          }
+        },
+        {
+          "Key": "Climb_UL_2",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_UL_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_UL_2.0"
+          }
+        },
+        {
+          "Key": "Climb_UR1_Stop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_UR1_Stop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_UR1_Stop.0"
+          }
+        },
+        {
+          "Key": "Climb_UR2_Stop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_UR2_Stop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_UR2_Stop.0"
+          }
+        },
+        {
+          "Key": "Climb_UR_1",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_UR_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_UR_1.0"
+          }
+        },
+        {
+          "Key": "Climb_UR_2",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_UR_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_UR_2.0"
+          }
+        },
+        {
+          "Key": "Climb_U_1",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_U_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_U_1.0"
+          }
+        },
+        {
+          "Key": "Climb_U_2",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_U_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_U_2.0"
+          }
+        },
+        {
+          "Key": "Climb_Vault",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Vault'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Climb_Vault.0"
+          }
+        },
+        {
+          "Key": "Fly_Pose_B",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Fly_Pose_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Fly_Pose_B.0"
+          }
+        },
+        {
+          "Key": "Fly_Pose_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Fly_Pose_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Fly_Pose_F.0"
+          }
+        },
+        {
+          "Key": "Fly_Pose_L",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Fly_Pose_L'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Fly_Pose_L.0"
+          }
+        },
+        {
+          "Key": "Fly_Pose_R",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Fly_Pose_R'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Fly_Pose_R.0"
+          }
+        },
+        {
+          "Key": "Fly_Stand",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Fly_Stand'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Fly_Stand.0"
+          }
+        },
+        {
+          "Key": "Fly_Start",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Fly_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Fly_Start.0"
+          }
+        },
+        {
+          "Key": "Jump_Run_LF",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Jump_Run_LF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Jump_Run_LF.0"
+          }
+        },
+        {
+          "Key": "Jump_Run_RF",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Jump_Run_RF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Jump_Run_RF.0"
+          }
+        },
+        {
+          "Key": "Jump_Walk_LF",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Jump_Walk_LF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Jump_Walk_LF.0"
+          }
+        },
+        {
+          "Key": "Jump_Walk_RF",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Jump_Walk_RF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Jump_Walk_RF.0"
+          }
+        },
+        {
+          "Key": "Land_Heavy",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Land_Heavy'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Land_Heavy.0"
+          }
+        },
+        {
+          "Key": "Land_Light",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Land_Light'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Land_Light.0"
+          }
+        },
+        {
+          "Key": "Run_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Run_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Run_F.0"
+          }
+        },
+        {
+          "Key": "Run_Turnback",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Run_Turnback'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Run_Turnback.0"
+          }
+        },
+        {
+          "Key": "Sprint_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Sprint_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Sprint_F.0"
+          }
+        },
+        {
+          "Key": "Sprint_Impulse_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Sprint_Impulse_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Sprint_Impulse_F.0"
+          }
+        },
+        {
+          "Key": "StandUp",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_StandUp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_StandUp.0"
+          }
+        },
+        {
+          "Key": "Stand_Control",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Stand_Control'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Stand_Control.0"
+          }
+        },
+        {
+          "Key": "Stop_Run_L",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Stop_Run_L'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Stop_Run_L.0"
+          }
+        },
+        {
+          "Key": "Stop_Run_R",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Stop_Run_R'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Stop_Run_R.0"
+          }
+        },
+        {
+          "Key": "Stop_Sprint_L",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Stop_Sprint_L'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Stop_Sprint_L.0"
+          }
+        },
+        {
+          "Key": "Stop_Sprint_R",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Stop_Sprint_R'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Stop_Sprint_R.0"
+          }
+        },
+        {
+          "Key": "Stop_Walk_L",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Stop_Walk_L'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Stop_Walk_L.0"
+          }
+        },
+        {
+          "Key": "Stop_Walk_R",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Stop_Walk_R'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Stop_Walk_R.0"
+          }
+        },
+        {
+          "Key": "Summon",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Summon'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Summon.0"
+          }
+        },
+        {
+          "Key": "Walk_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Walk_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Walk_F.0"
+          }
+        },
+        {
+          "Key": "Walk_Stair_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Walk_Stair_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_Walk_Stair_F.0"
+          }
+        },
+        {
+          "Key": "XA_Loop_D",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_XA_Loop_D'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_XA_Loop_D.0"
+          }
+        },
+        {
+          "Key": "XA_Loop_L",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_XA_Loop_L'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_XA_Loop_L.0"
+          }
+        },
+        {
+          "Key": "XA_Loop_R",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_XA_Loop_R'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_XA_Loop_R.0"
+          }
+        },
+        {
+          "Key": "XA_Loop_RL_Mid",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_XA_Loop_RL_Mid'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_XA_Loop_RL_Mid.0"
+          }
+        },
+        {
+          "Key": "XA_Loop_Stand",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_XA_Loop_Stand'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_XA_Loop_Stand.0"
+          }
+        },
+        {
+          "Key": "XA_Loop_U",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_XA_Loop_U'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_XA_Loop_U.0"
+          }
+        },
+        {
+          "Key": "XA_Shake_Loop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_XA_Shake_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_XA_Shake_Loop.0"
+          }
+        },
+        {
+          "Key": "XA_Start",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_XA_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim3/Rib_XA_Start.0"
+          }
+        },
+        {
+          "Key": "AirAttack_end",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_AirAttack_end'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_AirAttack_end.0"
+          }
+        },
+        {
+          "Key": "AirAttack_Loop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_AirAttack_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_AirAttack_Loop.0"
+          }
+        },
+        {
+          "Key": "AirAttack_Start",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_AirAttack_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_AirAttack_Start.0"
+          }
+        },
+        {
+          "Key": "AirSkill02",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_AirSkill02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_AirSkill02.0"
+          }
+        },
+        {
+          "Key": "AirSkill03",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_AirSkill03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_AirSkill03.0"
+          }
+        },
+        {
+          "Key": "Attack01",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Attack01.0"
+          }
+        },
+        {
+          "Key": "Attack02",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Attack02.0"
+          }
+        },
+        {
+          "Key": "Attack03",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Attack03.0"
+          }
+        },
+        {
+          "Key": "Attack04",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Attack04'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Attack04.0"
+          }
+        },
+        {
+          "Key": "Attack06",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Attack06'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Attack06.0"
+          }
+        },
+        {
+          "Key": "Attack06_1",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Attack06_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Attack06_1.0"
+          }
+        },
+        {
+          "Key": "Behit_B_L",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Behit_B_L'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Behit_B_L.0"
+          }
+        },
+        {
+          "Key": "Behit_B_R",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Behit_B_R'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Behit_B_R.0"
+          }
+        },
+        {
+          "Key": "Behit_Fly_Fall",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Behit_Fly_Fall'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Behit_Fly_Fall.0"
+          }
+        },
+        {
+          "Key": "Behit_Fly_Loop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Behit_Fly_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Behit_Fly_Loop.0"
+          }
+        },
+        {
+          "Key": "Behit_Fly_Start",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Behit_Fly_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Behit_Fly_Start.0"
+          }
+        },
+        {
+          "Key": "Behit_Hover",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Behit_Hover'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Behit_Hover.0"
+          }
+        },
+        {
+          "Key": "Behit_Push_Fall",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Behit_Push_Fall'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Behit_Push_Fall.0"
+          }
+        },
+        {
+          "Key": "Behit_Push_Loop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Behit_Push_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Behit_Push_Loop.0"
+          }
+        },
+        {
+          "Key": "Behit_Push_Start",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Behit_Push_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Behit_Push_Start.0"
+          }
+        },
+        {
+          "Key": "Behit_S_L",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Behit_S_L'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Behit_S_L.0"
+          }
+        },
+        {
+          "Key": "Behit_S_R",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Behit_S_R'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Behit_S_R.0"
+          }
+        },
+        {
+          "Key": "Burst01",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Burst01.0"
+          }
+        },
+        {
+          "Key": "Captured",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Captured'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Captured.0"
+          }
+        },
+        {
+          "Key": "Climb_Boost_L",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Boost_L'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Climb_Boost_L.0"
+          }
+        },
+        {
+          "Key": "Climb_Boost_R",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Boost_R'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Climb_Boost_R.0"
+          }
+        },
+        {
+          "Key": "Climb_Boost_U",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Boost_U'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Climb_Boost_U.0"
+          }
+        },
+        {
+          "Key": "Climb_Boost_Vault",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Boost_Vault'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Climb_Boost_Vault.0"
+          }
+        },
+        {
+          "Key": "Climb_Boost_VaultToFall",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Boost_VaultToFall'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Climb_Boost_VaultToFall.0"
+          }
+        },
+        {
+          "Key": "Climb_Boost_VaultTop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Climb_Boost_VaultTop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Climb_Boost_VaultTop.0"
+          }
+        },
+        {
+          "Key": "Death",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Death'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Death.0"
+          }
+        },
+        {
+          "Key": "Death_InWater",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Death_InWater'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Death_InWater.0"
+          }
+        },
+        {
+          "Key": "Drag_End",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Drag_End'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Drag_End.0"
+          }
+        },
+        {
+          "Key": "Drag_Loop_D",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Drag_Loop_D'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Drag_Loop_D.0"
+          }
+        },
+        {
+          "Key": "Drag_Loop_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Drag_Loop_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Drag_Loop_F.0"
+          }
+        },
+        {
+          "Key": "Drag_Loop_U",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Drag_Loop_U'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Drag_Loop_U.0"
+          }
+        },
+        {
+          "Key": "Drag_Start_D",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Drag_Start_D'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Drag_Start_D.0"
+          }
+        },
+        {
+          "Key": "Drag_Start_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Drag_Start_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Drag_Start_F.0"
+          }
+        },
+        {
+          "Key": "Drag_Start_U",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Drag_Start_U'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Drag_Start_U.0"
+          }
+        },
+        {
+          "Key": "Execute01",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Execute01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Execute01.0"
+          }
+        },
+        {
+          "Key": "Execute02",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Execute02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Execute02.0"
+          }
+        },
+        {
+          "Key": "Fall_LeanPose_0",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Fall_LeanPose_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Fall_LeanPose_0.0"
+          }
+        },
+        {
+          "Key": "Fall_LeanPose_B",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Fall_LeanPose_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Fall_LeanPose_B.0"
+          }
+        },
+        {
+          "Key": "Fall_LeanPose_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Fall_LeanPose_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Fall_LeanPose_F.0"
+          }
+        },
+        {
+          "Key": "Fall_LeanPose_L",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Fall_LeanPose_L'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Fall_LeanPose_L.0"
+          }
+        },
+        {
+          "Key": "Fall_LeanPose_R",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Fall_LeanPose_R'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Fall_LeanPose_R.0"
+          }
+        },
+        {
+          "Key": "Fall_Loop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Fall_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Fall_Loop.0"
+          }
+        },
+        {
+          "Key": "Fall_Loop_Fast",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Fall_Loop_Fast'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Fall_Loop_Fast.0"
+          }
+        },
+        {
+          "Key": "FixHook_End",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_FixHook_End'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_FixHook_End.0"
+          }
+        },
+        {
+          "Key": "FixHook_End_Fast",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_FixHook_End_Fast'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_FixHook_End_Fast.0"
+          }
+        },
+        {
+          "Key": "FixHook_Loop_D",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_FixHook_Loop_D'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_FixHook_Loop_D.0"
+          }
+        },
+        {
+          "Key": "FixHook_Loop_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_FixHook_Loop_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_FixHook_Loop_F.0"
+          }
+        },
+        {
+          "Key": "FixHook_Loop_L",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_FixHook_Loop_L'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_FixHook_Loop_L.0"
+          }
+        },
+        {
+          "Key": "FixHook_Loop_R",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_FixHook_Loop_R'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_FixHook_Loop_R.0"
+          }
+        },
+        {
+          "Key": "FixHook_Loop_U",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_FixHook_Loop_U'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_FixHook_Loop_U.0"
+          }
+        },
+        {
+          "Key": "FixHook_Start01_D",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_FixHook_Start01_D'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_FixHook_Start01_D.0"
+          }
+        },
+        {
+          "Key": "FixHook_Start01_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_FixHook_Start01_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_FixHook_Start01_F.0"
+          }
+        },
+        {
+          "Key": "FixHook_Start01_U",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_FixHook_Start01_U'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_FixHook_Start01_U.0"
+          }
+        },
+        {
+          "Key": "FixHook_Start02_D",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_FixHook_Start02_D'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_FixHook_Start02_D.0"
+          }
+        },
+        {
+          "Key": "FixHook_Start02_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_FixHook_Start02_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_FixHook_Start02_F.0"
+          }
+        },
+        {
+          "Key": "FixHook_Start02_U",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_FixHook_Start02_U'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_FixHook_Start02_U.0"
+          }
+        },
+        {
+          "Key": "Hook_Up",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Hook_Up'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Hook_Up.0"
+          }
+        },
+        {
+          "Key": "Jump_Loop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Jump_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Jump_Loop.0"
+          }
+        },
+        {
+          "Key": "Jump_Second_B",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Jump_Second_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Jump_Second_B.0"
+          }
+        },
+        {
+          "Key": "Jump_Second_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Jump_Second_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Jump_Second_F.0"
+          }
+        },
+        {
+          "Key": "Landslide_B",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Landslide_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Landslide_B.0"
+          }
+        },
+        {
+          "Key": "Landslide_B_ToSprint",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Landslide_B_ToSprint'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Landslide_B_ToSprint.0"
+          }
+        },
+        {
+          "Key": "Landslide_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Landslide_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Landslide_F.0"
+          }
+        },
+        {
+          "Key": "Landslide_L",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Landslide_L'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Landslide_L.0"
+          }
+        },
+        {
+          "Key": "Landslide_R",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Landslide_R'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Landslide_R.0"
+          }
+        },
+        {
+          "Key": "Landslide_Sprint_Loop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Landslide_Sprint_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Landslide_Sprint_Loop.0"
+          }
+        },
+        {
+          "Key": "Landslide_Sprint_Pose_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Landslide_Sprint_Pose_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Landslide_Sprint_Pose_F.0"
+          }
+        },
+        {
+          "Key": "Landslide_Sprint_Pose_L",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Landslide_Sprint_Pose_L'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Landslide_Sprint_Pose_L.0"
+          }
+        },
+        {
+          "Key": "Landslide_Sprint_Pose_R",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Landslide_Sprint_Pose_R'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Landslide_Sprint_Pose_R.0"
+          }
+        },
+        {
+          "Key": "Landslide_Sprint_Start",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Landslide_Sprint_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Landslide_Sprint_Start.0"
+          }
+        },
+        {
+          "Key": "Land_Roll",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Land_Roll'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Land_Roll.0"
+          }
+        },
+        {
+          "Key": "LeanPose_0",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_LeanPose_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_LeanPose_0.0"
+          }
+        },
+        {
+          "Key": "LeanPose_B",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_LeanPose_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_LeanPose_B.0"
+          }
+        },
+        {
+          "Key": "LeanPose_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_LeanPose_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_LeanPose_F.0"
+          }
+        },
+        {
+          "Key": "LeanPose_L",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_LeanPose_L'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_LeanPose_L.0"
+          }
+        },
+        {
+          "Key": "LeanPose_R",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_LeanPose_R'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_LeanPose_R.0"
+          }
+        },
+        {
+          "Key": "LocoDetail_Accel_B",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_LocoDetail_Accel_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_LocoDetail_Accel_B.0"
+          }
+        },
+        {
+          "Key": "LocoDetail_Accel_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_LocoDetail_Accel_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_LocoDetail_Accel_F.0"
+          }
+        },
+        {
+          "Key": "LocoDetail_Accel_L",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_LocoDetail_Accel_L'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_LocoDetail_Accel_L.0"
+          }
+        },
+        {
+          "Key": "LocoDetail_Accel_R",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_LocoDetail_Accel_R'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_LocoDetail_Accel_R.0"
+          }
+        },
+        {
+          "Key": "Manipulate_Absorb_End",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Manipulate_Absorb_End'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Manipulate_Absorb_End.0"
+          }
+        },
+        {
+          "Key": "Manipulate_Absorb_Loop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Manipulate_Absorb_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Manipulate_Absorb_Loop.0"
+          }
+        },
+        {
+          "Key": "Manipulate_Absorb_Start",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Manipulate_Absorb_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Manipulate_Absorb_Start.0"
+          }
+        },
+        {
+          "Key": "Manipulate_Hold",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Manipulate_Hold'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Manipulate_Hold.0"
+          }
+        },
+        {
+          "Key": "Manipulate_Release_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Manipulate_Release_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Manipulate_Release_F.0"
+          }
+        },
+        {
+          "Key": "Manipulate_Release_F_02",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Manipulate_Release_F_02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Manipulate_Release_F_02.0"
+          }
+        },
+        {
+          "Key": "Move_B",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Move_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Move_B.0"
+          }
+        },
+        {
+          "Key": "Move_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Move_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Move_F.0"
+          }
+        },
+        {
+          "Key": "Move_Limit_B",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Move_Limit_B.0"
+          }
+        },
+        {
+          "Key": "Move_Limit_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Move_Limit_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Move_Limit_F.0"
+          }
+        },
+        {
+          "Key": "Run_B",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Run_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Run_B.0"
+          }
+        },
+        {
+          "Key": "Run_LB",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Run_LB'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Run_LB.0"
+          }
+        },
+        {
+          "Key": "Run_LF",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Run_LF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Run_LF.0"
+          }
+        },
+        {
+          "Key": "Run_Pose_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Run_Pose_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Run_Pose_F.0"
+          }
+        },
+        {
+          "Key": "Run_Pose_L",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Run_Pose_L'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Run_Pose_L.0"
+          }
+        },
+        {
+          "Key": "Run_Pose_R",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Run_Pose_R'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Run_Pose_R.0"
+          }
+        },
+        {
+          "Key": "Run_RB",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Run_RB'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Run_RB.0"
+          }
+        },
+        {
+          "Key": "Run_RF",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Run_RF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Run_RF.0"
+          }
+        },
+        {
+          "Key": "Sit_L_End",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Sit_L_End'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Sit_L_End.0"
+          }
+        },
+        {
+          "Key": "Sit_L_Start",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Sit_L_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Sit_L_Start.0"
+          }
+        },
+        {
+          "Key": "Sit_M_End",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Sit_M_End'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Sit_M_End.0"
+          }
+        },
+        {
+          "Key": "Sit_M_Start",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Sit_M_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Sit_M_Start.0"
+          }
+        },
+        {
+          "Key": "Sit_R_End",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Sit_R_End'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Sit_R_End.0"
+          }
+        },
+        {
+          "Key": "Sit_R_Start",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Sit_R_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Sit_R_Start.0"
+          }
+        },
+        {
+          "Key": "Sit_Stand",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Sit_Stand'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Sit_Stand.0"
+          }
+        },
+        {
+          "Key": "Skill01_1",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Skill01_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Skill01_1.0"
+          }
+        },
+        {
+          "Key": "Skill01_2",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Skill01_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Skill01_2.0"
+          }
+        },
+        {
+          "Key": "Skill02",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Skill02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Skill02.0"
+          }
+        },
+        {
+          "Key": "Skill03",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Skill03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Skill03.0"
+          }
+        },
+        {
+          "Key": "SkillAirAttack_End",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_SkillAirAttack_End'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_SkillAirAttack_End.0"
+          }
+        },
+        {
+          "Key": "SkillAirAttack_Loop",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_SkillAirAttack_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_SkillAirAttack_Loop.0"
+          }
+        },
+        {
+          "Key": "SkillAirAttack_Start",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_SkillAirAttack_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_SkillAirAttack_Start.0"
+          }
+        },
+        {
+          "Key": "SkillMove_B",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_SkillMove_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_SkillMove_B.0"
+          }
+        },
+        {
+          "Key": "SkillMove_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_SkillMove_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_SkillMove_F.0"
+          }
+        },
+        {
+          "Key": "SkillQte",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_SkillQte'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_SkillQte.0"
+          }
+        },
+        {
+          "Key": "Skill_AirAttack01",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Skill_AirAttack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Skill_AirAttack01.0"
+          }
+        },
+        {
+          "Key": "Skill_AirAttack02",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Skill_AirAttack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Skill_AirAttack02.0"
+          }
+        },
+        {
+          "Key": "Skill_AirAttack03",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Skill_AirAttack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Skill_AirAttack03.0"
+          }
+        },
+        {
+          "Key": "Skill_AirAttack04",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Skill_AirAttack04'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Skill_AirAttack04.0"
+          }
+        },
+        {
+          "Key": "Skill_AirAttack06",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Skill_AirAttack06'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Skill_AirAttack06.0"
+          }
+        },
+        {
+          "Key": "Skill_Attack01",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Skill_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Skill_Attack01.0"
+          }
+        },
+        {
+          "Key": "Skill_Attack02",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Skill_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Skill_Attack02.0"
+          }
+        },
+        {
+          "Key": "Skill_Attack03",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Skill_Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Skill_Attack03.0"
+          }
+        },
+        {
+          "Key": "Skill_Attack04",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Skill_Attack04'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Skill_Attack04.0"
+          }
+        },
+        {
+          "Key": "Skill_Attack06",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Skill_Attack06'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Skill_Attack06.0"
+          }
+        },
+        {
+          "Key": "Skill_Move_Limit_B",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Skill_Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Skill_Move_Limit_B.0"
+          }
+        },
+        {
+          "Key": "Skill_Move_Limit_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Skill_Move_Limit_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Skill_Move_Limit_F.0"
+          }
+        },
+        {
+          "Key": "Stand1",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Stand1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Stand1.0"
+          }
+        },
+        {
+          "Key": "Stand1_Action01",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Stand1_Action01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Stand1_Action01.0"
+          }
+        },
+        {
+          "Key": "Stand1_Action02",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Stand1_Action02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Stand1_Action02.0"
+          }
+        },
+        {
+          "Key": "Stand1_Action03",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Stand1_Action03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Stand1_Action03.0"
+          }
+        },
+        {
+          "Key": "Stand1_Turn_L90D",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Stand1_Turn_L90D'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Stand1_Turn_L90D.0"
+          }
+        },
+        {
+          "Key": "Stand1_Turn_R90D",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Stand1_Turn_R90D'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Stand1_Turn_R90D.0"
+          }
+        },
+        {
+          "Key": "Stand2",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Stand2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Stand2.0"
+          }
+        },
+        {
+          "Key": "StandChange",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_StandChange'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_StandChange.0"
+          }
+        },
+        {
+          "Key": "Super_Sprint_End",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Super_Sprint_End'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Super_Sprint_End.0"
+          }
+        },
+        {
+          "Key": "Super_Sprint_Start",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Super_Sprint_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Super_Sprint_Start.0"
+          }
+        },
+        {
+          "Key": "Super_Sprint_Start_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Super_Sprint_Start_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Super_Sprint_Start_F.0"
+          }
+        },
+        {
+          "Key": "SwimUp_Loop_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_SwimUp_Loop_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_SwimUp_Loop_F.0"
+          }
+        },
+        {
+          "Key": "SwimUp_Loop_L",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_SwimUp_Loop_L'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_SwimUp_Loop_L.0"
+          }
+        },
+        {
+          "Key": "SwimUp_Loop_R",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_SwimUp_Loop_R'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_SwimUp_Loop_R.0"
+          }
+        },
+        {
+          "Key": "Swim_Fall",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Swim_Fall'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Swim_Fall.0"
+          }
+        },
+        {
+          "Key": "Swim_Loop_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Swim_Loop_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Swim_Loop_F.0"
+          }
+        },
+        {
+          "Key": "Swim_Loop_L",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Swim_Loop_L'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Swim_Loop_L.0"
+          }
+        },
+        {
+          "Key": "Swim_Loop_R",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Swim_Loop_R'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Swim_Loop_R.0"
+          }
+        },
+        {
+          "Key": "Swim_Stand",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Swim_Stand'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Swim_Stand.0"
+          }
+        },
+        {
+          "Key": "Walk_B",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Walk_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Walk_B.0"
+          }
+        },
+        {
+          "Key": "Walk_LB",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Walk_LB'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Walk_LB.0"
+          }
+        },
+        {
+          "Key": "Walk_LF",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Walk_LF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Walk_LF.0"
+          }
+        },
+        {
+          "Key": "Walk_Pose_F",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Walk_Pose_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Walk_Pose_F.0"
+          }
+        },
+        {
+          "Key": "Walk_Pose_L",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Walk_Pose_L'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Walk_Pose_L.0"
+          }
+        },
+        {
+          "Key": "Walk_Pose_R",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Walk_Pose_R'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Walk_Pose_R.0"
+          }
+        },
+        {
+          "Key": "Walk_RB",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Walk_RB'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Walk_RB.0"
+          }
+        },
+        {
+          "Key": "Walk_RF",
+          "Value": {
+            "ObjectName": "AnimSequence'Rib_Walk_RF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/RibbonAnim/Rib_Walk_RF.0"
+          }
+        }
+      ]
+    }
+  }
+]

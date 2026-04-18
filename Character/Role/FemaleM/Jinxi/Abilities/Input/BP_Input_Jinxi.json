@@ -1,0 +1,3455 @@
+[
+  {
+    "Type": "Function",
+    "Name": "攻击按下",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Input_Jinxi_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi.7"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_InputComponent_C:攻击按下'",
+      "ObjectPath": "Client/Content/Aki/Character/Input/Blueprints/BP_InputComponent.16"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_InputComponent_C:攻击按下'",
+      "ObjectPath": "Client/Content/Aki/Character/Input/Blueprints/BP_InputComponent.16"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "time",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc______ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_BreakGameplayTagContainer_GameplayTags",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_BreakGameplayTagContainer_GameplayTags",
+          "Flags": "RF_Public",
+          "ElementSize": 12,
+          "Struct": {
+            "ObjectName": "ScriptStruct'GameplayTag'",
+            "ObjectPath": "/Script/GameplayTags"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_BreakGameplayTagContainer_GameplayTags_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_BreakGameplayTagContainer_GameplayTags_1",
+          "Flags": "RF_Public",
+          "ElementSize": 12,
+          "Struct": {
+            "ObjectName": "ScriptStruct'GameplayTag'",
+            "ObjectPath": "/Script/GameplayTags"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Array_Index_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "___bool_True_if_break_was_hit_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "___bool_True_if_break_was_hit_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_CanResponseInput_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Variable_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_BreakGameplayTagContainer_GameplayTags_2",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_BreakGameplayTagContainer_GameplayTags_2",
+          "Flags": "RF_Public",
+          "ElementSize": 12,
+          "Struct": {
+            "ObjectName": "ScriptStruct'GameplayTag'",
+            "ObjectPath": "/Script/GameplayTags"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_____________Rouge_____ID",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Variable_4",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Loop_Counter_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Variable_5",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_____________Rouge_____ID_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Loop_Counter_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_BreakGameplayTagContainer_GameplayTags_3",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_BreakGameplayTagContainer_GameplayTags_3",
+          "Flags": "RF_Public",
+          "ElementSize": 12,
+          "Struct": {
+            "ObjectName": "ScriptStruct'GameplayTag'",
+            "ObjectPath": "/Script/GameplayTags"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Loop_Counter_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue_5",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Loop_Counter_Variable_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Variable_6",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue_6",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_BreakGameplayTagContainer_GameplayTags_4",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_BreakGameplayTagContainer_GameplayTags_4",
+          "Flags": "RF_Public",
+          "ElementSize": 12,
+          "Struct": {
+            "ObjectName": "ScriptStruct'GameplayTag'",
+            "ObjectPath": "/Script/GameplayTags"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Array_Index_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue_7",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Variable_7",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsMovingOnGround_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Variable_8",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc______________Rouge_____ID",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue_8",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue_5",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue_6",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue_7",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_BreakGameplayTagContainer_GameplayTags_5",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_BreakGameplayTagContainer_GameplayTags_5",
+          "Flags": "RF_Public",
+          "ElementSize": 12,
+          "Struct": {
+            "ObjectName": "ScriptStruct'GameplayTag'",
+            "ObjectPath": "/Script/GameplayTags"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Variable_9",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Array_Get_Item_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_5",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Variable_10",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue_8",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "___bool_True_if_break_was_hit_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetSkillAcceptInput_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue_9",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_self_CastInput",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Array_Index_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Array_Get_Item_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_self_CastInput_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_self_CastInput_2",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "___bool_True_if_break_was_hit_Variable_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_self_CastInput_3",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "___bool_True_if_break_was_hit_Variable_4",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput_2",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Loop_Counter_Variable_4",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput_3",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Array_Index_Variable_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue_10",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Variable_11",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Array_Index_Variable_4",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue_9",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Array_Get_Item_3",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "___bool_True_if_break_was_hit_Variable_5",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue_10",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue_5",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue_11",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput_4",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Array_Index_Variable_5",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Array_Get_Item_4",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput_5",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue_5",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Variable_12",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue_11",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc______________Rouge_____ID_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_BreakGameplayTagContainer_GameplayTags_6",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_BreakGameplayTagContainer_GameplayTags_6",
+          "Flags": "RF_Public",
+          "ElementSize": 12,
+          "Struct": {
+            "ObjectName": "ScriptStruct'GameplayTag'",
+            "ObjectPath": "/Script/GameplayTags"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue_12",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Array_Get_Item_5",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_6",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Variable_13",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_5",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "___bool_True_if_break_was_hit_Variable_6",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue_6",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Loop_Counter_Variable_5",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue_12",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_self_CastInput_4",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_5",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_6",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_5",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Array_Index_Variable_6",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Array_Get_Item_6",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_self_CastInput_5",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_ReturnValue_5",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Loop_Counter_Variable_6",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_6",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_6",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_7",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_____________Rouge_____ID_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "IntProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue_13",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Get_Item_7",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Array_IsValidIndex_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "IntProperty",
+          "Name": "K2Node_MakeArray_Array_1",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Get_Item_8",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Array_IsValidIndex_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array_2",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "IntProperty",
+          "Name": "K2Node_MakeArray_Array_2",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array_3",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "IntProperty",
+          "Name": "K2Node_MakeArray_Array_3",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Get_Item_9",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Get_Item_10",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Array_IsValidIndex_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Array_IsValidIndex_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array_4",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "IntProperty",
+          "Name": "K2Node_MakeArray_Array_4",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Get_Item_11",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput_6",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue_6",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Array_IsValidIndex_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array_5",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "IntProperty",
+          "Name": "K2Node_MakeArray_Array_5",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Get_Item_12",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput_7",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue_7",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Array_IsValidIndex_ReturnValue_5",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array_6",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "IntProperty",
+          "Name": "K2Node_MakeArray_Array_6",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput_8",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue_8",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Get_Item_13",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Array_IsValidIndex_ReturnValue_6",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput_9",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue_9",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput_10",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue_10",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput_11",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue_11",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput_12",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue_12",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Protected | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "大招按下",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Input_Jinxi_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi.7"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_InputBase_C:大招按下'",
+      "ObjectPath": "Client/Content/Aki/Character/Input/Blueprints/BP_InputBase.53"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_InputBase_C:大招按下'",
+      "ObjectPath": "Client/Content/Aki/Character/Input/Blueprints/BP_InputBase.53"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "time",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_CanResponseInput_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetAttributeCurrentValue_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetAttributeCurrentValue_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GreaterEqual_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Protected | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "攻击长按",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Input_Jinxi_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi.7"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_InputComponent_C:攻击长按'",
+      "ObjectPath": "Client/Content/Aki/Character/Input/Blueprints/BP_InputComponent.17"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_InputComponent_C:攻击长按'",
+      "ObjectPath": "Client/Content/Aki/Character/Input/Blueprints/BP_InputComponent.17"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "time",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc______ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetSkillAcceptInput_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_CanResponseInput_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetCommonSkillCanBeInterrupt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsMovingOnGround_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_self_CastInput",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Protected | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "技能1按下",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Input_Jinxi_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi.7"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_InputComponent_C:技能1按下'",
+      "ObjectPath": "Client/Content/Aki/Character/Input/Blueprints/BP_InputComponent.20"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_InputComponent_C:技能1按下'",
+      "ObjectPath": "Client/Content/Aki/Character/Input/Blueprints/BP_InputComponent.20"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "time",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_CanResponseInput_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput_2",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc___1___ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_self_CastInput",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Protected | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "闪避按下",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Input_Jinxi_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi.7"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_InputComponent_C:闪避按下'",
+      "ObjectPath": "Client/Content/Aki/Character/Input/Blueprints/BP_InputComponent.7"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_InputComponent_C:闪避按下'",
+      "ObjectPath": "Client/Content/Aki/Character/Input/Blueprints/BP_InputComponent.7"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "time",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsMovingOnGround_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAbilitySystemComponent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'AbilitySystemComponent'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput_2",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetTagCount_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput_3",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMoveAxisInput_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMoveAxisInput_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMoveAxisInput_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_CanResponseInput_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_CreateSkillCommand_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_self_CastInput",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_CanResponseInput_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_self_CastInput_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsMovingOnGround_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_self_CastInput_2",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_self_CastInput_3",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_self_CastInput_4",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc______ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Protected | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "判断是否需要替换强化技能_Rouge",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Input_Jinxi_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi.7"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "技能ID",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "输出技能ID",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "Parm | OutParm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "判断是否要替换普通攻击_Rouge",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Input_Jinxi_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi.7"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "技能ID",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "输出技能ID",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "Parm | OutParm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_self_CastInput_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasMatchingGameplayTag_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Input_Jinxi_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_InputComponent_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Input/Blueprints/BP_InputComponent.26"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_InputComponent_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Input/Blueprints/BP_InputComponent.26"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Input_Jinxi_C:判断是否要替换普通攻击_Rouge'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi.6"
+      },
+      {
+        "ObjectName": "Function'BP_Input_Jinxi_C:判断是否需要替换强化技能_Rouge'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi.5"
+      },
+      {
+        "ObjectName": "Function'BP_Input_Jinxi_C:闪避按下'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi.4"
+      },
+      {
+        "ObjectName": "Function'BP_Input_Jinxi_C:技能1按下'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi.3"
+      },
+      {
+        "ObjectName": "Function'BP_Input_Jinxi_C:攻击长按'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi.2"
+      },
+      {
+        "ObjectName": "Function'BP_Input_Jinxi_C:大招按下'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi.1"
+      },
+      {
+        "ObjectName": "Function'BP_Input_Jinxi_C:攻击按下'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "输出值",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 20,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'SInputCommand'",
+          "ObjectPath": "Client/Content/Aki/Character/Input/Structures/sInputCommand.0"
+        }
+      }
+    ],
+    "FuncMap": {
+      "攻击按下": {
+        "ObjectName": "Function'BP_Input_Jinxi_C:攻击按下'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi.0"
+      },
+      "大招按下": {
+        "ObjectName": "Function'BP_Input_Jinxi_C:大招按下'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi.1"
+      },
+      "攻击长按": {
+        "ObjectName": "Function'BP_Input_Jinxi_C:攻击长按'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi.2"
+      },
+      "技能1按下": {
+        "ObjectName": "Function'BP_Input_Jinxi_C:技能1按下'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi.3"
+      },
+      "闪避按下": {
+        "ObjectName": "Function'BP_Input_Jinxi_C:闪避按下'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi.4"
+      },
+      "判断是否需要替换强化技能_Rouge": {
+        "ObjectName": "Function'BP_Input_Jinxi_C:判断是否需要替换强化技能_Rouge'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi.5"
+      },
+      "判断是否要替换普通攻击_Rouge": {
+        "ObjectName": "Function'BP_Input_Jinxi_C:判断是否要替换普通攻击_Rouge'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi.6"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Input_Jinxi_C'Default__BP_Input_Jinxi_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi.8"
+    }
+  },
+  {
+    "Type": "BP_Input_Jinxi_C",
+    "Name": "Default__BP_Input_Jinxi_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi.BP_Input_Jinxi_C'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi",
+    "Template": {
+      "ObjectName": "BP_InputComponent_C'Default__BP_InputComponent_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Input/Blueprints/BP_InputComponent.27"
+    },
+    "Properties": {
+      "输出值": {
+        "CommandType_3_2DB55B5D4B1F6969B7B815BA8B0C09A7": "ECommandType::NewEnumerator0",
+        "IntValue_8_DDD797BB48FE5C3D69A3598C98583BCB": 0,
+        "TagValue_9_9904A5DF4B3961B5B39896AE6EF742EA": {
+          "TagName": "None"
+        }
+      },
+      "输入缓存": [
+        {
+          "Key": "EInputAction::NewEnumerator2",
+          "Value": {
+            "按下_7_42B11F4F4EB272C53904E6A6772BCDBA": 0.3,
+            "抬起_8_669088B64EEC97A99C17098C544C7B27": 0.0,
+            "长按_9_F2EBB7644F120E6D039B3FA4B11B60FB": 0.0
+          }
+        },
+        {
+          "Key": "EInputAction::NewEnumerator7",
+          "Value": {
+            "按下_7_42B11F4F4EB272C53904E6A6772BCDBA": 0.1,
+            "抬起_8_669088B64EEC97A99C17098C544C7B27": 0.0,
+            "长按_9_F2EBB7644F120E6D039B3FA4B11B60FB": 0.0
+          }
+        },
+        {
+          "Key": "EInputAction::NewEnumerator8",
+          "Value": {
+            "按下_7_42B11F4F4EB272C53904E6A6772BCDBA": 0.3,
+            "抬起_8_669088B64EEC97A99C17098C544C7B27": 0.0,
+            "长按_9_F2EBB7644F120E6D039B3FA4B11B60FB": 0.0
+          }
+        },
+        {
+          "Key": "EInputAction::NewEnumerator1",
+          "Value": {
+            "按下_7_42B11F4F4EB272C53904E6A6772BCDBA": 0.3,
+            "抬起_8_669088B64EEC97A99C17098C544C7B27": 0.0,
+            "长按_9_F2EBB7644F120E6D039B3FA4B11B60FB": 0.3
+          }
+        },
+        {
+          "Key": "EInputAction::NewEnumerator6",
+          "Value": {
+            "按下_7_42B11F4F4EB272C53904E6A6772BCDBA": 0.3,
+            "抬起_8_669088B64EEC97A99C17098C544C7B27": 0.0,
+            "长按_9_F2EBB7644F120E6D039B3FA4B11B60FB": 0.0
+          }
+        }
+      ],
+      "长按配置": [
+        {
+          "Key": "EInputAction::NewEnumerator1",
+          "Value": {
+            "触发时间_4_172A0B7746F216C8EDF5AD8D129B8202": 0.2,
+            "连续触发_1_B1FBCFDE4035339F6733F1A51B7EF760": false
+          }
+        },
+        {
+          "Key": "EInputAction::NewEnumerator6",
+          "Value": {
+            "触发时间_4_172A0B7746F216C8EDF5AD8D129B8202": 0.2,
+            "连续触发_1_B1FBCFDE4035339F6733F1A51B7EF760": false
+          }
+        }
+      ],
+      "InputShowMap": [
+        {
+          "Key": "EInputCharacterState::NewEnumerator1",
+          "Value": {
+            "InputShowList_3_5D9C72294407B08B42EB5C9E3328B39E": [
+              {
+                "InputActionType_32_405A09014CEBF436EC9BE186461169A3": "EInputAction::NewEnumerator6",
+                "SkillId_29_75DD2CF342F572C8D314B990BFA49AF1": 1102020,
+                "BlockTag_26_3A78B26145DC9C4C38940493986D3A5E": [
+                  "功能.功能制作.被击硬直时间"
+                ],
+                "ListenAttributeId_17_C47E9360431CC9F558063A8DFD0D8B59": 0,
+                "ListenMaxAttributeId_19_CE8030984B2B7F9A351C388A5CCCE63C": 0,
+                "MaxAttributeEffect_40_0FDC1E42412EC92297325984CFAE4AB2": {
+                  "AssetPathName": "None",
+                  "SubPathString": ""
+                },
+                "MaxAttributeColor_35_CB81B343416FA9FB5879E2A72342745C": {
+                  "B": 0,
+                  "G": 0,
+                  "R": 0,
+                  "A": 0,
+                  "Hex": "000000"
+                },
+                "bUseElementColor_37_15A1082745AFD064E56547A83269C9A3": false,
+                "bLongPressControlCamera_39_926D6E8445062855484838BB453FE0A9": false
+              },
+              {
+                "InputActionType_32_405A09014CEBF436EC9BE186461169A3": "EInputAction::NewEnumerator8",
+                "SkillId_29_75DD2CF342F572C8D314B990BFA49AF1": 1102030,
+                "BlockTag_26_3A78B26145DC9C4C38940493986D3A5E": [
+                  "功能.功能制作.被击硬直时间"
+                ],
+                "ListenAttributeId_17_C47E9360431CC9F558063A8DFD0D8B59": 60,
+                "ListenMaxAttributeId_19_CE8030984B2B7F9A351C388A5CCCE63C": 59,
+                "MaxAttributeEffect_40_0FDC1E42412EC92297325984CFAE4AB2": {
+                  "AssetPathName": "None",
+                  "SubPathString": ""
+                },
+                "MaxAttributeColor_35_CB81B343416FA9FB5879E2A72342745C": {
+                  "B": 0,
+                  "G": 0,
+                  "R": 0,
+                  "A": 0,
+                  "Hex": "000000"
+                },
+                "bUseElementColor_37_15A1082745AFD064E56547A83269C9A3": true,
+                "bLongPressControlCamera_39_926D6E8445062855484838BB453FE0A9": false
+              },
+              {
+                "InputActionType_32_405A09014CEBF436EC9BE186461169A3": "EInputAction::NewEnumerator7",
+                "SkillId_29_75DD2CF342F572C8D314B990BFA49AF1": 0,
+                "BlockTag_26_3A78B26145DC9C4C38940493986D3A5E": [],
+                "ListenAttributeId_17_C47E9360431CC9F558063A8DFD0D8B59": 0,
+                "ListenMaxAttributeId_19_CE8030984B2B7F9A351C388A5CCCE63C": 0,
+                "MaxAttributeEffect_40_0FDC1E42412EC92297325984CFAE4AB2": {
+                  "AssetPathName": "None",
+                  "SubPathString": ""
+                },
+                "MaxAttributeColor_35_CB81B343416FA9FB5879E2A72342745C": {
+                  "B": 0,
+                  "G": 0,
+                  "R": 0,
+                  "A": 0,
+                  "Hex": "000000"
+                },
+                "bUseElementColor_37_15A1082745AFD064E56547A83269C9A3": false,
+                "bLongPressControlCamera_39_926D6E8445062855484838BB453FE0A9": false
+              },
+              {
+                "InputActionType_32_405A09014CEBF436EC9BE186461169A3": "EInputAction::NewEnumerator9",
+                "SkillId_29_75DD2CF342F572C8D314B990BFA49AF1": 0,
+                "BlockTag_26_3A78B26145DC9C4C38940493986D3A5E": [
+                  "功能.功能制作.被击硬直时间"
+                ],
+                "ListenAttributeId_17_C47E9360431CC9F558063A8DFD0D8B59": 0,
+                "ListenMaxAttributeId_19_CE8030984B2B7F9A351C388A5CCCE63C": 0,
+                "MaxAttributeEffect_40_0FDC1E42412EC92297325984CFAE4AB2": {
+                  "AssetPathName": "None",
+                  "SubPathString": ""
+                },
+                "MaxAttributeColor_35_CB81B343416FA9FB5879E2A72342745C": {
+                  "B": 0,
+                  "G": 0,
+                  "R": 0,
+                  "A": 0,
+                  "Hex": "000000"
+                },
+                "bUseElementColor_37_15A1082745AFD064E56547A83269C9A3": false,
+                "bLongPressControlCamera_39_926D6E8445062855484838BB453FE0A9": false
+              }
+            ]
+          }
+        },
+        {
+          "Key": "EInputCharacterState::NewEnumerator3",
+          "Value": {
+            "InputShowList_3_5D9C72294407B08B42EB5C9E3328B39E": [
+              {
+                "InputActionType_32_405A09014CEBF436EC9BE186461169A3": "EInputAction::NewEnumerator6",
+                "SkillId_29_75DD2CF342F572C8D314B990BFA49AF1": 1102020,
+                "BlockTag_26_3A78B26145DC9C4C38940493986D3A5E": [
+                  "功能.功能制作.被击硬直时间",
+                  "行为状态.位置状态.空中"
+                ],
+                "ListenAttributeId_17_C47E9360431CC9F558063A8DFD0D8B59": 0,
+                "ListenMaxAttributeId_19_CE8030984B2B7F9A351C388A5CCCE63C": 0,
+                "MaxAttributeEffect_40_0FDC1E42412EC92297325984CFAE4AB2": {
+                  "AssetPathName": "None",
+                  "SubPathString": ""
+                },
+                "MaxAttributeColor_35_CB81B343416FA9FB5879E2A72342745C": {
+                  "B": 0,
+                  "G": 0,
+                  "R": 0,
+                  "A": 0,
+                  "Hex": "000000"
+                },
+                "bUseElementColor_37_15A1082745AFD064E56547A83269C9A3": false,
+                "bLongPressControlCamera_39_926D6E8445062855484838BB453FE0A9": false
+              },
+              {
+                "InputActionType_32_405A09014CEBF436EC9BE186461169A3": "EInputAction::NewEnumerator8",
+                "SkillId_29_75DD2CF342F572C8D314B990BFA49AF1": 1102030,
+                "BlockTag_26_3A78B26145DC9C4C38940493986D3A5E": [
+                  "功能.功能制作.被击硬直时间",
+                  "行为状态.位置状态.空中"
+                ],
+                "ListenAttributeId_17_C47E9360431CC9F558063A8DFD0D8B59": 60,
+                "ListenMaxAttributeId_19_CE8030984B2B7F9A351C388A5CCCE63C": 59,
+                "MaxAttributeEffect_40_0FDC1E42412EC92297325984CFAE4AB2": {
+                  "AssetPathName": "None",
+                  "SubPathString": ""
+                },
+                "MaxAttributeColor_35_CB81B343416FA9FB5879E2A72342745C": {
+                  "B": 0,
+                  "G": 0,
+                  "R": 0,
+                  "A": 0,
+                  "Hex": "000000"
+                },
+                "bUseElementColor_37_15A1082745AFD064E56547A83269C9A3": true,
+                "bLongPressControlCamera_39_926D6E8445062855484838BB453FE0A9": false
+              },
+              {
+                "InputActionType_32_405A09014CEBF436EC9BE186461169A3": "EInputAction::NewEnumerator7",
+                "SkillId_29_75DD2CF342F572C8D314B990BFA49AF1": 0,
+                "BlockTag_26_3A78B26145DC9C4C38940493986D3A5E": [],
+                "ListenAttributeId_17_C47E9360431CC9F558063A8DFD0D8B59": 0,
+                "ListenMaxAttributeId_19_CE8030984B2B7F9A351C388A5CCCE63C": 0,
+                "MaxAttributeEffect_40_0FDC1E42412EC92297325984CFAE4AB2": {
+                  "AssetPathName": "None",
+                  "SubPathString": ""
+                },
+                "MaxAttributeColor_35_CB81B343416FA9FB5879E2A72342745C": {
+                  "B": 0,
+                  "G": 0,
+                  "R": 0,
+                  "A": 0,
+                  "Hex": "000000"
+                },
+                "bUseElementColor_37_15A1082745AFD064E56547A83269C9A3": false,
+                "bLongPressControlCamera_39_926D6E8445062855484838BB453FE0A9": false
+              },
+              {
+                "InputActionType_32_405A09014CEBF436EC9BE186461169A3": "EInputAction::NewEnumerator9",
+                "SkillId_29_75DD2CF342F572C8D314B990BFA49AF1": 0,
+                "BlockTag_26_3A78B26145DC9C4C38940493986D3A5E": [],
+                "ListenAttributeId_17_C47E9360431CC9F558063A8DFD0D8B59": 0,
+                "ListenMaxAttributeId_19_CE8030984B2B7F9A351C388A5CCCE63C": 0,
+                "MaxAttributeEffect_40_0FDC1E42412EC92297325984CFAE4AB2": {
+                  "AssetPathName": "None",
+                  "SubPathString": ""
+                },
+                "MaxAttributeColor_35_CB81B343416FA9FB5879E2A72342745C": {
+                  "B": 0,
+                  "G": 0,
+                  "R": 0,
+                  "A": 0,
+                  "Hex": "000000"
+                },
+                "bUseElementColor_37_15A1082745AFD064E56547A83269C9A3": true,
+                "bLongPressControlCamera_39_926D6E8445062855484838BB453FE0A9": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

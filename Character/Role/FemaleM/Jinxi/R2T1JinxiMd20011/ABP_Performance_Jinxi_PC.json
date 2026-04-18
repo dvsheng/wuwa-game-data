@@ -1,0 +1,4514 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ABP_Performance_Jinxi_PC",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "AnimGraph",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraph",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "PropertyFlags": "Parm | OutParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PoseLink'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "PhyCloth",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "InPose",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PoseLink'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "PhyCloth",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "PropertyFlags": "Parm | OutParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PoseLink'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "AnimBlueprintGeneratedClass",
+    "Name": "ABP_Performance_Jinxi_PC_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimBlueprintGeneratedClass'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC",
+    "Properties": {
+      "TargetSkeleton": {
+        "ObjectName": "Skeleton'R2T1JinxiMd20011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/Model/R2T1JinxiMd20011_Skeleton.11"
+      },
+      "OrderedSavedPoseIndicesMap": [
+        {
+          "Key": "AnimGraph",
+          "Value": {
+            "OrderedSavedPoseNodeIndices": []
+          }
+        },
+        {
+          "Key": "PhyCloth",
+          "Value": {
+            "OrderedSavedPoseNodeIndices": []
+          }
+        }
+      ],
+      "EvaluateGraphExposedInputs": [
+        {
+          "BoundFunction": "None",
+          "CopyRecords": [
+            {
+              "CopyIndex": 0,
+              "PostCopyOperation": "EPostCopyOperation::None"
+            },
+            {
+              "CopyIndex": 1,
+              "PostCopyOperation": "EPostCopyOperation::None"
+            }
+          ],
+          "Function": null,
+          "ValueHandlerNodeProperty": {
+            "Path": [
+              "AnimGraphNode_KawaiiPhysicsGroup"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+            }
+          }
+        },
+        {
+          "BoundFunction": "None",
+          "CopyRecords": [
+            {
+              "CopyIndex": 2,
+              "PostCopyOperation": "EPostCopyOperation::None"
+            },
+            {
+              "CopyIndex": 3,
+              "PostCopyOperation": "EPostCopyOperation::None"
+            }
+          ],
+          "Function": null,
+          "ValueHandlerNodeProperty": {
+            "Path": [
+              "AnimGraphNode_KawaiiPhysicsGroup_1"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+            }
+          }
+        },
+        {
+          "BoundFunction": "None",
+          "CopyRecords": [
+            {
+              "CopyIndex": 4,
+              "PostCopyOperation": "EPostCopyOperation::None"
+            },
+            {
+              "CopyIndex": 5,
+              "PostCopyOperation": "EPostCopyOperation::None"
+            }
+          ],
+          "Function": null,
+          "ValueHandlerNodeProperty": {
+            "Path": [
+              "AnimGraphNode_KawaiiPhysicsGroup_2"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+            }
+          }
+        },
+        {
+          "BoundFunction": "None",
+          "CopyRecords": [
+            {
+              "CopyIndex": 6,
+              "PostCopyOperation": "EPostCopyOperation::None"
+            },
+            {
+              "CopyIndex": 7,
+              "PostCopyOperation": "EPostCopyOperation::None"
+            }
+          ],
+          "Function": null,
+          "ValueHandlerNodeProperty": {
+            "Path": [
+              "AnimGraphNode_KawaiiPhysicsGroup_3"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+            }
+          }
+        },
+        {
+          "BoundFunction": "None",
+          "CopyRecords": [
+            {
+              "CopyIndex": 8,
+              "PostCopyOperation": "EPostCopyOperation::None"
+            },
+            {
+              "CopyIndex": 9,
+              "PostCopyOperation": "EPostCopyOperation::None"
+            }
+          ],
+          "Function": null,
+          "ValueHandlerNodeProperty": {
+            "Path": [
+              "AnimGraphNode_KawaiiPhysicsGroup_4"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+            }
+          }
+        },
+        {
+          "BoundFunction": "None",
+          "CopyRecords": [
+            {
+              "CopyIndex": 10,
+              "PostCopyOperation": "EPostCopyOperation::None"
+            },
+            {
+              "CopyIndex": 11,
+              "PostCopyOperation": "EPostCopyOperation::None"
+            }
+          ],
+          "Function": null,
+          "ValueHandlerNodeProperty": {
+            "Path": [
+              "AnimGraphNode_KawaiiPhysicsGroup_5"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+            }
+          }
+        },
+        {
+          "BoundFunction": "None",
+          "CopyRecords": [
+            {
+              "CopyIndex": 12,
+              "PostCopyOperation": "EPostCopyOperation::None"
+            },
+            {
+              "CopyIndex": 13,
+              "PostCopyOperation": "EPostCopyOperation::None"
+            }
+          ],
+          "Function": null,
+          "ValueHandlerNodeProperty": {
+            "Path": [
+              "AnimGraphNode_KawaiiPhysicsGroup_6"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+            }
+          }
+        },
+        {
+          "BoundFunction": "None",
+          "CopyRecords": [
+            {
+              "CopyIndex": 14,
+              "PostCopyOperation": "EPostCopyOperation::None"
+            },
+            {
+              "CopyIndex": 15,
+              "PostCopyOperation": "EPostCopyOperation::None"
+            }
+          ],
+          "Function": null,
+          "ValueHandlerNodeProperty": {
+            "Path": [
+              "AnimGraphNode_KawaiiPhysicsGroup_7"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+            }
+          }
+        },
+        {
+          "BoundFunction": "None",
+          "CopyRecords": [
+            {
+              "CopyIndex": 16,
+              "PostCopyOperation": "EPostCopyOperation::None"
+            },
+            {
+              "CopyIndex": 17,
+              "PostCopyOperation": "EPostCopyOperation::None"
+            }
+          ],
+          "Function": null,
+          "ValueHandlerNodeProperty": {
+            "Path": [
+              "AnimGraphNode_KawaiiPhysicsGroup_8"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+            }
+          }
+        },
+        {
+          "BoundFunction": "None",
+          "CopyRecords": [
+            {
+              "CopyIndex": 18,
+              "PostCopyOperation": "EPostCopyOperation::None"
+            },
+            {
+              "CopyIndex": 19,
+              "PostCopyOperation": "EPostCopyOperation::None"
+            }
+          ],
+          "Function": null,
+          "ValueHandlerNodeProperty": {
+            "Path": [
+              "AnimGraphNode_KawaiiPhysicsGroup_9"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+            }
+          }
+        },
+        {
+          "BoundFunction": "None",
+          "CopyRecords": [
+            {
+              "CopyIndex": 20,
+              "PostCopyOperation": "EPostCopyOperation::None"
+            },
+            {
+              "CopyIndex": 21,
+              "PostCopyOperation": "EPostCopyOperation::None"
+            }
+          ],
+          "Function": null,
+          "ValueHandlerNodeProperty": {
+            "Path": [
+              "AnimGraphNode_KawaiiPhysicsGroup_10"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+            }
+          }
+        }
+      ],
+      "PropertyAccessLibrary": {
+        "PathSegments": [
+          {
+            "Name": "PhysicsClothSimulateEnable",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "PhysicsClothSimulateEnable"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "AnimGraphNode_KawaiiPhysicsGroup",
+            "Struct": {
+              "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+              "ObjectPath": "/Script/KawaiiPhysics"
+            },
+            "Property": {
+              "Path": [
+                "AnimGraphNode_KawaiiPhysicsGroup"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 1
+          },
+          {
+            "Name": "bEnableSimulate",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "bEnableSimulate"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsBase'",
+                "ObjectPath": "/Script/KawaiiPhysics"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "PhysicsClothSimulateScale",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "PhysicsClothSimulateScale"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "AnimGraphNode_KawaiiPhysicsGroup",
+            "Struct": {
+              "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+              "ObjectPath": "/Script/KawaiiPhysics"
+            },
+            "Property": {
+              "Path": [
+                "AnimGraphNode_KawaiiPhysicsGroup"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 1
+          },
+          {
+            "Name": "AlphaScale",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "AlphaScale"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsBase'",
+                "ObjectPath": "/Script/KawaiiPhysics"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "PhysicsClothSimulateEnable",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "PhysicsClothSimulateEnable"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "AnimGraphNode_KawaiiPhysicsGroup_1",
+            "Struct": {
+              "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+              "ObjectPath": "/Script/KawaiiPhysics"
+            },
+            "Property": {
+              "Path": [
+                "AnimGraphNode_KawaiiPhysicsGroup_1"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 1
+          },
+          {
+            "Name": "bEnableSimulate",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "bEnableSimulate"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsBase'",
+                "ObjectPath": "/Script/KawaiiPhysics"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "PhysicsClothSimulateScale",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "PhysicsClothSimulateScale"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "AnimGraphNode_KawaiiPhysicsGroup_1",
+            "Struct": {
+              "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+              "ObjectPath": "/Script/KawaiiPhysics"
+            },
+            "Property": {
+              "Path": [
+                "AnimGraphNode_KawaiiPhysicsGroup_1"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 1
+          },
+          {
+            "Name": "AlphaScale",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "AlphaScale"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsBase'",
+                "ObjectPath": "/Script/KawaiiPhysics"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "PhysicsClothSimulateEnable",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "PhysicsClothSimulateEnable"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "AnimGraphNode_KawaiiPhysicsGroup_2",
+            "Struct": {
+              "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+              "ObjectPath": "/Script/KawaiiPhysics"
+            },
+            "Property": {
+              "Path": [
+                "AnimGraphNode_KawaiiPhysicsGroup_2"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 1
+          },
+          {
+            "Name": "bEnableSimulate",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "bEnableSimulate"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsBase'",
+                "ObjectPath": "/Script/KawaiiPhysics"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "PhysicsClothSimulateScale",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "PhysicsClothSimulateScale"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "AnimGraphNode_KawaiiPhysicsGroup_2",
+            "Struct": {
+              "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+              "ObjectPath": "/Script/KawaiiPhysics"
+            },
+            "Property": {
+              "Path": [
+                "AnimGraphNode_KawaiiPhysicsGroup_2"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 1
+          },
+          {
+            "Name": "AlphaScale",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "AlphaScale"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsBase'",
+                "ObjectPath": "/Script/KawaiiPhysics"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "PhysicsClothSimulateEnable",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "PhysicsClothSimulateEnable"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "AnimGraphNode_KawaiiPhysicsGroup_3",
+            "Struct": {
+              "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+              "ObjectPath": "/Script/KawaiiPhysics"
+            },
+            "Property": {
+              "Path": [
+                "AnimGraphNode_KawaiiPhysicsGroup_3"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 1
+          },
+          {
+            "Name": "bEnableSimulate",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "bEnableSimulate"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsBase'",
+                "ObjectPath": "/Script/KawaiiPhysics"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "PhysicsClothSimulateScale",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "PhysicsClothSimulateScale"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "AnimGraphNode_KawaiiPhysicsGroup_3",
+            "Struct": {
+              "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+              "ObjectPath": "/Script/KawaiiPhysics"
+            },
+            "Property": {
+              "Path": [
+                "AnimGraphNode_KawaiiPhysicsGroup_3"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 1
+          },
+          {
+            "Name": "AlphaScale",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "AlphaScale"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsBase'",
+                "ObjectPath": "/Script/KawaiiPhysics"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "PhysicsClothSimulateEnable",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "PhysicsClothSimulateEnable"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "AnimGraphNode_KawaiiPhysicsGroup_4",
+            "Struct": {
+              "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+              "ObjectPath": "/Script/KawaiiPhysics"
+            },
+            "Property": {
+              "Path": [
+                "AnimGraphNode_KawaiiPhysicsGroup_4"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 1
+          },
+          {
+            "Name": "bEnableSimulate",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "bEnableSimulate"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsBase'",
+                "ObjectPath": "/Script/KawaiiPhysics"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "PhysicsClothSimulateScale",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "PhysicsClothSimulateScale"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "AnimGraphNode_KawaiiPhysicsGroup_4",
+            "Struct": {
+              "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+              "ObjectPath": "/Script/KawaiiPhysics"
+            },
+            "Property": {
+              "Path": [
+                "AnimGraphNode_KawaiiPhysicsGroup_4"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 1
+          },
+          {
+            "Name": "AlphaScale",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "AlphaScale"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsBase'",
+                "ObjectPath": "/Script/KawaiiPhysics"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "PhysicsClothSimulateEnable",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "PhysicsClothSimulateEnable"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "AnimGraphNode_KawaiiPhysicsGroup_5",
+            "Struct": {
+              "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+              "ObjectPath": "/Script/KawaiiPhysics"
+            },
+            "Property": {
+              "Path": [
+                "AnimGraphNode_KawaiiPhysicsGroup_5"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 1
+          },
+          {
+            "Name": "bEnableSimulate",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "bEnableSimulate"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsBase'",
+                "ObjectPath": "/Script/KawaiiPhysics"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "PhysicsClothSimulateScale",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "PhysicsClothSimulateScale"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "AnimGraphNode_KawaiiPhysicsGroup_5",
+            "Struct": {
+              "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+              "ObjectPath": "/Script/KawaiiPhysics"
+            },
+            "Property": {
+              "Path": [
+                "AnimGraphNode_KawaiiPhysicsGroup_5"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 1
+          },
+          {
+            "Name": "AlphaScale",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "AlphaScale"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsBase'",
+                "ObjectPath": "/Script/KawaiiPhysics"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "PhysicsClothSimulateEnable",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "PhysicsClothSimulateEnable"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "AnimGraphNode_KawaiiPhysicsGroup_6",
+            "Struct": {
+              "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+              "ObjectPath": "/Script/KawaiiPhysics"
+            },
+            "Property": {
+              "Path": [
+                "AnimGraphNode_KawaiiPhysicsGroup_6"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 1
+          },
+          {
+            "Name": "bEnableSimulate",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "bEnableSimulate"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsBase'",
+                "ObjectPath": "/Script/KawaiiPhysics"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "PhysicsClothSimulateScale",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "PhysicsClothSimulateScale"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "AnimGraphNode_KawaiiPhysicsGroup_6",
+            "Struct": {
+              "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+              "ObjectPath": "/Script/KawaiiPhysics"
+            },
+            "Property": {
+              "Path": [
+                "AnimGraphNode_KawaiiPhysicsGroup_6"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 1
+          },
+          {
+            "Name": "AlphaScale",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "AlphaScale"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsBase'",
+                "ObjectPath": "/Script/KawaiiPhysics"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "PhysicsClothSimulateEnable",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "PhysicsClothSimulateEnable"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "AnimGraphNode_KawaiiPhysicsGroup_7",
+            "Struct": {
+              "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+              "ObjectPath": "/Script/KawaiiPhysics"
+            },
+            "Property": {
+              "Path": [
+                "AnimGraphNode_KawaiiPhysicsGroup_7"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 1
+          },
+          {
+            "Name": "bEnableSimulate",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "bEnableSimulate"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsBase'",
+                "ObjectPath": "/Script/KawaiiPhysics"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "PhysicsClothSimulateScale",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "PhysicsClothSimulateScale"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "AnimGraphNode_KawaiiPhysicsGroup_7",
+            "Struct": {
+              "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+              "ObjectPath": "/Script/KawaiiPhysics"
+            },
+            "Property": {
+              "Path": [
+                "AnimGraphNode_KawaiiPhysicsGroup_7"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 1
+          },
+          {
+            "Name": "AlphaScale",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "AlphaScale"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsBase'",
+                "ObjectPath": "/Script/KawaiiPhysics"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "PhysicsClothSimulateEnable",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "PhysicsClothSimulateEnable"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "AnimGraphNode_KawaiiPhysicsGroup_8",
+            "Struct": {
+              "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+              "ObjectPath": "/Script/KawaiiPhysics"
+            },
+            "Property": {
+              "Path": [
+                "AnimGraphNode_KawaiiPhysicsGroup_8"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 1
+          },
+          {
+            "Name": "bEnableSimulate",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "bEnableSimulate"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsBase'",
+                "ObjectPath": "/Script/KawaiiPhysics"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "PhysicsClothSimulateScale",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "PhysicsClothSimulateScale"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "AnimGraphNode_KawaiiPhysicsGroup_8",
+            "Struct": {
+              "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+              "ObjectPath": "/Script/KawaiiPhysics"
+            },
+            "Property": {
+              "Path": [
+                "AnimGraphNode_KawaiiPhysicsGroup_8"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 1
+          },
+          {
+            "Name": "AlphaScale",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "AlphaScale"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsBase'",
+                "ObjectPath": "/Script/KawaiiPhysics"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "PhysicsClothSimulateEnable",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "PhysicsClothSimulateEnable"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "AnimGraphNode_KawaiiPhysicsGroup_9",
+            "Struct": {
+              "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+              "ObjectPath": "/Script/KawaiiPhysics"
+            },
+            "Property": {
+              "Path": [
+                "AnimGraphNode_KawaiiPhysicsGroup_9"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 1
+          },
+          {
+            "Name": "bEnableSimulate",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "bEnableSimulate"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsBase'",
+                "ObjectPath": "/Script/KawaiiPhysics"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "PhysicsClothSimulateScale",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "PhysicsClothSimulateScale"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "AnimGraphNode_KawaiiPhysicsGroup_9",
+            "Struct": {
+              "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+              "ObjectPath": "/Script/KawaiiPhysics"
+            },
+            "Property": {
+              "Path": [
+                "AnimGraphNode_KawaiiPhysicsGroup_9"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 1
+          },
+          {
+            "Name": "AlphaScale",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "AlphaScale"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsBase'",
+                "ObjectPath": "/Script/KawaiiPhysics"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "PhysicsClothSimulateEnable",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "PhysicsClothSimulateEnable"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "AnimGraphNode_KawaiiPhysicsGroup_10",
+            "Struct": {
+              "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+              "ObjectPath": "/Script/KawaiiPhysics"
+            },
+            "Property": {
+              "Path": [
+                "AnimGraphNode_KawaiiPhysicsGroup_10"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 1
+          },
+          {
+            "Name": "bEnableSimulate",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "bEnableSimulate"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsBase'",
+                "ObjectPath": "/Script/KawaiiPhysics"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "PhysicsClothSimulateScale",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "PhysicsClothSimulateScale"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          },
+          {
+            "Name": "AnimGraphNode_KawaiiPhysicsGroup_10",
+            "Struct": {
+              "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+              "ObjectPath": "/Script/KawaiiPhysics"
+            },
+            "Property": {
+              "Path": [
+                "AnimGraphNode_KawaiiPhysicsGroup_10"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_PC_C'",
+                "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.3"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 1
+          },
+          {
+            "Name": "AlphaScale",
+            "Struct": null,
+            "Property": {
+              "Path": [
+                "AlphaScale"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsBase'",
+                "ObjectPath": "/Script/KawaiiPhysics"
+              }
+            },
+            "Function": null,
+            "ArrayIndex": -1,
+            "Flags": 2
+          }
+        ],
+        "SrcPaths": [
+          {
+            "PathSegmentStartIndex": 0,
+            "PathSegmentCount": 1,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 3,
+            "PathSegmentCount": 1,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 6,
+            "PathSegmentCount": 1,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 9,
+            "PathSegmentCount": 1,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 12,
+            "PathSegmentCount": 1,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 15,
+            "PathSegmentCount": 1,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 18,
+            "PathSegmentCount": 1,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 21,
+            "PathSegmentCount": 1,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 24,
+            "PathSegmentCount": 1,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 27,
+            "PathSegmentCount": 1,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 30,
+            "PathSegmentCount": 1,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 33,
+            "PathSegmentCount": 1,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 36,
+            "PathSegmentCount": 1,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 39,
+            "PathSegmentCount": 1,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 42,
+            "PathSegmentCount": 1,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 45,
+            "PathSegmentCount": 1,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 48,
+            "PathSegmentCount": 1,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 51,
+            "PathSegmentCount": 1,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 54,
+            "PathSegmentCount": 1,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 57,
+            "PathSegmentCount": 1,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 60,
+            "PathSegmentCount": 1,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 63,
+            "PathSegmentCount": 1,
+            "bHasEvents": false
+          }
+        ],
+        "DestPaths": [
+          {
+            "PathSegmentStartIndex": 1,
+            "PathSegmentCount": 2,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 4,
+            "PathSegmentCount": 2,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 7,
+            "PathSegmentCount": 2,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 10,
+            "PathSegmentCount": 2,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 13,
+            "PathSegmentCount": 2,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 16,
+            "PathSegmentCount": 2,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 19,
+            "PathSegmentCount": 2,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 22,
+            "PathSegmentCount": 2,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 25,
+            "PathSegmentCount": 2,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 28,
+            "PathSegmentCount": 2,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 31,
+            "PathSegmentCount": 2,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 34,
+            "PathSegmentCount": 2,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 37,
+            "PathSegmentCount": 2,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 40,
+            "PathSegmentCount": 2,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 43,
+            "PathSegmentCount": 2,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 46,
+            "PathSegmentCount": 2,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 49,
+            "PathSegmentCount": 2,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 52,
+            "PathSegmentCount": 2,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 55,
+            "PathSegmentCount": 2,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 58,
+            "PathSegmentCount": 2,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 61,
+            "PathSegmentCount": 2,
+            "bHasEvents": false
+          },
+          {
+            "PathSegmentStartIndex": 64,
+            "PathSegmentCount": 2,
+            "bHasEvents": false
+          }
+        ],
+        "CopyBatches": {
+          "Copies": [
+            {
+              "AccessIndex": 0,
+              "DestAccessStartIndex": 0,
+              "DestAccessEndIndex": 1,
+              "Type": "EPropertyAccessCopyType::Bool"
+            },
+            {
+              "AccessIndex": 1,
+              "DestAccessStartIndex": 1,
+              "DestAccessEndIndex": 2,
+              "Type": "EPropertyAccessCopyType::Plain"
+            },
+            {
+              "AccessIndex": 2,
+              "DestAccessStartIndex": 2,
+              "DestAccessEndIndex": 3,
+              "Type": "EPropertyAccessCopyType::Bool"
+            },
+            {
+              "AccessIndex": 3,
+              "DestAccessStartIndex": 3,
+              "DestAccessEndIndex": 4,
+              "Type": "EPropertyAccessCopyType::Plain"
+            },
+            {
+              "AccessIndex": 4,
+              "DestAccessStartIndex": 4,
+              "DestAccessEndIndex": 5,
+              "Type": "EPropertyAccessCopyType::Bool"
+            },
+            {
+              "AccessIndex": 5,
+              "DestAccessStartIndex": 5,
+              "DestAccessEndIndex": 6,
+              "Type": "EPropertyAccessCopyType::Plain"
+            },
+            {
+              "AccessIndex": 6,
+              "DestAccessStartIndex": 6,
+              "DestAccessEndIndex": 7,
+              "Type": "EPropertyAccessCopyType::Bool"
+            },
+            {
+              "AccessIndex": 7,
+              "DestAccessStartIndex": 7,
+              "DestAccessEndIndex": 8,
+              "Type": "EPropertyAccessCopyType::Plain"
+            },
+            {
+              "AccessIndex": 8,
+              "DestAccessStartIndex": 8,
+              "DestAccessEndIndex": 9,
+              "Type": "EPropertyAccessCopyType::Bool"
+            },
+            {
+              "AccessIndex": 9,
+              "DestAccessStartIndex": 9,
+              "DestAccessEndIndex": 10,
+              "Type": "EPropertyAccessCopyType::Plain"
+            },
+            {
+              "AccessIndex": 10,
+              "DestAccessStartIndex": 10,
+              "DestAccessEndIndex": 11,
+              "Type": "EPropertyAccessCopyType::Bool"
+            },
+            {
+              "AccessIndex": 11,
+              "DestAccessStartIndex": 11,
+              "DestAccessEndIndex": 12,
+              "Type": "EPropertyAccessCopyType::Plain"
+            },
+            {
+              "AccessIndex": 12,
+              "DestAccessStartIndex": 12,
+              "DestAccessEndIndex": 13,
+              "Type": "EPropertyAccessCopyType::Bool"
+            },
+            {
+              "AccessIndex": 13,
+              "DestAccessStartIndex": 13,
+              "DestAccessEndIndex": 14,
+              "Type": "EPropertyAccessCopyType::Plain"
+            },
+            {
+              "AccessIndex": 14,
+              "DestAccessStartIndex": 14,
+              "DestAccessEndIndex": 15,
+              "Type": "EPropertyAccessCopyType::Bool"
+            },
+            {
+              "AccessIndex": 15,
+              "DestAccessStartIndex": 15,
+              "DestAccessEndIndex": 16,
+              "Type": "EPropertyAccessCopyType::Plain"
+            },
+            {
+              "AccessIndex": 16,
+              "DestAccessStartIndex": 16,
+              "DestAccessEndIndex": 17,
+              "Type": "EPropertyAccessCopyType::Bool"
+            },
+            {
+              "AccessIndex": 17,
+              "DestAccessStartIndex": 17,
+              "DestAccessEndIndex": 18,
+              "Type": "EPropertyAccessCopyType::Plain"
+            },
+            {
+              "AccessIndex": 18,
+              "DestAccessStartIndex": 18,
+              "DestAccessEndIndex": 19,
+              "Type": "EPropertyAccessCopyType::Bool"
+            },
+            {
+              "AccessIndex": 19,
+              "DestAccessStartIndex": 19,
+              "DestAccessEndIndex": 20,
+              "Type": "EPropertyAccessCopyType::Plain"
+            },
+            {
+              "AccessIndex": 20,
+              "DestAccessStartIndex": 20,
+              "DestAccessEndIndex": 21,
+              "Type": "EPropertyAccessCopyType::Bool"
+            },
+            {
+              "AccessIndex": 21,
+              "DestAccessStartIndex": 21,
+              "DestAccessEndIndex": 22,
+              "Type": "EPropertyAccessCopyType::Plain"
+            }
+          ]
+        }
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'ABP_Performance_Jinxi_PC_C:ExecuteUbergraph_ABP_Performance_Jinxi_PC'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'AnimInstance'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ABP_Performance_Jinxi_PC_C:PhyCloth'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.2"
+      },
+      {
+        "ObjectName": "Function'ABP_Performance_Jinxi_PC_C:AnimGraph'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.1"
+      },
+      {
+        "ObjectName": "Function'ABP_Performance_Jinxi_PC_C:ExecuteUbergraph_ABP_Performance_Jinxi_PC'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_Root_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 64,
+        "Struct": {
+          "ObjectName": "ScriptStruct'AnimNode_Root'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_LinkedInputPose",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 320,
+        "Struct": {
+          "ObjectName": "ScriptStruct'AnimNode_LinkedInputPose'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_LocalToComponentSpace",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 40,
+        "Struct": {
+          "ObjectName": "ScriptStruct'AnimNode_ConvertLocalToComponentSpace'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_ComponentToLocalSpace",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 40,
+        "Struct": {
+          "ObjectName": "ScriptStruct'AnimNode_ConvertComponentToLocalSpace'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_KawaiiPhysicsGroup_10",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 784,
+        "Struct": {
+          "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+          "ObjectPath": "/Script/KawaiiPhysics"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_KawaiiPhysicsGroup_9",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 784,
+        "Struct": {
+          "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+          "ObjectPath": "/Script/KawaiiPhysics"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_KawaiiPhysicsGroup_8",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 784,
+        "Struct": {
+          "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+          "ObjectPath": "/Script/KawaiiPhysics"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_MountBuffer",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 592,
+        "Struct": {
+          "ObjectName": "ScriptStruct'AnimNode_MountBuffer'",
+          "ObjectPath": "/Script/KuroAnim"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_KawaiiPhysicsGroup_7",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 784,
+        "Struct": {
+          "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+          "ObjectPath": "/Script/KawaiiPhysics"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_KawaiiPhysicsGroup_6",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 784,
+        "Struct": {
+          "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+          "ObjectPath": "/Script/KawaiiPhysics"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_KawaiiPhysicsGroup_5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 784,
+        "Struct": {
+          "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+          "ObjectPath": "/Script/KawaiiPhysics"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_KawaiiPhysicsGroup_4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 784,
+        "Struct": {
+          "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+          "ObjectPath": "/Script/KawaiiPhysics"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_KawaiiPhysicsGroup_3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 784,
+        "Struct": {
+          "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+          "ObjectPath": "/Script/KawaiiPhysics"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_KawaiiPhysicsGroup_2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 784,
+        "Struct": {
+          "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+          "ObjectPath": "/Script/KawaiiPhysics"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_KawaiiPhysicsGroup_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 784,
+        "Struct": {
+          "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+          "ObjectPath": "/Script/KawaiiPhysics"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_KawaiiPhysicsGroup",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 784,
+        "Struct": {
+          "ObjectName": "ScriptStruct'AnimNode_KawaiiPhysicsGroup'",
+          "ObjectPath": "/Script/KawaiiPhysics"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_Root",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 64,
+        "Struct": {
+          "ObjectName": "ScriptStruct'AnimNode_Root'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_LinkedAnimLayer",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 224,
+        "Struct": {
+          "ObjectName": "ScriptStruct'AnimNode_LinkedAnimLayer'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_LinkedAnimGraph",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 176,
+        "Struct": {
+          "ObjectName": "ScriptStruct'AnimNode_LinkedAnimGraph'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "PhysicsClothSimulateEnable",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "PhysicsClothSimulateScale",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ABP_Performance_Jinxi_PC": {
+        "ObjectName": "Function'ABP_Performance_Jinxi_PC_C:ExecuteUbergraph_ABP_Performance_Jinxi_PC'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.0"
+      },
+      "AnimGraph": {
+        "ObjectName": "Function'ABP_Performance_Jinxi_PC_C:AnimGraph'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.1"
+      },
+      "PhyCloth": {
+        "ObjectName": "Function'ABP_Performance_Jinxi_PC_C:PhyCloth'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.2"
+      }
+    },
+    "ClassFlags": "CLASS_Transient | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'SkeletalMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ABP_Performance_Jinxi_PC_C'Default__ABP_Performance_Jinxi_PC_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.4"
+    }
+  },
+  {
+    "Type": "ABP_Performance_Jinxi_PC_C",
+    "Name": "Default__ABP_Performance_Jinxi_PC_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "AnimBlueprintGeneratedClass'Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC.ABP_Performance_Jinxi_PC_C'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi_PC",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AnimGraphNode_Root_1": {
+        "Result": {
+          "LinkID": 3
+        },
+        "Name": "PhyCloth",
+        "Group": "None"
+      },
+      "AnimGraphNode_LinkedInputPose": {
+        "Name": "InPose",
+        "Graph": "PhyCloth",
+        "InputPose": {
+          "LinkID": -1
+        }
+      },
+      "AnimGraphNode_LocalToComponentSpace": {
+        "LocalPose": {
+          "LinkID": 1
+        }
+      },
+      "AnimGraphNode_ComponentToLocalSpace": {
+        "ComponentPose": {
+          "LinkID": 7
+        }
+      },
+      "AnimGraphNode_KawaiiPhysicsGroup_10": {
+        "RootBones": [
+          {
+            "BoneName": "Bone_Hair001_M"
+          },
+          {
+            "BoneName": "Bone_Hair001_L"
+          },
+          {
+            "BoneName": "Bone_Hair001_R"
+          },
+          {
+            "BoneName": "Bone_Hair011_L"
+          },
+          {
+            "BoneName": "Bone_Hair011_R"
+          }
+        ],
+        "WindCurve": null,
+        "StandardWindSpeed": 100.0,
+        "DistanceToWindRate": 1000.0,
+        "ExcludeBones": [],
+        "TargetFramerate": 60,
+        "OverrideTargetFramerate": false,
+        "IgnoreMechanicsLevel": 0,
+        "bNewIgnoreMechanics": false,
+        "PhysicsSettings": {
+          "Damping": 0.1,
+          "WorldDampingLocation": 0.8,
+          "WorldDampingRotation": 0.8,
+          "Stiffness": 0.03,
+          "Radius": 1.0,
+          "LimitAngle": 30.0,
+          "HalfWidth": 5.0,
+          "Shape": "EPhyCollisionShape::Spherical"
+        },
+        "DampingCurve": null,
+        "WorldDampingLocationCurve": null,
+        "WorldDampingRotationCurve": null,
+        "StiffnessCurve": null,
+        "RadiusCurve": null,
+        "HalfWidthCurve": null,
+        "LimitAngleCurve": null,
+        "bUpdatePhysicsSettingsInGame": true,
+        "DummyBoneLength": 1.5,
+        "BoneForwardAxis": "EBoneForwardAxis::X_Positive",
+        "PlanarConstraint": "EPlanarConstraint::None",
+        "SphericalLimits": [
+          {
+            "Radius": 7.5,
+            "LimitType": "ESphericalLimitType::Outer",
+            "DrivingBone": {
+              "BoneName": "Bip001Head"
+            },
+            "OffsetLocation": {
+              "X": 7.516249,
+              "Y": 0.249215,
+              "Z": 0.27422
+            },
+            "OffsetRotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          }
+        ],
+        "CapsuleLimits": [],
+        "PlanarLimits": [],
+        "LimitsDataAsset": null,
+        "SphericalLimitsData": [],
+        "CapsuleLimitsData": [],
+        "PlanarLimitsData": [],
+        "TeleportDistanceThreshold": 300.0,
+        "TeleportRotationThreshold": 10.0,
+        "Gravity": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "bEnableWind": false,
+        "WindScale": 1.0,
+        "ModifyBones": [],
+        "bEnableSimulate": true,
+        "AlphaScale": 1.0,
+        "TotalBoneLength": 0.0,
+        "PreSkelCompTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "bInitPhysicsSettings": false,
+        "ComponentPose": {
+          "LinkID": 2
+        },
+        "LODThreshold": -1,
+        "KuroLODMask": 1,
+        "ActualAlpha": 0.0,
+        "AlphaInputType": "EAnimAlphaInputType::Float",
+        "bAlphaBoolEnabled": true,
+        "bParallelEvalEnabled": true,
+        "bEnableOnMobile": true,
+        "Alpha": 0.5,
+        "AlphaScaleBias": {
+          "Scale": 1.0,
+          "Bias": 0.0
+        },
+        "AlphaBoolBlend": {
+          "BlendInTime": 0.0,
+          "BlendOutTime": 0.0,
+          "BlendOption": "EAlphaBlendOption::Linear",
+          "bInitialized": false,
+          "CustomCurve": null,
+          "AlphaBlend": {
+            "CustomCurve": null,
+            "BlendTime": 0.2,
+            "BlendOption": "EAlphaBlendOption::Linear"
+          }
+        },
+        "AlphaCurveName": "None",
+        "AlphaScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        }
+      },
+      "AnimGraphNode_KawaiiPhysicsGroup_9": {
+        "RootBones": [
+          {
+            "BoneName": "Bone_Piao022_L"
+          },
+          {
+            "BoneName": "Bone_Piao022_R"
+          },
+          {
+            "BoneName": "Bone_Piao001_L"
+          },
+          {
+            "BoneName": "Bone_Piao001_R"
+          },
+          {
+            "BoneName": "Bone_Piao042_L"
+          },
+          {
+            "BoneName": "Bone_Piao042_R"
+          },
+          {
+            "BoneName": "Bone_Piao011_L"
+          },
+          {
+            "BoneName": "Bone_Piao011_R"
+          },
+          {
+            "BoneName": "Bone_Piao012_L"
+          },
+          {
+            "BoneName": "Bone_Piao012_R"
+          },
+          {
+            "BoneName": "Bone_Piao051_L"
+          },
+          {
+            "BoneName": "Bone_Piao014_L"
+          },
+          {
+            "BoneName": "Bone_Piao111_L"
+          },
+          {
+            "BoneName": "Bone_Piao111_R"
+          }
+        ],
+        "WindCurve": null,
+        "StandardWindSpeed": 100.0,
+        "DistanceToWindRate": 1000.0,
+        "ExcludeBones": [],
+        "TargetFramerate": 60,
+        "OverrideTargetFramerate": false,
+        "IgnoreMechanicsLevel": 0,
+        "bNewIgnoreMechanics": false,
+        "PhysicsSettings": {
+          "Damping": 0.1,
+          "WorldDampingLocation": 0.8,
+          "WorldDampingRotation": 0.8,
+          "Stiffness": 0.05,
+          "Radius": 1.5,
+          "LimitAngle": 35.0,
+          "HalfWidth": 5.0,
+          "Shape": "EPhyCollisionShape::Spherical"
+        },
+        "DampingCurve": null,
+        "WorldDampingLocationCurve": null,
+        "WorldDampingRotationCurve": null,
+        "StiffnessCurve": null,
+        "RadiusCurve": null,
+        "HalfWidthCurve": null,
+        "LimitAngleCurve": null,
+        "bUpdatePhysicsSettingsInGame": true,
+        "DummyBoneLength": 4.0,
+        "BoneForwardAxis": "EBoneForwardAxis::X_Positive",
+        "PlanarConstraint": "EPlanarConstraint::None",
+        "SphericalLimits": [
+          {
+            "Radius": 7.25,
+            "LimitType": "ESphericalLimitType::Outer",
+            "DrivingBone": {
+              "BoneName": "Bip001Head"
+            },
+            "OffsetLocation": {
+              "X": 4.420325,
+              "Y": -0.29909,
+              "Z": 0.074466
+            },
+            "OffsetRotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          }
+        ],
+        "CapsuleLimits": [
+          {
+            "Radius": 4.75,
+            "Length": 7.25,
+            "DrivingBone": {
+              "BoneName": "Bip001Spine2"
+            },
+            "OffsetLocation": {
+              "X": 9.621652,
+              "Y": 1.700913,
+              "Z": -0.18439025
+            },
+            "OffsetRotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          }
+        ],
+        "PlanarLimits": [],
+        "LimitsDataAsset": null,
+        "SphericalLimitsData": [],
+        "CapsuleLimitsData": [],
+        "PlanarLimitsData": [],
+        "TeleportDistanceThreshold": 300.0,
+        "TeleportRotationThreshold": 10.0,
+        "Gravity": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "bEnableWind": false,
+        "WindScale": 1.0,
+        "ModifyBones": [],
+        "bEnableSimulate": true,
+        "AlphaScale": 1.0,
+        "TotalBoneLength": 0.0,
+        "PreSkelCompTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "bInitPhysicsSettings": false,
+        "ComponentPose": {
+          "LinkID": 14
+        },
+        "LODThreshold": -1,
+        "KuroLODMask": 1,
+        "ActualAlpha": 0.0,
+        "AlphaInputType": "EAnimAlphaInputType::Float",
+        "bAlphaBoolEnabled": true,
+        "bParallelEvalEnabled": true,
+        "bEnableOnMobile": true,
+        "Alpha": 0.5,
+        "AlphaScaleBias": {
+          "Scale": 1.0,
+          "Bias": 0.0
+        },
+        "AlphaBoolBlend": {
+          "BlendInTime": 0.0,
+          "BlendOutTime": 0.0,
+          "BlendOption": "EAlphaBlendOption::Linear",
+          "bInitialized": false,
+          "CustomCurve": null,
+          "AlphaBlend": {
+            "CustomCurve": null,
+            "BlendTime": 0.2,
+            "BlendOption": "EAlphaBlendOption::Linear"
+          }
+        },
+        "AlphaCurveName": "None",
+        "AlphaScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        }
+      },
+      "AnimGraphNode_KawaiiPhysicsGroup_8": {
+        "RootBones": [
+          {
+            "BoneName": "Bone_Piao061_R"
+          },
+          {
+            "BoneName": "Bone_Piao061_L"
+          },
+          {
+            "BoneName": "Bone_Piao072_L"
+          },
+          {
+            "BoneName": "Bone_Piao072_R"
+          },
+          {
+            "BoneName": "Bone_Piao082_L"
+          },
+          {
+            "BoneName": "Bone_Piao082_R"
+          },
+          {
+            "BoneName": "Bone_Piao092_L"
+          },
+          {
+            "BoneName": "Bone_Piao092_R"
+          }
+        ],
+        "WindCurve": null,
+        "StandardWindSpeed": 100.0,
+        "DistanceToWindRate": 1000.0,
+        "ExcludeBones": [],
+        "TargetFramerate": 60,
+        "OverrideTargetFramerate": false,
+        "IgnoreMechanicsLevel": 0,
+        "bNewIgnoreMechanics": false,
+        "PhysicsSettings": {
+          "Damping": 0.3,
+          "WorldDampingLocation": 0.8,
+          "WorldDampingRotation": 0.8,
+          "Stiffness": 0.2,
+          "Radius": 2.0,
+          "LimitAngle": 30.0,
+          "HalfWidth": 5.0,
+          "Shape": "EPhyCollisionShape::Spherical"
+        },
+        "DampingCurve": null,
+        "WorldDampingLocationCurve": null,
+        "WorldDampingRotationCurve": null,
+        "StiffnessCurve": null,
+        "RadiusCurve": null,
+        "HalfWidthCurve": null,
+        "LimitAngleCurve": null,
+        "bUpdatePhysicsSettingsInGame": true,
+        "DummyBoneLength": 7.5,
+        "BoneForwardAxis": "EBoneForwardAxis::X_Positive",
+        "PlanarConstraint": "EPlanarConstraint::None",
+        "SphericalLimits": [],
+        "CapsuleLimits": [
+          {
+            "Radius": 3.25,
+            "Length": 8.5,
+            "DrivingBone": {
+              "BoneName": "Bip001RUpperArm"
+            },
+            "OffsetLocation": {
+              "X": 10.553336,
+              "Y": -0.016261,
+              "Z": -0.130366
+            },
+            "OffsetRotation": {
+              "Pitch": -90.0,
+              "Yaw": 90.15285,
+              "Roll": -90.24115
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          },
+          {
+            "Radius": 3.25,
+            "Length": 8.75,
+            "DrivingBone": {
+              "BoneName": "Bip001LUpperArm"
+            },
+            "OffsetLocation": {
+              "X": 9.694736,
+              "Y": 0.219837,
+              "Z": -0.083845
+            },
+            "OffsetRotation": {
+              "Pitch": -90.0,
+              "Yaw": 90.15285,
+              "Roll": -90.24115
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          },
+          {
+            "Radius": 3.0,
+            "Length": 15.75,
+            "DrivingBone": {
+              "BoneName": "Bip001LForearm"
+            },
+            "OffsetLocation": {
+              "X": 8.702123,
+              "Y": -0.086768,
+              "Z": 0.094268
+            },
+            "OffsetRotation": {
+              "Pitch": -90.0,
+              "Yaw": -90.16176,
+              "Roll": 90.263084
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          },
+          {
+            "Radius": 3.0,
+            "Length": 15.75,
+            "DrivingBone": {
+              "BoneName": "Bip001RForearm"
+            },
+            "OffsetLocation": {
+              "X": 8.702123,
+              "Y": -0.086768,
+              "Z": 0.094268
+            },
+            "OffsetRotation": {
+              "Pitch": -90.0,
+              "Yaw": -90.16176,
+              "Roll": 90.263084
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          }
+        ],
+        "PlanarLimits": [],
+        "LimitsDataAsset": null,
+        "SphericalLimitsData": [],
+        "CapsuleLimitsData": [],
+        "PlanarLimitsData": [],
+        "TeleportDistanceThreshold": 300.0,
+        "TeleportRotationThreshold": 10.0,
+        "Gravity": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "bEnableWind": false,
+        "WindScale": 1.0,
+        "ModifyBones": [],
+        "bEnableSimulate": true,
+        "AlphaScale": 1.0,
+        "TotalBoneLength": 0.0,
+        "PreSkelCompTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "bInitPhysicsSettings": false,
+        "ComponentPose": {
+          "LinkID": 5
+        },
+        "LODThreshold": -1,
+        "KuroLODMask": 1,
+        "ActualAlpha": 0.0,
+        "AlphaInputType": "EAnimAlphaInputType::Float",
+        "bAlphaBoolEnabled": true,
+        "bParallelEvalEnabled": true,
+        "bEnableOnMobile": true,
+        "Alpha": 0.5,
+        "AlphaScaleBias": {
+          "Scale": 1.0,
+          "Bias": 0.0
+        },
+        "AlphaBoolBlend": {
+          "BlendInTime": 0.0,
+          "BlendOutTime": 0.0,
+          "BlendOption": "EAlphaBlendOption::Linear",
+          "bInitialized": false,
+          "CustomCurve": null,
+          "AlphaBlend": {
+            "CustomCurve": null,
+            "BlendTime": 0.2,
+            "BlendOption": "EAlphaBlendOption::Linear"
+          }
+        },
+        "AlphaCurveName": "None",
+        "AlphaScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        }
+      },
+      "AnimGraphNode_MountBuffer": {
+        "MountBone": {
+          "BoneName": "WeaponProp03"
+        },
+        "PowerIntensity": 6.0,
+        "AirResistance": 0.5,
+        "MetaDeltaTime": 0.07,
+        "InertanceIntensity": 10.0,
+        "ComponentPose": {
+          "LinkID": 12
+        },
+        "LODThreshold": -1,
+        "KuroLODMask": 0,
+        "ActualAlpha": 0.0,
+        "AlphaInputType": "EAnimAlphaInputType::Float",
+        "bAlphaBoolEnabled": true,
+        "bParallelEvalEnabled": false,
+        "bEnableOnMobile": true,
+        "Alpha": 1.0,
+        "AlphaScaleBias": {
+          "Scale": 1.0,
+          "Bias": 0.0
+        },
+        "AlphaBoolBlend": {
+          "BlendInTime": 0.0,
+          "BlendOutTime": 0.0,
+          "BlendOption": "EAlphaBlendOption::Linear",
+          "bInitialized": false,
+          "CustomCurve": null,
+          "AlphaBlend": {
+            "CustomCurve": null,
+            "BlendTime": 0.2,
+            "BlendOption": "EAlphaBlendOption::Linear"
+          }
+        },
+        "AlphaCurveName": "None",
+        "AlphaScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        }
+      },
+      "AnimGraphNode_KawaiiPhysicsGroup_7": {
+        "RootBones": [
+          {
+            "BoneName": "Bone_Chest001_R"
+          },
+          {
+            "BoneName": "Bone_Chest001_L"
+          }
+        ],
+        "WindCurve": null,
+        "StandardWindSpeed": 100.0,
+        "DistanceToWindRate": 1000.0,
+        "ExcludeBones": [],
+        "TargetFramerate": 60,
+        "OverrideTargetFramerate": false,
+        "IgnoreMechanicsLevel": 0,
+        "bNewIgnoreMechanics": false,
+        "PhysicsSettings": {
+          "Damping": 0.5,
+          "WorldDampingLocation": 0.8,
+          "WorldDampingRotation": 0.8,
+          "Stiffness": 0.15,
+          "Radius": 1.0,
+          "LimitAngle": 15.0,
+          "HalfWidth": 5.0,
+          "Shape": "EPhyCollisionShape::Spherical"
+        },
+        "DampingCurve": null,
+        "WorldDampingLocationCurve": null,
+        "WorldDampingRotationCurve": null,
+        "StiffnessCurve": null,
+        "RadiusCurve": null,
+        "HalfWidthCurve": null,
+        "LimitAngleCurve": null,
+        "bUpdatePhysicsSettingsInGame": true,
+        "DummyBoneLength": 5.0,
+        "BoneForwardAxis": "EBoneForwardAxis::X_Positive",
+        "PlanarConstraint": "EPlanarConstraint::None",
+        "SphericalLimits": [],
+        "CapsuleLimits": [],
+        "PlanarLimits": [],
+        "LimitsDataAsset": null,
+        "SphericalLimitsData": [],
+        "CapsuleLimitsData": [],
+        "PlanarLimitsData": [],
+        "TeleportDistanceThreshold": 0.0,
+        "TeleportRotationThreshold": 0.0,
+        "Gravity": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "bEnableWind": false,
+        "WindScale": 1.0,
+        "ModifyBones": [],
+        "bEnableSimulate": true,
+        "AlphaScale": 1.0,
+        "TotalBoneLength": 0.0,
+        "PreSkelCompTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "bInitPhysicsSettings": false,
+        "ComponentPose": {
+          "LinkID": 6
+        },
+        "LODThreshold": -1,
+        "KuroLODMask": 0,
+        "ActualAlpha": 0.0,
+        "AlphaInputType": "EAnimAlphaInputType::Float",
+        "bAlphaBoolEnabled": true,
+        "bParallelEvalEnabled": true,
+        "bEnableOnMobile": true,
+        "Alpha": 0.5,
+        "AlphaScaleBias": {
+          "Scale": 1.0,
+          "Bias": 0.0
+        },
+        "AlphaBoolBlend": {
+          "BlendInTime": 0.0,
+          "BlendOutTime": 0.0,
+          "BlendOption": "EAlphaBlendOption::Linear",
+          "bInitialized": false,
+          "CustomCurve": null,
+          "AlphaBlend": {
+            "CustomCurve": null,
+            "BlendTime": 0.2,
+            "BlendOption": "EAlphaBlendOption::Linear"
+          }
+        },
+        "AlphaCurveName": "None",
+        "AlphaScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        }
+      },
+      "AnimGraphNode_KawaiiPhysicsGroup_6": {
+        "RootBones": [
+          {
+            "BoneName": "Bone_Skirt032_L"
+          },
+          {
+            "BoneName": "Bone_Skirt032_R"
+          },
+          {
+            "BoneName": "Bone_Skirt002_L"
+          },
+          {
+            "BoneName": "Bone_Skirt003_R"
+          }
+        ],
+        "WindCurve": null,
+        "StandardWindSpeed": 100.0,
+        "DistanceToWindRate": 1000.0,
+        "ExcludeBones": [],
+        "TargetFramerate": 60,
+        "OverrideTargetFramerate": false,
+        "IgnoreMechanicsLevel": 3,
+        "bNewIgnoreMechanics": false,
+        "PhysicsSettings": {
+          "Damping": 0.2,
+          "WorldDampingLocation": 0.8,
+          "WorldDampingRotation": 0.8,
+          "Stiffness": 0.2,
+          "Radius": 1.5,
+          "LimitAngle": 30.0,
+          "HalfWidth": 5.0,
+          "Shape": "EPhyCollisionShape::Planar"
+        },
+        "DampingCurve": null,
+        "WorldDampingLocationCurve": null,
+        "WorldDampingRotationCurve": null,
+        "StiffnessCurve": null,
+        "RadiusCurve": null,
+        "HalfWidthCurve": null,
+        "LimitAngleCurve": null,
+        "bUpdatePhysicsSettingsInGame": true,
+        "DummyBoneLength": 10.0,
+        "BoneForwardAxis": "EBoneForwardAxis::X_Positive",
+        "PlanarConstraint": "EPlanarConstraint::None",
+        "SphericalLimits": [],
+        "CapsuleLimits": [
+          {
+            "Radius": 6.25,
+            "Length": 31.5,
+            "DrivingBone": {
+              "BoneName": "Bip001RThigh"
+            },
+            "OffsetLocation": {
+              "X": 17.160252,
+              "Y": 0.374485,
+              "Z": 0.050231
+            },
+            "OffsetRotation": {
+              "Pitch": 90.0,
+              "Yaw": -24.482464,
+              "Roll": -27.740631
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          },
+          {
+            "Radius": 6.2729564,
+            "Length": 31.5,
+            "DrivingBone": {
+              "BoneName": "Bip001LThigh"
+            },
+            "OffsetLocation": {
+              "X": 17.893631,
+              "Y": -0.24984722,
+              "Z": 1.2069286
+            },
+            "OffsetRotation": {
+              "Pitch": 89.19837,
+              "Yaw": -28.79474,
+              "Roll": -36.83175
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          }
+        ],
+        "PlanarLimits": [],
+        "LimitsDataAsset": null,
+        "SphericalLimitsData": [],
+        "CapsuleLimitsData": [],
+        "PlanarLimitsData": [],
+        "TeleportDistanceThreshold": 300.0,
+        "TeleportRotationThreshold": 10.0,
+        "Gravity": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "bEnableWind": false,
+        "WindScale": 1.0,
+        "ModifyBones": [],
+        "bEnableSimulate": true,
+        "AlphaScale": 1.0,
+        "TotalBoneLength": 0.0,
+        "PreSkelCompTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "bInitPhysicsSettings": false,
+        "ComponentPose": {
+          "LinkID": 15
+        },
+        "LODThreshold": -1,
+        "KuroLODMask": 1,
+        "ActualAlpha": 0.0,
+        "AlphaInputType": "EAnimAlphaInputType::Curve",
+        "bAlphaBoolEnabled": true,
+        "bParallelEvalEnabled": true,
+        "bEnableOnMobile": true,
+        "Alpha": 0.5,
+        "AlphaScaleBias": {
+          "Scale": 1.0,
+          "Bias": 0.0
+        },
+        "AlphaBoolBlend": {
+          "BlendInTime": 0.0,
+          "BlendOutTime": 0.0,
+          "BlendOption": "EAlphaBlendOption::Linear",
+          "bInitialized": false,
+          "CustomCurve": null,
+          "AlphaBlend": {
+            "CustomCurve": null,
+            "BlendTime": 0.2,
+            "BlendOption": "EAlphaBlendOption::Linear"
+          }
+        },
+        "AlphaCurveName": "Kawaii_alpha_chazhi",
+        "AlphaScaleBiasClamp": {
+          "bMapRange": true,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.5,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        }
+      },
+      "AnimGraphNode_KawaiiPhysicsGroup_5": {
+        "RootBones": [
+          {
+            "BoneName": "Bone_Piao164_L"
+          },
+          {
+            "BoneName": "Bone_Piao164_R"
+          }
+        ],
+        "WindCurve": null,
+        "StandardWindSpeed": 100.0,
+        "DistanceToWindRate": 1000.0,
+        "ExcludeBones": [],
+        "TargetFramerate": 60,
+        "OverrideTargetFramerate": false,
+        "IgnoreMechanicsLevel": 0,
+        "bNewIgnoreMechanics": false,
+        "PhysicsSettings": {
+          "Damping": 0.2,
+          "WorldDampingLocation": 0.8,
+          "WorldDampingRotation": 0.8,
+          "Stiffness": 0.2,
+          "Radius": 3.0,
+          "LimitAngle": 30.0,
+          "HalfWidth": 5.0,
+          "Shape": "EPhyCollisionShape::Spherical"
+        },
+        "DampingCurve": null,
+        "WorldDampingLocationCurve": null,
+        "WorldDampingRotationCurve": null,
+        "StiffnessCurve": null,
+        "RadiusCurve": null,
+        "HalfWidthCurve": null,
+        "LimitAngleCurve": null,
+        "bUpdatePhysicsSettingsInGame": true,
+        "DummyBoneLength": 5.0,
+        "BoneForwardAxis": "EBoneForwardAxis::X_Positive",
+        "PlanarConstraint": "EPlanarConstraint::None",
+        "SphericalLimits": [],
+        "CapsuleLimits": [
+          {
+            "Radius": 6.25,
+            "Length": 31.5,
+            "DrivingBone": {
+              "BoneName": "Bip001RThigh"
+            },
+            "OffsetLocation": {
+              "X": 17.160252,
+              "Y": 0.374485,
+              "Z": 0.050231
+            },
+            "OffsetRotation": {
+              "Pitch": 90.0,
+              "Yaw": 91.199646,
+              "Roll": 91.20709
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          },
+          {
+            "Radius": 6.25,
+            "Length": 31.5,
+            "DrivingBone": {
+              "BoneName": "Bip001LThigh"
+            },
+            "OffsetLocation": {
+              "X": 17.703098,
+              "Y": 0.60624,
+              "Z": 0.049623
+            },
+            "OffsetRotation": {
+              "Pitch": 90.0,
+              "Yaw": 91.199646,
+              "Roll": 91.20709
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          }
+        ],
+        "PlanarLimits": [],
+        "LimitsDataAsset": null,
+        "SphericalLimitsData": [],
+        "CapsuleLimitsData": [],
+        "PlanarLimitsData": [],
+        "TeleportDistanceThreshold": 300.0,
+        "TeleportRotationThreshold": 10.0,
+        "Gravity": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "bEnableWind": false,
+        "WindScale": 1.0,
+        "ModifyBones": [],
+        "bEnableSimulate": true,
+        "AlphaScale": 1.0,
+        "TotalBoneLength": 0.0,
+        "PreSkelCompTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "bInitPhysicsSettings": false,
+        "ComponentPose": {
+          "LinkID": 11
+        },
+        "LODThreshold": -1,
+        "KuroLODMask": 1,
+        "ActualAlpha": 0.0,
+        "AlphaInputType": "EAnimAlphaInputType::Float",
+        "bAlphaBoolEnabled": true,
+        "bParallelEvalEnabled": true,
+        "bEnableOnMobile": true,
+        "Alpha": 0.5,
+        "AlphaScaleBias": {
+          "Scale": 1.0,
+          "Bias": 0.0
+        },
+        "AlphaBoolBlend": {
+          "BlendInTime": 0.0,
+          "BlendOutTime": 0.0,
+          "BlendOption": "EAlphaBlendOption::Linear",
+          "bInitialized": false,
+          "CustomCurve": null,
+          "AlphaBlend": {
+            "CustomCurve": null,
+            "BlendTime": 0.2,
+            "BlendOption": "EAlphaBlendOption::Linear"
+          }
+        },
+        "AlphaCurveName": "None",
+        "AlphaScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        }
+      },
+      "AnimGraphNode_KawaiiPhysicsGroup_4": {
+        "RootBones": [
+          {
+            "BoneName": "Bone_Piao147_L"
+          },
+          {
+            "BoneName": "Bone_Piao147_R"
+          },
+          {
+            "BoneName": "Bone_Skirt015_L"
+          },
+          {
+            "BoneName": "Bone_Skirt015_R"
+          }
+        ],
+        "WindCurve": null,
+        "StandardWindSpeed": 100.0,
+        "DistanceToWindRate": 1000.0,
+        "ExcludeBones": [],
+        "TargetFramerate": 60,
+        "OverrideTargetFramerate": false,
+        "IgnoreMechanicsLevel": 0,
+        "bNewIgnoreMechanics": false,
+        "PhysicsSettings": {
+          "Damping": 0.2,
+          "WorldDampingLocation": 0.8,
+          "WorldDampingRotation": 0.8,
+          "Stiffness": 0.2,
+          "Radius": 3.0,
+          "LimitAngle": 30.0,
+          "HalfWidth": 5.0,
+          "Shape": "EPhyCollisionShape::Spherical"
+        },
+        "DampingCurve": null,
+        "WorldDampingLocationCurve": null,
+        "WorldDampingRotationCurve": null,
+        "StiffnessCurve": null,
+        "RadiusCurve": null,
+        "HalfWidthCurve": null,
+        "LimitAngleCurve": null,
+        "bUpdatePhysicsSettingsInGame": true,
+        "DummyBoneLength": 17.0,
+        "BoneForwardAxis": "EBoneForwardAxis::X_Positive",
+        "PlanarConstraint": "EPlanarConstraint::None",
+        "SphericalLimits": [],
+        "CapsuleLimits": [
+          {
+            "Radius": 6.25,
+            "Length": 31.5,
+            "DrivingBone": {
+              "BoneName": "Bip001RThigh"
+            },
+            "OffsetLocation": {
+              "X": 17.160252,
+              "Y": 0.374485,
+              "Z": 0.050231
+            },
+            "OffsetRotation": {
+              "Pitch": 90.0,
+              "Yaw": 91.199646,
+              "Roll": 91.20709
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          },
+          {
+            "Radius": 6.25,
+            "Length": 31.5,
+            "DrivingBone": {
+              "BoneName": "Bip001LThigh"
+            },
+            "OffsetLocation": {
+              "X": 17.703098,
+              "Y": 0.60624,
+              "Z": 0.049623
+            },
+            "OffsetRotation": {
+              "Pitch": 90.0,
+              "Yaw": 91.199646,
+              "Roll": 91.20709
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          }
+        ],
+        "PlanarLimits": [],
+        "LimitsDataAsset": null,
+        "SphericalLimitsData": [],
+        "CapsuleLimitsData": [],
+        "PlanarLimitsData": [],
+        "TeleportDistanceThreshold": 300.0,
+        "TeleportRotationThreshold": 10.0,
+        "Gravity": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "bEnableWind": false,
+        "WindScale": 1.0,
+        "ModifyBones": [],
+        "bEnableSimulate": true,
+        "AlphaScale": 1.0,
+        "TotalBoneLength": 0.0,
+        "PreSkelCompTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "bInitPhysicsSettings": false,
+        "ComponentPose": {
+          "LinkID": 8
+        },
+        "LODThreshold": -1,
+        "KuroLODMask": 1,
+        "ActualAlpha": 0.0,
+        "AlphaInputType": "EAnimAlphaInputType::Float",
+        "bAlphaBoolEnabled": true,
+        "bParallelEvalEnabled": true,
+        "bEnableOnMobile": true,
+        "Alpha": 0.5,
+        "AlphaScaleBias": {
+          "Scale": 1.0,
+          "Bias": 0.0
+        },
+        "AlphaBoolBlend": {
+          "BlendInTime": 0.0,
+          "BlendOutTime": 0.0,
+          "BlendOption": "EAlphaBlendOption::Linear",
+          "bInitialized": false,
+          "CustomCurve": null,
+          "AlphaBlend": {
+            "CustomCurve": null,
+            "BlendTime": 0.2,
+            "BlendOption": "EAlphaBlendOption::Linear"
+          }
+        },
+        "AlphaCurveName": "None",
+        "AlphaScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        }
+      },
+      "AnimGraphNode_KawaiiPhysicsGroup_3": {
+        "RootBones": [
+          {
+            "BoneName": "Bone_Piao104_L"
+          },
+          {
+            "BoneName": "Bone_Piao104_R"
+          }
+        ],
+        "WindCurve": null,
+        "StandardWindSpeed": 100.0,
+        "DistanceToWindRate": 1000.0,
+        "ExcludeBones": [],
+        "TargetFramerate": 60,
+        "OverrideTargetFramerate": false,
+        "IgnoreMechanicsLevel": 2,
+        "bNewIgnoreMechanics": false,
+        "PhysicsSettings": {
+          "Damping": 0.2,
+          "WorldDampingLocation": 0.8,
+          "WorldDampingRotation": 0.8,
+          "Stiffness": 0.2,
+          "Radius": 3.0,
+          "LimitAngle": 30.0,
+          "HalfWidth": 5.0,
+          "Shape": "EPhyCollisionShape::Spherical"
+        },
+        "DampingCurve": null,
+        "WorldDampingLocationCurve": null,
+        "WorldDampingRotationCurve": null,
+        "StiffnessCurve": null,
+        "RadiusCurve": null,
+        "HalfWidthCurve": null,
+        "LimitAngleCurve": null,
+        "bUpdatePhysicsSettingsInGame": true,
+        "DummyBoneLength": 5.0,
+        "BoneForwardAxis": "EBoneForwardAxis::X_Positive",
+        "PlanarConstraint": "EPlanarConstraint::None",
+        "SphericalLimits": [],
+        "CapsuleLimits": [
+          {
+            "Radius": 6.25,
+            "Length": 31.5,
+            "DrivingBone": {
+              "BoneName": "Bip001RThigh"
+            },
+            "OffsetLocation": {
+              "X": 17.160252,
+              "Y": 0.374485,
+              "Z": 0.050231
+            },
+            "OffsetRotation": {
+              "Pitch": 90.0,
+              "Yaw": 91.199646,
+              "Roll": 91.20709
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          },
+          {
+            "Radius": 6.596175,
+            "Length": 31.5,
+            "DrivingBone": {
+              "BoneName": "Bip001LThigh"
+            },
+            "OffsetLocation": {
+              "X": 17.724522,
+              "Y": 0.74429333,
+              "Z": -0.5072554
+            },
+            "OffsetRotation": {
+              "Pitch": 88.335976,
+              "Yaw": -172.02832,
+              "Roll": 179.98674
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          }
+        ],
+        "PlanarLimits": [],
+        "LimitsDataAsset": null,
+        "SphericalLimitsData": [],
+        "CapsuleLimitsData": [],
+        "PlanarLimitsData": [],
+        "TeleportDistanceThreshold": 300.0,
+        "TeleportRotationThreshold": 10.0,
+        "Gravity": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "bEnableWind": false,
+        "WindScale": 1.0,
+        "ModifyBones": [],
+        "bEnableSimulate": true,
+        "AlphaScale": 1.0,
+        "TotalBoneLength": 0.0,
+        "PreSkelCompTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "bInitPhysicsSettings": false,
+        "ComponentPose": {
+          "LinkID": 9
+        },
+        "LODThreshold": -1,
+        "KuroLODMask": 1,
+        "ActualAlpha": 0.0,
+        "AlphaInputType": "EAnimAlphaInputType::Curve",
+        "bAlphaBoolEnabled": true,
+        "bParallelEvalEnabled": true,
+        "bEnableOnMobile": true,
+        "Alpha": 0.5,
+        "AlphaScaleBias": {
+          "Scale": 1.0,
+          "Bias": 0.0
+        },
+        "AlphaBoolBlend": {
+          "BlendInTime": 0.0,
+          "BlendOutTime": 0.0,
+          "BlendOption": "EAlphaBlendOption::Linear",
+          "bInitialized": false,
+          "CustomCurve": null,
+          "AlphaBlend": {
+            "CustomCurve": null,
+            "BlendTime": 0.2,
+            "BlendOption": "EAlphaBlendOption::Linear"
+          }
+        },
+        "AlphaCurveName": "Kawaii_alpha_chazhi",
+        "AlphaScaleBiasClamp": {
+          "bMapRange": true,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.5,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        }
+      },
+      "AnimGraphNode_KawaiiPhysicsGroup_2": {
+        "RootBones": [
+          {
+            "BoneName": "Bone_Piao172_L"
+          }
+        ],
+        "WindCurve": null,
+        "StandardWindSpeed": 100.0,
+        "DistanceToWindRate": 1000.0,
+        "ExcludeBones": [],
+        "TargetFramerate": 60,
+        "OverrideTargetFramerate": false,
+        "IgnoreMechanicsLevel": 0,
+        "bNewIgnoreMechanics": false,
+        "PhysicsSettings": {
+          "Damping": 0.25,
+          "WorldDampingLocation": 0.8,
+          "WorldDampingRotation": 0.8,
+          "Stiffness": 0.4,
+          "Radius": 3.0,
+          "LimitAngle": 30.0,
+          "HalfWidth": 5.0,
+          "Shape": "EPhyCollisionShape::Spherical"
+        },
+        "DampingCurve": null,
+        "WorldDampingLocationCurve": null,
+        "WorldDampingRotationCurve": null,
+        "StiffnessCurve": null,
+        "RadiusCurve": null,
+        "HalfWidthCurve": null,
+        "LimitAngleCurve": null,
+        "bUpdatePhysicsSettingsInGame": true,
+        "DummyBoneLength": 7.5,
+        "BoneForwardAxis": "EBoneForwardAxis::X_Positive",
+        "PlanarConstraint": "EPlanarConstraint::None",
+        "SphericalLimits": [],
+        "CapsuleLimits": [
+          {
+            "Radius": 7.785571,
+            "Length": 11.244062,
+            "DrivingBone": {
+              "BoneName": "Bip001Pelvis"
+            },
+            "OffsetLocation": {
+              "X": 2.569417,
+              "Y": -0.54781073,
+              "Z": 0.7892607
+            },
+            "OffsetRotation": {
+              "Pitch": -1.555152,
+              "Yaw": 0.0011760411,
+              "Roll": 2.1663549E-05
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          },
+          {
+            "Radius": 8.362782,
+            "Length": 9.46291,
+            "DrivingBone": {
+              "BoneName": "Bip001Spine"
+            },
+            "OffsetLocation": {
+              "X": 6.517839,
+              "Y": -0.027929038,
+              "Z": 1.5609163
+            },
+            "OffsetRotation": {
+              "Pitch": 0.00012977359,
+              "Yaw": 1.35923765E-05,
+              "Roll": 1.944193
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          }
+        ],
+        "PlanarLimits": [],
+        "LimitsDataAsset": null,
+        "SphericalLimitsData": [],
+        "CapsuleLimitsData": [],
+        "PlanarLimitsData": [],
+        "TeleportDistanceThreshold": 300.0,
+        "TeleportRotationThreshold": 10.0,
+        "Gravity": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "bEnableWind": false,
+        "WindScale": 1.0,
+        "ModifyBones": [],
+        "bEnableSimulate": true,
+        "AlphaScale": 1.0,
+        "TotalBoneLength": 0.0,
+        "PreSkelCompTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "bInitPhysicsSettings": false,
+        "ComponentPose": {
+          "LinkID": 10
+        },
+        "LODThreshold": -1,
+        "KuroLODMask": 1,
+        "ActualAlpha": 0.0,
+        "AlphaInputType": "EAnimAlphaInputType::Curve",
+        "bAlphaBoolEnabled": true,
+        "bParallelEvalEnabled": true,
+        "bEnableOnMobile": true,
+        "Alpha": 1.0,
+        "AlphaScaleBias": {
+          "Scale": 1.0,
+          "Bias": 0.0
+        },
+        "AlphaBoolBlend": {
+          "BlendInTime": 0.0,
+          "BlendOutTime": 0.0,
+          "BlendOption": "EAlphaBlendOption::Linear",
+          "bInitialized": false,
+          "CustomCurve": null,
+          "AlphaBlend": {
+            "CustomCurve": null,
+            "BlendTime": 0.2,
+            "BlendOption": "EAlphaBlendOption::Linear"
+          }
+        },
+        "AlphaCurveName": "Kawaii_alpha_jianxin",
+        "AlphaScaleBiasClamp": {
+          "bMapRange": true,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 1.0,
+            "Max": 0.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        }
+      },
+      "AnimGraphNode_KawaiiPhysicsGroup_1": {
+        "RootBones": [
+          {
+            "BoneName": "Bone_Hair024_L"
+          },
+          {
+            "BoneName": "Bone_Hair024_R"
+          }
+        ],
+        "WindCurve": null,
+        "StandardWindSpeed": 100.0,
+        "DistanceToWindRate": 1000.0,
+        "ExcludeBones": [],
+        "TargetFramerate": 60,
+        "OverrideTargetFramerate": false,
+        "IgnoreMechanicsLevel": 0,
+        "bNewIgnoreMechanics": false,
+        "PhysicsSettings": {
+          "Damping": 0.3,
+          "WorldDampingLocation": 0.8,
+          "WorldDampingRotation": 0.8,
+          "Stiffness": 0.2,
+          "Radius": 3.5,
+          "LimitAngle": 30.0,
+          "HalfWidth": 5.0,
+          "Shape": "EPhyCollisionShape::Spherical"
+        },
+        "DampingCurve": null,
+        "WorldDampingLocationCurve": null,
+        "WorldDampingRotationCurve": null,
+        "StiffnessCurve": null,
+        "RadiusCurve": null,
+        "HalfWidthCurve": null,
+        "LimitAngleCurve": null,
+        "bUpdatePhysicsSettingsInGame": true,
+        "DummyBoneLength": 12.0,
+        "BoneForwardAxis": "EBoneForwardAxis::X_Positive",
+        "PlanarConstraint": "EPlanarConstraint::None",
+        "SphericalLimits": [],
+        "CapsuleLimits": [
+          {
+            "Radius": 7.0,
+            "Length": 5.25,
+            "DrivingBone": {
+              "BoneName": "Bip001Spine2"
+            },
+            "OffsetLocation": {
+              "X": 5.920845,
+              "Y": 0.380208,
+              "Z": -0.688098
+            },
+            "OffsetRotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          },
+          {
+            "Radius": 6.5,
+            "Length": 4.75,
+            "DrivingBone": {
+              "BoneName": "Bip001Spine1"
+            },
+            "OffsetLocation": {
+              "X": 4.283049,
+              "Y": 1.090469,
+              "Z": -0.17261
+            },
+            "OffsetRotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          },
+          {
+            "Radius": 4.0,
+            "Length": 4.75,
+            "DrivingBone": {
+              "BoneName": "Bip001RClavicle"
+            },
+            "OffsetLocation": {
+              "X": 5.946535,
+              "Y": 0.437787,
+              "Z": 0.051069
+            },
+            "OffsetRotation": {
+              "Pitch": -79.9999,
+              "Yaw": 0.022266,
+              "Roll": -0.00203
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          },
+          {
+            "Radius": 4.0,
+            "Length": 4.25,
+            "DrivingBone": {
+              "BoneName": "Bip001LClavicle"
+            },
+            "OffsetLocation": {
+              "X": 5.849127,
+              "Y": 0.062906,
+              "Z": -0.515267
+            },
+            "OffsetRotation": {
+              "Pitch": 79.99975,
+              "Yaw": 0.063188,
+              "Roll": 0.020482
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          },
+          {
+            "Radius": 3.25,
+            "Length": 16.5,
+            "DrivingBone": {
+              "BoneName": "Bip001RUpperArm"
+            },
+            "OffsetLocation": {
+              "X": 9.739417,
+              "Y": 0.042781,
+              "Z": -0.005523
+            },
+            "OffsetRotation": {
+              "Pitch": -90.0,
+              "Yaw": -90.99254,
+              "Roll": 91.00826
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          },
+          {
+            "Radius": 3.25,
+            "Length": 16.5,
+            "DrivingBone": {
+              "BoneName": "Bip001LUpperArm"
+            },
+            "OffsetLocation": {
+              "X": 9.739417,
+              "Y": 0.042781,
+              "Z": -0.005523
+            },
+            "OffsetRotation": {
+              "Pitch": -90.0,
+              "Yaw": -90.99254,
+              "Roll": 91.00826
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          }
+        ],
+        "PlanarLimits": [],
+        "LimitsDataAsset": null,
+        "SphericalLimitsData": [],
+        "CapsuleLimitsData": [],
+        "PlanarLimitsData": [],
+        "TeleportDistanceThreshold": 300.0,
+        "TeleportRotationThreshold": 10.0,
+        "Gravity": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "bEnableWind": false,
+        "WindScale": 1.0,
+        "ModifyBones": [],
+        "bEnableSimulate": true,
+        "AlphaScale": 1.0,
+        "TotalBoneLength": 0.0,
+        "PreSkelCompTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "bInitPhysicsSettings": false,
+        "ComponentPose": {
+          "LinkID": 4
+        },
+        "LODThreshold": -1,
+        "KuroLODMask": 1,
+        "ActualAlpha": 0.0,
+        "AlphaInputType": "EAnimAlphaInputType::Float",
+        "bAlphaBoolEnabled": true,
+        "bParallelEvalEnabled": true,
+        "bEnableOnMobile": true,
+        "Alpha": 0.5,
+        "AlphaScaleBias": {
+          "Scale": 1.0,
+          "Bias": 0.0
+        },
+        "AlphaBoolBlend": {
+          "BlendInTime": 0.0,
+          "BlendOutTime": 0.0,
+          "BlendOption": "EAlphaBlendOption::Linear",
+          "bInitialized": false,
+          "CustomCurve": null,
+          "AlphaBlend": {
+            "CustomCurve": null,
+            "BlendTime": 0.2,
+            "BlendOption": "EAlphaBlendOption::Linear"
+          }
+        },
+        "AlphaCurveName": "None",
+        "AlphaScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        }
+      },
+      "AnimGraphNode_KawaiiPhysicsGroup": {
+        "RootBones": [
+          {
+            "BoneName": "Bone_Piao172_R"
+          }
+        ],
+        "WindCurve": null,
+        "StandardWindSpeed": 100.0,
+        "DistanceToWindRate": 1000.0,
+        "ExcludeBones": [],
+        "TargetFramerate": 60,
+        "OverrideTargetFramerate": false,
+        "IgnoreMechanicsLevel": 0,
+        "bNewIgnoreMechanics": false,
+        "PhysicsSettings": {
+          "Damping": 0.4,
+          "WorldDampingLocation": 0.8,
+          "WorldDampingRotation": 0.8,
+          "Stiffness": 0.2,
+          "Radius": 3.0,
+          "LimitAngle": 30.0,
+          "HalfWidth": 5.0,
+          "Shape": "EPhyCollisionShape::Spherical"
+        },
+        "DampingCurve": null,
+        "WorldDampingLocationCurve": null,
+        "WorldDampingRotationCurve": null,
+        "StiffnessCurve": null,
+        "RadiusCurve": null,
+        "HalfWidthCurve": null,
+        "LimitAngleCurve": null,
+        "bUpdatePhysicsSettingsInGame": true,
+        "DummyBoneLength": 7.5,
+        "BoneForwardAxis": "EBoneForwardAxis::X_Positive",
+        "PlanarConstraint": "EPlanarConstraint::None",
+        "SphericalLimits": [],
+        "CapsuleLimits": [
+          {
+            "Radius": 7.785571,
+            "Length": 11.244062,
+            "DrivingBone": {
+              "BoneName": "Bip001Pelvis"
+            },
+            "OffsetLocation": {
+              "X": 2.569417,
+              "Y": -0.547811,
+              "Z": 0.789261
+            },
+            "OffsetRotation": {
+              "Pitch": -1.555152,
+              "Yaw": 0.001176,
+              "Roll": 2.2E-05
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          },
+          {
+            "Radius": 8.362782,
+            "Length": 9.46291,
+            "DrivingBone": {
+              "BoneName": "Bip001Spine"
+            },
+            "OffsetLocation": {
+              "X": 6.517839,
+              "Y": -0.027929,
+              "Z": 1.560916
+            },
+            "OffsetRotation": {
+              "Pitch": 0.00013,
+              "Yaw": 1.4E-05,
+              "Roll": 1.944193
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            }
+          }
+        ],
+        "PlanarLimits": [],
+        "LimitsDataAsset": null,
+        "SphericalLimitsData": [],
+        "CapsuleLimitsData": [],
+        "PlanarLimitsData": [],
+        "TeleportDistanceThreshold": 300.0,
+        "TeleportRotationThreshold": 10.0,
+        "Gravity": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "bEnableWind": false,
+        "WindScale": 1.0,
+        "ModifyBones": [],
+        "bEnableSimulate": true,
+        "AlphaScale": 1.0,
+        "TotalBoneLength": 0.0,
+        "PreSkelCompTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "bInitPhysicsSettings": false,
+        "ComponentPose": {
+          "LinkID": 13
+        },
+        "LODThreshold": -1,
+        "KuroLODMask": 1,
+        "ActualAlpha": 0.0,
+        "AlphaInputType": "EAnimAlphaInputType::Curve",
+        "bAlphaBoolEnabled": true,
+        "bParallelEvalEnabled": true,
+        "bEnableOnMobile": true,
+        "Alpha": 1.0,
+        "AlphaScaleBias": {
+          "Scale": 1.0,
+          "Bias": 0.0
+        },
+        "AlphaBoolBlend": {
+          "BlendInTime": 0.0,
+          "BlendOutTime": 0.0,
+          "BlendOption": "EAlphaBlendOption::Linear",
+          "bInitialized": false,
+          "CustomCurve": null,
+          "AlphaBlend": {
+            "CustomCurve": null,
+            "BlendTime": 0.2,
+            "BlendOption": "EAlphaBlendOption::Linear"
+          }
+        },
+        "AlphaCurveName": "Kawaii_alpha_jianxin",
+        "AlphaScaleBiasClamp": {
+          "bMapRange": true,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 1.0,
+            "Max": 0.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        }
+      },
+      "AnimGraphNode_Root": {
+        "Result": {
+          "LinkID": 17
+        },
+        "Name": "AnimGraph",
+        "Group": "None"
+      },
+      "AnimGraphNode_LinkedAnimLayer": {
+        "Interface": null,
+        "Layer": "PhyCloth",
+        "InputPoses": [
+          {
+            "LinkID": 18
+          }
+        ],
+        "InputPoseNames": [
+          "InPose"
+        ],
+        "InstanceClass": null,
+        "Tag": "None",
+        "bReceiveNotifiesFromLinkedInstances": false,
+        "bPropagateNotifiesToLinkedInstances": false,
+        "SourcePropertyNames": [],
+        "DestPropertyNames": [],
+        "TargetInstance": null
+      },
+      "AnimGraphNode_LinkedAnimGraph": {
+        "InputPoses": [],
+        "InputPoseNames": [],
+        "InstanceClass": {
+          "ObjectName": "AnimBlueprintGeneratedClass'ABP_Performance_Jinxi_C'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd20011/ABP_Performance_Jinxi.0"
+        },
+        "Tag": "ABP_Base",
+        "bReceiveNotifiesFromLinkedInstances": false,
+        "bPropagateNotifiesToLinkedInstances": false,
+        "SourcePropertyNames": [],
+        "DestPropertyNames": [],
+        "TargetInstance": null
+      },
+      "PhysicsClothSimulateEnable": true,
+      "PhysicsClothSimulateScale": 1.0
+    }
+  }
+]

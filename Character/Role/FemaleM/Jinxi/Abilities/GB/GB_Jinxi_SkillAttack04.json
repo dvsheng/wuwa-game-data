@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "KuroBpDataAssetGroup",
+    "Name": "GB_Jinxi_SkillAttack04",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'KuroBpDataAssetGroup'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/GB/GB_Jinxi_SkillAttack04",
+    "Properties": {
+      "Data": [
+        {
+          "ObjectName": "LogicDataForce_C'GB_Jinxi_SkillAttack04:LogicDataForce_C_0'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/GB/GB_Jinxi_SkillAttack04.1"
+        },
+        {
+          "ObjectName": "LogicDataForce_C'GB_Jinxi_SkillAttack04:LogicDataForce_C_1'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/GB/GB_Jinxi_SkillAttack04.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "LogicDataForce_C",
+    "Name": "LogicDataForce_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/NewWorld/Bullet/LogicDataClass/LogicDataForce.LogicDataForce_C'",
+    "Outer": {
+      "ObjectName": "KuroBpDataAssetGroup'GB_Jinxi_SkillAttack04'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/GB/GB_Jinxi_SkillAttack04.0"
+    },
+    "Template": {
+      "ObjectName": "LogicDataForce_C'Default__LogicDataForce_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/NewWorld/Bullet/LogicDataClass/LogicDataForce.1"
+    },
+    "Properties": {
+      "ForceBase": 6.0,
+      "ForceDampingRatio": 0.2,
+      "InnerRadius": 100.0,
+      "OuterRadius": 400.0,
+      "LimitWeight": 55,
+      "TowardsBullet": true,
+      "IsLaunching": true,
+      "WorkHaveTag": [
+        "行为状态.动作状态.受击"
+      ],
+      "ExecuteStage": "EBulletLogicStage::NewEnumerator1",
+      "NativeClass": {
+        "ObjectName": "TypeScriptGeneratedClass'LogicDataForce_C'",
+        "ObjectPath": "Client/Content/Aki/TypeScript/Game/NewWorld/Bullet/LogicDataClass/LogicDataForce.0"
+      }
+    }
+  },
+  {
+    "Type": "LogicDataForce_C",
+    "Name": "LogicDataForce_C_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/NewWorld/Bullet/LogicDataClass/LogicDataForce.LogicDataForce_C'",
+    "Outer": {
+      "ObjectName": "KuroBpDataAssetGroup'GB_Jinxi_SkillAttack04'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Abilities/GB/GB_Jinxi_SkillAttack04.0"
+    },
+    "Template": {
+      "ObjectName": "LogicDataForce_C'Default__LogicDataForce_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/NewWorld/Bullet/LogicDataClass/LogicDataForce.1"
+    },
+    "Properties": {
+      "ForceBase": 10.0,
+      "InnerRadius": 400.0,
+      "OuterRadius": 1000.0,
+      "LimitWeight": 55,
+      "TowardsBullet": true,
+      "IsLaunching": true,
+      "WorkHaveTag": [
+        "行为状态.动作状态.受击"
+      ],
+      "ExecuteStage": "EBulletLogicStage::NewEnumerator1",
+      "NativeClass": {
+        "ObjectName": "TypeScriptGeneratedClass'LogicDataForce_C'",
+        "ObjectPath": "Client/Content/Aki/TypeScript/Game/NewWorld/Bullet/LogicDataClass/LogicDataForce.0"
+      }
+    }
+  }
+]

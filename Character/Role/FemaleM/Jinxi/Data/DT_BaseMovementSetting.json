@@ -1,0 +1,522 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_BaseMovementSetting",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Data/DT_BaseMovementSetting",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'SMovementSetting_State'",
+        "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/SMovementSetting_State.0"
+      }
+    },
+    "Rows": {
+      "Normal": {
+        "FaceDirection_35_752904864FF4C6441610D6BA533CEAD3": {
+          "Standing_2_3EC2D8FC456F71707D0F52A3B41D18E8": {
+            "WalkSpeed_2_DA690DDE48698DCE23ACB9B7B6DC336B": 100.0,
+            "RunSpeed_4_9808D9B3425262A5A733268AC1DCE8A4": 400.0,
+            "SprintSpeed_6_B1E0DFD1469B04EDFB56A5A6C45ED5C0": 700.0,
+            "SwingSpeed_33_8B661DC74950E8EE552485A6A7D2079E": 180.0,
+            "Acceleration_23_F4BEBFA944C355D912F6A0B541BEBC2F": 1500.0,
+            "SwingAcceleration_37_5CFFCCAE4D7DE44C9076CBB1A3DBAB1A": 1500.0,
+            "GroundFriction_24_E8BE047248810FD17D14658342499CC5": 8.0,
+            "MovementCurve_10_A968BF814DA38118D120B1AC090F43F2": {
+              "ObjectName": "CurveVector'NormalMovement'",
+              "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Curves/CharacterMovementCurves/NormalMovement.0"
+            },
+            "RotationRateCurve_13_D6280A964B6624D84EA7B1A295BDCDDF": {
+              "ObjectName": "CurveFloat'ResponsiveRotation'",
+              "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Curves/CharacterMovementCurves/ResponsiveRotation.0"
+            },
+            "NormalSwimSpeed_16_5594DF0C45045A38F17AFDA3DBD9D6B2": 200.0,
+            "FastSwimSpeed_18_0553DCF8405A234767699F9349DACAFE": 400.0,
+            "ControllerRotationSpeed_44_FA4FC2A24AAEFA020A423DB3E453A8C2": 0.0,
+            "ControllerRotationSpeedSetting_45_C5A27A7C43483ED4E23B18AB1C67F1FB": {
+              "最小旋转速度_2_42CC573F431E7DBFFABA1E99A992965A": 250.0,
+              "最大旋转速度_4_2A78C2A54DD035CB44EF24B26C435670": 600.0,
+              "最小角度差_6_1201515F4B55190A65300085E598BB55": 35.0,
+              "最大角度差_8_7A9F8FE04A55339AC02AAEB090EA895C": 90.0,
+              "渐变曲线_12_9C61E50E499F38ACF124D5B988CF40CC": {
+                "CurveType_4_A660E42245DE5A4982B9C1BAB3F4D355": "EBaseCurveType::NewEnumerator0",
+                "N_9_7CEB15CF49A05BD4117208970B830890": 0.0
+              }
+            }
+          },
+          "Crouching_4_B5EEC12A49881CC4C0D187A7B972DA18": {
+            "WalkSpeed_2_DA690DDE48698DCE23ACB9B7B6DC336B": 150.0,
+            "RunSpeed_4_9808D9B3425262A5A733268AC1DCE8A4": 200.0,
+            "SprintSpeed_6_B1E0DFD1469B04EDFB56A5A6C45ED5C0": 300.0,
+            "SwingSpeed_33_8B661DC74950E8EE552485A6A7D2079E": 200.0,
+            "Acceleration_23_F4BEBFA944C355D912F6A0B541BEBC2F": 1500.0,
+            "SwingAcceleration_37_5CFFCCAE4D7DE44C9076CBB1A3DBAB1A": 1500.0,
+            "GroundFriction_24_E8BE047248810FD17D14658342499CC5": 8.0,
+            "MovementCurve_10_A968BF814DA38118D120B1AC090F43F2": {
+              "ObjectName": "CurveVector'ResponsiveMovement'",
+              "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Curves/CharacterMovementCurves/ResponsiveMovement.0"
+            },
+            "RotationRateCurve_13_D6280A964B6624D84EA7B1A295BDCDDF": {
+              "ObjectName": "CurveFloat'NormalRotation'",
+              "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Curves/CharacterMovementCurves/NormalRotation.0"
+            },
+            "NormalSwimSpeed_16_5594DF0C45045A38F17AFDA3DBD9D6B2": 0.0,
+            "FastSwimSpeed_18_0553DCF8405A234767699F9349DACAFE": 0.0,
+            "ControllerRotationSpeed_44_FA4FC2A24AAEFA020A423DB3E453A8C2": 0.0,
+            "ControllerRotationSpeedSetting_45_C5A27A7C43483ED4E23B18AB1C67F1FB": {
+              "最小旋转速度_2_42CC573F431E7DBFFABA1E99A992965A": 300.0,
+              "最大旋转速度_4_2A78C2A54DD035CB44EF24B26C435670": 600.0,
+              "最小角度差_6_1201515F4B55190A65300085E598BB55": 30.0,
+              "最大角度差_8_7A9F8FE04A55339AC02AAEB090EA895C": 90.0,
+              "渐变曲线_12_9C61E50E499F38ACF124D5B988CF40CC": {
+                "CurveType_4_A660E42245DE5A4982B9C1BAB3F4D355": "EBaseCurveType::NewEnumerator0",
+                "N_9_7CEB15CF49A05BD4117208970B830890": 0.0
+              }
+            }
+          }
+        },
+        "LockDirection_36_3DDFB2394C43B3CFC79E85B754344D3B": {
+          "Standing_2_3EC2D8FC456F71707D0F52A3B41D18E8": {
+            "WalkSpeed_2_DA690DDE48698DCE23ACB9B7B6DC336B": 100.0,
+            "RunSpeed_4_9808D9B3425262A5A733268AC1DCE8A4": 400.0,
+            "SprintSpeed_6_B1E0DFD1469B04EDFB56A5A6C45ED5C0": 700.0,
+            "SwingSpeed_33_8B661DC74950E8EE552485A6A7D2079E": 180.0,
+            "Acceleration_23_F4BEBFA944C355D912F6A0B541BEBC2F": 1500.0,
+            "SwingAcceleration_37_5CFFCCAE4D7DE44C9076CBB1A3DBAB1A": 1500.0,
+            "GroundFriction_24_E8BE047248810FD17D14658342499CC5": 8.0,
+            "MovementCurve_10_A968BF814DA38118D120B1AC090F43F2": {
+              "ObjectName": "CurveVector'NormalMovement'",
+              "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Curves/CharacterMovementCurves/NormalMovement.0"
+            },
+            "RotationRateCurve_13_D6280A964B6624D84EA7B1A295BDCDDF": {
+              "ObjectName": "CurveFloat'NormalRotation'",
+              "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Curves/CharacterMovementCurves/NormalRotation.0"
+            },
+            "NormalSwimSpeed_16_5594DF0C45045A38F17AFDA3DBD9D6B2": 200.0,
+            "FastSwimSpeed_18_0553DCF8405A234767699F9349DACAFE": 400.0,
+            "ControllerRotationSpeed_44_FA4FC2A24AAEFA020A423DB3E453A8C2": 0.0,
+            "ControllerRotationSpeedSetting_45_C5A27A7C43483ED4E23B18AB1C67F1FB": {
+              "最小旋转速度_2_42CC573F431E7DBFFABA1E99A992965A": 300.0,
+              "最大旋转速度_4_2A78C2A54DD035CB44EF24B26C435670": 600.0,
+              "最小角度差_6_1201515F4B55190A65300085E598BB55": 30.0,
+              "最大角度差_8_7A9F8FE04A55339AC02AAEB090EA895C": 90.0,
+              "渐变曲线_12_9C61E50E499F38ACF124D5B988CF40CC": {
+                "CurveType_4_A660E42245DE5A4982B9C1BAB3F4D355": "EBaseCurveType::NewEnumerator0",
+                "N_9_7CEB15CF49A05BD4117208970B830890": 0.0
+              }
+            }
+          },
+          "Crouching_4_B5EEC12A49881CC4C0D187A7B972DA18": {
+            "WalkSpeed_2_DA690DDE48698DCE23ACB9B7B6DC336B": 150.0,
+            "RunSpeed_4_9808D9B3425262A5A733268AC1DCE8A4": 200.0,
+            "SprintSpeed_6_B1E0DFD1469B04EDFB56A5A6C45ED5C0": 300.0,
+            "SwingSpeed_33_8B661DC74950E8EE552485A6A7D2079E": 200.0,
+            "Acceleration_23_F4BEBFA944C355D912F6A0B541BEBC2F": 1500.0,
+            "SwingAcceleration_37_5CFFCCAE4D7DE44C9076CBB1A3DBAB1A": 1500.0,
+            "GroundFriction_24_E8BE047248810FD17D14658342499CC5": 8.0,
+            "MovementCurve_10_A968BF814DA38118D120B1AC090F43F2": {
+              "ObjectName": "CurveVector'ResponsiveMovement'",
+              "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Curves/CharacterMovementCurves/ResponsiveMovement.0"
+            },
+            "RotationRateCurve_13_D6280A964B6624D84EA7B1A295BDCDDF": {
+              "ObjectName": "CurveFloat'NormalRotation'",
+              "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Curves/CharacterMovementCurves/NormalRotation.0"
+            },
+            "NormalSwimSpeed_16_5594DF0C45045A38F17AFDA3DBD9D6B2": 200.0,
+            "FastSwimSpeed_18_0553DCF8405A234767699F9349DACAFE": 300.0,
+            "ControllerRotationSpeed_44_FA4FC2A24AAEFA020A423DB3E453A8C2": 500.0,
+            "ControllerRotationSpeedSetting_45_C5A27A7C43483ED4E23B18AB1C67F1FB": {
+              "最小旋转速度_2_42CC573F431E7DBFFABA1E99A992965A": 300.0,
+              "最大旋转速度_4_2A78C2A54DD035CB44EF24B26C435670": 600.0,
+              "最小角度差_6_1201515F4B55190A65300085E598BB55": 30.0,
+              "最大角度差_8_7A9F8FE04A55339AC02AAEB090EA895C": 90.0,
+              "渐变曲线_12_9C61E50E499F38ACF124D5B988CF40CC": {
+                "CurveType_4_A660E42245DE5A4982B9C1BAB3F4D355": "EBaseCurveType::NewEnumerator0",
+                "N_9_7CEB15CF49A05BD4117208970B830890": 0.0
+              }
+            }
+          }
+        },
+        "AimDirection_37_F202F3C642A28CAD3AB506BF93B9A8B1": {
+          "Standing_2_3EC2D8FC456F71707D0F52A3B41D18E8": {
+            "WalkSpeed_2_DA690DDE48698DCE23ACB9B7B6DC336B": 130.0,
+            "RunSpeed_4_9808D9B3425262A5A733268AC1DCE8A4": 130.0,
+            "SprintSpeed_6_B1E0DFD1469B04EDFB56A5A6C45ED5C0": 650.0,
+            "SwingSpeed_33_8B661DC74950E8EE552485A6A7D2079E": 180.0,
+            "Acceleration_23_F4BEBFA944C355D912F6A0B541BEBC2F": 1000.0,
+            "SwingAcceleration_37_5CFFCCAE4D7DE44C9076CBB1A3DBAB1A": 1500.0,
+            "GroundFriction_24_E8BE047248810FD17D14658342499CC5": 4.0,
+            "MovementCurve_10_A968BF814DA38118D120B1AC090F43F2": {
+              "ObjectName": "CurveVector'NormalMovement'",
+              "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Curves/CharacterMovementCurves/NormalMovement.0"
+            },
+            "RotationRateCurve_13_D6280A964B6624D84EA7B1A295BDCDDF": {
+              "ObjectName": "CurveFloat'NormalRotation'",
+              "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Curves/CharacterMovementCurves/NormalRotation.0"
+            },
+            "NormalSwimSpeed_16_5594DF0C45045A38F17AFDA3DBD9D6B2": 200.0,
+            "FastSwimSpeed_18_0553DCF8405A234767699F9349DACAFE": 400.0,
+            "ControllerRotationSpeed_44_FA4FC2A24AAEFA020A423DB3E453A8C2": 0.0,
+            "ControllerRotationSpeedSetting_45_C5A27A7C43483ED4E23B18AB1C67F1FB": {
+              "最小旋转速度_2_42CC573F431E7DBFFABA1E99A992965A": 300.0,
+              "最大旋转速度_4_2A78C2A54DD035CB44EF24B26C435670": 600.0,
+              "最小角度差_6_1201515F4B55190A65300085E598BB55": 30.0,
+              "最大角度差_8_7A9F8FE04A55339AC02AAEB090EA895C": 90.0,
+              "渐变曲线_12_9C61E50E499F38ACF124D5B988CF40CC": {
+                "CurveType_4_A660E42245DE5A4982B9C1BAB3F4D355": "EBaseCurveType::NewEnumerator0",
+                "N_9_7CEB15CF49A05BD4117208970B830890": 0.0
+              }
+            }
+          },
+          "Crouching_4_B5EEC12A49881CC4C0D187A7B972DA18": {
+            "WalkSpeed_2_DA690DDE48698DCE23ACB9B7B6DC336B": 150.0,
+            "RunSpeed_4_9808D9B3425262A5A733268AC1DCE8A4": 200.0,
+            "SprintSpeed_6_B1E0DFD1469B04EDFB56A5A6C45ED5C0": 300.0,
+            "SwingSpeed_33_8B661DC74950E8EE552485A6A7D2079E": 200.0,
+            "Acceleration_23_F4BEBFA944C355D912F6A0B541BEBC2F": 1500.0,
+            "SwingAcceleration_37_5CFFCCAE4D7DE44C9076CBB1A3DBAB1A": 1500.0,
+            "GroundFriction_24_E8BE047248810FD17D14658342499CC5": 8.0,
+            "MovementCurve_10_A968BF814DA38118D120B1AC090F43F2": {
+              "ObjectName": "CurveVector'ResponsiveMovement'",
+              "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Curves/CharacterMovementCurves/ResponsiveMovement.0"
+            },
+            "RotationRateCurve_13_D6280A964B6624D84EA7B1A295BDCDDF": {
+              "ObjectName": "CurveFloat'NormalRotation'",
+              "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Curves/CharacterMovementCurves/NormalRotation.0"
+            },
+            "NormalSwimSpeed_16_5594DF0C45045A38F17AFDA3DBD9D6B2": 200.0,
+            "FastSwimSpeed_18_0553DCF8405A234767699F9349DACAFE": 300.0,
+            "ControllerRotationSpeed_44_FA4FC2A24AAEFA020A423DB3E453A8C2": 0.0,
+            "ControllerRotationSpeedSetting_45_C5A27A7C43483ED4E23B18AB1C67F1FB": {
+              "最小旋转速度_2_42CC573F431E7DBFFABA1E99A992965A": 300.0,
+              "最大旋转速度_4_2A78C2A54DD035CB44EF24B26C435670": 600.0,
+              "最小角度差_6_1201515F4B55190A65300085E598BB55": 30.0,
+              "最大角度差_8_7A9F8FE04A55339AC02AAEB090EA895C": 90.0,
+              "渐变曲线_12_9C61E50E499F38ACF124D5B988CF40CC": {
+                "CurveType_4_A660E42245DE5A4982B9C1BAB3F4D355": "EBaseCurveType::NewEnumerator0",
+                "N_9_7CEB15CF49A05BD4117208970B830890": 0.0
+              }
+            }
+          }
+        },
+        "CustomSetting00_39_58F522F44BBCF73B91D2A78E0108BF2B": {
+          "Standing_2_3EC2D8FC456F71707D0F52A3B41D18E8": {
+            "WalkSpeed_2_DA690DDE48698DCE23ACB9B7B6DC336B": 400.0,
+            "RunSpeed_4_9808D9B3425262A5A733268AC1DCE8A4": 400.0,
+            "SprintSpeed_6_B1E0DFD1469B04EDFB56A5A6C45ED5C0": 400.0,
+            "SwingSpeed_33_8B661DC74950E8EE552485A6A7D2079E": 600.0,
+            "Acceleration_23_F4BEBFA944C355D912F6A0B541BEBC2F": 1500.0,
+            "SwingAcceleration_37_5CFFCCAE4D7DE44C9076CBB1A3DBAB1A": 1500.0,
+            "GroundFriction_24_E8BE047248810FD17D14658342499CC5": 8.0,
+            "MovementCurve_10_A968BF814DA38118D120B1AC090F43F2": {
+              "ObjectName": "CurveVector'NormalMovement'",
+              "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Curves/CharacterMovementCurves/NormalMovement.0"
+            },
+            "RotationRateCurve_13_D6280A964B6624D84EA7B1A295BDCDDF": {
+              "ObjectName": "CurveFloat'NormalRotation'",
+              "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Curves/CharacterMovementCurves/NormalRotation.0"
+            },
+            "NormalSwimSpeed_16_5594DF0C45045A38F17AFDA3DBD9D6B2": 200.0,
+            "FastSwimSpeed_18_0553DCF8405A234767699F9349DACAFE": 400.0,
+            "ControllerRotationSpeed_44_FA4FC2A24AAEFA020A423DB3E453A8C2": 800.0,
+            "ControllerRotationSpeedSetting_45_C5A27A7C43483ED4E23B18AB1C67F1FB": {
+              "最小旋转速度_2_42CC573F431E7DBFFABA1E99A992965A": 300.0,
+              "最大旋转速度_4_2A78C2A54DD035CB44EF24B26C435670": 600.0,
+              "最小角度差_6_1201515F4B55190A65300085E598BB55": 30.0,
+              "最大角度差_8_7A9F8FE04A55339AC02AAEB090EA895C": 90.0,
+              "渐变曲线_12_9C61E50E499F38ACF124D5B988CF40CC": {
+                "CurveType_4_A660E42245DE5A4982B9C1BAB3F4D355": "EBaseCurveType::NewEnumerator0",
+                "N_9_7CEB15CF49A05BD4117208970B830890": 0.0
+              }
+            }
+          },
+          "Crouching_4_B5EEC12A49881CC4C0D187A7B972DA18": {
+            "WalkSpeed_2_DA690DDE48698DCE23ACB9B7B6DC336B": 400.0,
+            "RunSpeed_4_9808D9B3425262A5A733268AC1DCE8A4": 400.0,
+            "SprintSpeed_6_B1E0DFD1469B04EDFB56A5A6C45ED5C0": 400.0,
+            "SwingSpeed_33_8B661DC74950E8EE552485A6A7D2079E": 180.0,
+            "Acceleration_23_F4BEBFA944C355D912F6A0B541BEBC2F": 1500.0,
+            "SwingAcceleration_37_5CFFCCAE4D7DE44C9076CBB1A3DBAB1A": 1500.0,
+            "GroundFriction_24_E8BE047248810FD17D14658342499CC5": 8.0,
+            "MovementCurve_10_A968BF814DA38118D120B1AC090F43F2": {
+              "ObjectName": "CurveVector'ResponsiveMovement'",
+              "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Curves/CharacterMovementCurves/ResponsiveMovement.0"
+            },
+            "RotationRateCurve_13_D6280A964B6624D84EA7B1A295BDCDDF": {
+              "ObjectName": "CurveFloat'ResponsiveRotation'",
+              "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Curves/CharacterMovementCurves/ResponsiveRotation.0"
+            },
+            "NormalSwimSpeed_16_5594DF0C45045A38F17AFDA3DBD9D6B2": 200.0,
+            "FastSwimSpeed_18_0553DCF8405A234767699F9349DACAFE": 300.0,
+            "ControllerRotationSpeed_44_FA4FC2A24AAEFA020A423DB3E453A8C2": 100.0,
+            "ControllerRotationSpeedSetting_45_C5A27A7C43483ED4E23B18AB1C67F1FB": {
+              "最小旋转速度_2_42CC573F431E7DBFFABA1E99A992965A": 300.0,
+              "最大旋转速度_4_2A78C2A54DD035CB44EF24B26C435670": 600.0,
+              "最小角度差_6_1201515F4B55190A65300085E598BB55": 30.0,
+              "最大角度差_8_7A9F8FE04A55339AC02AAEB090EA895C": 90.0,
+              "渐变曲线_12_9C61E50E499F38ACF124D5B988CF40CC": {
+                "CurveType_4_A660E42245DE5A4982B9C1BAB3F4D355": "EBaseCurveType::NewEnumerator0",
+                "N_9_7CEB15CF49A05BD4117208970B830890": 0.0
+              }
+            }
+          }
+        },
+        "CustomSetting01_28_C869024D4F347CBF69D96B9915B8F823": {
+          "Standing_2_3EC2D8FC456F71707D0F52A3B41D18E8": {
+            "WalkSpeed_2_DA690DDE48698DCE23ACB9B7B6DC336B": 0.0,
+            "RunSpeed_4_9808D9B3425262A5A733268AC1DCE8A4": 0.0,
+            "SprintSpeed_6_B1E0DFD1469B04EDFB56A5A6C45ED5C0": 0.0,
+            "SwingSpeed_33_8B661DC74950E8EE552485A6A7D2079E": 1500.0,
+            "Acceleration_23_F4BEBFA944C355D912F6A0B541BEBC2F": 1500.0,
+            "SwingAcceleration_37_5CFFCCAE4D7DE44C9076CBB1A3DBAB1A": 1500.0,
+            "GroundFriction_24_E8BE047248810FD17D14658342499CC5": 8.0,
+            "MovementCurve_10_A968BF814DA38118D120B1AC090F43F2": null,
+            "RotationRateCurve_13_D6280A964B6624D84EA7B1A295BDCDDF": null,
+            "NormalSwimSpeed_16_5594DF0C45045A38F17AFDA3DBD9D6B2": 0.0,
+            "FastSwimSpeed_18_0553DCF8405A234767699F9349DACAFE": 0.0,
+            "ControllerRotationSpeed_44_FA4FC2A24AAEFA020A423DB3E453A8C2": 0.0,
+            "ControllerRotationSpeedSetting_45_C5A27A7C43483ED4E23B18AB1C67F1FB": {
+              "最小旋转速度_2_42CC573F431E7DBFFABA1E99A992965A": 300.0,
+              "最大旋转速度_4_2A78C2A54DD035CB44EF24B26C435670": 600.0,
+              "最小角度差_6_1201515F4B55190A65300085E598BB55": 30.0,
+              "最大角度差_8_7A9F8FE04A55339AC02AAEB090EA895C": 90.0,
+              "渐变曲线_12_9C61E50E499F38ACF124D5B988CF40CC": {
+                "CurveType_4_A660E42245DE5A4982B9C1BAB3F4D355": "EBaseCurveType::NewEnumerator0",
+                "N_9_7CEB15CF49A05BD4117208970B830890": 0.0
+              }
+            }
+          },
+          "Crouching_4_B5EEC12A49881CC4C0D187A7B972DA18": {
+            "WalkSpeed_2_DA690DDE48698DCE23ACB9B7B6DC336B": 0.0,
+            "RunSpeed_4_9808D9B3425262A5A733268AC1DCE8A4": 0.0,
+            "SprintSpeed_6_B1E0DFD1469B04EDFB56A5A6C45ED5C0": 0.0,
+            "SwingSpeed_33_8B661DC74950E8EE552485A6A7D2079E": 1500.0,
+            "Acceleration_23_F4BEBFA944C355D912F6A0B541BEBC2F": 1500.0,
+            "SwingAcceleration_37_5CFFCCAE4D7DE44C9076CBB1A3DBAB1A": 1500.0,
+            "GroundFriction_24_E8BE047248810FD17D14658342499CC5": 8.0,
+            "MovementCurve_10_A968BF814DA38118D120B1AC090F43F2": null,
+            "RotationRateCurve_13_D6280A964B6624D84EA7B1A295BDCDDF": null,
+            "NormalSwimSpeed_16_5594DF0C45045A38F17AFDA3DBD9D6B2": 0.0,
+            "FastSwimSpeed_18_0553DCF8405A234767699F9349DACAFE": 0.0,
+            "ControllerRotationSpeed_44_FA4FC2A24AAEFA020A423DB3E453A8C2": 0.0,
+            "ControllerRotationSpeedSetting_45_C5A27A7C43483ED4E23B18AB1C67F1FB": {
+              "最小旋转速度_2_42CC573F431E7DBFFABA1E99A992965A": 300.0,
+              "最大旋转速度_4_2A78C2A54DD035CB44EF24B26C435670": 600.0,
+              "最小角度差_6_1201515F4B55190A65300085E598BB55": 30.0,
+              "最大角度差_8_7A9F8FE04A55339AC02AAEB090EA895C": 90.0,
+              "渐变曲线_12_9C61E50E499F38ACF124D5B988CF40CC": {
+                "CurveType_4_A660E42245DE5A4982B9C1BAB3F4D355": "EBaseCurveType::NewEnumerator0",
+                "N_9_7CEB15CF49A05BD4117208970B830890": 0.0
+              }
+            }
+          }
+        },
+        "CustomSetting02_29_E386C1B64DD0DA80C052F3ABC69899D1": {
+          "Standing_2_3EC2D8FC456F71707D0F52A3B41D18E8": {
+            "WalkSpeed_2_DA690DDE48698DCE23ACB9B7B6DC336B": 0.0,
+            "RunSpeed_4_9808D9B3425262A5A733268AC1DCE8A4": 0.0,
+            "SprintSpeed_6_B1E0DFD1469B04EDFB56A5A6C45ED5C0": 0.0,
+            "SwingSpeed_33_8B661DC74950E8EE552485A6A7D2079E": 1500.0,
+            "Acceleration_23_F4BEBFA944C355D912F6A0B541BEBC2F": 1500.0,
+            "SwingAcceleration_37_5CFFCCAE4D7DE44C9076CBB1A3DBAB1A": 1500.0,
+            "GroundFriction_24_E8BE047248810FD17D14658342499CC5": 8.0,
+            "MovementCurve_10_A968BF814DA38118D120B1AC090F43F2": null,
+            "RotationRateCurve_13_D6280A964B6624D84EA7B1A295BDCDDF": null,
+            "NormalSwimSpeed_16_5594DF0C45045A38F17AFDA3DBD9D6B2": 0.0,
+            "FastSwimSpeed_18_0553DCF8405A234767699F9349DACAFE": 0.0,
+            "ControllerRotationSpeed_44_FA4FC2A24AAEFA020A423DB3E453A8C2": 0.0,
+            "ControllerRotationSpeedSetting_45_C5A27A7C43483ED4E23B18AB1C67F1FB": {
+              "最小旋转速度_2_42CC573F431E7DBFFABA1E99A992965A": 300.0,
+              "最大旋转速度_4_2A78C2A54DD035CB44EF24B26C435670": 600.0,
+              "最小角度差_6_1201515F4B55190A65300085E598BB55": 30.0,
+              "最大角度差_8_7A9F8FE04A55339AC02AAEB090EA895C": 90.0,
+              "渐变曲线_12_9C61E50E499F38ACF124D5B988CF40CC": {
+                "CurveType_4_A660E42245DE5A4982B9C1BAB3F4D355": "EBaseCurveType::NewEnumerator0",
+                "N_9_7CEB15CF49A05BD4117208970B830890": 0.0
+              }
+            }
+          },
+          "Crouching_4_B5EEC12A49881CC4C0D187A7B972DA18": {
+            "WalkSpeed_2_DA690DDE48698DCE23ACB9B7B6DC336B": 0.0,
+            "RunSpeed_4_9808D9B3425262A5A733268AC1DCE8A4": 0.0,
+            "SprintSpeed_6_B1E0DFD1469B04EDFB56A5A6C45ED5C0": 0.0,
+            "SwingSpeed_33_8B661DC74950E8EE552485A6A7D2079E": 1500.0,
+            "Acceleration_23_F4BEBFA944C355D912F6A0B541BEBC2F": 1500.0,
+            "SwingAcceleration_37_5CFFCCAE4D7DE44C9076CBB1A3DBAB1A": 1500.0,
+            "GroundFriction_24_E8BE047248810FD17D14658342499CC5": 8.0,
+            "MovementCurve_10_A968BF814DA38118D120B1AC090F43F2": null,
+            "RotationRateCurve_13_D6280A964B6624D84EA7B1A295BDCDDF": null,
+            "NormalSwimSpeed_16_5594DF0C45045A38F17AFDA3DBD9D6B2": 0.0,
+            "FastSwimSpeed_18_0553DCF8405A234767699F9349DACAFE": 0.0,
+            "ControllerRotationSpeed_44_FA4FC2A24AAEFA020A423DB3E453A8C2": 0.0,
+            "ControllerRotationSpeedSetting_45_C5A27A7C43483ED4E23B18AB1C67F1FB": {
+              "最小旋转速度_2_42CC573F431E7DBFFABA1E99A992965A": 300.0,
+              "最大旋转速度_4_2A78C2A54DD035CB44EF24B26C435670": 600.0,
+              "最小角度差_6_1201515F4B55190A65300085E598BB55": 30.0,
+              "最大角度差_8_7A9F8FE04A55339AC02AAEB090EA895C": 90.0,
+              "渐变曲线_12_9C61E50E499F38ACF124D5B988CF40CC": {
+                "CurveType_4_A660E42245DE5A4982B9C1BAB3F4D355": "EBaseCurveType::NewEnumerator0",
+                "N_9_7CEB15CF49A05BD4117208970B830890": 0.0
+              }
+            }
+          }
+        },
+        "CustomSetting03_30_8A4C568C4F510227ED0154A2B98360E3": {
+          "Standing_2_3EC2D8FC456F71707D0F52A3B41D18E8": {
+            "WalkSpeed_2_DA690DDE48698DCE23ACB9B7B6DC336B": 0.0,
+            "RunSpeed_4_9808D9B3425262A5A733268AC1DCE8A4": 0.0,
+            "SprintSpeed_6_B1E0DFD1469B04EDFB56A5A6C45ED5C0": 0.0,
+            "SwingSpeed_33_8B661DC74950E8EE552485A6A7D2079E": 1500.0,
+            "Acceleration_23_F4BEBFA944C355D912F6A0B541BEBC2F": 1500.0,
+            "SwingAcceleration_37_5CFFCCAE4D7DE44C9076CBB1A3DBAB1A": 1500.0,
+            "GroundFriction_24_E8BE047248810FD17D14658342499CC5": 8.0,
+            "MovementCurve_10_A968BF814DA38118D120B1AC090F43F2": null,
+            "RotationRateCurve_13_D6280A964B6624D84EA7B1A295BDCDDF": null,
+            "NormalSwimSpeed_16_5594DF0C45045A38F17AFDA3DBD9D6B2": 0.0,
+            "FastSwimSpeed_18_0553DCF8405A234767699F9349DACAFE": 0.0,
+            "ControllerRotationSpeed_44_FA4FC2A24AAEFA020A423DB3E453A8C2": 0.0,
+            "ControllerRotationSpeedSetting_45_C5A27A7C43483ED4E23B18AB1C67F1FB": {
+              "最小旋转速度_2_42CC573F431E7DBFFABA1E99A992965A": 300.0,
+              "最大旋转速度_4_2A78C2A54DD035CB44EF24B26C435670": 600.0,
+              "最小角度差_6_1201515F4B55190A65300085E598BB55": 30.0,
+              "最大角度差_8_7A9F8FE04A55339AC02AAEB090EA895C": 90.0,
+              "渐变曲线_12_9C61E50E499F38ACF124D5B988CF40CC": {
+                "CurveType_4_A660E42245DE5A4982B9C1BAB3F4D355": "EBaseCurveType::NewEnumerator0",
+                "N_9_7CEB15CF49A05BD4117208970B830890": 0.0
+              }
+            }
+          },
+          "Crouching_4_B5EEC12A49881CC4C0D187A7B972DA18": {
+            "WalkSpeed_2_DA690DDE48698DCE23ACB9B7B6DC336B": 0.0,
+            "RunSpeed_4_9808D9B3425262A5A733268AC1DCE8A4": 0.0,
+            "SprintSpeed_6_B1E0DFD1469B04EDFB56A5A6C45ED5C0": 0.0,
+            "SwingSpeed_33_8B661DC74950E8EE552485A6A7D2079E": 1500.0,
+            "Acceleration_23_F4BEBFA944C355D912F6A0B541BEBC2F": 1500.0,
+            "SwingAcceleration_37_5CFFCCAE4D7DE44C9076CBB1A3DBAB1A": 1500.0,
+            "GroundFriction_24_E8BE047248810FD17D14658342499CC5": 8.0,
+            "MovementCurve_10_A968BF814DA38118D120B1AC090F43F2": null,
+            "RotationRateCurve_13_D6280A964B6624D84EA7B1A295BDCDDF": null,
+            "NormalSwimSpeed_16_5594DF0C45045A38F17AFDA3DBD9D6B2": 0.0,
+            "FastSwimSpeed_18_0553DCF8405A234767699F9349DACAFE": 0.0,
+            "ControllerRotationSpeed_44_FA4FC2A24AAEFA020A423DB3E453A8C2": 0.0,
+            "ControllerRotationSpeedSetting_45_C5A27A7C43483ED4E23B18AB1C67F1FB": {
+              "最小旋转速度_2_42CC573F431E7DBFFABA1E99A992965A": 300.0,
+              "最大旋转速度_4_2A78C2A54DD035CB44EF24B26C435670": 600.0,
+              "最小角度差_6_1201515F4B55190A65300085E598BB55": 30.0,
+              "最大角度差_8_7A9F8FE04A55339AC02AAEB090EA895C": 90.0,
+              "渐变曲线_12_9C61E50E499F38ACF124D5B988CF40CC": {
+                "CurveType_4_A660E42245DE5A4982B9C1BAB3F4D355": "EBaseCurveType::NewEnumerator0",
+                "N_9_7CEB15CF49A05BD4117208970B830890": 0.0
+              }
+            }
+          }
+        },
+        "CustomSetting04_31_006E59BA4CA1B36C7D00BE997360C0CB": {
+          "Standing_2_3EC2D8FC456F71707D0F52A3B41D18E8": {
+            "WalkSpeed_2_DA690DDE48698DCE23ACB9B7B6DC336B": 0.0,
+            "RunSpeed_4_9808D9B3425262A5A733268AC1DCE8A4": 0.0,
+            "SprintSpeed_6_B1E0DFD1469B04EDFB56A5A6C45ED5C0": 0.0,
+            "SwingSpeed_33_8B661DC74950E8EE552485A6A7D2079E": 1500.0,
+            "Acceleration_23_F4BEBFA944C355D912F6A0B541BEBC2F": 1500.0,
+            "SwingAcceleration_37_5CFFCCAE4D7DE44C9076CBB1A3DBAB1A": 1500.0,
+            "GroundFriction_24_E8BE047248810FD17D14658342499CC5": 8.0,
+            "MovementCurve_10_A968BF814DA38118D120B1AC090F43F2": null,
+            "RotationRateCurve_13_D6280A964B6624D84EA7B1A295BDCDDF": null,
+            "NormalSwimSpeed_16_5594DF0C45045A38F17AFDA3DBD9D6B2": 0.0,
+            "FastSwimSpeed_18_0553DCF8405A234767699F9349DACAFE": 0.0,
+            "ControllerRotationSpeed_44_FA4FC2A24AAEFA020A423DB3E453A8C2": 0.0,
+            "ControllerRotationSpeedSetting_45_C5A27A7C43483ED4E23B18AB1C67F1FB": {
+              "最小旋转速度_2_42CC573F431E7DBFFABA1E99A992965A": 300.0,
+              "最大旋转速度_4_2A78C2A54DD035CB44EF24B26C435670": 600.0,
+              "最小角度差_6_1201515F4B55190A65300085E598BB55": 30.0,
+              "最大角度差_8_7A9F8FE04A55339AC02AAEB090EA895C": 90.0,
+              "渐变曲线_12_9C61E50E499F38ACF124D5B988CF40CC": {
+                "CurveType_4_A660E42245DE5A4982B9C1BAB3F4D355": "EBaseCurveType::NewEnumerator0",
+                "N_9_7CEB15CF49A05BD4117208970B830890": 0.0
+              }
+            }
+          },
+          "Crouching_4_B5EEC12A49881CC4C0D187A7B972DA18": {
+            "WalkSpeed_2_DA690DDE48698DCE23ACB9B7B6DC336B": 0.0,
+            "RunSpeed_4_9808D9B3425262A5A733268AC1DCE8A4": 0.0,
+            "SprintSpeed_6_B1E0DFD1469B04EDFB56A5A6C45ED5C0": 0.0,
+            "SwingSpeed_33_8B661DC74950E8EE552485A6A7D2079E": 1500.0,
+            "Acceleration_23_F4BEBFA944C355D912F6A0B541BEBC2F": 1500.0,
+            "SwingAcceleration_37_5CFFCCAE4D7DE44C9076CBB1A3DBAB1A": 1500.0,
+            "GroundFriction_24_E8BE047248810FD17D14658342499CC5": 8.0,
+            "MovementCurve_10_A968BF814DA38118D120B1AC090F43F2": null,
+            "RotationRateCurve_13_D6280A964B6624D84EA7B1A295BDCDDF": null,
+            "NormalSwimSpeed_16_5594DF0C45045A38F17AFDA3DBD9D6B2": 0.0,
+            "FastSwimSpeed_18_0553DCF8405A234767699F9349DACAFE": 0.0,
+            "ControllerRotationSpeed_44_FA4FC2A24AAEFA020A423DB3E453A8C2": 0.0,
+            "ControllerRotationSpeedSetting_45_C5A27A7C43483ED4E23B18AB1C67F1FB": {
+              "最小旋转速度_2_42CC573F431E7DBFFABA1E99A992965A": 300.0,
+              "最大旋转速度_4_2A78C2A54DD035CB44EF24B26C435670": 600.0,
+              "最小角度差_6_1201515F4B55190A65300085E598BB55": 30.0,
+              "最大角度差_8_7A9F8FE04A55339AC02AAEB090EA895C": 90.0,
+              "渐变曲线_12_9C61E50E499F38ACF124D5B988CF40CC": {
+                "CurveType_4_A660E42245DE5A4982B9C1BAB3F4D355": "EBaseCurveType::NewEnumerator0",
+                "N_9_7CEB15CF49A05BD4117208970B830890": 0.0
+              }
+            }
+          }
+        },
+        "CustomSetting05_32_FFFCFAB24E8044CFC2634C8F0FAEC69E": {
+          "Standing_2_3EC2D8FC456F71707D0F52A3B41D18E8": {
+            "WalkSpeed_2_DA690DDE48698DCE23ACB9B7B6DC336B": 0.0,
+            "RunSpeed_4_9808D9B3425262A5A733268AC1DCE8A4": 0.0,
+            "SprintSpeed_6_B1E0DFD1469B04EDFB56A5A6C45ED5C0": 0.0,
+            "SwingSpeed_33_8B661DC74950E8EE552485A6A7D2079E": 1500.0,
+            "Acceleration_23_F4BEBFA944C355D912F6A0B541BEBC2F": 1500.0,
+            "SwingAcceleration_37_5CFFCCAE4D7DE44C9076CBB1A3DBAB1A": 1500.0,
+            "GroundFriction_24_E8BE047248810FD17D14658342499CC5": 8.0,
+            "MovementCurve_10_A968BF814DA38118D120B1AC090F43F2": null,
+            "RotationRateCurve_13_D6280A964B6624D84EA7B1A295BDCDDF": null,
+            "NormalSwimSpeed_16_5594DF0C45045A38F17AFDA3DBD9D6B2": 0.0,
+            "FastSwimSpeed_18_0553DCF8405A234767699F9349DACAFE": 0.0,
+            "ControllerRotationSpeed_44_FA4FC2A24AAEFA020A423DB3E453A8C2": 0.0,
+            "ControllerRotationSpeedSetting_45_C5A27A7C43483ED4E23B18AB1C67F1FB": {
+              "最小旋转速度_2_42CC573F431E7DBFFABA1E99A992965A": 300.0,
+              "最大旋转速度_4_2A78C2A54DD035CB44EF24B26C435670": 600.0,
+              "最小角度差_6_1201515F4B55190A65300085E598BB55": 30.0,
+              "最大角度差_8_7A9F8FE04A55339AC02AAEB090EA895C": 90.0,
+              "渐变曲线_12_9C61E50E499F38ACF124D5B988CF40CC": {
+                "CurveType_4_A660E42245DE5A4982B9C1BAB3F4D355": "EBaseCurveType::NewEnumerator0",
+                "N_9_7CEB15CF49A05BD4117208970B830890": 0.0
+              }
+            }
+          },
+          "Crouching_4_B5EEC12A49881CC4C0D187A7B972DA18": {
+            "WalkSpeed_2_DA690DDE48698DCE23ACB9B7B6DC336B": 0.0,
+            "RunSpeed_4_9808D9B3425262A5A733268AC1DCE8A4": 0.0,
+            "SprintSpeed_6_B1E0DFD1469B04EDFB56A5A6C45ED5C0": 0.0,
+            "SwingSpeed_33_8B661DC74950E8EE552485A6A7D2079E": 1500.0,
+            "Acceleration_23_F4BEBFA944C355D912F6A0B541BEBC2F": 1500.0,
+            "SwingAcceleration_37_5CFFCCAE4D7DE44C9076CBB1A3DBAB1A": 1500.0,
+            "GroundFriction_24_E8BE047248810FD17D14658342499CC5": 8.0,
+            "MovementCurve_10_A968BF814DA38118D120B1AC090F43F2": null,
+            "RotationRateCurve_13_D6280A964B6624D84EA7B1A295BDCDDF": null,
+            "NormalSwimSpeed_16_5594DF0C45045A38F17AFDA3DBD9D6B2": 0.0,
+            "FastSwimSpeed_18_0553DCF8405A234767699F9349DACAFE": 0.0,
+            "ControllerRotationSpeed_44_FA4FC2A24AAEFA020A423DB3E453A8C2": 0.0,
+            "ControllerRotationSpeedSetting_45_C5A27A7C43483ED4E23B18AB1C67F1FB": {
+              "最小旋转速度_2_42CC573F431E7DBFFABA1E99A992965A": 300.0,
+              "最大旋转速度_4_2A78C2A54DD035CB44EF24B26C435670": 600.0,
+              "最小角度差_6_1201515F4B55190A65300085E598BB55": 30.0,
+              "最大角度差_8_7A9F8FE04A55339AC02AAEB090EA895C": 90.0,
+              "渐变曲线_12_9C61E50E499F38ACF124D5B988CF40CC": {
+                "CurveType_4_A660E42245DE5A4982B9C1BAB3F4D355": "EBaseCurveType::NewEnumerator0",
+                "N_9_7CEB15CF49A05BD4117208970B830890": 0.0
+              }
+            }
+          }
+        },
+        "WanderDirection_42_6DD7B6E046D2732FDAD16FAC63BAE9FC": "EWanderDirectionType::NewEnumerator0",
+        "EnableTag_45_6335230A44F8B743C29963A7E3C593E5": {
+          "TagName": "None"
+        },
+        "WalkableFloorAngle_49_CB6590054FEDF71C43205F9A9E2604A9": 55.0
+      }
+    }
+  }
+]

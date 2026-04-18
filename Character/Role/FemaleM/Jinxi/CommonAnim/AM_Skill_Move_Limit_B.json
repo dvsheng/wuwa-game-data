@@ -1,0 +1,280 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Skill_Move_Limit_B",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/CommonAnim/AM_Skill_Move_Limit_B",
+    "Properties": {
+      "BlendOut": {
+        "BlendTime": 0.2
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill_Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/CommonAnim/AM_Skill_Move_Limit_B.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.8666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill_Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/CommonAnim/Skill_Move_Limit_B.1"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Skill_Move_Limit_B'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/CommonAnim/Skill_Move_Limit_B.1"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.8666667,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "BP_KuroCharacterGhost_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateGhost_C'AM_Skill_Move_Limit_B:AnimNotifyStateGhost_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/CommonAnim/AM_Skill_Move_Limit_B.1"
+          },
+          "Duration": 0.043109,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill_Move_Limit_B'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/CommonAnim/AM_Skill_Move_Limit_B.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.8666667,
+            "LinkValue": 0.043109,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill_Move_Limit_B'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/CommonAnim/Skill_Move_Limit_B.1"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill_Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/CommonAnim/AM_Skill_Move_Limit_B.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.8666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill_Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/CommonAnim/Skill_Move_Limit_B.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Skill_Move_Limit_B:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/CommonAnim/AM_Skill_Move_Limit_B.3"
+          },
+          "Duration": 2.0,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill_Move_Limit_B'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/CommonAnim/AM_Skill_Move_Limit_B.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": -1.0,
+            "SegmentLength": -1.0,
+            "LinkValue": 2.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill_Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/CommonAnim/AM_Skill_Move_Limit_B.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.8666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill_Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/CommonAnim/Skill_Move_Limit_B.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyAudioEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAudioEvent_C'AM_Skill_Move_Limit_B:TsAnimNotifyAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/CommonAnim/AM_Skill_Move_Limit_B.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill_Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/CommonAnim/AM_Skill_Move_Limit_B.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.8666667,
+          "LinkValue": 0.0122599695,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill_Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/CommonAnim/Skill_Move_Limit_B.1"
+          }
+        }
+      ],
+      "SequenceLength": 1.8666667,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1JinxiMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/Model/R2T1JinxiMd10011_Skeleton.12"
+      }
+    },
+    "SkeletonGuid": "CCCFA2C9-4DA76A60-ED066085-60A3CE08"
+  },
+  {
+    "Type": "AnimNotifyStateGhost_C",
+    "Name": "AnimNotifyStateGhost_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateGhost.AnimNotifyStateGhost_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill_Move_Limit_B'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/CommonAnim/AM_Skill_Move_Limit_B.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateGhost_C'Default__AnimNotifyStateGhost_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateGhost.5"
+    },
+    "Properties": {
+      "SpawnRate": 30.0,
+      "GhostLifeTime": 0.5,
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/DataAsset/Ghost/DA_Fx_Ghost_R2T1JinxiMd10011.DA_Fx_Ghost_R2T1JinxiMd10011",
+        "SubPathString": ""
+      },
+      "exportIndex": 11
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAudioEvent_C",
+    "Name": "TsAnimNotifyAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.TsAnimNotifyAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill_Move_Limit_B'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/CommonAnim/AM_Skill_Move_Limit_B.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAudioEvent_C'Default__TsAnimNotifyAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.3"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_vo_jinxi_bat_limitdodge.play_vo_jinxi_bat_limitdodge",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill_Move_Limit_B'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/CommonAnim/AM_Skill_Move_Limit_B.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.R2T1JinxiMd10011.状态标识.神子极限闪避触发"
+      },
+      "exportIndex": 12
+    }
+  }
+]

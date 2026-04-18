@@ -1,0 +1,1151 @@
+[
+  {
+    "Type": "Function",
+    "Name": "FightCommand",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Base_Jinxi_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.1"
+    },
+    "Super": {
+      "ObjectName": "Function'TsBaseCharacter_C:FightCommand'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.6"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'TsBaseCharacter_C:FightCommand'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.6"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "isInAir",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Loop_Counter_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "___bool_True_if_break_was_hit_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Array_Index_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "___bool_True_if_break_was_hit_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Array_Index_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "___int_Loop_Counter_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSkillTarget_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BeginSkill_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ContainsTag_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "NameProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": "RF_Public",
+          "ElementSize": 12
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSkillTarget_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BeginSkill_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_BreakGameplayTagContainer_GameplayTags",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_BreakGameplayTagContainer_GameplayTags",
+          "Flags": "RF_Public",
+          "ElementSize": 12,
+          "Struct": {
+            "ObjectName": "ScriptStruct'GameplayTag'",
+            "ObjectPath": "/Script/GameplayTags"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "NameProperty",
+          "Name": "K2Node_MakeArray_Array_1",
+          "Flags": "RF_Public",
+          "ElementSize": 12
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ContainsTag_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSkillTarget_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BeginSkill_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_BreakGameplayTagContainer_GameplayTags_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_BreakGameplayTagContainer_GameplayTags_1",
+          "Flags": "RF_Public",
+          "ElementSize": 12,
+          "Struct": {
+            "ObjectName": "ScriptStruct'GameplayTag'",
+            "ObjectPath": "/Script/GameplayTags"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSkillTarget_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Array_Get_Item_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BeginSkill_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ContainsTag_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSkillTarget_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BeginSkill_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ContainsTag_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSkillTarget_ReturnValue_5",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ContainsTag_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BeginSkill_ReturnValue_5",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSkillTarget_ReturnValue_6",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ContainsAnyTag_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BeginSkill_ReturnValue_6",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ContainsTag_ReturnValue_5",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Base_Jinxi_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi",
+    "Super": {
+      "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Base_Jinxi_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.16"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Base_Jinxi_C:InheritableComponentHandler'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Base_Jinxi_C:FightCommand'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherCase1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Bip001LThighTwist",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'KuroAdjustableCapsuleComponent'",
+          "ObjectPath": "/Script/KuroAnim"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Bip001RThighTwist",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'KuroAdjustableCapsuleComponent'",
+          "ObjectPath": "/Script/KuroAnim"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Bip001Spine2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'KuroAdjustableCapsuleComponent'",
+          "ObjectPath": "/Script/KuroAnim"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WeaponCase0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Is in Air",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Array Index",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "FuncMap": {
+      "FightCommand": {
+        "ObjectName": "Function'BP_Base_Jinxi_C:FightCommand'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.0"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Base_Jinxi_C'Default__BP_Base_Jinxi_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.2"
+    }
+  },
+  {
+    "Type": "BP_Base_Jinxi_C",
+    "Name": "Default__BP_Base_Jinxi_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.BP_Base_Jinxi_C'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi",
+    "Template": {
+      "ObjectName": "TsBaseCharacter_C'Default__TsBaseCharacter_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.12"
+    },
+    "Properties": {
+      "DtHitEffect": {
+        "ObjectName": "DataTable'DT_HitEffect'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Data/DT_HitEffect.0"
+      },
+      "DtBaseMovementSetting": {
+        "ObjectName": "DataTable'DT_BaseMovementSetting'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Data/DT_BaseMovementSetting.0"
+      },
+      "BattleSockets": [
+        "WeaponProp01",
+        "WeaponProp02"
+      ],
+      "NormalSockets": [
+        "WeaponProp03",
+        "WeaponProp04"
+      ],
+      "DtNewBulletDataMain": {
+        "ObjectName": "DataTable'DT_ReBulletDataMain'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Data/DT_ReBulletDataMain.0"
+      },
+      "InputComponentClass": {
+        "AssetPathName": "/Game/Aki/Character/Role/FemaleM/Jinxi/Abilities/Input/BP_Input_Jinxi.BP_Input_Jinxi_C",
+        "SubPathString": ""
+      },
+      "DtCameraConfig": {
+        "ObjectName": "DataTable'DT_CameraConfigList'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Data/DT_CameraConfigList.0"
+      },
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Base_Jinxi_C:CharacterMesh0'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.19"
+      },
+      "CharacterMovement": {
+        "ObjectName": "CharacterMovementComponent'Default__BP_Base_Jinxi_C:CharMoveComp'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.4"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Base_Jinxi_C:CollisionCylinder'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.3"
+      },
+      "bUseControllerRotationYaw": false,
+      "AIControllerClass": null,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Base_Jinxi_C:CollisionCylinder'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.3"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_Base_Jinxi_C'Default__BP_Base_Jinxi_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.2"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__TsBaseCharacter_C:CollisionCylinder'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.13"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 77.0,
+      "CapsuleRadius": 25.0
+    }
+  },
+  {
+    "Type": "CharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_Base_Jinxi_C'Default__BP_Base_Jinxi_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.2"
+    },
+    "Template": {
+      "ObjectName": "CharacterMovementComponent'Default__TsBaseCharacter_C:CharMoveComp'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.14"
+    },
+    "Properties": {
+      "MaxStepHeight": 55.0,
+      "WalkableFloorAngle": 55.0,
+      "WalkableFloorZ": 0.57357645
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Base_Jinxi_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.1"
+    }
+  },
+  {
+    "Type": "KuroAdjustableCapsuleComponent",
+    "Name": "Bip001LThighTwist_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'KuroAdjustableCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Base_Jinxi_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.1"
+    },
+    "Properties": {
+      "BindSocketNames": [
+        "Bip001LThigh",
+        "Bip001LFoot"
+      ],
+      "RelativeLocation": {
+        "X": 2.7894974E-05,
+        "Y": -3.195074,
+        "Z": 114.1199
+      },
+      "RelativeRotation": {
+        "Pitch": 6.091272,
+        "Yaw": 90.00064,
+        "Roll": -179.99998
+      }
+    }
+  },
+  {
+    "Type": "KuroAdjustableCapsuleComponent",
+    "Name": "Bip001RThighTwist_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'KuroAdjustableCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Base_Jinxi_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.1"
+    },
+    "Properties": {
+      "BindSocketNames": [
+        "Bip001RThigh",
+        "Bip001RFoot"
+      ],
+      "RelativeLocation": {
+        "X": 2.7894974E-05,
+        "Y": -3.195074,
+        "Z": 114.1199
+      },
+      "RelativeRotation": {
+        "Pitch": 6.091272,
+        "Yaw": 90.00064,
+        "Roll": -179.99998
+      }
+    }
+  },
+  {
+    "Type": "KuroAdjustableCapsuleComponent",
+    "Name": "Bip001Spine2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'KuroAdjustableCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Base_Jinxi_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.1"
+    },
+    "Properties": {
+      "BindSocketNames": [
+        "Bip001Head",
+        "Bip001LForearm",
+        "Bip001RForearm",
+        "Bip001Spine"
+      ],
+      "MinRadius": 13.0,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 77.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.99999,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Base_Jinxi_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Base_Jinxi_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.16"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Base_Jinxi_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.9"
+      },
+      "VariableGuid": "20BADE52-4E9C26A6-97915EAD-76862641",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Base_Jinxi_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.16"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshComponent'BP_Base_Jinxi_C:WeaponCase0_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.18"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "D0F89B40-4866ABDE-BB84919F-8B05C235",
+      "InternalVariableName": "WeaponCase0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Base_Jinxi_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.16"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'KuroAdjustableCapsuleComponent'",
+        "ObjectPath": "/Script/KuroAnim"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "KuroAdjustableCapsuleComponent'BP_Base_Jinxi_C:Bip001LThighTwist_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.6"
+      },
+      "AttachToName": "Bip001LThigh",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "C1868789-48F59388-9A438A8D-EF17F6B3",
+      "InternalVariableName": "Bip001LThighTwist"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Base_Jinxi_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.16"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'KuroAdjustableCapsuleComponent'",
+        "ObjectPath": "/Script/KuroAnim"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "KuroAdjustableCapsuleComponent'BP_Base_Jinxi_C:Bip001RThighTwist_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.7"
+      },
+      "AttachToName": "Bip001RThigh",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "30AA0249-4FA05B96-FDFEEA97-3A499C13",
+      "InternalVariableName": "Bip001RThighTwist"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Base_Jinxi_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.16"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshComponent'BP_Base_Jinxi_C:OtherCase1_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.17"
+      },
+      "AttachToName": "Bip001Head",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "FCA7AA5F-44C40DAD-28663DA8-68C82E7A",
+      "InternalVariableName": "OtherCase1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Base_Jinxi_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.16"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'KuroAdjustableCapsuleComponent'",
+        "ObjectPath": "/Script/KuroAnim"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "KuroAdjustableCapsuleComponent'BP_Base_Jinxi_C:Bip001Spine2_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.8"
+      },
+      "AttachToName": "Bip001Spine",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "10724591-491E7063-73B826A0-90472D7B",
+      "InternalVariableName": "Bip001Spine2"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Base_Jinxi_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Base_Jinxi_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Base_Jinxi_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Base_Jinxi_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Base_Jinxi_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Base_Jinxi_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.14"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Base_Jinxi_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Base_Jinxi_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Base_Jinxi_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Base_Jinxi_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Base_Jinxi_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.14"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Base_Jinxi_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.10"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "OtherCase1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Base_Jinxi_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.1"
+    },
+    "Properties": {
+      "ClothingSimulationFactory": {
+        "ObjectName": "Class'ClothingSimulationFactoryNv'",
+        "ObjectPath": "/Script/ClothingSystemRuntimeNv"
+      },
+      "bCanCharacterStandOn": false,
+      "BodyInstance": {
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "StraightWall_Deprecated",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "bHiddenInGame": true,
+      "ComponentTags": [
+        "龙角"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "WeaponCase0_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Base_Jinxi_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.1"
+    },
+    "Properties": {
+      "ClothingSimulationFactory": {
+        "ObjectName": "Class'ClothingSimulationFactoryNv'",
+        "ObjectPath": "/Script/ClothingSystemRuntimeNv"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Base_Jinxi_C'Default__BP_Base_Jinxi_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.2"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponent'Default__TsBaseCharacter_C:CharacterMesh0'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.23"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Base_Jinxi_C:CollisionCylinder'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/BP_Base_Jinxi.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -77.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  }
+]

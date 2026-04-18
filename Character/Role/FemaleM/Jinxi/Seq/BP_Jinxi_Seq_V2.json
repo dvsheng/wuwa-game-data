@@ -1,0 +1,224 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Jinxi_Seq_V2_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Seq/BP_Jinxi_Seq_V2",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseRole_Seq_V2_C'",
+      "ObjectPath": "Client/Content/Aki/Character/BaseSeqCharacter/BP_BaseRole_Seq_V2.29"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Jinxi_Seq_V2_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Seq/BP_Jinxi_Seq_V2.7"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Jinxi_Seq_V2_C:InheritableComponentHandler'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Seq/BP_Jinxi_Seq_V2.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseRole_Seq_V2_C'",
+      "ObjectPath": "Client/Content/Aki/Character/BaseSeqCharacter/BP_BaseRole_Seq_V2.29"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Jinxi_Seq_V2_C'Default__BP_Jinxi_Seq_V2_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Seq/BP_Jinxi_Seq_V2.1"
+    }
+  },
+  {
+    "Type": "BP_Jinxi_Seq_V2_C",
+    "Name": "Default__BP_Jinxi_Seq_V2_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Client/Content/Aki/Character/Role/FemaleM/Jinxi/Seq/BP_Jinxi_Seq_V2.BP_Jinxi_Seq_V2_C'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Seq/BP_Jinxi_Seq_V2",
+    "Template": {
+      "ObjectName": "BP_BaseRole_Seq_V2_C'Default__BP_BaseRole_Seq_V2_C'",
+      "ObjectPath": "Client/Content/Aki/Character/BaseSeqCharacter/BP_BaseRole_Seq_V2.30"
+    },
+    "Properties": {
+      "TalkID": 186,
+      "BindingTag": "Jinxi",
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn"
+    }
+  },
+  {
+    "Type": "BP_BaseHulu_Seq_C",
+    "Name": "Hulu_GEN_VARIABLE_BP_BaseHulu_Seq_C_CAT",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Client/Content/Aki/Character/BaseSeqCharacter/BP_BaseHulu_Seq.BP_BaseHulu_Seq_C'",
+    "Outer": {
+      "ObjectName": "ChildActorComponent'BP_Jinxi_Seq_V2_C:Hulu_GEN_VARIABLE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Seq/BP_Jinxi_Seq_V2.3"
+    },
+    "Template": {
+      "ObjectName": "BP_BaseHulu_Seq_C'Default__BP_BaseHulu_Seq_C'",
+      "ObjectPath": "Client/Content/Aki/Character/BaseSeqCharacter/BP_BaseHulu_Seq.2"
+    },
+    "Properties": {
+      "HuluMesh": {
+        "ObjectName": "SkeletalMesh'R1Hulu001Md10021'",
+        "ObjectPath": "Client/Content/Aki/Character/Weapon/Prop/Hulu/R1Hulu001Md10021/Model/R1Hulu001Md10021.0"
+      }
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "Hulu_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Jinxi_Seq_V2_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Seq/BP_Jinxi_Seq_V2.0"
+    },
+    "Template": {
+      "ObjectName": "ChildActorComponent'BP_BaseRole_Seq_V2_C:Hulu_GEN_VARIABLE'",
+      "ObjectPath": "Client/Content/Aki/Character/BaseSeqCharacter/BP_BaseRole_Seq_V2.33"
+    },
+    "Properties": {
+      "ChildActorTemplate": {
+        "ObjectName": "BP_BaseHulu_Seq_C'BP_Jinxi_Seq_V2_C:Hulu_GEN_VARIABLE.Hulu_GEN_VARIABLE_BP_BaseHulu_Seq_C_CAT'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Seq/BP_Jinxi_Seq_V2.2"
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Jinxi_Seq_V2_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Seq/BP_Jinxi_Seq_V2.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'SkeletalMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SkeletalMeshComponent'BP_Jinxi_Seq_V2_C:SkeletalMeshComponent0_GEN_VARIABLE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Seq/BP_Jinxi_Seq_V2.8"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_BaseRole_Seq_V2_C'",
+              "ObjectPath": "Client/Content/Aki/Character/BaseSeqCharacter/BP_BaseRole_Seq_V2.29"
+            },
+            "SCSVariableName": "SkeletalMeshComponent0",
+            "AssociatedGuid": "FC1DE0A4-46FA9E7B-ACFD4B9E-290D5D86"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'ChildActorComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "ChildActorComponent'BP_Jinxi_Seq_V2_C:Hulu_GEN_VARIABLE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Seq/BP_Jinxi_Seq_V2.3"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_BaseRole_Seq_V2_C'",
+              "ObjectPath": "Client/Content/Aki/Character/BaseSeqCharacter/BP_BaseRole_Seq_V2.29"
+            },
+            "SCSVariableName": "Hulu",
+            "AssociatedGuid": "56A7246E-4AF5B1AE-F4A74781-CA5F770B"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Jinxi_Seq_V2_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Seq/BP_Jinxi_Seq_V2.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Jinxi_Seq_V2_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Seq/BP_Jinxi_Seq_V2.7"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Jinxi_Seq_V2_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Seq/BP_Jinxi_Seq_V2.5"
+      },
+      "VariableGuid": "1E71DCF0-4AF97746-3BF886B3-550D1EB7",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Jinxi_Seq_V2_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Seq/BP_Jinxi_Seq_V2.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Jinxi_Seq_V2_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Seq/BP_Jinxi_Seq_V2.6"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "SkeletalMeshComponent0_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Jinxi_Seq_V2_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Seq/BP_Jinxi_Seq_V2.0"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponent'BP_BaseRole_Seq_V2_C:SkeletalMeshComponent0_GEN_VARIABLE'",
+      "ObjectPath": "Client/Content/Aki/Character/BaseSeqCharacter/BP_BaseRole_Seq_V2.42"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_Seq_Jinxi_Final_C'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/Seq/ABP/ABP_Seq_Jinxi_Final.2"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'R2T1JinxiMd10011'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jinxi/R2T1JinxiMd10011/Model/R2T1JinxiMd10011.86"
+      }
+    }
+  }
+]
