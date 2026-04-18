@@ -1,0 +1,1500 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Move_Attack",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack",
+    "Properties": {
+      "BlendOut": {
+        "BlendTime": 0.2
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.233334,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Attack03'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 11.233334,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Move_Attack:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.9"
+          },
+          "Duration": 1.0666667,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Attack'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 11.233334,
+            "LinkValue": 1.0666667,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack03'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.233334,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStateGoThrough",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateGoThrough_C'AM_Move_Attack:TsAnimNotifyStateGoThrough_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.16"
+          },
+          "Duration": 0.76038027,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Attack'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 11.233334,
+            "LinkValue": 0.76038027,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack03'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.233334,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_Move_Attack:TsAnimNotifyStateAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.11"
+          },
+          "Duration": 11.233334,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Attack'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 11.233334,
+            "LinkValue": 11.233334,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack03'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 13,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.233334,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Move_Attack:TsAnimNotifyStateAddTag_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.10"
+          },
+          "Duration": 0.61928743,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Attack'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 11.233334,
+            "LinkValue": 0.61928743,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack03'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.233334,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStateChangeSlot_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateChangeSlot_C'AM_Move_Attack:TsAnimNotifyStateChangeSlot_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.13"
+          },
+          "Duration": 11.180002,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Attack'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 11.233334,
+            "LinkValue": 11.180002,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack03'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.233334,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStateSubMeshControl_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSubMeshControl_C'AM_Move_Attack:TsAnimNotifyStateSubMeshControl_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.19"
+          },
+          "Duration": 11.233334,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Attack'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 11.233334,
+            "LinkValue": 11.233334,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack03'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.233334,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_Move_Attack:TsAnimNotifyAddBuff_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 9,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.233334,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyWeaponHide_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_Move_Attack:TsAnimNotifyWeaponHide_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.20"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 10,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.233334,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_Move_Attack:TsAnimNotifyStateAudioEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.12"
+          },
+          "Duration": 11.233334,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Attack'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 11.233334,
+            "LinkValue": 11.233334,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack03'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 16,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.233334,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "场景物件交互",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSceneInteract_C'AM_Move_Attack:TsAnimNotifyStateSceneInteract_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.18"
+          },
+          "Duration": 11.233334,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Attack'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 11.233334,
+            "LinkValue": 11.233334,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack03'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 17,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.233334,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_Move_Attack:TsAnimNotifyAddBuff_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.033333335,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 8,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.233334,
+          "LinkValue": 0.033333335,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyAudioEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAudioEvent_C'AM_Move_Attack:TsAnimNotifyAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.1,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.233334,
+          "LinkValue": 0.1,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateControllerShake_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateControllerShake_C'AM_Move_Attack:TsAnimNotifyStateControllerShake_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.14"
+          },
+          "Duration": 0.2,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Attack'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 11.233334,
+            "LinkValue": 0.433333,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack03'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 11,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.233334,
+          "LinkValue": 0.233333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateControllerShake_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateControllerShake_C'AM_Move_Attack:TsAnimNotifyStateControllerShake_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.15"
+          },
+          "Duration": 0.19999999,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Attack'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 11.233334,
+            "LinkValue": 0.666667,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack03'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 11,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.233334,
+          "LinkValue": 0.466667,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "AnimNotifyAddMaterialControllerData_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyAddMaterialControllerData_C'AM_Move_Attack:AnimNotifyAddMaterialControllerData_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.566667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 14,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.233334,
+          "LinkValue": 0.622033,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateNextAtt",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateNextAtt_C'AM_Move_Attack:TsAnimNotifyStateNextAtt_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.17"
+          },
+          "Duration": 0.71246153,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Attack'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 11.233334,
+            "LinkValue": 1.3791282,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack03'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.233334,
+          "LinkValue": 0.6666667,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "AnimNotifyAddMaterialControllerData_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyAddMaterialControllerData_C'AM_Move_Attack:AnimNotifyAddMaterialControllerData_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.566667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 15,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.233334,
+          "LinkValue": 0.858413,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyChangeSkillPriority_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyChangeSkillPriority_C'AM_Move_Attack:TsAnimNotifyChangeSkillPriority_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 1.0666667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.233334,
+          "LinkValue": 1.0666667,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyEndSkill_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyEndSkill_C'AM_Move_Attack:TsAnimNotifyEndSkill_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.7"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.233334,
+          "LinkValue": 1.0761929,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyFightStand",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyFightStand_C'AM_Move_Attack:TsAnimNotifyFightStand_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.8"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 10.500001,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.233334,
+          "LinkValue": 10.500001,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Attack03.0"
+          }
+        }
+      ],
+      "SequenceLength": 11.233334,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1XiakongMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/R2T1XiakongMd10011/Model/R2T1XiakongMd10011_Skeleton.15"
+      }
+    },
+    "SkeletonGuid": "BF54CFEA-4EA0DC6C-68E4BABD-4EC125C6"
+  },
+  {
+    "Type": "AnimNotifyAddMaterialControllerData_C",
+    "Name": "AnimNotifyAddMaterialControllerData_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Character/AnimNotify/AnimNotifyAddMaterialControllerData.AnimNotifyAddMaterialControllerData_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyAddMaterialControllerData_C'Default__AnimNotifyAddMaterialControllerData_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Character/AnimNotify/AnimNotifyAddMaterialControllerData.3"
+    },
+    "Properties": {
+      "MaterialAssetData": {
+        "ObjectName": "PD_CharacterControllerData_C'DA_Fx_XiaKong_Shunyi3'",
+        "ObjectPath": "Client/Content/Aki/Effect/MaterialController/DA_Character/Xiakong/DA_Fx_XiaKong_Shunyi3.1"
+      },
+      "exportIndex": 13
+    }
+  },
+  {
+    "Type": "AnimNotifyAddMaterialControllerData_C",
+    "Name": "AnimNotifyAddMaterialControllerData_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Character/AnimNotify/AnimNotifyAddMaterialControllerData.AnimNotifyAddMaterialControllerData_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyAddMaterialControllerData_C'Default__AnimNotifyAddMaterialControllerData_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Character/AnimNotify/AnimNotifyAddMaterialControllerData.3"
+    },
+    "Properties": {
+      "MaterialAssetData": {
+        "ObjectName": "PD_CharacterControllerData_C'DA_Fx_XiaKong_Shunyi4'",
+        "ObjectPath": "Client/Content/Aki/Effect/MaterialController/DA_Character/Xiakong/DA_Fx_XiaKong_Shunyi4.1"
+      },
+      "exportIndex": 15
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 1407500022,
+      "exportIndex": 6
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 1407500020,
+      "exportIndex": 9
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAudioEvent_C",
+    "Name": "TsAnimNotifyAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.TsAnimNotifyAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAudioEvent_C'Default__TsAnimNotifyAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.3"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_vo_xiakong_atk_atk03.play_vo_xiakong_atk_atk03",
+        "SubPathString": ""
+      },
+      "TagProbabilityInfo": {
+        "DefaultProbability_10_745EC015436DEFB2B292A79C081F3E4F": 0.4
+      },
+      "exportIndex": 10
+    }
+  },
+  {
+    "Type": "TsAnimNotifyChangeSkillPriority_C",
+    "Name": "TsAnimNotifyChangeSkillPriority_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.TsAnimNotifyChangeSkillPriority_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyChangeSkillPriority_C'Default__TsAnimNotifyChangeSkillPriority_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.3"
+    },
+    "Properties": {
+      "Priority": 2.0,
+      "exportIndex": 16
+    }
+  },
+  {
+    "Type": "TsAnimNotifyEndSkill_C",
+    "Name": "TsAnimNotifyEndSkill_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.TsAnimNotifyEndSkill_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyEndSkill_C'Default__TsAnimNotifyEndSkill_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.3"
+    },
+    "Properties": {
+      "exportIndex": 17
+    }
+  },
+  {
+    "Type": "TsAnimNotifyFightStand_C",
+    "Name": "TsAnimNotifyFightStand_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyFightStand.TsAnimNotifyFightStand_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyFightStand_C'Default__TsAnimNotifyFightStand_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyFightStand.3"
+    },
+    "Properties": {
+      "exportIndex": 18
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.734ce128.d38f2012.31c4024a"
+      },
+      "exportIndex": 0,
+      "CurrentTimeLength": 1.672051
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "功能.逻辑状态标识.无敌.通用无敌"
+      },
+      "exportIndex": 3,
+      "CurrentTimeLength": 0.717355
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_role_xiakong_bat_attack03.play_role_xiakong_bat_attack03",
+        "SubPathString": ""
+      },
+      "exportIndex": 2,
+      "CurrentTimeLength": 7.3600645
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_role_xiakong_bat_attack03_foley_01.play_role_xiakong_bat_attack03_foley_01",
+        "SubPathString": ""
+      },
+      "exportIndex": 8,
+      "CurrentTimeLength": 7.359864
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateChangeSlot_C",
+    "Name": "TsAnimNotifyStateChangeSlot_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateChangeSlot.TsAnimNotifyStateChangeSlot_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateChangeSlot_C'Default__TsAnimNotifyStateChangeSlot_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateChangeSlot.4"
+    },
+    "Properties": {
+      "ComponentName": "OtherCase1",
+      "SwitchToSlotName": "WeaponProp02",
+      "exportIndex": 4,
+      "CurrentTimeLength": 7.359864
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateControllerShake_C",
+    "Name": "TsAnimNotifyStateControllerShake_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateControllerShake.TsAnimNotifyStateControllerShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateControllerShake_C'Default__TsAnimNotifyStateControllerShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateControllerShake.4"
+    },
+    "Properties": {
+      "Effect": {
+        "ObjectName": "KuroForceFeedbackEffect'FF_XiaKong_Atk03_2'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/Data/ControllerShake/FF_XiaKong_Atk03_2.0"
+      },
+      "exportIndex": 11,
+      "CurrentTimeLength": 0.48412204
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateControllerShake_C",
+    "Name": "TsAnimNotifyStateControllerShake_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateControllerShake.TsAnimNotifyStateControllerShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateControllerShake_C'Default__TsAnimNotifyStateControllerShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateControllerShake.4"
+    },
+    "Properties": {
+      "Effect": {
+        "ObjectName": "KuroForceFeedbackEffect'FF_XiaKong_Atk03_2'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/Data/ControllerShake/FF_XiaKong_Atk03_2.0"
+      },
+      "exportIndex": 12,
+      "CurrentTimeLength": 0.25078803
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateGoThrough_C",
+    "Name": "TsAnimNotifyStateGoThrough_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateGoThrough.TsAnimNotifyStateGoThrough_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateGoThrough_C'Default__TsAnimNotifyStateGoThrough_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateGoThrough.5"
+    },
+    "Properties": {
+      "FirstGoThroughPriority": 31,
+      "OldGoThroughPriority": 50.0,
+      "OldHitPriority": 50.0,
+      "LeftTime": -0.011425961,
+      "IsEnd": true,
+      "exportIndex": 1,
+      "CurrentTimeLength": 1.672051
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateNextAtt_C",
+    "Name": "TsAnimNotifyStateNextAtt_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.TsAnimNotifyStateNextAtt_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateNextAtt_C'Default__TsAnimNotifyStateNextAtt_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.4"
+    },
+    "Properties": {
+      "exportIndex": 14,
+      "CurrentTimeLength": 1.0052843
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSceneInteract_C",
+    "Name": "TsAnimNotifyStateSceneInteract_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSceneInteract.TsAnimNotifyStateSceneInteract_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSceneInteract_C'Default__TsAnimNotifyStateSceneInteract_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSceneInteract.4"
+    },
+    "Properties": {
+      "SocketName": "WeaponProp02",
+      "DataAssetRef": {
+        "AssetPathName": "/Game/Aki/Data/Fight/SceneInteract/Role/Xiakong/DA_PropSceneInteract_Xiakong_Maikefeng_Tail.DA_PropSceneInteract_Xiakong_Maikefeng_Tail",
+        "SubPathString": ""
+      },
+      "exportIndex": 9,
+      "CurrentTimeLength": 7.359864
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSubMeshControl_C",
+    "Name": "TsAnimNotifyStateSubMeshControl_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.TsAnimNotifyStateSubMeshControl_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSubMeshControl_C'Default__TsAnimNotifyStateSubMeshControl_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.4"
+    },
+    "Properties": {
+      "MeshName": "OtherCase1",
+      "开始是否可见": true,
+      "结束特效": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1XiakongMd10011/DA_Fx_Group_R1a09_WQ_MKF.DA_Fx_Group_R1a09_WQ_MKF",
+        "SubPathString": ""
+      },
+      "exportIndex": 5,
+      "CurrentTimeLength": 7.359864
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "HideEffect": false,
+      "exportIndex": 7
+    }
+  }
+]

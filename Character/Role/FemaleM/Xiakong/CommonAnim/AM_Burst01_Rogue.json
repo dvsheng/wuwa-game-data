@@ -1,0 +1,2215 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Burst01_Rogue",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue",
+    "Properties": {
+      "BlendOut": {
+        "BlendTime": 0.3
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "Loop",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Burst01'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 37.0,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Burst01_Change'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01_Change.0"
+                },
+                "StartPos": 37.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 2.8,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateChangeSlot_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateChangeSlot_C'AM_Burst01_Rogue:TsAnimNotifyStateChangeSlot_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.27"
+          },
+          "Duration": 39.8,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 37.0,
+            "SegmentLength": 2.8,
+            "LinkValue": 39.8,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01_Change'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01_Change.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Burst01_Rogue:TsAnimNotifyStateAddTag_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.21"
+          },
+          "Duration": 40.033333,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": -1.0,
+            "SegmentLength": -1.0,
+            "LinkValue": 40.033333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 9,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_Burst01_Rogue:TsAnimNotifyStateAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.22"
+          },
+          "Duration": 40.033333,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": -1.0,
+            "SegmentLength": -1.0,
+            "LinkValue": 40.033333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 20,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifySwitchSequenceCamera",
+          "Notify": {
+            "ObjectName": "TsAnimNotifySwitchSequenceCamera_C'AM_Burst01_Rogue:TsAnimNotifySwitchSequenceCamera_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.30"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStateBurst_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateBurst_C'AM_Burst01_Rogue:TsAnimNotifyStateBurst_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.25"
+          },
+          "Duration": 3.700052,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 37.0,
+            "LinkValue": 3.700052,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Burst01_Rogue:TsAnimNotifyStateAddTag_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.20"
+          },
+          "Duration": 40.033333,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": -1.0,
+            "SegmentLength": -1.0,
+            "LinkValue": 40.033333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 8,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_Burst01_Rogue:TsAnimNotifyAddBuff_C_6'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.12"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 10,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStateAbsoluteTimeStop_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAbsoluteTimeStop_C'AM_Burst01_Rogue:TsAnimNotifyStateAbsoluteTimeStop_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.19"
+          },
+          "Duration": 3.1927178,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 37.0,
+            "LinkValue": 3.1927178,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 11,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateTimeStopRequest_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateTimeStopRequest_C'AM_Burst01_Rogue:TsAnimNotifyStateTimeStopRequest_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.29"
+          },
+          "Duration": 3.6614115,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 37.0,
+            "LinkValue": 3.6614115,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 12,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_Burst01_Rogue:TsAnimNotifyAddBuff_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 13,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_Burst01_Rogue:TsAnimNotifyAddBuff_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.7"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 14,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_Burst01_Rogue:TsAnimNotifyAddBuff_C_5'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.11"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 18,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyAudioEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAudioEvent_C'AM_Burst01_Rogue:TsAnimNotifyAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.14"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 21,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Burst01_Rogue:TsAnimNotifyReSkillEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.17"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 24,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_Burst01_Rogue:TsAnimNotifyStateAudioEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.23"
+          },
+          "Duration": 22.251741,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 37.0,
+            "LinkValue": 22.285074,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 0.03333333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateSubMeshControl_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSubMeshControl_C'AM_Burst01_Rogue:TsAnimNotifyStateSubMeshControl_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.28"
+          },
+          "Duration": 33.382286,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 37.0,
+            "LinkValue": 35.348953,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 1.9666666,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Burst01_Rogue:AnimNotifyEffect_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 22,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 2.0752542,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Burst01_Rogue:AnimNotifyEffect_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 23,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 2.0752542,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateCameraModify_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateCameraModify_C'AM_Burst01_Rogue:TsAnimNotifyStateCameraModify_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.26"
+          },
+          "Duration": 32.894073,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 37.0,
+            "LinkValue": 35.77683,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 2.8827553,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_Burst01_Rogue:TsAnimNotifyAddBuff_C_7'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.13"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 3.1,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 10,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 3.1,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Burst01_Rogue:AnimNotifyEffect_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 25,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 3.2461038,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Burst01_Rogue:TsAnimNotifyReSkillEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.18"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 3.333333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 3.333333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyControllerShake_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyControllerShake_C'AM_Burst01_Rogue:TsAnimNotifyControllerShake_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.15"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 3.333333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 11,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 3.333333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_Burst01_Rogue:TsAnimNotifyStateAudioEvent_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.24"
+          },
+          "Duration": 22.251741,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 37.0,
+            "LinkValue": 25.614983,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 3.363241,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_Burst01_Rogue:TsAnimNotifyAddBuff_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.8"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 15,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 3.664931,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_Burst01_Rogue:TsAnimNotifyAddBuff_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.9"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 16,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 3.664931,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_Burst01_Rogue:TsAnimNotifyAddBuff_C_4'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.10"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 3.7,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 17,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 3.7,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyEndSkill_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyEndSkill_C'AM_Burst01_Rogue:TsAnimNotifyEndSkill_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.16"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 3.9936407,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Burst01_Rogue:AnimNotifyEffect_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 36.966663,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 36.966663,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "AnimNotifyAddMaterialControllerData_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyAddMaterialControllerData_C'AM_Burst01_Rogue:AnimNotifyAddMaterialControllerData_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 36.966663,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 37.0,
+          "LinkValue": 36.966663,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/Burst01.4"
+          }
+        }
+      ],
+      "SequenceLength": 39.8,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1XiakongMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/R2T1XiakongMd10011/Model/R2T1XiakongMd10011_Skeleton.15"
+      }
+    },
+    "SkeletonGuid": "BF54CFEA-4EA0DC6C-68E4BABD-4EC125C6"
+  },
+  {
+    "Type": "AnimNotifyAddMaterialControllerData_C",
+    "Name": "AnimNotifyAddMaterialControllerData_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Character/AnimNotify/AnimNotifyAddMaterialControllerData.AnimNotifyAddMaterialControllerData_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyAddMaterialControllerData_C'Default__AnimNotifyAddMaterialControllerData_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Character/AnimNotify/AnimNotifyAddMaterialControllerData.3"
+    },
+    "Properties": {
+      "MaterialAssetData": {
+        "ObjectName": "PD_CharacterControllerData_C'DA_Fx_XiaKong_Shunyi2'",
+        "ObjectPath": "Client/Content/Aki/Effect/MaterialController/DA_Character/Xiakong/DA_Fx_XiaKong_Shunyi2.1"
+      },
+      "exportIndex": 30
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "DetachWhenSkillEnd": true,
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1XiakongMd10011/DA_Fx_Group_R2s_Vision_Burst01_Gu.DA_Fx_Group_R2s_Vision_Burst01_Gu",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": -30.406,
+        "Y": -66.091,
+        "Z": 0.0
+      },
+      "exportIndex": 18
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "DetachWhenSkillEnd": true,
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1XiakongMd10011/DA_Fx_Group_R2s_Vision_Burst01_Qin.DA_Fx_Group_R2s_Vision_Burst01_Qin",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 33.703,
+        "Y": -66.091,
+        "Z": 0.0
+      },
+      "exportIndex": 19
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1XiakongMd10011/DA_Fx_Group_R1a09_HuanYing_XiaoShi.DA_Fx_Group_R1a09_HuanYing_XiaoShi",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 10.0
+      },
+      "exportIndex": 29
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "DetachWhenSkillEnd": true,
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1XiakongMd10011/DA_Fx_Group_R1b_08.DA_Fx_Group_R1b_08",
+        "SubPathString": ""
+      },
+      "exportIndex": 21
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 14076660106,
+      "exportIndex": 12
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 14076660107,
+      "exportIndex": 13
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 14076660108,
+      "exportIndex": 25
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 14076660110,
+      "exportIndex": 26
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 1407000093,
+      "exportIndex": 27
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 1407100015,
+      "exportIndex": 13
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 1407100014,
+      "exportIndex": 9
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 1407100014,
+      "exportIndex": 25
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAudioEvent_C",
+    "Name": "TsAnimNotifyAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.TsAnimNotifyAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAudioEvent_C'Default__TsAnimNotifyAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.3"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_role_music_xiakong_burst_01.play_role_music_xiakong_burst_01",
+        "SubPathString": ""
+      },
+      "exportIndex": 14
+    }
+  },
+  {
+    "Type": "TsAnimNotifyControllerShake_C",
+    "Name": "TsAnimNotifyControllerShake_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyControllerShake.TsAnimNotifyControllerShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyControllerShake_C'Default__TsAnimNotifyControllerShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyControllerShake.3"
+    },
+    "Properties": {
+      "Effect": {
+        "ObjectName": "KuroForceFeedbackEffect'FF_XiaKong_Burst'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/Data/ControllerShake/FF_XiaKong_Burst.0"
+      },
+      "exportIndex": 23
+    }
+  },
+  {
+    "Type": "TsAnimNotifyEndSkill_C",
+    "Name": "TsAnimNotifyEndSkill_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.TsAnimNotifyEndSkill_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyEndSkill_C'Default__TsAnimNotifyEndSkill_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.3"
+    },
+    "Properties": {
+      "exportIndex": 28
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "14078881002",
+      "exportIndex": 15
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1407200070",
+      "exportIndex": 22
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAbsoluteTimeStop_C",
+    "Name": "TsAnimNotifyStateAbsoluteTimeStop_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAbsoluteTimeStop.TsAnimNotifyStateAbsoluteTimeStop_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAbsoluteTimeStop_C'Default__TsAnimNotifyStateAbsoluteTimeStop_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAbsoluteTimeStop.4"
+    },
+    "Properties": {
+      "exportIndex": 10,
+      "CurrentTimeLength": 3.2025218
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "功能.通用镜头.忽略大招镜头"
+      },
+      "exportIndex": 9,
+      "CurrentTimeLength": 31.077633
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "功能.通用镜头.忽略碰撞隐藏"
+      },
+      "exportIndex": 5,
+      "CurrentTimeLength": 31.077831
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_role_xiakong_bat_burst01.play_role_xiakong_bat_burst01",
+        "SubPathString": ""
+      },
+      "exportIndex": 6,
+      "CurrentTimeLength": 31.077831
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_vo_xiakong_burst_burst01.play_vo_xiakong_burst_burst01",
+        "SubPathString": ""
+      },
+      "exportIndex": 16,
+      "CurrentTimeLength": 22.251871
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_role_xiakong_bat_burst01_aoe.play_role_xiakong_bat_burst01_aoe",
+        "SubPathString": ""
+      },
+      "exportIndex": 24,
+      "CurrentTimeLength": 22.263287
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateBurst_C",
+    "Name": "TsAnimNotifyStateBurst_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateBurst.TsAnimNotifyStateBurst_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateBurst_C'Default__TsAnimNotifyStateBurst_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateBurst.4"
+    },
+    "Properties": {
+      "exportIndex": 8,
+      "CurrentTimeLength": 3.718294
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateCameraModify_C",
+    "Name": "TsAnimNotifyStateCameraModify_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateCameraModify.TsAnimNotifyStateCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateCameraModify_C'Default__TsAnimNotifyStateCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateCameraModify.5"
+    },
+    "Properties": {
+      "淡出时间": 0.5,
+      "打断淡出时间": 0.5,
+      "相机修改配置": {
+        "Priority_101_E74404724F7BCD1A815B9E8ECCEE64EC": 100,
+        "IsModifiedArmLength_73_1686AE5842DD198072484BB2D855CAEB": true,
+        "ArmLength_74_192752C04380D5CAF2EB7E910DC5C9C5": 700.0,
+        "IsModifiedArmRotation_76_570606324FC53E504274BDA6F59BD5C3": false,
+        "IsModifiedArmRotationRoll_93_6CBBDC9043D8BF5E4EC3AB8E5473C625": false,
+        "CameraOffsetAdditional_81_DABDCE1243662E3E72DB62A0B56CEA53": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -20.0
+        },
+        "OverrideCameraInput_59_0083E3164D765950CF70528078BF8218": true,
+        "ResetFinalArmLength_72_0D8B0AFC4AA34A5415C9C6AC3D25FE4E": true,
+        "IsResetFinalArmLengthToSpecificValue_204_D7743AE64930C1C3692EBC84B290FF1A": true,
+        "ResetFinalArmLengthToSpecificValue_207_E55092A1464EA622173DBCBEF34A8EF9": 500.0,
+        "IsForcePlayModify_177_F5B3348F48031F5374647B85AB011967": true
+      },
+      "exportIndex": 20,
+      "CurrentTimeLength": 28.194977
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateChangeSlot_C",
+    "Name": "TsAnimNotifyStateChangeSlot_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateChangeSlot.TsAnimNotifyStateChangeSlot_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateChangeSlot_C'Default__TsAnimNotifyStateChangeSlot_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateChangeSlot.4"
+    },
+    "Properties": {
+      "ComponentName": "OtherCase1",
+      "SwitchToSlotName": "WeaponProp07",
+      "exportIndex": 4,
+      "CurrentTimeLength": 31.077831
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSubMeshControl_C",
+    "Name": "TsAnimNotifyStateSubMeshControl_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.TsAnimNotifyStateSubMeshControl_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSubMeshControl_C'Default__TsAnimNotifyStateSubMeshControl_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.4"
+    },
+    "Properties": {
+      "MeshName": "OtherCase1",
+      "开始是否可见": true,
+      "结束特效": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1XiakongMd10011/DA_Fx_Group_R1a09_WQ_MKF.DA_Fx_Group_R1a09_WQ_MKF",
+        "SubPathString": ""
+      },
+      "exportIndex": 17,
+      "CurrentTimeLength": 29.111065
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateTimeStopRequest_C",
+    "Name": "TsAnimNotifyStateTimeStopRequest_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateTimeStopRequest.TsAnimNotifyStateTimeStopRequest_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateTimeStopRequest_C'Default__TsAnimNotifyStateTimeStopRequest_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateTimeStopRequest.4"
+    },
+    "Properties": {
+      "exportIndex": 11,
+      "CurrentTimeLength": 3.6614864
+    }
+  },
+  {
+    "Type": "TsAnimNotifySwitchSequenceCamera_C",
+    "Name": "TsAnimNotifySwitchSequenceCamera_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySwitchSequenceCamera.TsAnimNotifySwitchSequenceCamera_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Xiakong/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifySwitchSequenceCamera_C'Default__TsAnimNotifySwitchSequenceCamera_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySwitchSequenceCamera.4"
+    },
+    "Properties": {
+      "特写镜头配置": {
+        "CameraSequence_11_EA0F02DF4948AFF0A951AB8E0F790CEC": {
+          "ObjectName": "LevelSequence'SC_Xiakong_Burst01'",
+          "ObjectPath": "Client/Content/Aki/Character/SequenceCamera/Fight/Xiakong/SC_Xiakong_Burst01.21"
+        },
+        "IsHideHud_13_3FD8AC824B783C3AC1386394935251D1": true,
+        "VisibleChild_26_E1BC75D64F4C322DD3D258A5F6B6F888": [
+          "EBattleUIChild::NewEnumerator16"
+        ]
+      },
+      "AdditiveRotation": {
+        "Pitch": -7.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      },
+      "CameraAttachSocket": "Root",
+      "bResetLockOnCamera": true,
+      "生效客户端": "ESequenceCameraAnsEffectiveClientType::NewEnumerator1",
+      "IsIgnoreCharacterCollision": true,
+      "强制播放Sequence": true,
+      "exportIndex": 7,
+      "NeedSimulate": false
+    }
+  }
+]
