@@ -1,0 +1,1623 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Weapon02_Attack01",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.4666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Weapon02_Attack01'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.4666667,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_Weapon02_Attack01:TsAnimNotifyAddBuff_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.4666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStatePositionBranchTarget_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'AM_Weapon02_Attack01:TsAnimNotifyStatePositionBranchTarget_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.19"
+          },
+          "Duration": 0.2772377,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.4666667,
+            "LinkValue": 0.2772377,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Weapon02_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 8,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.4666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStatePositionBranchTarget_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'AM_Weapon02_Attack01:TsAnimNotifyStatePositionBranchTarget_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.18"
+          },
+          "Duration": 0.2760091,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.4666667,
+            "LinkValue": 0.2760091,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Weapon02_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 9,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.4666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStateKeepAwayFromGround_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateKeepAwayFromGround_C'AM_Weapon02_Attack01:TsAnimNotifyStateKeepAwayFromGround_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.16"
+          },
+          "Duration": 0.3374401,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.4666667,
+            "LinkValue": 0.3374401,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Weapon02_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 11,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.4666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Weapon02_Attack01:TsAnimNotifyStateAddTag_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.13"
+          },
+          "Duration": 1.4666667,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.4666667,
+            "LinkValue": 1.4666667,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Weapon02_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 18,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.4666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "AnimNotifyStateEffect_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateEffect_C'AM_Weapon02_Attack01:AnimNotifyStateEffect_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.3"
+          },
+          "Duration": 1.2163339,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.4666667,
+            "LinkValue": 1.2349839,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Weapon02_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 13,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.4666667,
+          "LinkValue": 0.018649995,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStateSubMeshControl_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSubMeshControl_C'AM_Weapon02_Attack01:TsAnimNotifyStateSubMeshControl_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.21"
+          },
+          "Duration": 1.2134736,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.4666667,
+            "LinkValue": 1.2335095,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Weapon02_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 10,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.4666667,
+          "LinkValue": 0.020036042,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_Weapon02_Attack01:TsAnimNotifyStateAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.14"
+          },
+          "Duration": 0.8035328,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.4666667,
+            "LinkValue": 0.83686614,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Weapon02_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 16,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.4666667,
+          "LinkValue": 0.033333335,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyAudioEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAudioEvent_C'AM_Weapon02_Attack01:TsAnimNotifyAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.037,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.4666667,
+          "LinkValue": 0.037,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyStateMontageSpeedChange_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateMontageSpeedChange_C'AM_Weapon02_Attack01:TsAnimNotifyStateMontageSpeedChange_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.17"
+          },
+          "Duration": 0.51479185,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.4666667,
+            "LinkValue": 0.6114224,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Weapon02_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 12,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.4666667,
+          "LinkValue": 0.09663057,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyStateSceneInteract_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSceneInteract_C'AM_Weapon02_Attack01:TsAnimNotifyStateSceneInteract_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.20"
+          },
+          "Duration": 0.45951676,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.4666667,
+            "LinkValue": 0.64126825,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Weapon02_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 14,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.4666667,
+          "LinkValue": 0.18175147,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyDestroySpecBullet_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyDestroySpecBullet_C'AM_Weapon02_Attack01:TsAnimNotifyDestroySpecBullet_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.9"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.4666667,
+          "LinkValue": 0.21645293,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyDestroySpecBullet_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyDestroySpecBullet_C'AM_Weapon02_Attack01:TsAnimNotifyDestroySpecBullet_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.10"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.4666667,
+          "LinkValue": 0.21933605,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyControllerShake_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyControllerShake_C'AM_Weapon02_Attack01:TsAnimNotifyControllerShake_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.8"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.4666667,
+          "LinkValue": 0.231186,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Weapon02_Attack01:TsAnimNotifyReSkillEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.11"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.4666667,
+          "LinkValue": 0.23375186,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_Weapon02_Attack01:TsAnimNotifyStateAudioEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.15"
+          },
+          "Duration": 0.90987116,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.4666667,
+            "LinkValue": 1.1765379,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Weapon02_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 17,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.4666667,
+          "LinkValue": 0.26666668,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1.0,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Weapon02_Attack01:AnimNotifyEffect_C_6'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.701577,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.4666667,
+          "LinkValue": 0.29150695,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyControllerShake_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyControllerShake_C'AM_Weapon02_Attack01:TsAnimNotifyControllerShake_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.7"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.4666667,
+          "LinkValue": 0.51513034,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Weapon02_Attack01:TsAnimNotifyReSkillEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.12"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.4666667,
+          "LinkValue": 0.5177433,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyChangeSkillPriority_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyChangeSkillPriority_C'AM_Weapon02_Attack01:TsAnimNotifyChangeSkillPriority_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.95666665,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.4666667,
+          "LinkValue": 0.5422502,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1.0,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Weapon02_Attack01:AnimNotifyEffect_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.701577,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.4666667,
+          "LinkValue": 0.5710426,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Weapon02_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/Weapon02_Attack01.2"
+          }
+        }
+      ],
+      "SequenceLength": 1.4666667,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1LuhesiMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/R2T1LuhesiMd10011/Model/R2T1LuhesiMd10011_Skeleton.12"
+      }
+    },
+    "SkeletonGuid": "AECA6716-419480D7-B67C7884-329BD081"
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "WhenSkillEnd": "ESkillEffectType::NewEnumerator1",
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1LuhesiMd10011/DA_Fx_Group_R1a_changlian_05.DA_Fx_Group_R1a_changlian_05",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 70.0
+      },
+      "Rotation": {
+        "Pitch": 30.0,
+        "Yaw": 180.0,
+        "Roll": 30.0
+      },
+      "Scale": {
+        "X": 1.35,
+        "Y": 1.35,
+        "Z": 1.35
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 20
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "WhenSkillEnd": "ESkillEffectType::NewEnumerator1",
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1LuhesiMd10011/DA_Fx_Group_R1a_changlian_05.DA_Fx_Group_R1a_changlian_05",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 70.0
+      },
+      "Rotation": {
+        "Pitch": 30.0,
+        "Yaw": 0.0,
+        "Roll": -30.0
+      },
+      "Scale": {
+        "X": 1.35,
+        "Y": 1.35,
+        "Z": 1.35
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 17
+    }
+  },
+  {
+    "Type": "AnimNotifyStateEffect_C",
+    "Name": "AnimNotifyStateEffect_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.AnimNotifyStateEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateEffect_C'Default__AnimNotifyStateEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.11"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1LuhesiMd10011/DA_Fx_Group_R1a_cl_glow.DA_Fx_Group_R1a_cl_glow",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 1.956806,
+        "Y": -0.415949,
+        "Z": 4.5E-05
+      },
+      "Rotation": {
+        "Pitch": 0.000785,
+        "Yaw": 78.0,
+        "Roll": 0.002361
+      },
+      "SocketName": "WeaponProp02",
+      "exportIndex": 7,
+      "CurrentTimeLength": 0.67646086
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 1510001018,
+      "exportIndex": 2
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAudioEvent_C",
+    "Name": "TsAnimNotifyAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.TsAnimNotifyAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAudioEvent_C'Default__TsAnimNotifyAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.3"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_vo_luhesi_atk_airatk01_pro.play_vo_luhesi_atk_airatk01_pro",
+        "SubPathString": ""
+      },
+      "TagProbabilityInfo": {
+        "DefaultProbability_10_745EC015436DEFB2B292A79C081F3E4F": 0.35
+      },
+      "exportIndex": 10
+    }
+  },
+  {
+    "Type": "TsAnimNotifyChangeSkillPriority_C",
+    "Name": "TsAnimNotifyChangeSkillPriority_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.TsAnimNotifyChangeSkillPriority_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyChangeSkillPriority_C'Default__TsAnimNotifyChangeSkillPriority_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.3"
+    },
+    "Properties": {
+      "exportIndex": 19
+    }
+  },
+  {
+    "Type": "TsAnimNotifyControllerShake_C",
+    "Name": "TsAnimNotifyControllerShake_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyControllerShake.TsAnimNotifyControllerShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyControllerShake_C'Default__TsAnimNotifyControllerShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyControllerShake.3"
+    },
+    "Properties": {
+      "Effect": {
+        "ObjectName": "KuroForceFeedbackEffect'FF_LuHesi_little'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/Data/Shake/GamePadShake/FF_LuHesi_little.0"
+      }
+    }
+  },
+  {
+    "Type": "TsAnimNotifyControllerShake_C",
+    "Name": "TsAnimNotifyControllerShake_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyControllerShake.TsAnimNotifyControllerShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyControllerShake_C'Default__TsAnimNotifyControllerShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyControllerShake.3"
+    },
+    "Properties": {
+      "Effect": {
+        "ObjectName": "KuroForceFeedbackEffect'FF_LuHesi_little'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/Data/Shake/GamePadShake/FF_LuHesi_little.0"
+      }
+    }
+  },
+  {
+    "Type": "TsAnimNotifyDestroySpecBullet_C",
+    "Name": "TsAnimNotifyDestroySpecBullet_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyDestroySpecBullet.TsAnimNotifyDestroySpecBullet_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyDestroySpecBullet_C'Default__TsAnimNotifyDestroySpecBullet_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyDestroySpecBullet.3"
+    },
+    "Properties": {
+      "bulletName": "普攻3子弹",
+      "exportIndex": 13
+    }
+  },
+  {
+    "Type": "TsAnimNotifyDestroySpecBullet_C",
+    "Name": "TsAnimNotifyDestroySpecBullet_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyDestroySpecBullet.TsAnimNotifyDestroySpecBullet_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyDestroySpecBullet_C'Default__TsAnimNotifyDestroySpecBullet_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyDestroySpecBullet.3"
+    },
+    "Properties": {
+      "bulletName": "闪避定怪飞轮",
+      "exportIndex": 14
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "151011101",
+      "exportIndex": 15
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "151011102",
+      "exportIndex": 18
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "功能.功能制作.禁止体力恢复.技能禁止恢复"
+      },
+      "exportIndex": 6,
+      "CurrentTimeLength": 0.69501084
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_luhesi_am_weapon02_attack01_01.play_luhesi_am_weapon02_attack01_01",
+        "SubPathString": ""
+      },
+      "exportIndex": 9,
+      "CurrentTimeLength": 0.6617775
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_luhesi_am_weapon02_attack01_02.play_luhesi_am_weapon02_attack01_02",
+        "SubPathString": ""
+      },
+      "exportIndex": 16,
+      "CurrentTimeLength": 0.42844418
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateKeepAwayFromGround_C",
+    "Name": "TsAnimNotifyStateKeepAwayFromGround_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateKeepAwayFromGround.TsAnimNotifyStateKeepAwayFromGround_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateKeepAwayFromGround_C'Default__TsAnimNotifyStateKeepAwayFromGround_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateKeepAwayFromGround.5"
+    },
+    "Properties": {
+      "距离水平面最小高度": 25.0,
+      "MaxSpeed": 1500.0,
+      "exportIndex": 5,
+      "CurrentTimeLength": 0.33894747
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateMontageSpeedChange_C",
+    "Name": "TsAnimNotifyStateMontageSpeedChange_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateMontageSpeedChange.TsAnimNotifyStateMontageSpeedChange_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateMontageSpeedChange_C'Default__TsAnimNotifyStateMontageSpeedChange_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateMontageSpeedChange.4"
+    },
+    "Properties": {
+      "MontagePlayRate": 1.2,
+      "exportIndex": 11,
+      "CurrentTimeLength": 0.52924424
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStatePositionBranchTarget_C",
+    "Name": "TsAnimNotifyStatePositionBranchTarget_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.TsAnimNotifyStatePositionBranchTarget_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'Default__TsAnimNotifyStatePositionBranchTarget_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.6"
+    },
+    "Properties": {
+      "Distance": 0.0,
+      "MaxSpeed": 300.0,
+      "是否永远面向目标": false,
+      "忽略Z轴方向": false,
+      "忽略水平方向": true,
+      "永远修正Z轴": true,
+      "忽略双方半径": true,
+      "TargetOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 50.0
+      },
+      "允许反向移动": true,
+      "exportIndex": 4,
+      "CurrentTimeLength": 0.27859297
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStatePositionBranchTarget_C",
+    "Name": "TsAnimNotifyStatePositionBranchTarget_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.TsAnimNotifyStatePositionBranchTarget_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'Default__TsAnimNotifyStatePositionBranchTarget_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.6"
+    },
+    "Properties": {
+      "Distance": 300.0,
+      "是否永远面向目标": false,
+      "允许反向移动": true,
+      "最小吸附距离": 200.0,
+      "exportIndex": 3,
+      "CurrentTimeLength": 0.27859297
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSceneInteract_C",
+    "Name": "TsAnimNotifyStateSceneInteract_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSceneInteract.TsAnimNotifyStateSceneInteract_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSceneInteract_C'Default__TsAnimNotifyStateSceneInteract_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSceneInteract.4"
+    },
+    "Properties": {
+      "SocketName": "WeaponProp02",
+      "DataAssetRef": {
+        "AssetPathName": "/Game/Aki/Data/Fight/SceneInteract/Role/Luhesi/DA_SceneInteract_Luhesi_AttactBullet04.DA_SceneInteract_Luhesi_AttactBullet04",
+        "SubPathString": ""
+      },
+      "exportIndex": 12,
+      "CurrentTimeLength": 0.46646374
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSubMeshControl_C",
+    "Name": "TsAnimNotifyStateSubMeshControl_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.TsAnimNotifyStateSubMeshControl_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Weapon02_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Luhesi/CommonAnim/AM_Weapon02_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSubMeshControl_C'Default__TsAnimNotifyStateSubMeshControl_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.4"
+    },
+    "Properties": {
+      "MeshName": "OtherCase5",
+      "开始是否可见": true,
+      "开始材质": {
+        "ObjectName": "PD_CharacterControllerData_C'DA_Fx_Luhesi_cl_glow'",
+        "ObjectPath": "Client/Content/Aki/Effect/MaterialController/DA_Character/Luhesi/DA_Fx_Luhesi_cl_glow.1"
+      },
+      "结束材质": {
+        "ObjectName": "PD_CharacterControllerData_C'DA_Fx_Luhesi_wuqichange'",
+        "ObjectPath": "Client/Content/Aki/Effect/MaterialController/DA_Character/Luhesi/DA_Fx_Luhesi_wuqichange.1"
+      },
+      "结束特效": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1LuhesiMd10011/DA_Fx_Group_WeaponDis_cl.DA_Fx_Group_WeaponDis_cl",
+        "SubPathString": ""
+      },
+      "exportIndex": 8,
+      "CurrentTimeLength": 0.6750748
+    }
+  }
+]
