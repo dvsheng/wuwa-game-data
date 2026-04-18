@@ -1,0 +1,2689 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_AirAttack_Start_Pro",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro",
+    "Properties": {
+      "BlendOut": {
+        "BlendTime": 0.03
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.9,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_AirAttack_Start_Pro:TsAnimNotifyStateAddTag_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.30"
+          },
+          "Duration": 0.9,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.9,
+            "LinkValue": 0.9,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateKeepAwayFromGround_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateKeepAwayFromGround_C'AM_AirAttack_Start_Pro:TsAnimNotifyStateKeepAwayFromGround_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.34"
+          },
+          "Duration": 0.1661023,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.9,
+            "LinkValue": 0.1661023,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 19,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyWeaponHide",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_AirAttack_Start_Pro:TsAnimNotifyWeaponHide_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.36"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyChangeSkillPriority_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyChangeSkillPriority_C'AM_AirAttack_Start_Pro:TsAnimNotifyChangeSkillPriority_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.19"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_AirAttack_Start_Pro:TsAnimNotifyStateAddTag_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.31"
+          },
+          "Duration": 0.9,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.9,
+            "LinkValue": 0.9,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 8,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStatePositionBranchTarget_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'AM_AirAttack_Start_Pro:TsAnimNotifyStatePositionBranchTarget_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.35"
+          },
+          "Duration": 0.16666666,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.9,
+            "LinkValue": 0.16666666,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 11,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_AirAttack_Start_Pro:TsAnimNotifyStateAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.32"
+          },
+          "Duration": 0.8955717,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.9,
+            "LinkValue": 0.9,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 21,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.0044282377,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyAudioEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAudioEvent_C'AM_AirAttack_Start_Pro:TsAnimNotifyAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.13"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.01,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 20,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.01,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraModify",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'AM_AirAttack_Start_Pro:TsAnimNotifyCameraModify_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.14"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.13333334,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.13333334,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_AirAttack_Start_Pro:AnimNotifyEffect_C_4'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.7"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.033333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 14,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.22998837,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_AirAttack_Start_Pro:TsAnimNotifyReSkillEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.20"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.16666666,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.2317236,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_AirAttack_Start_Pro:TsAnimNotifyReSkillEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.21"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.266667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.26540914,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraShake",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraShake_C'AM_AirAttack_Start_Pro:TsAnimNotifyCameraShake_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.16"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.26666665,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.26666665,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_AirAttack_Start_Pro:TsAnimNotifyReSkillEvent_C_6'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.26"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.26666668,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.26666668,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_AirAttack_Start_Pro:AnimNotifyEffect_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.26666668,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 11,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.26666668,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_AirAttack_Start_Pro:AnimNotifyEffect_C_7'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.10"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.26666668,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 17,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.26666668,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_AirAttack_Start_Pro:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.29"
+          },
+          "Duration": 0.63327837,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.9,
+            "LinkValue": 0.9,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 9,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.26672158,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStateHideMesh",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateHideMesh_C'AM_AirAttack_Start_Pro:TsAnimNotifyStateHideMesh_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.33"
+          },
+          "Duration": 0.63167703,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.9,
+            "LinkValue": 0.9,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 10,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.26832297,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_AirAttack_Start_Pro:AnimNotifyEffect_C_5'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.8"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.33333334,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 15,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.33333334,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraShake",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraShake_C'AM_AirAttack_Start_Pro:TsAnimNotifyCameraShake_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.15"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.36666664,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.36666664,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_AirAttack_Start_Pro:TsAnimNotifyReSkillEvent_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.22"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.36666664,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.36666664,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_AirAttack_Start_Pro:TsAnimNotifyReSkillEvent_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.23"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.36666667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.36666667,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_AirAttack_Start_Pro:AnimNotifyEffect_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.36666667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 12,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.36666667,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_AirAttack_Start_Pro:AnimNotifyEffect_C_8'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.11"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.36666667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 18,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.36666667,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_AirAttack_Start_Pro:AnimNotifyEffect_C_6'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.9"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.43333337,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 16,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.43333337,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraShake",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraShake_C'AM_AirAttack_Start_Pro:TsAnimNotifyCameraShake_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.17"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.46666664,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.46666664,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_AirAttack_Start_Pro:TsAnimNotifyReSkillEvent_C_8'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.28"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.46666664,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.46666664,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_AirAttack_Start_Pro:TsAnimNotifyReSkillEvent_C_7'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.27"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.4666667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.4666667,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_AirAttack_Start_Pro:AnimNotifyEffect_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.4666667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 13,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.4666667,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_AirAttack_Start_Pro:AnimNotifyEffect_C_9'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.12"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.4666667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 19,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.4666667,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_AirAttack_Start_Pro:TsAnimNotifyReSkillEvent_C_4'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.24"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.76666665,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.59846723,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraShake",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraShake_C'AM_AirAttack_Start_Pro:TsAnimNotifyCameraShake_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.18"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.59999996,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.59999996,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_AirAttack_Start_Pro:AnimNotifyEffect_C_10'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.59999996,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 0.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.59999996,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "BP_KuroSpawnBlueprint_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_AirAttack_Start_Pro:AnimNotifyEffect_C_11'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.59999996,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 0.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.59999996,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_AirAttack_Start_Pro:AnimNotifyEffect_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.59999996,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.59999996,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_AirAttack_Start_Pro:TsAnimNotifyReSkillEvent_C_5'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.25"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.8666666,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.9,
+          "LinkValue": 0.8666666,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Start_Pro'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AirAttack_Start_Pro.2"
+          }
+        }
+      ],
+      "SequenceLength": 0.9,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1XiangLiYaoMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/R2T1XiangLiYaoMd10011/Model/R2T1XiangLiYaoMd10011_Skeleton.11"
+      }
+    },
+    "SkeletonGuid": "762D00EC-4E579E5B-287A06B2-0AF7FE13"
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1XiangLiYaoMd10011/DA_Fx_Group_R1a_Air_01_Pose_01.DA_Fx_Group_R1a_Air_01_Pose_01",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 0.0,
+        "Y": 89.447266,
+        "Z": 49.71222
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 15
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "DetachWhenSkillEnd": true,
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1XiangLiYaoMd10011/DA_Fx_Group_R1a_Air_01_05.DA_Fx_Group_R1a_Air_01_05",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 82.0
+      },
+      "SocketName": "Root",
+      "exportIndex": 35
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1XiangLiYaoMd10011/DA_Fx_Group_R1a_03_05_Fashe.DA_Fx_Group_R1a_03_05_Fashe",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 0.002441,
+        "Y": 45.12472,
+        "Z": 0.0
+      },
+      "Rotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 33
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1YangyangMd10011/DA_Fx_Group_R2a_05Xuli_limitdodge.DA_Fx_Group_R2a_05Xuli_limitdodge",
+        "SubPathString": ""
+      },
+      "Attached": false,
+      "exportIndex": 34
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1XiangLiYaoMd10011/DA_Fx_Group_R1a_Air_01_Pose_02.DA_Fx_Group_R1a_Air_01_Pose_02",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 5.24942,
+        "Y": 224.9867,
+        "Z": 60.22455
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 23
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1XiangLiYaoMd10011/DA_Fx_Group_R1a_Air_01_Pose_03.DA_Fx_Group_R1a_Air_01_Pose_03",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": -36.24653,
+        "Y": -112.35923,
+        "Z": -19.671661
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 29
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1XiangLiYaoMd10011/DA_Fx_Group_R1a_12_Canying_01.DA_Fx_Group_R1a_12_Canying_01",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 31.478691,
+        "Y": 10.637368,
+        "Z": 25.17006
+      },
+      "Rotation": {
+        "Pitch": 6.677835,
+        "Yaw": -70.12784,
+        "Roll": -17.834538
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 10
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1XiangLiYaoMd10011/DA_Fx_Group_R1a_12_Canying_01.DA_Fx_Group_R1a_12_Canying_01",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 34.44653,
+        "Y": 139.29984,
+        "Z": 76.54056
+      },
+      "Rotation": {
+        "Pitch": 0.770582,
+        "Yaw": 72.89193,
+        "Roll": -6.667209
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 19
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1XiangLiYaoMd10011/DA_Fx_Group_R1a_12_Canying_01.DA_Fx_Group_R1a_12_Canying_01",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": -68.36433,
+        "Y": 76.47057,
+        "Z": 85.121765
+      },
+      "Rotation": {
+        "Pitch": -12.434139,
+        "Yaw": 197.78056,
+        "Roll": 17.914217
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 25
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1XiangLiYaoMd10011/DA_Fx_Group_R1a_Air_01_03.DA_Fx_Group_R1a_Air_01_03",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 291.7292,
+        "Y": 204.23634,
+        "Z": 165.27548
+      },
+      "Rotation": {
+        "Pitch": -20.604904,
+        "Yaw": -56.674103,
+        "Roll": 153.87842
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 16
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1XiangLiYaoMd10011/DA_Fx_Group_R1a_Air_01_03.DA_Fx_Group_R1a_Air_01_03",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": -293.9046,
+        "Y": 318.9035,
+        "Z": 201.17267
+      },
+      "Rotation": {
+        "Pitch": 33.76932,
+        "Yaw": 62.99647,
+        "Roll": 132.22975
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 24
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1XiangLiYaoMd10011/DA_Fx_Group_R1a_Air_01_03.DA_Fx_Group_R1a_Air_01_03",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": -53.95879,
+        "Y": -368.26474,
+        "Z": 125.69583
+      },
+      "Rotation": {
+        "Pitch": 6.828222,
+        "Yaw": 167.70218,
+        "Roll": 143.71887
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 30
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAudioEvent_C",
+    "Name": "TsAnimNotifyAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.TsAnimNotifyAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAudioEvent_C'Default__TsAnimNotifyAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.3"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_vo_xiangliyao_bat_fallingatk02.play_vo_xiangliyao_bat_fallingatk02",
+        "SubPathString": ""
+      },
+      "exportIndex": 8
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "持续时间": 1.5,
+      "淡入时间": 0.12,
+      "淡出时间": 0.12,
+      "打断淡出时间": 0.12,
+      "相机修改配置": {
+        "Priority_101_E74404724F7BCD1A815B9E8ECCEE64EC": 39,
+        "ArmLengthAdditional_75_3ED4AAB647CA6863AC2F9F9C1D48D229": 120.0,
+        "IsModifiedArmRotationPitch_94_6C16441D44C806A072B75DA882811D0C": true,
+        "IsModifiedArmRotationYaw_95_FBE820DB4C8D5B75CEF242854F6F3774": true,
+        "ArmRotation_77_B66F0D944DE7F4829886B997E0B1B89F": {
+          "Pitch": -10.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "IsModifiedCameraFov_53_1A8D869C4A5886B266452BBCB07BA93A": true,
+        "CameraFov_63_A418591F41F5EF0F2D3D19B8F9967FC9": 100.0,
+        "OverrideCameraInput_59_0083E3164D765950CF70528078BF8218": true
+      },
+      "exportIndex": 9,
+      "NeedSimulate": false
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraShake_C",
+    "Name": "TsAnimNotifyCameraShake_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraShake.TsAnimNotifyCameraShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraShake_C'Default__TsAnimNotifyCameraShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraShake.3"
+    },
+    "Properties": {
+      "震动配置": {
+        "ObjectName": "BlueprintGeneratedClass'CS_XLY_AirAttack_Pro_02_C'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/Data/CameraShake/CS_XLY_AirAttack_Pro_02.0"
+      },
+      "bForSelf": true,
+      "exportIndex": 20,
+      "NeedSimulate": false
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraShake_C",
+    "Name": "TsAnimNotifyCameraShake_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraShake.TsAnimNotifyCameraShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraShake_C'Default__TsAnimNotifyCameraShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraShake.3"
+    },
+    "Properties": {
+      "震动配置": {
+        "ObjectName": "BlueprintGeneratedClass'CS_XLY_AirAttack_Pro_01_C'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/Data/CameraShake/CS_XLY_AirAttack_Pro_01.0"
+      },
+      "bForSelf": true,
+      "exportIndex": 13,
+      "NeedSimulate": false
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraShake_C",
+    "Name": "TsAnimNotifyCameraShake_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraShake.TsAnimNotifyCameraShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraShake_C'Default__TsAnimNotifyCameraShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraShake.3"
+    },
+    "Properties": {
+      "震动配置": {
+        "ObjectName": "BlueprintGeneratedClass'CS_XLY_AirAttack_Pro_03_C'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/Data/CameraShake/CS_XLY_AirAttack_Pro_03.0"
+      },
+      "bForSelf": true,
+      "exportIndex": 26,
+      "NeedSimulate": false
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraShake_C",
+    "Name": "TsAnimNotifyCameraShake_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraShake.TsAnimNotifyCameraShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraShake_C'Default__TsAnimNotifyCameraShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraShake.3"
+    },
+    "Properties": {
+      "震动配置": {
+        "ObjectName": "BlueprintGeneratedClass'CS_XLY_AirAttack_Pro_04_C'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/Data/CameraShake/CS_XLY_AirAttack_Pro_04.0"
+      },
+      "bForSelf": true,
+      "exportIndex": 32,
+      "NeedSimulate": false
+    }
+  },
+  {
+    "Type": "TsAnimNotifyChangeSkillPriority_C",
+    "Name": "TsAnimNotifyChangeSkillPriority_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.TsAnimNotifyChangeSkillPriority_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyChangeSkillPriority_C'Default__TsAnimNotifyChangeSkillPriority_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.3"
+    },
+    "Properties": {
+      "Priority": 6.0
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1305044000",
+      "exportIndex": 11
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1305044011",
+      "exportIndex": 12
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1305044011",
+      "exportIndex": 21
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1305044001",
+      "exportIndex": 22
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1305044002",
+      "exportIndex": 31
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1305043000",
+      "exportIndex": 36
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1305044001",
+      "exportIndex": 14
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1305044001",
+      "exportIndex": 28
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1305044011",
+      "exportIndex": 27
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "行为状态.逻辑状态.不被敌方子弹命中"
+      },
+      "exportIndex": 17,
+      "CurrentTimeLength": 0.5360018
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.Common.切人不隐藏"
+      },
+      "exportIndex": 2,
+      "CurrentTimeLength": 0.5359018
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "功能.功能制作.禁止体力恢复.技能禁止恢复"
+      },
+      "exportIndex": 5,
+      "CurrentTimeLength": 0.5361018
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_role_xiangliyao_bat_airattack_start_pro.play_role_xiangliyao_bat_airattack_start_pro",
+        "SubPathString": ""
+      },
+      "exportIndex": 7,
+      "CurrentTimeLength": 0.5360018
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateHideMesh_C",
+    "Name": "TsAnimNotifyStateHideMesh_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateHideMesh.TsAnimNotifyStateHideMesh_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateHideMesh_C'Default__TsAnimNotifyStateHideMesh_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateHideMesh.4"
+    },
+    "Properties": {
+      "exportIndex": 18,
+      "CurrentTimeLength": 0.5360018
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateKeepAwayFromGround_C",
+    "Name": "TsAnimNotifyStateKeepAwayFromGround_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateKeepAwayFromGround.TsAnimNotifyStateKeepAwayFromGround_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateKeepAwayFromGround_C'Default__TsAnimNotifyStateKeepAwayFromGround_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateKeepAwayFromGround.5"
+    },
+    "Properties": {
+      "距离水平面最小高度": 240.0,
+      "exportIndex": 3,
+      "CurrentTimeLength": 0.17327692
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStatePositionBranchTarget_C",
+    "Name": "TsAnimNotifyStatePositionBranchTarget_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.TsAnimNotifyStatePositionBranchTarget_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'Default__TsAnimNotifyStatePositionBranchTarget_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.6"
+    },
+    "Properties": {
+      "Distance": 500.0,
+      "MaxSpeed": 1200.0,
+      "忽略Z轴方向": false,
+      "永远修正Z轴": true,
+      "exportIndex": 6,
+      "CurrentTimeLength": 0.17307691
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Start_Pro'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_AirAttack_Start_Pro.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "WeaponIndex": 0,
+      "exportIndex": 4
+    }
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Move_Limit_F",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_Move_Limit_F",
+    "Properties": {
+      "BlendOut": {
+        "BlendTime": 0.3
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Limit_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_Move_Limit_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.2333333,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Move_Limit_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/BaseAnim/Move_Limit_F.1"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Move_Limit_F'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/BaseAnim/Move_Limit_F.1"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 2.2333333,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "BP_KuroCharacterGhost_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateGhost_C'AM_Move_Limit_F:AnimNotifyStateGhost_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_Move_Limit_F.2"
+          },
+          "Duration": 0.038774256,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Limit_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_Move_Limit_F.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.2333333,
+            "LinkValue": 0.038774256,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Move_Limit_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/BaseAnim/Move_Limit_F.1"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Limit_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_Move_Limit_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.2333333,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Move_Limit_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/BaseAnim/Move_Limit_F.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "BP_KuroSpawnBlueprint_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Move_Limit_F:AnimNotifyEffect_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_Move_Limit_F.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.1,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Limit_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_Move_Limit_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.2333333,
+          "LinkValue": 0.42406377,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Move_Limit_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/BaseAnim/Move_Limit_F.1"
+          }
+        }
+      ],
+      "SequenceLength": 2.2333333,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1XiangLiYaoMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/R2T1XiangLiYaoMd10011/Model/R2T1XiangLiYaoMd10011_Skeleton.11"
+      }
+    },
+    "SkeletonGuid": "762D00EC-4E579E5B-287A06B2-0AF7FE13"
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Limit_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_Move_Limit_F.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Press_Smoke.DA_Fx_Group_Press_Smoke",
+        "SubPathString": ""
+      },
+      "Attached": false
+    }
+  },
+  {
+    "Type": "AnimNotifyStateGhost_C",
+    "Name": "AnimNotifyStateGhost_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateGhost.AnimNotifyStateGhost_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Limit_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/Xiangliyao/CommonAnim/AM_Move_Limit_F.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateGhost_C'Default__AnimNotifyStateGhost_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateGhost.5"
+    },
+    "Properties": {
+      "SpawnRate": 30.0,
+      "GhostLifeTime": 0.5,
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/DataAsset/Ghost/DA_Fx_Ghost_R2T1PlayerMaleMd10011.DA_Fx_Ghost_R2T1PlayerMaleMd10011",
+        "SubPathString": ""
+      },
+      "CurrentTimeLength": 0.044399496
+    }
+  }
+]
