@@ -1,0 +1,2361 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_AttackSP1_Burst",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.0334
+      },
+      "BlendOut": {
+        "BlendTime": 0.3
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AttackBurst01'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 3.6666667,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_AttackSP1_Burst:TsAnimNotifyStateAddTag_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.22"
+          },
+          "Duration": 1.5,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.6666667,
+            "LinkValue": 1.5,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AttackBurst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 8,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStatePositionBranchTarget_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'AM_AttackSP1_Burst:TsAnimNotifyStatePositionBranchTarget_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.27"
+          },
+          "Duration": 0.235181,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.6666667,
+            "LinkValue": 0.235181,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AttackBurst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyChangeSlot_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyChangeSlot_C'AM_AttackSP1_Burst:TsAnimNotifyChangeSlot_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.10"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 9,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStateSubMeshControl_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSubMeshControl_C'AM_AttackSP1_Burst:TsAnimNotifyStateSubMeshControl_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.29"
+          },
+          "Duration": 3.6666667,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.6666667,
+            "LinkValue": 3.6666667,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AttackBurst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 10,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyStateEffect_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateEffect_C'AM_AttackSP1_Burst:AnimNotifyStateEffect_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.2"
+          },
+          "Duration": 0.26666668,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.6666667,
+            "LinkValue": 0.26666668,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AttackBurst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 11,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyCameraModify_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'AM_AttackSP1_Burst:TsAnimNotifyCameraModify_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 13,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyChangeSlot_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyChangeSlot_C'AM_AttackSP1_Burst:TsAnimNotifyChangeSlot_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.9"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.033333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 14,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": -1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": -1.0,
+          "SegmentLength": -1.0,
+          "LinkValue": -7.450581E-09,
+          "LinkedSequence": null
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyWeaponHide_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_AttackSP1_Burst:TsAnimNotifyWeaponHide_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.31"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.033333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 15,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 7.450581E-09,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyWeaponHide_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_AttackSP1_Burst:TsAnimNotifyWeaponHide_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.30"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.033333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 16,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "场景物件交互",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSceneInteract_C'AM_AttackSP1_Burst:TsAnimNotifyStateSceneInteract_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.28"
+          },
+          "Duration": 3.6665668,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.6666667,
+            "LinkValue": 3.6666667,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AttackBurst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 21,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.0001,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyAudioEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAudioEvent_C'AM_AttackSP1_Burst:TsAnimNotifyAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.06666667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.06666667,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_AttackSP1_Burst:TsAnimNotifyStateAudioEvent_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.24"
+          },
+          "Duration": 2.1512663,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.6666667,
+            "LinkValue": 2.279387,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AttackBurst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 18,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.12812072,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraModify_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'AM_AttackSP1_Burst:TsAnimNotifyCameraModify_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.13333334,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 13,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.13333334,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyChangeSlot_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyChangeSlot_C'AM_AttackSP1_Burst:TsAnimNotifyChangeSlot_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.11"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.26666668,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 9,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.26666668,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyStateEffect_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateEffect_C'AM_AttackSP1_Burst:AnimNotifyStateEffect_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.3"
+          },
+          "Duration": 0.13333334,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.6666667,
+            "LinkValue": 0.40000004,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AttackBurst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 11,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.26666668,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_AttackSP1_Burst:TsAnimNotifyReSkillEvent_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.17"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.333333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.333333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_AttackSP1_Burst:TsAnimNotifyReSkillEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.15"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.33333334,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.33333334,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_AttackSP1_Burst:TsAnimNotifyStateAudioEvent_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.25"
+          },
+          "Duration": 3.0656624,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.6666667,
+            "LinkValue": 3.3989956,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AttackBurst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 19,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.33333334,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_AttackSP1_Burst:TsAnimNotifyReSkillEvent_C_4'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.19"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.4,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.4,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_AttackSP1_Burst:TsAnimNotifyReSkillEvent_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.18"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.40000004,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.40000004,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyChangeSlot_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyChangeSlot_C'AM_AttackSP1_Burst:TsAnimNotifyChangeSlot_C_5'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.12"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.40000004,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 9,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.40000004,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyStateEffect_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateEffect_C'AM_AttackSP1_Burst:AnimNotifyStateEffect_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.1"
+          },
+          "Duration": 3.2666667,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.6666667,
+            "LinkValue": 3.6666667,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AttackBurst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 11,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.40000004,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraModify_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'AM_AttackSP1_Burst:TsAnimNotifyCameraModify_C_5'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.7"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.40000004,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 13,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.40000004,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_AttackSP1_Burst:TsAnimNotifyReSkillEvent_C_5'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.20"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.433333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.433333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateNextAtt_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateNextAtt_C'AM_AttackSP1_Burst:TsAnimNotifyStateNextAtt_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.26"
+          },
+          "Duration": 1.0666667,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.6666667,
+            "LinkValue": 1.5000001,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AttackBurst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.43333337,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_AttackSP1_Burst:TsAnimNotifyReSkillEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.16"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.43333337,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.43333337,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyChangeSkillPriority_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyChangeSkillPriority_C'AM_AttackSP1_Burst:TsAnimNotifyChangeSkillPriority_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.8"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.43333337,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 12,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.43333337,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_AttackSP1_Burst:TsAnimNotifyStateAudioEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.23"
+          },
+          "Duration": 2.8792202,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.6666667,
+            "LinkValue": 3.6666667,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AttackBurst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 20,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 0.7874465,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyEndSkill_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyEndSkill_C'AM_AttackSP1_Burst:TsAnimNotifyEndSkill_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.13"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 1.5000004,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 9,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 1.5000004,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_AttackSP1_Burst:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.21"
+          },
+          "Duration": 0.36666667,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.6666667,
+            "LinkValue": 3.6666665,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AttackBurst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 13,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 3.3,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyFightStand_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyFightStand_C'AM_AttackSP1_Burst:TsAnimNotifyFightStand_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.14"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 3.3000002,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 12,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.6666667,
+          "LinkValue": 3.3000002,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackBurst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AttackBurst01.2"
+          }
+        }
+      ],
+      "SequenceLength": 3.6666667,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1ZanniMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/R2T1ZanniMd10011/Model/R2T1ZanniMd10011_Skeleton.13"
+      }
+    },
+    "SkeletonGuid": "9BD4D9B2-4AB0F2E2-6696F28A-981EBFE3"
+  },
+  {
+    "Type": "AnimNotifyStateEffect_C",
+    "Name": "AnimNotifyStateEffect_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.AnimNotifyStateEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateEffect_C'Default__AnimNotifyStateEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.11"
+    },
+    "Properties": {
+      "DetachWhenSkillEnd": true,
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1ZanniMd10011/DA_Fx_Group_Dun_Dis.DA_Fx_Group_Dun_Dis",
+        "SubPathString": ""
+      },
+      "PlayOnEnd": true,
+      "WithOutTag": [
+        "角色.53770a07.技能标识.5dfb742d"
+      ],
+      "Attached": false,
+      "SocketName": "WeaponProp02",
+      "exportIndex": 23,
+      "CurrentTimeLength": 2.1452048
+    }
+  },
+  {
+    "Type": "AnimNotifyStateEffect_C",
+    "Name": "AnimNotifyStateEffect_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.AnimNotifyStateEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateEffect_C'Default__AnimNotifyStateEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.11"
+    },
+    "Properties": {
+      "DetachWhenSkillEnd": true,
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1ZanniMd10011/DA_Fx_Group_Dun_Dis.DA_Fx_Group_Dun_Dis",
+        "SubPathString": ""
+      },
+      "PlayOnEnd": true,
+      "WithOutTag": [
+        "角色.53770a07.技能标识.5dfb742d"
+      ],
+      "Attached": false,
+      "SocketName": "WeaponProp02",
+      "exportIndex": 6,
+      "CurrentTimeLength": 0.27603263
+    }
+  },
+  {
+    "Type": "AnimNotifyStateEffect_C",
+    "Name": "AnimNotifyStateEffect_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.AnimNotifyStateEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateEffect_C'Default__AnimNotifyStateEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.11"
+    },
+    "Properties": {
+      "DetachWhenSkillEnd": true,
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1ZanniMd10011/DA_Fx_Group_Dun_Dis.DA_Fx_Group_Dun_Dis",
+        "SubPathString": ""
+      },
+      "PlayOnEnd": true,
+      "WithOutTag": [
+        "角色.53770a07.技能标识.5dfb742d"
+      ],
+      "Attached": false,
+      "SocketName": "WeaponProp05",
+      "exportIndex": 16,
+      "CurrentTimeLength": 0.15110701
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAudioEvent_C",
+    "Name": "TsAnimNotifyAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.TsAnimNotifyAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAudioEvent_C'Default__TsAnimNotifyAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.3"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_vo_zanni_skill_skillex02_a.play_vo_zanni_skill_skillex02_a",
+        "SubPathString": ""
+      },
+      "exportIndex": 12
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "持续时间": 0.03,
+      "淡入时间": 0.05,
+      "淡出时间": 1.0,
+      "打断淡出时间": 0.05,
+      "相机修改配置": {
+        "Priority_101_E74404724F7BCD1A815B9E8ECCEE64EC": 7,
+        "ArmLengthAdditional_75_3ED4AAB647CA6863AC2F9F9C1D48D229": 40.0,
+        "IsModifiedArmRotation_76_570606324FC53E504274BDA6F59BD5C3": false,
+        "IsModifiedCameraOffsetZ_98_E6E0795348BE5A8749FB348FAD18D836": true,
+        "CameraOffsetAdditional_81_DABDCE1243662E3E72DB62A0B56CEA53": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -10.0
+        },
+        "CameraFov_63_A418591F41F5EF0F2D3D19B8F9967FC9": 55.0,
+        "ModifySettingsAdditional_222_7DE2E3E64B6017435B7C1A8AA32C25C1": {
+          "IsUseArmLengthFloatCurve_1_30F643EB4F195B35F693349FD9712BD1": true,
+          "ArmLengthFloatCurve_4_912E7E254D65CD0C83E800B39BF5F2F3": {
+            "FloatCurve_7_359BA05547FEF437AB4D5FA2DFC1F098": {
+              "ObjectName": "CurveFloat'Burst02_CameraCurve'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/Abilities/Burst02_CameraCurve.0"
+            }
+          },
+          "IsUseArmRotationFloatCurve_7_8F0DB6DA49B6687CE3358EA060F681A1": true,
+          "ArmRotationFloatCurve_10_2FA9DAD84AB5C83CE10C209E9FF19595": {
+            "FloatCurve_7_359BA05547FEF437AB4D5FA2DFC1F098": {
+              "ObjectName": "CurveFloat'Burst02_CameraCurve'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/Abilities/Burst02_CameraCurve.0"
+            }
+          },
+          "IsUseFovFloatCurve_13_91C6F368497795DDDBB318A625E20ADF": true,
+          "FovFloatCurve_16_2420DD304E470B25D8CCB18CAD9B33B0": {
+            "FloatCurve_7_359BA05547FEF437AB4D5FA2DFC1F098": {
+              "ObjectName": "CurveFloat'Burst02_CameraCurve'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/Abilities/Burst02_CameraCurve.0"
+            }
+          },
+          "IsModifiedCameraLens_19_6CC6F899450F6808CCF61E9C76DED1B1": true,
+          "IsUseLensFloatCurve_49_BEF7FE3F4A080AE18E45F0A9F26712A2": true,
+          "LensFloatCurve_22_8386FD5647A166F5D51A7A94C4DE63D6": {
+            "FloatCurve_7_359BA05547FEF437AB4D5FA2DFC1F098": {
+              "ObjectName": "CurveFloat'Burst02_CameraCurve'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/Abilities/Burst02_CameraCurve.0"
+            }
+          },
+          "IsUseCameraOffsetFloatCurve_31_045D190F4CB19C90E84748BF53166B60": true,
+          "CameraOffsetFloatCurve_34_0F2C641E4C33AE88EECCB49DD4AA8D30": {
+            "FloatCurve_7_359BA05547FEF437AB4D5FA2DFC1F098": {
+              "ObjectName": "CurveFloat'Burst02_CameraCurve'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/Abilities/Burst02_CameraCurve.0"
+            }
+          }
+        }
+      },
+      "exportIndex": 7
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "淡入时间": 0.2,
+      "淡出时间": 0.2,
+      "相机修改配置": {
+        "Priority_101_E74404724F7BCD1A815B9E8ECCEE64EC": 8,
+        "ArmLengthAdditional_75_3ED4AAB647CA6863AC2F9F9C1D48D229": -15.0,
+        "IsModifiedCameraOffsetZ_98_E6E0795348BE5A8749FB348FAD18D836": true,
+        "CameraOffsetAdditional_81_DABDCE1243662E3E72DB62A0B56CEA53": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -20.0
+        },
+        "CameraFov_63_A418591F41F5EF0F2D3D19B8F9967FC9": 55.0
+      },
+      "exportIndex": 14
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "持续时间": 0.05,
+      "淡入时间": 0.05,
+      "淡出时间": 0.05,
+      "打断淡出时间": 0.05,
+      "相机修改配置": {
+        "Priority_101_E74404724F7BCD1A815B9E8ECCEE64EC": 9,
+        "ArmLengthAdditional_75_3ED4AAB647CA6863AC2F9F9C1D48D229": 40.0,
+        "IsModifiedArmRotation_76_570606324FC53E504274BDA6F59BD5C3": false,
+        "CameraOffsetAdditional_81_DABDCE1243662E3E72DB62A0B56CEA53": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -20.0
+        },
+        "CameraFov_63_A418591F41F5EF0F2D3D19B8F9967FC9": 80.0,
+        "ModifySettingsAdditional_222_7DE2E3E64B6017435B7C1A8AA32C25C1": {
+          "IsUseArmLengthFloatCurve_1_30F643EB4F195B35F693349FD9712BD1": true,
+          "ArmLengthFloatCurve_4_912E7E254D65CD0C83E800B39BF5F2F3": {
+            "FloatCurve_7_359BA05547FEF437AB4D5FA2DFC1F098": {
+              "ObjectName": "CurveFloat'Burst02_CameraCurve'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/Abilities/Burst02_CameraCurve.0"
+            }
+          },
+          "IsUseArmRotationFloatCurve_7_8F0DB6DA49B6687CE3358EA060F681A1": true,
+          "ArmRotationFloatCurve_10_2FA9DAD84AB5C83CE10C209E9FF19595": {
+            "FloatCurve_7_359BA05547FEF437AB4D5FA2DFC1F098": {
+              "ObjectName": "CurveFloat'Burst02_CameraCurve'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/Abilities/Burst02_CameraCurve.0"
+            }
+          },
+          "IsUseFovFloatCurve_13_91C6F368497795DDDBB318A625E20ADF": true,
+          "FovFloatCurve_16_2420DD304E470B25D8CCB18CAD9B33B0": {
+            "FloatCurve_7_359BA05547FEF437AB4D5FA2DFC1F098": {
+              "ObjectName": "CurveFloat'Burst02_CameraCurve'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/Abilities/Burst02_CameraCurve.0"
+            }
+          },
+          "IsUseLensFloatCurve_49_BEF7FE3F4A080AE18E45F0A9F26712A2": true,
+          "LensFloatCurve_22_8386FD5647A166F5D51A7A94C4DE63D6": {
+            "FloatCurve_7_359BA05547FEF437AB4D5FA2DFC1F098": {
+              "ObjectName": "CurveFloat'Burst02_CameraCurve'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/Abilities/Burst02_CameraCurve.0"
+            }
+          }
+        }
+      },
+      "exportIndex": 24
+    }
+  },
+  {
+    "Type": "TsAnimNotifyChangeSkillPriority_C",
+    "Name": "TsAnimNotifyChangeSkillPriority_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.TsAnimNotifyChangeSkillPriority_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyChangeSkillPriority_C'Default__TsAnimNotifyChangeSkillPriority_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.3"
+    },
+    "Properties": {
+      "Priority": 2.0,
+      "exportIndex": 28
+    }
+  },
+  {
+    "Type": "TsAnimNotifyChangeSlot_C",
+    "Name": "TsAnimNotifyChangeSlot_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSlot.TsAnimNotifyChangeSlot_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyChangeSlot_C'Default__TsAnimNotifyChangeSlot_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSlot.3"
+    },
+    "Properties": {
+      "ComponentName": "WeaponCase1",
+      "SwitchToSlotName": "WeaponProp07",
+      "exportIndex": 8
+    }
+  },
+  {
+    "Type": "TsAnimNotifyChangeSlot_C",
+    "Name": "TsAnimNotifyChangeSlot_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSlot.TsAnimNotifyChangeSlot_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyChangeSlot_C'Default__TsAnimNotifyChangeSlot_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSlot.3"
+    },
+    "Properties": {
+      "ComponentName": "OtherCase6",
+      "SwitchToSlotName": "WeaponProp02",
+      "exportIndex": 4
+    }
+  },
+  {
+    "Type": "TsAnimNotifyChangeSlot_C",
+    "Name": "TsAnimNotifyChangeSlot_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSlot.TsAnimNotifyChangeSlot_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyChangeSlot_C'Default__TsAnimNotifyChangeSlot_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSlot.3"
+    },
+    "Properties": {
+      "ComponentName": "OtherCase6",
+      "SwitchToSlotName": "WeaponProp05",
+      "exportIndex": 15
+    }
+  },
+  {
+    "Type": "TsAnimNotifyChangeSlot_C",
+    "Name": "TsAnimNotifyChangeSlot_C_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSlot.TsAnimNotifyChangeSlot_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyChangeSlot_C'Default__TsAnimNotifyChangeSlot_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSlot.3"
+    },
+    "Properties": {
+      "ComponentName": "OtherCase6",
+      "SwitchToSlotName": "WeaponProp02",
+      "exportIndex": 22
+    }
+  },
+  {
+    "Type": "TsAnimNotifyEndSkill_C",
+    "Name": "TsAnimNotifyEndSkill_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.TsAnimNotifyEndSkill_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyEndSkill_C'Default__TsAnimNotifyEndSkill_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.3"
+    },
+    "Properties": {
+      "exportIndex": 30
+    }
+  },
+  {
+    "Type": "TsAnimNotifyFightStand_C",
+    "Name": "TsAnimNotifyFightStand_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyFightStand.TsAnimNotifyFightStand_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyFightStand_C'Default__TsAnimNotifyFightStand_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyFightStand.3"
+    },
+    "Properties": {
+      "BattleIdleTime": 9100,
+      "exportIndex": 32
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "150740207",
+      "exportIndex": 18
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "150740111",
+      "exportIndex": 27
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "150740217",
+      "exportIndex": 17
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "150740101",
+      "exportIndex": 21
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "150740121",
+      "exportIndex": 20
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "150740131",
+      "exportIndex": 25
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.53770a07.技能标识.5dfb742d"
+      },
+      "exportIndex": 31,
+      "CurrentTimeLength": 0.3666668
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.53770a07.技能标识.4af532e3"
+      },
+      "exportIndex": 2,
+      "CurrentTimeLength": 1.5088897
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_zanni_am_attacksp1_burst_recovery.play_zanni_am_attacksp1_burst_recovery",
+        "SubPathString": ""
+      },
+      "exportIndex": 29,
+      "CurrentTimeLength": 1.7577584
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_split_zanni_am_attacksp1_burst_ver2_01.play_split_zanni_am_attacksp1_burst_ver2_01",
+        "SubPathString": ""
+      },
+      "exportIndex": 13,
+      "CurrentTimeLength": 2.1534338
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_split_zanni_am_attacksp1_burst_ver2_02.play_split_zanni_am_attacksp1_burst_ver2_02",
+        "SubPathString": ""
+      },
+      "exportIndex": 19,
+      "CurrentTimeLength": 2.2118716
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateNextAtt_C",
+    "Name": "TsAnimNotifyStateNextAtt_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.TsAnimNotifyStateNextAtt_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateNextAtt_C'Default__TsAnimNotifyStateNextAtt_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.4"
+    },
+    "Properties": {
+      "exportIndex": 26,
+      "CurrentTimeLength": 1.0754563
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStatePositionBranchTarget_C",
+    "Name": "TsAnimNotifyStatePositionBranchTarget_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.TsAnimNotifyStatePositionBranchTarget_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'Default__TsAnimNotifyStatePositionBranchTarget_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.6"
+    },
+    "Properties": {
+      "Distance": 100.0,
+      "MaxSpeed": 2300.0,
+      "exportIndex": 3,
+      "CurrentTimeLength": 0.23928003
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSceneInteract_C",
+    "Name": "TsAnimNotifyStateSceneInteract_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSceneInteract.TsAnimNotifyStateSceneInteract_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSceneInteract_C'Default__TsAnimNotifyStateSceneInteract_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSceneInteract.4"
+    },
+    "Properties": {
+      "SocketName": "WeaponProp02",
+      "DataAssetRef": {
+        "AssetPathName": "/Game/Aki/Data/Fight/SceneInteract/Role/Zanni/DA_PropSceneInteract_Zanni_Jiandun_Sword.DA_PropSceneInteract_Zanni_Jiandun_Sword",
+        "SubPathString": ""
+      },
+      "IgnoreCommonWeapon": true,
+      "exportIndex": 11,
+      "CurrentTimeLength": 2.545105
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSubMeshControl_C",
+    "Name": "TsAnimNotifyStateSubMeshControl_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.TsAnimNotifyStateSubMeshControl_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSubMeshControl_C'Default__TsAnimNotifyStateSubMeshControl_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.4"
+    },
+    "Properties": {
+      "MeshName": "OtherCase6",
+      "开始是否可见": true,
+      "exportIndex": 5,
+      "CurrentTimeLength": 2.545105
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "Hide": false,
+      "WeaponIndex": 1,
+      "HideEffect": false,
+      "exportIndex": 10
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackSP1_Burst'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AttackSP1_Burst.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "WeaponIndex": 0,
+      "HideEffect": false,
+      "exportIndex": 9
+    }
+  }
+]

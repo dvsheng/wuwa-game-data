@@ -1,0 +1,361 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_AirAttack_Loop",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AirAttack_Loop",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "Default",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AirAttack_Loop.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.6666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AirAttack_Loop.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AirAttack_Loop'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AirAttack_Loop.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.6666667,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateSubMeshControl_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSubMeshControl_C'AM_AirAttack_Loop:TsAnimNotifyStateSubMeshControl_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AirAttack_Loop.4"
+          },
+          "Duration": 0.6666667,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AirAttack_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AirAttack_Loop.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.6666667,
+            "LinkValue": 0.6666667,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AirAttack_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AirAttack_Loop.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AirAttack_Loop.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.6666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AirAttack_Loop.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyChangeSlot_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyChangeSlot_C'AM_AirAttack_Loop:TsAnimNotifyChangeSlot_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AirAttack_Loop.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.8,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AirAttack_Loop.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.6666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AirAttack_Loop.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyStateEffect_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateEffect_C'AM_AirAttack_Loop:AnimNotifyStateEffect_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AirAttack_Loop.1"
+          },
+          "Duration": 0.6666667,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AirAttack_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AirAttack_Loop.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.6666667,
+            "LinkValue": 0.6666667,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AirAttack_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AirAttack_Loop.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AirAttack_Loop.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.6666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AirAttack_Loop.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_AirAttack_Loop:TsAnimNotifyStateAddTag_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AirAttack_Loop.3"
+          },
+          "Duration": 0.6666667,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AirAttack_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AirAttack_Loop.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.6666667,
+            "LinkValue": 0.6666667,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AirAttack_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AirAttack_Loop.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AirAttack_Loop.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.6666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AirAttack_Loop.0"
+          }
+        }
+      ],
+      "SequenceLength": 0.6666667,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1ZanniMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/R2T1ZanniMd10011/Model/R2T1ZanniMd10011_Skeleton.13"
+      }
+    },
+    "SkeletonGuid": "9BD4D9B2-4AB0F2E2-6696F28A-981EBFE3"
+  },
+  {
+    "Type": "AnimNotifyStateEffect_C",
+    "Name": "AnimNotifyStateEffect_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.AnimNotifyStateEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Loop'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AirAttack_Loop.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateEffect_C'Default__AnimNotifyStateEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.11"
+    },
+    "Properties": {
+      "DetachWhenSkillEnd": true,
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1ZanniMd10011/DA_Fx_Group_Dun_Dis.DA_Fx_Group_Dun_Dis",
+        "SubPathString": ""
+      },
+      "PlayOnEnd": true,
+      "WithOutTag": [
+        "角色.53770a07.技能标识.5dfb742d"
+      ],
+      "Attached": false,
+      "SocketName": "WeaponProp02",
+      "exportIndex": 1,
+      "CurrentTimeLength": 0.6547137
+    }
+  },
+  {
+    "Type": "TsAnimNotifyChangeSlot_C",
+    "Name": "TsAnimNotifyChangeSlot_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSlot.TsAnimNotifyChangeSlot_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Loop'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AirAttack_Loop.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyChangeSlot_C'Default__TsAnimNotifyChangeSlot_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSlot.3"
+    },
+    "Properties": {
+      "ComponentName": "OtherCase6",
+      "SwitchToSlotName": "WeaponProp02",
+      "exportIndex": 1
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Loop'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AirAttack_Loop.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "功能.功能制作.禁止体力恢复.技能禁止恢复"
+      },
+      "exportIndex": 2,
+      "CurrentTimeLength": 0.6547137
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSubMeshControl_C",
+    "Name": "TsAnimNotifyStateSubMeshControl_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.TsAnimNotifyStateSubMeshControl_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack_Loop'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Zanni/CommonAnim/AM_AirAttack_Loop.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSubMeshControl_C'Default__TsAnimNotifyStateSubMeshControl_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.4"
+    },
+    "Properties": {
+      "MeshName": "OtherCase6",
+      "开始是否可见": true,
+      "结束延迟时间": 0.033334,
+      "exportIndex": 0,
+      "CurrentTimeLength": 0.65451366
+    }
+  }
+]
