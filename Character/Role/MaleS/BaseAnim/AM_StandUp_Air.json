@@ -1,0 +1,126 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_StandUp_Air",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_StandUp_Air",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.0
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_StandUp_Air'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_StandUp_Air.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.23076925,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'StandUp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim3/StandUp.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'StandUp'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim3/StandUp.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.3,
+                "AnimPlayRate": 1.3,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyEndSkill",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyEndSkill_C'AM_StandUp_Air:TsAnimNotifyEndSkill_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_StandUp_Air.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.1,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_StandUp_Air'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_StandUp_Air.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.23076925,
+          "LinkValue": 0.1,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'StandUp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim3/StandUp.0"
+          }
+        }
+      ],
+      "SequenceLength": 0.23076925,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1LingyangMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/R2T1LingyangMd10011/Model/R2T1LingyangMd10011_Skeleton.14"
+      }
+    },
+    "SkeletonGuid": "CF27C0D0-47150B72-ABC93F9C-B78ECA0D"
+  },
+  {
+    "Type": "TsAnimNotifyEndSkill_C",
+    "Name": "TsAnimNotifyEndSkill_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.TsAnimNotifyEndSkill_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_StandUp_Air'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_StandUp_Air.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyEndSkill_C'Default__TsAnimNotifyEndSkill_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.3"
+    }
+  }
+]

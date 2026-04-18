@@ -1,0 +1,150 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Stand_Control_2_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Stand_Control_2_0",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.3,
+        "BlendOption": "EAlphaBlendOption::Sinusoidal"
+      },
+      "BlendOut": {
+        "BlendTime": 0.5,
+        "BlendOption": "EAlphaBlendOption::Sinusoidal"
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Stand_Control_2_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Stand_Control_2_0.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.5,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Stand_Control'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim3/Stand_Control.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Stand_Control'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim3/Stand_Control.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 2.5,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Stand_Control_2_0:AnimNotifyEffect_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Stand_Control_2_0.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.017217,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Stand_Control_2_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Stand_Control_2_0.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.5,
+          "LinkValue": 0.017217,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Stand_Control'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim3/Stand_Control.0"
+          }
+        }
+      ],
+      "SequenceLength": 2.5,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1LingyangMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/R2T1LingyangMd10011/Model/R2T1LingyangMd10011_Skeleton.14"
+      }
+    },
+    "SkeletonGuid": "CF27C0D0-47150B72-ABC93F9C-B78ECA0D"
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Stand_Control_2_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Stand_Control_2_0.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "WhenSkillEnd": "ESkillEffectType::NewEnumerator2",
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/UI_Scenes/DA_Fx_Group_Jiguan_2_0.DA_Fx_Group_Jiguan_2_0",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": -3.0,
+        "Y": 45.0,
+        "Z": 110.0
+      },
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": -60.0
+      },
+      "SocketName": "Root",
+      "exportIndex": 0
+    }
+  }
+]

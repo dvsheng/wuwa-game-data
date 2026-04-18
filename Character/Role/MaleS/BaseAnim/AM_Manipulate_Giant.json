@@ -1,0 +1,138 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Manipulate_Giant",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Manipulate_Giant",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.5
+      },
+      "BlendOut": {
+        "BlendTime": 0.5
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Manipulate_Giant'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Manipulate_Giant.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Manipulate_Absorb_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/Manipulate_Absorb_Start.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Manipulate_Absorb_Start'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/Manipulate_Absorb_Start.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.0,
+                "AnimPlayRate": 0.5,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddBuff",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddBuff_C'AM_Manipulate_Giant:TsAnimNotifyStateAddBuff_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Manipulate_Giant.1"
+          },
+          "Duration": 2.0,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Manipulate_Giant'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Manipulate_Giant.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.0,
+            "LinkValue": 2.0,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Manipulate_Absorb_Start'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/Manipulate_Absorb_Start.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Manipulate_Giant'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Manipulate_Giant.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Manipulate_Absorb_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/Manipulate_Absorb_Start.0"
+          }
+        }
+      ],
+      "SequenceLength": 2.0,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1LingyangMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/R2T1LingyangMd10011/Model/R2T1LingyangMd10011_Skeleton.14"
+      }
+    },
+    "SkeletonGuid": "CF27C0D0-47150B72-ABC93F9C-B78ECA0D"
+  },
+  {
+    "Type": "TsAnimNotifyStateAddBuff_C",
+    "Name": "TsAnimNotifyStateAddBuff_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddBuff.TsAnimNotifyStateAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Manipulate_Giant'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Manipulate_Giant.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddBuff_C'Default__TsAnimNotifyStateAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddBuff.4"
+    },
+    "Properties": {
+      "BuffId": 1101009002
+    }
+  }
+]

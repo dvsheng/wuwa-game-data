@@ -1,0 +1,561 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Catapult_Up",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.2
+      },
+      "BlendOut": {
+        "BlendTime": 0.5
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Catapult_Up'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Jump_Walk_RF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim3/Jump_Walk_RF.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Jump_Walk_RF'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim3/Jump_Walk_RF.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.3,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Jump_Walk_RF'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim3/Jump_Walk_RF.0"
+                },
+                "StartPos": 0.3,
+                "AnimStartTime": 0.3,
+                "AnimEndTime": 0.666667,
+                "AnimPlayRate": 0.7,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateInteractionRotateToLocation_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateInteractionRotateToLocation_C'AM_Catapult_Up:TsAnimNotifyStateInteractionRotateToLocation_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up.7"
+          },
+          "Duration": 0.041022934,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Catapult_Up'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.3,
+            "LinkValue": 0.054669,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Jump_Walk_RF'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim3/Jump_Walk_RF.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Catapult_Up'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.013646064,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Jump_Walk_RF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim3/Jump_Walk_RF.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCatapult_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCatapult_C'AM_Catapult_Up:TsAnimNotifyCatapult_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Catapult_Up'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.059956066,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Jump_Walk_RF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim3/Jump_Walk_RF.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Catapult_Up:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up.6"
+          },
+          "Duration": 0.5910379,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Catapult_Up'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.3,
+            "SegmentLength": 0.52380997,
+            "LinkValue": 0.666667,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Jump_Walk_RF'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim3/Jump_Walk_RF.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Catapult_Up'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.07562907,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Jump_Walk_RF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim3/Jump_Walk_RF.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Catapult_Up:AnimNotifyEffect_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.01,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Catapult_Up'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.07710507,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Jump_Walk_RF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim3/Jump_Walk_RF.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Catapult_Up:AnimNotifyEffect_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.01,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Catapult_Up'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.078039065,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Jump_Walk_RF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim3/Jump_Walk_RF.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyRoleFinishInteract_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyRoleFinishInteract_C'AM_Catapult_Up:TsAnimNotifyRoleFinishInteract_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.535677,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Catapult_Up'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.3,
+          "SegmentLength": 0.52380997,
+          "LinkValue": 0.7469621,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Jump_Walk_RF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim3/Jump_Walk_RF.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyChangeSkillPriority",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyChangeSkillPriority_C'AM_Catapult_Up:TsAnimNotifyChangeSkillPriority_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.779589,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Catapult_Up'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.3,
+          "SegmentLength": 0.52380997,
+          "LinkValue": 0.7827861,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Jump_Walk_RF'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim3/Jump_Walk_RF.0"
+          }
+        }
+      ],
+      "SequenceLength": 0.82381,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1LingyangMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/R2T1LingyangMd10011/Model/R2T1LingyangMd10011_Skeleton.14"
+      }
+    },
+    "SkeletonGuid": "CF27C0D0-47150B72-ABC93F9C-B78ECA0D"
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Catapult_Up'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "WhenSkillEnd": "ESkillEffectType::NewEnumerator1",
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Chongci.DA_Fx_Group_Hook_Chongci",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 0.0,
+        "Y": 100.0,
+        "Z": 77.0
+      },
+      "Attached": false
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Catapult_Up'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "WhenSkillEnd": "ESkillEffectType::NewEnumerator1",
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/BigWorld/Paoku/DA_Fx_Group_Sl3_Paoku_Jiasu_01Feng.DA_Fx_Group_Sl3_Paoku_Jiasu_01Feng",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCatapult_C",
+    "Name": "TsAnimNotifyCatapult_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCatapult.TsAnimNotifyCatapult_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Catapult_Up'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCatapult_C'Default__TsAnimNotifyCatapult_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCatapult.3"
+    }
+  },
+  {
+    "Type": "TsAnimNotifyChangeSkillPriority_C",
+    "Name": "TsAnimNotifyChangeSkillPriority_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.TsAnimNotifyChangeSkillPriority_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Catapult_Up'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyChangeSkillPriority_C'Default__TsAnimNotifyChangeSkillPriority_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.3"
+    },
+    "Properties": {
+      "NeedSimulate": false
+    }
+  },
+  {
+    "Type": "TsAnimNotifyRoleFinishInteract_C",
+    "Name": "TsAnimNotifyRoleFinishInteract_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyRoleFinishInteract.TsAnimNotifyRoleFinishInteract_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Catapult_Up'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyRoleFinishInteract_C'Default__TsAnimNotifyRoleFinishInteract_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyRoleFinishInteract.3"
+    },
+    "Properties": {
+      "Type": "ERoleInteractType::NewEnumerator2"
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Catapult_Up'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "关卡.Common.镜头.跑酷镜头.前跳"
+      },
+      "CurrentTimeLength": 0.5999189
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateInteractionRotateToLocation_C",
+    "Name": "TsAnimNotifyStateInteractionRotateToLocation_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateInteractionRotateToLocation.TsAnimNotifyStateInteractionRotateToLocation_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Catapult_Up'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/BaseAnim/AM_Catapult_Up.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateInteractionRotateToLocation_C'Default__TsAnimNotifyStateInteractionRotateToLocation_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateInteractionRotateToLocation.4"
+    },
+    "Properties": {
+      "RotateSpeed": 6.9941525,
+      "Rotator": -0.14867412,
+      "CurrentTimeLength": 0.054878615
+    }
+  }
+]
