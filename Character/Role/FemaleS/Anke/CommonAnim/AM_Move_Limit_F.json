@@ -1,0 +1,217 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Move_Limit_F",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleS/Anke/CommonAnim/AM_Move_Limit_F",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.0
+      },
+      "BlendOut": {
+        "BlendTime": 0.3
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Limit_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Anke/CommonAnim/AM_Move_Limit_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.833333,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Move_Limit_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/BaseAnim/Move_Limit_F.1"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Move_Limit_F'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/BaseAnim/Move_Limit_F.1"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.833333,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "BP_KuroCharacterGhost_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateGhost_C'AM_Move_Limit_F:AnimNotifyStateGhost_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Anke/CommonAnim/AM_Move_Limit_F.1"
+          },
+          "Duration": 0.14873055,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Limit_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Anke/CommonAnim/AM_Move_Limit_F.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.833333,
+            "LinkValue": 0.26873055,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Move_Limit_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/BaseAnim/Move_Limit_F.1"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Limit_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Anke/CommonAnim/AM_Move_Limit_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.833333,
+          "LinkValue": 0.12,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Move_Limit_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/BaseAnim/Move_Limit_F.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Move_Limit_F:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Anke/CommonAnim/AM_Move_Limit_F.2"
+          },
+          "Duration": 1.0,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Limit_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Anke/CommonAnim/AM_Move_Limit_F.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.833333,
+            "LinkValue": 1.22368,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Move_Limit_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/BaseAnim/Move_Limit_F.1"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Limit_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Anke/CommonAnim/AM_Move_Limit_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.833333,
+          "LinkValue": 0.22368,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Move_Limit_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/BaseAnim/Move_Limit_F.1"
+          }
+        }
+      ],
+      "SequenceLength": 1.833333,
+      "AnimOrigin": "23101",
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1AnkeMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Anke/R2T1AnkeMd10011/Model/R2T1AnkeMd10011_Skeleton.14"
+      }
+    },
+    "SkeletonGuid": "235A8EE1-46B0B25E-75A79E8C-44629B88"
+  },
+  {
+    "Type": "AnimNotifyStateGhost_C",
+    "Name": "AnimNotifyStateGhost_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateGhost.AnimNotifyStateGhost_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Limit_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Anke/CommonAnim/AM_Move_Limit_F.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateGhost_C'Default__AnimNotifyStateGhost_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateGhost.5"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/DataAsset/Ghost/DA_Fx_Ghost_R2T1AnkeMd10011.DA_Fx_Ghost_R2T1AnkeMd10011",
+        "SubPathString": ""
+      },
+      "CurrentTimeLength": 0.1489391
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Limit_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Anke/CommonAnim/AM_Move_Limit_F.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.R2T1AnkeMd10011.技能标识.特殊普攻"
+      },
+      "CurrentTimeLength": 0.4633823
+    }
+  }
+]
