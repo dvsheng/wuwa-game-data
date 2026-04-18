@@ -1,0 +1,214 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Jump_Second_B",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/MaleM/TestModel/CommonAnim/AM_Jump_Second_B",
+    "Properties": {
+      "BlendOut": {
+        "BlendTime": 0.3
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Jump_Second_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/TestModel/CommonAnim/AM_Jump_Second_B.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Jump_Second_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/BaseAnim/Jump_Second_B.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Jump_Second_B'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/BaseAnim/Jump_Second_B.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.0,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AudioEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAudioEvent_C'AM_Jump_Second_B:TsAnimNotifyAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/TestModel/CommonAnim/AM_Jump_Second_B.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Jump_Second_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/TestModel/CommonAnim/AM_Jump_Second_B.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.0,
+          "LinkValue": 0.026907878,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Jump_Second_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/BaseAnim/Jump_Second_B.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "BP_KuroSpawnBlueprint_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Jump_Second_B:AnimNotifyEffect_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/TestModel/CommonAnim/AM_Jump_Second_B.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.033333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Jump_Second_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/TestModel/CommonAnim/AM_Jump_Second_B.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.0,
+          "LinkValue": 0.030462535,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Jump_Second_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/BaseAnim/Jump_Second_B.0"
+          }
+        }
+      ],
+      "SequenceLength": 1.0,
+      "Skeleton": {
+        "ObjectName": "Skeleton'MaleM01_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/TestModel/TestModel01/Model/MaleM01_Skeleton.6"
+      }
+    },
+    "SkeletonGuid": "00213EFC-429712E4-1E0E149A-3CC5C59D"
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Jump_Second_B'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/TestModel/CommonAnim/AM_Jump_Second_B.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_MoveChongci.DA_Fx_Group_MoveChongci",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 0.0014648438,
+        "Y": 17.205742,
+        "Z": 86.06095
+      },
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": -148.02782
+      },
+      "Attached": false
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAudioEvent_C",
+    "Name": "TsAnimNotifyAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.TsAnimNotifyAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Jump_Second_B'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleM/TestModel/CommonAnim/AM_Jump_Second_B.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAudioEvent_C'Default__TsAnimNotifyAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.3"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_vo_nanzhu_dash.play_vo_nanzhu_dash",
+        "SubPathString": ""
+      },
+      "TagProbabilityInfo": {
+        "DefaultProbability_10_745EC015436DEFB2B292A79C081F3E4F": 0.3
+      }
+    }
+  }
+]
