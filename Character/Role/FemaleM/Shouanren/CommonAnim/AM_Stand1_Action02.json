@@ -1,0 +1,70 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Stand1_Action02",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleM/Shouanren/CommonAnim/AM_Stand1_Action02",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Stand1_Action02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Shouanren/CommonAnim/AM_Stand1_Action02.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Stand1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim2/Stand1.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Stand1'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim2/Stand1.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.3,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Stand1_Action02'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Shouanren/CommonAnim/Stand1_Action02.9"
+                },
+                "StartPos": 0.3,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 24.33,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "SequenceLength": 24.63,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1ShouanrenMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Shouanren/R2T1ShouanrenMd10011/Model/R2T1ShouanrenMd10011_Skeleton.11"
+      }
+    },
+    "SkeletonGuid": "E6754745-4DB5F0E6-38EE3498-2F05BC54"
+  }
+]
