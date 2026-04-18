@@ -1,0 +1,136 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Behit_B_L",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/AM_Behit_B_L",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Behit_B_L'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/AM_Behit_B_L.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.8333333,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Behit_B_L'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/Behit_B_L.2"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Behit_B_L'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/Behit_B_L.2"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 2.8333333,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_Behit_B_L:TsAnimNotifyStateAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/AM_Behit_B_L.1"
+          },
+          "Duration": 2.8333333,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Behit_B_L'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/AM_Behit_B_L.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.8333333,
+            "LinkValue": 2.8333333,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Behit_B_L'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/Behit_B_L.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Behit_B_L'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/AM_Behit_B_L.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.8333333,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Behit_B_L'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/Behit_B_L.2"
+          }
+        }
+      ],
+      "SequenceLength": 2.8333333,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1AimisiGDMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/R2T1AimisiGDMd10011/Model/R2T1AimisiGDMd10011_Skeleton.7"
+      }
+    },
+    "SkeletonGuid": "99280AC9-4079DD41-3B02A4BC-311051C6"
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Behit_B_L'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/AM_Behit_B_L.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_role_aimisigd_behit_b.play_role_aimisigd_behit_b",
+        "SubPathString": ""
+      },
+      "CurrentTimeLength": 0.75147736
+    }
+  }
+]
