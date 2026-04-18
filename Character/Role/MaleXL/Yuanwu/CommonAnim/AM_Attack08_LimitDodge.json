@@ -1,0 +1,1368 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Attack08_LimitDodge",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge",
+    "Properties": {
+      "BlendOut": {
+        "BlendTime": 0.3
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 6.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Attack08'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 6.0,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyWeaponHide",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_Attack08_LimitDodge:TsAnimNotifyWeaponHide_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.17"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.001,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 6.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "ANS_AddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Attack08_LimitDodge:TsAnimNotifyStateAddTag_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.11"
+          },
+          "Duration": 0.8117129,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 6.0,
+            "LinkValue": 0.8117129,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack08'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 11,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 6.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "KuroAnimNotifySpawnBlueprintC_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Attack08_LimitDodge:AnimNotifyEffect_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.03,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 10,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 6.0,
+          "LinkValue": 0.03,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStatePositionBranchTarget",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'AM_Attack08_LimitDodge:TsAnimNotifyStatePositionBranchTarget_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.13"
+          },
+          "Duration": 0.133334,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 6.0,
+            "LinkValue": 0.166667,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack08'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 6.0,
+          "LinkValue": 0.033333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AudioEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAudioEvent_C'AM_Attack08_LimitDodge:TsAnimNotifyAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 6.0,
+          "LinkValue": 0.10526308,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStatePositionBranchTarget",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'AM_Attack08_LimitDodge:TsAnimNotifyStatePositionBranchTarget_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.15"
+          },
+          "Duration": 0.2,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 6.0,
+            "LinkValue": 0.366667,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack08'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 6.0,
+          "LinkValue": 0.166667,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Attack08_LimitDodge:TsAnimNotifyReSkillEvent_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.8"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.21,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 6.0,
+          "LinkValue": 0.21,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraModify",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'AM_Attack08_LimitDodge:TsAnimNotifyCameraModify_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 8,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 6.0,
+          "LinkValue": 0.35,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStatePositionBranchTarget",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'AM_Attack08_LimitDodge:TsAnimNotifyStatePositionBranchTarget_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.14"
+          },
+          "Duration": 0.20000002,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 6.0,
+            "LinkValue": 0.6,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack08'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 6.0,
+          "LinkValue": 0.4,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Attack08_LimitDodge:TsAnimNotifyReSkillEvent_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.9"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.533333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 6.0,
+          "LinkValue": 0.533333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStatePositionBranchTarget",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'AM_Attack08_LimitDodge:TsAnimNotifyStatePositionBranchTarget_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.16"
+          },
+          "Duration": 0.266667,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 6.0,
+            "LinkValue": 0.874431,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack08'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 6.0,
+          "LinkValue": 0.607764,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraModify",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'AM_Attack08_LimitDodge:TsAnimNotifyCameraModify_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 9,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 6.0,
+          "LinkValue": 0.72,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Attack08_LimitDodge:TsAnimNotifyReSkillEvent_C_4'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.10"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.75,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 6.0,
+          "LinkValue": 0.75,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraShake",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraShake_C'AM_Attack08_LimitDodge:TsAnimNotifyCameraShake_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.8,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 6.0,
+          "LinkValue": 0.8,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyChangeSkillPriority",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyChangeSkillPriority_C'AM_Attack08_LimitDodge:TsAnimNotifyChangeSkillPriority_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 6.0,
+          "LinkValue": 0.8675046,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateNextAtt",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateNextAtt_C'AM_Attack08_LimitDodge:TsAnimNotifyStateNextAtt_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.12"
+          },
+          "Duration": 0.715143,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 6.0,
+            "LinkValue": 1.582648,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack08'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 6.0,
+          "LinkValue": 0.867505,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyEndSkill",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyEndSkill_C'AM_Attack08_LimitDodge:TsAnimNotifyEndSkill_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.7"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 1.3,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 6.0,
+          "LinkValue": 1.3,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyWeaponHide",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_Attack08_LimitDodge:TsAnimNotifyWeaponHide_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.18"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 1.833333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 6.0,
+          "LinkValue": 2.301994,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/Attack08.7"
+          }
+        }
+      ],
+      "SequenceLength": 6.0,
+      "AnimOrigin": "3701",
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1YuanwuMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/R2T1YuanwuMd10011/Model/R2T1YuanwuMd10011_Skeleton.14"
+      }
+    },
+    "SkeletonGuid": "20477C26-4A0A3DA6-AFD9FEB1-8885FC56"
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "WhenSkillEnd": "ESkillEffectType::NewEnumerator1",
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Jixianfanji_Start.DA_Fx_Group_Jixianfanji_Start",
+        "SubPathString": ""
+      },
+      "SocketName": "Bip001Spine1",
+      "exportIndex": 10
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAudioEvent_C",
+    "Name": "TsAnimNotifyAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.TsAnimNotifyAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAudioEvent_C'Default__TsAnimNotifyAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.3"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_vo_yuanwu_evasion_parry_burst_attack.play_vo_yuanwu_evasion_parry_burst_attack",
+        "SubPathString": ""
+      },
+      "exportIndex": 12
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "持续时间": 0.5,
+      "淡入时间": 0.2,
+      "淡出时间": 0.1,
+      "相机修改配置": {
+        "ArmLengthAdditional_75_3ED4AAB647CA6863AC2F9F9C1D48D229": -200.0,
+        "ResetFinalArmLength_72_0D8B0AFC4AA34A5415C9C6AC3D25FE4E": true
+      },
+      "条件": [
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator2",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": false,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 300.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": true,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 0.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "exportIndex": 15,
+      "NeedSimulate": false
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "持续时间": 0.8,
+      "淡入时间": 0.02,
+      "淡出时间": 0.6,
+      "打断淡出时间": 0.6,
+      "相机修改配置": {
+        "ArmLengthAdditional_75_3ED4AAB647CA6863AC2F9F9C1D48D229": 250.0
+      },
+      "条件": [
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator2",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": false,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 800.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": false,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 0.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "exportIndex": 19,
+      "NeedSimulate": false
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraShake_C",
+    "Name": "TsAnimNotifyCameraShake_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraShake.TsAnimNotifyCameraShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraShake_C'Default__TsAnimNotifyCameraShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraShake.3"
+    },
+    "Properties": {
+      "震动配置": {
+        "ObjectName": "BlueprintGeneratedClass'NCS_Down_Lv6_C'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/Common/Data/CameraShake/Camera/Down/NCS_Down_Lv6.0"
+      },
+      "Radius": 300.0,
+      "bForSelf": true,
+      "exportIndex": 21,
+      "NeedSimulate": false
+    }
+  },
+  {
+    "Type": "TsAnimNotifyChangeSkillPriority_C",
+    "Name": "TsAnimNotifyChangeSkillPriority_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.TsAnimNotifyChangeSkillPriority_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyChangeSkillPriority_C'Default__TsAnimNotifyChangeSkillPriority_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.3"
+    },
+    "Properties": {
+      "Priority": 2.0,
+      "exportIndex": 22,
+      "NeedSimulate": false
+    }
+  },
+  {
+    "Type": "TsAnimNotifyEndSkill_C",
+    "Name": "TsAnimNotifyEndSkill_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.TsAnimNotifyEndSkill_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyEndSkill_C'Default__TsAnimNotifyEndSkill_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.3"
+    },
+    "Properties": {
+      "exportIndex": 24
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1303400001",
+      "exportIndex": 14
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1303400002",
+      "exportIndex": 17
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1303400003",
+      "exportIndex": 20
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "功能.逻辑状态标识.无敌.通用无敌"
+      },
+      "exportIndex": 9
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateNextAtt_C",
+    "Name": "TsAnimNotifyStateNextAtt_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.TsAnimNotifyStateNextAtt_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateNextAtt_C'Default__TsAnimNotifyStateNextAtt_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.4"
+    },
+    "Properties": {
+      "exportIndex": 23
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStatePositionBranchTarget_C",
+    "Name": "TsAnimNotifyStatePositionBranchTarget_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.TsAnimNotifyStatePositionBranchTarget_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'Default__TsAnimNotifyStatePositionBranchTarget_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.6"
+    },
+    "Properties": {
+      "MaxSpeed": 4000.0,
+      "exportIndex": 11
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStatePositionBranchTarget_C",
+    "Name": "TsAnimNotifyStatePositionBranchTarget_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.TsAnimNotifyStatePositionBranchTarget_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'Default__TsAnimNotifyStatePositionBranchTarget_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.6"
+    },
+    "Properties": {
+      "Distance": 5.0,
+      "MaxSpeed": 4000.0,
+      "exportIndex": 16
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStatePositionBranchTarget_C",
+    "Name": "TsAnimNotifyStatePositionBranchTarget_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.TsAnimNotifyStatePositionBranchTarget_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'Default__TsAnimNotifyStatePositionBranchTarget_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.6"
+    },
+    "Properties": {
+      "MaxSpeed": 0.0,
+      "exportIndex": 13
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStatePositionBranchTarget_C",
+    "Name": "TsAnimNotifyStatePositionBranchTarget_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.TsAnimNotifyStatePositionBranchTarget_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'Default__TsAnimNotifyStatePositionBranchTarget_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.6"
+    },
+    "Properties": {
+      "MaxSpeed": 0.0,
+      "exportIndex": 18
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "Hide": false,
+      "exportIndex": 8
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack08_LimitDodge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Yuanwu/CommonAnim/AM_Attack08_LimitDodge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "exportIndex": 25
+    }
+  }
+]
