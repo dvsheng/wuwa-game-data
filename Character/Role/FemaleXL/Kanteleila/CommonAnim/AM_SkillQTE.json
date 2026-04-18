@@ -1,0 +1,1494 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_SkillQTE",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.0
+      },
+      "BlendOut": {
+        "BlendTime": 0.2
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.6,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQte'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'SkillQte'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 8.6,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_SkillQTE:TsAnimNotifyStateAudioEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.18"
+          },
+          "Duration": 8.6,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 8.6,
+            "LinkValue": 8.6,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQte'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 14,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.6,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQte'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_SkillQTE:AnimNotifyEffect_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.3,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.6,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQte'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateJumpLandDetect_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateJumpLandDetect_C'AM_SkillQTE:TsAnimNotifyStateJumpLandDetect_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.19"
+          },
+          "Duration": 1.5498357,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 8.6,
+            "LinkValue": 1.5498357,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQte'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.6,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQte'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_SkillQTE:TsAnimNotifyStateAddTag_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.16"
+          },
+          "Duration": 0.88521814,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 8.6,
+            "LinkValue": 0.88521814,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQte'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.6,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQte'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAbsoluteTimeStop_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAbsoluteTimeStop_C'AM_SkillQTE:TsAnimNotifyStateAbsoluteTimeStop_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.13"
+          },
+          "Duration": 0.5038076,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 8.6,
+            "LinkValue": 0.5038076,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQte'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 9,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.6,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQte'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_SkillQTE:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.14"
+          },
+          "Duration": 1.3291956,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 8.6,
+            "LinkValue": 1.3291956,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQte'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 10,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.6,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQte'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_SkillQTE:TsAnimNotifyStateAddTag_C_5'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.17"
+          },
+          "Duration": 1.3291956,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 8.6,
+            "LinkValue": 1.3291956,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQte'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 11,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.6,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQte'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyAudioEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAudioEvent_C'AM_SkillQTE:TsAnimNotifyAudioEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 13,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.6,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQte'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_SkillQTE:AnimNotifyEffect_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.6,
+          "LinkValue": 0.07542993,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQte'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyResetPositionToGround_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyResetPositionToGround_C'AM_SkillQTE:TsAnimNotifyResetPositionToGround_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.8"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.2,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.6,
+          "LinkValue": 0.10455075,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQte'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyAudioEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAudioEvent_C'AM_SkillQTE:TsAnimNotifyAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.01,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.6,
+          "LinkValue": 0.21524845,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQte'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraModify_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'AM_SkillQTE:TsAnimNotifyCameraModify_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 0.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.6,
+          "LinkValue": 0.40503317,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQte'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_SkillQTE:TsAnimNotifyStateAddTag_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.15"
+          },
+          "Duration": 0.35030586,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 8.6,
+            "LinkValue": 0.9,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQte'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.6,
+          "LinkValue": 0.5496941,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQte'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_SkillQTE:TsAnimNotifyReSkillEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.9"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.6,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.6,
+          "LinkValue": 0.6,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQte'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_SkillQTE:TsAnimNotifyReSkillEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.10"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.6999999,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.6,
+          "LinkValue": 0.6999999,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQte'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_SkillQTE:TsAnimNotifyReSkillEvent_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.11"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.79999995,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.6,
+          "LinkValue": 0.79999995,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQte'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_SkillQTE:TsAnimNotifyReSkillEvent_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.12"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.9,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.6,
+          "LinkValue": 0.9,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQte'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyChangeSkillPriority_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyChangeSkillPriority_C'AM_SkillQTE:TsAnimNotifyChangeSkillPriority_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 1.263274,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.6,
+          "LinkValue": 1.263274,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQte'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateNextAtt",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateNextAtt_C'AM_SkillQTE:TsAnimNotifyStateNextAtt_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.20"
+          },
+          "Duration": 1.0632981,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 8.6,
+            "LinkValue": 2.327241,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQte'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.6,
+          "LinkValue": 1.263943,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQte'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyEndSkill_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyEndSkill_C'AM_SkillQTE:TsAnimNotifyEndSkill_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.7"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.1666667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.6,
+          "LinkValue": 2.3624299,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQte'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/SkillQte.2"
+          }
+        }
+      ],
+      "SequenceLength": 8.6,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1KanteleilaMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/R2T1KanteleilaMd10011/Model/R2T1KanteleilaMd10011_Skeleton.11"
+      }
+    },
+    "SkeletonGuid": "CE8413CD-4E6D9C3F-BB263BA9-80722BF6"
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/Common/Element/DA_Fx_Group_Element_Post.DA_Fx_Group_Element_Post",
+        "SubPathString": ""
+      },
+      "exportIndex": 12
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/Common/Element/DA_Fx_Group_Boom_Element_IceFire.DA_Fx_Group_Boom_Element_IceFire",
+        "SubPathString": ""
+      },
+      "Scale": {
+        "X": 1.5,
+        "Y": 1.5,
+        "Z": 1.5
+      },
+      "SocketName": "HitCase",
+      "exportIndex": 4
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAudioEvent_C",
+    "Name": "TsAnimNotifyAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.TsAnimNotifyAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAudioEvent_C'Default__TsAnimNotifyAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.3"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_vo_kanteleila_skill_qte.play_vo_kanteleila_skill_qte",
+        "SubPathString": ""
+      },
+      "exportIndex": 14
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAudioEvent_C",
+    "Name": "TsAnimNotifyAudioEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.TsAnimNotifyAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAudioEvent_C'Default__TsAnimNotifyAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.3"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_role_kanteleila_bat_skillqte.play_role_kanteleila_bat_skillqte",
+        "SubPathString": ""
+      },
+      "exportIndex": 11
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "持续时间": 0.5,
+      "淡入时间": 0.06,
+      "淡出时间": 0.5,
+      "相机修改配置": {
+        "Priority_101_E74404724F7BCD1A815B9E8ECCEE64EC": 39,
+        "IsModifiedArmLength_73_1686AE5842DD198072484BB2D855CAEB": true,
+        "ArmLength_74_192752C04380D5CAF2EB7E910DC5C9C5": 500.0,
+        "IsModifiedArmRotationRoll_93_6CBBDC9043D8BF5E4EC3AB8E5473C625": false,
+        "IsModifiedArmRotationYaw_95_FBE820DB4C8D5B75CEF242854F6F3774": true,
+        "ArmRotation_77_B66F0D944DE7F4829886B997E0B1B89F": {
+          "Pitch": 12.0,
+          "Yaw": 20.0,
+          "Roll": 0.0
+        },
+        "IsModifiedCameraOffset_79_43F688EC4B642A9CB92B0A8548187E16": true,
+        "IsModifiedCameraOffsetY_97_F5766DB146F88618F570C4A1F04A00F7": true,
+        "IsModifiedCameraOffsetZ_98_E6E0795348BE5A8749FB348FAD18D836": true,
+        "CameraOffset_80_EB37D424428EBE421F9AAEB064701EAD": {
+          "X": 0.0,
+          "Y": 50.0,
+          "Z": 20.0
+        },
+        "OverrideCameraInput_59_0083E3164D765950CF70528078BF8218": true,
+        "IsLockInput_86_CDDE4FA4418F23E40016969CB0D3623C": true
+      },
+      "exportIndex": 15
+    }
+  },
+  {
+    "Type": "TsAnimNotifyChangeSkillPriority_C",
+    "Name": "TsAnimNotifyChangeSkillPriority_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.TsAnimNotifyChangeSkillPriority_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyChangeSkillPriority_C'Default__TsAnimNotifyChangeSkillPriority_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.3"
+    },
+    "Properties": {
+      "Priority": 2.0,
+      "exportIndex": 21
+    }
+  },
+  {
+    "Type": "TsAnimNotifyEndSkill_C",
+    "Name": "TsAnimNotifyEndSkill_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.TsAnimNotifyEndSkill_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyEndSkill_C'Default__TsAnimNotifyEndSkill_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.3"
+    },
+    "Properties": {
+      "exportIndex": 23
+    }
+  },
+  {
+    "Type": "TsAnimNotifyResetPositionToGround_C",
+    "Name": "TsAnimNotifyResetPositionToGround_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyResetPositionToGround.TsAnimNotifyResetPositionToGround_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyResetPositionToGround_C'Default__TsAnimNotifyResetPositionToGround_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyResetPositionToGround.3"
+    },
+    "Properties": {
+      "exportIndex": 13
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1607401001",
+      "exportIndex": 17
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1607401002",
+      "exportIndex": 18
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1607401003",
+      "exportIndex": 19
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1607401004",
+      "exportIndex": 20
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAbsoluteTimeStop_C",
+    "Name": "TsAnimNotifyStateAbsoluteTimeStop_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAbsoluteTimeStop.TsAnimNotifyStateAbsoluteTimeStop_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAbsoluteTimeStop_C'Default__TsAnimNotifyStateAbsoluteTimeStop_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAbsoluteTimeStop.4"
+    },
+    "Properties": {
+      "角色战斗机制停止": false,
+      "怪物战斗机制停止": false,
+      "exportIndex": 7,
+      "CurrentTimeLength": 0.5151605
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "功能.逻辑状态标识.无敌.通用无敌"
+      },
+      "exportIndex": 8,
+      "CurrentTimeLength": 1.3462423
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "功能.功能制作.QTE.连携技能触发效果"
+      },
+      "exportIndex": 16,
+      "CurrentTimeLength": 0.35647798
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.BaseRole.状态通用标识.武器切换到手"
+      },
+      "exportIndex": 6,
+      "CurrentTimeLength": 0.9060721
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.Common.BUFF通用标识.不能切人"
+      },
+      "exportIndex": 9,
+      "CurrentTimeLength": 1.3462423
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_role_kanteleila_bat_skillqte_foley.play_role_kanteleila_bat_skillqte_foley",
+        "SubPathString": ""
+      },
+      "exportIndex": 3,
+      "CurrentTimeLength": 5.3646603
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateJumpLandDetect_C",
+    "Name": "TsAnimNotifyStateJumpLandDetect_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateJumpLandDetect.TsAnimNotifyStateJumpLandDetect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateJumpLandDetect_C'Default__TsAnimNotifyStateJumpLandDetect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateJumpLandDetect.6"
+    },
+    "Properties": {
+      "MaxHeightOffset": 500.0,
+      "exportIndex": 5,
+      "CurrentTimeLength": 1.5626322
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateNextAtt_C",
+    "Name": "TsAnimNotifyStateNextAtt_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.TsAnimNotifyStateNextAtt_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateNextAtt_C'Default__TsAnimNotifyStateNextAtt_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.4"
+    },
+    "Properties": {
+      "exportIndex": 22,
+      "CurrentTimeLength": 1.0645103
+    }
+  }
+]

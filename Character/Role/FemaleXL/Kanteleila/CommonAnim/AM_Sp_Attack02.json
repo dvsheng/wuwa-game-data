@@ -1,0 +1,1356 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Sp_Attack02",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.06
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.6666665,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Sp_Attack02'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 7.6666665,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyChangeSkillPriority_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyChangeSkillPriority_C'AM_Sp_Attack02:TsAnimNotifyChangeSkillPriority_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.6666665,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Sp_Attack02:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.13"
+          },
+          "Duration": 0.39209703,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 7.6666665,
+            "LinkValue": 0.39209703,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Sp_Attack02'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.6666665,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStatePositionBranchTarget_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'AM_Sp_Attack02:TsAnimNotifyStatePositionBranchTarget_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.16"
+          },
+          "Duration": 0.31678405,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 7.6666665,
+            "LinkValue": 0.3378185,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Sp_Attack02'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.6666665,
+          "LinkValue": 0.021034462,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStatePositionBranchTarget_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'AM_Sp_Attack02:TsAnimNotifyStatePositionBranchTarget_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.15"
+          },
+          "Duration": 0.31814116,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 7.6666665,
+            "LinkValue": 0.33930063,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Sp_Attack02'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.6666665,
+          "LinkValue": 0.021159485,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateSubMeshControl_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSubMeshControl_C'AM_Sp_Attack02:TsAnimNotifyStateSubMeshControl_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.18"
+          },
+          "Duration": 7.633333,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 7.6666665,
+            "LinkValue": 7.6666665,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Sp_Attack02'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.6666665,
+          "LinkValue": 0.03333333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "场景物件交互",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSceneInteract_C'AM_Sp_Attack02:TsAnimNotifyStateSceneInteract_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.17"
+          },
+          "Duration": 7.633233,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 7.6666665,
+            "LinkValue": 7.6665664,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Sp_Attack02'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 9,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.6666665,
+          "LinkValue": 0.03333333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraModify",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'AM_Sp_Attack02:TsAnimNotifyCameraModify_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.06666666,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.6666665,
+          "LinkValue": 0.06666666,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyAudioEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAudioEvent_C'AM_Sp_Attack02:TsAnimNotifyAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.01,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.6666665,
+          "LinkValue": 0.2108568,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyControllerShake_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyControllerShake_C'AM_Sp_Attack02:TsAnimNotifyControllerShake_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.7"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.6666665,
+          "LinkValue": 0.24306716,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Sp_Attack02:TsAnimNotifyReSkillEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.10"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.26666665,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 8,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.6666665,
+          "LinkValue": 0.26666665,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyChangeSkillPriority_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyChangeSkillPriority_C'AM_Sp_Attack02:TsAnimNotifyChangeSkillPriority_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.36666664,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.6666665,
+          "LinkValue": 0.36666664,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyChangeSkillPriority_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyChangeSkillPriority_C'AM_Sp_Attack02:TsAnimNotifyChangeSkillPriority_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.46666664,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.6666665,
+          "LinkValue": 0.46666664,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyControllerShake_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyControllerShake_C'AM_Sp_Attack02:TsAnimNotifyControllerShake_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.8"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.47,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.6666665,
+          "LinkValue": 0.47,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraShake_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraShake_C'AM_Sp_Attack02:TsAnimNotifyCameraShake_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.48,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.6666665,
+          "LinkValue": 0.48,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Sp_Attack02:TsAnimNotifyReSkillEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.11"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.49999997,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 8,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.6666665,
+          "LinkValue": 0.49999997,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateNextAtt_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateNextAtt_C'AM_Sp_Attack02:TsAnimNotifyStateNextAtt_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.14"
+          },
+          "Duration": 1.387474,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 7.6666665,
+            "LinkValue": 1.9541405,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Sp_Attack02'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.6666665,
+          "LinkValue": 0.5666666,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyEndSkill_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyEndSkill_C'AM_Sp_Attack02:TsAnimNotifyEndSkill_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.9"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.466667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.6666665,
+          "LinkValue": 0.73333335,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "发送动画通知广播",
+          "Notify": {
+            "ObjectName": "TsAnimNotifySendGamePlayEvent_C'AM_Sp_Attack02:TsAnimNotifySendGamePlayEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.12"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.6666665,
+          "LinkValue": 7.482604,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Sp_Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/Sp_Attack02.6"
+          }
+        }
+      ],
+      "SequenceLength": 7.6666665,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1KanteleilaMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/R2T1KanteleilaMd10011/Model/R2T1KanteleilaMd10011_Skeleton.11"
+      }
+    },
+    "SkeletonGuid": "CE8413CD-4E6D9C3F-BB263BA9-80722BF6"
+  },
+  {
+    "Type": "TsAnimNotifyAudioEvent_C",
+    "Name": "TsAnimNotifyAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.TsAnimNotifyAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAudioEvent_C'Default__TsAnimNotifyAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.3"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_vo_kanteleila_atk_atk02_pro.play_vo_kanteleila_atk_atk02_pro",
+        "SubPathString": ""
+      },
+      "TagProbabilityInfo": {
+        "DefaultProbability_10_745EC015436DEFB2B292A79C081F3E4F": 0.3
+      },
+      "exportIndex": 15
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "持续时间": 0.55,
+      "淡入时间": 0.2,
+      "淡出时间": 2.0,
+      "打断淡出时间": 0.1,
+      "相机修改配置": {
+        "Priority_101_E74404724F7BCD1A815B9E8ECCEE64EC": 10,
+        "ArmLengthAdditional_75_3ED4AAB647CA6863AC2F9F9C1D48D229": 200.0,
+        "IsModifiedArmRotation_76_570606324FC53E504274BDA6F59BD5C3": false,
+        "CameraFov_63_A418591F41F5EF0F2D3D19B8F9967FC9": 90.0,
+        "ResetFinalArmRotation_70_56DCE7204671EC361892799BE39735C5": false,
+        "ResetFinalArmLength_72_0D8B0AFC4AA34A5415C9C6AC3D25FE4E": true,
+        "ResetFinalArmLengthToSpecificValue_207_E55092A1464EA622173DBCBEF34A8EF9": 250.0
+      },
+      "exportIndex": 14
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraShake_C",
+    "Name": "TsAnimNotifyCameraShake_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraShake.TsAnimNotifyCameraShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraShake_C'Default__TsAnimNotifyCameraShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraShake.3"
+    },
+    "Properties": {
+      "震动配置": {
+        "ObjectName": "BlueprintGeneratedClass'NCS_Up_Lv5_C'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/Common/Data/CameraShake/Camera/Up/NCS_Up_Lv5.0"
+      },
+      "Radius": 300.0,
+      "bForSelf": true,
+      "exportIndex": 21
+    }
+  },
+  {
+    "Type": "TsAnimNotifyChangeSkillPriority_C",
+    "Name": "TsAnimNotifyChangeSkillPriority_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.TsAnimNotifyChangeSkillPriority_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyChangeSkillPriority_C'Default__TsAnimNotifyChangeSkillPriority_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.3"
+    },
+    "Properties": {
+      "Priority": 2.0,
+      "exportIndex": 19
+    }
+  },
+  {
+    "Type": "TsAnimNotifyChangeSkillPriority_C",
+    "Name": "TsAnimNotifyChangeSkillPriority_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.TsAnimNotifyChangeSkillPriority_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyChangeSkillPriority_C'Default__TsAnimNotifyChangeSkillPriority_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.3"
+    },
+    "Properties": {
+      "Priority": 5.0,
+      "exportIndex": 8
+    }
+  },
+  {
+    "Type": "TsAnimNotifyChangeSkillPriority_C",
+    "Name": "TsAnimNotifyChangeSkillPriority_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.TsAnimNotifyChangeSkillPriority_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyChangeSkillPriority_C'Default__TsAnimNotifyChangeSkillPriority_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.3"
+    },
+    "Properties": {
+      "Priority": 4.0,
+      "exportIndex": 18
+    }
+  },
+  {
+    "Type": "TsAnimNotifyControllerShake_C",
+    "Name": "TsAnimNotifyControllerShake_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyControllerShake.TsAnimNotifyControllerShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyControllerShake_C'Default__TsAnimNotifyControllerShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyControllerShake.3"
+    },
+    "Properties": {
+      "Effect": {
+        "ObjectName": "KuroForceFeedbackEffect'FF_KTLL_SpAtk02'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/Data/GamePadShake/FF_KTLL_SpAtk02.0"
+      },
+      "exportIndex": 16
+    }
+  },
+  {
+    "Type": "TsAnimNotifyControllerShake_C",
+    "Name": "TsAnimNotifyControllerShake_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyControllerShake.TsAnimNotifyControllerShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyControllerShake_C'Default__TsAnimNotifyControllerShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyControllerShake.3"
+    },
+    "Properties": {
+      "Effect": {
+        "ObjectName": "KuroForceFeedbackEffect'FF_KTLL_Atk01'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/Data/GamePadShake/FF_KTLL_Atk01.0"
+      },
+      "exportIndex": 20
+    }
+  },
+  {
+    "Type": "TsAnimNotifyEndSkill_C",
+    "Name": "TsAnimNotifyEndSkill_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.TsAnimNotifyEndSkill_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyEndSkill_C'Default__TsAnimNotifyEndSkill_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.3"
+    },
+    "Properties": {
+      "exportIndex": 24
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1607012002",
+      "exportIndex": 17
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1607012003",
+      "exportIndex": 22
+    }
+  },
+  {
+    "Type": "TsAnimNotifySendGamePlayEvent_C",
+    "Name": "TsAnimNotifySendGamePlayEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySendGamePlayEvent.TsAnimNotifySendGamePlayEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifySendGamePlayEvent_C'Default__TsAnimNotifySendGamePlayEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySendGamePlayEvent.3"
+    },
+    "Properties": {
+      "事件Tag": {
+        "TagName": "角色.d5372d25.d20fd78b.495fdd9a"
+      },
+      "exportIndex": 25
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.d5372d25.bbb91fe0"
+      },
+      "exportIndex": 9,
+      "CurrentTimeLength": 0.656166
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateNextAtt_C",
+    "Name": "TsAnimNotifyStateNextAtt_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.TsAnimNotifyStateNextAtt_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateNextAtt_C'Default__TsAnimNotifyStateNextAtt_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.4"
+    },
+    "Properties": {
+      "exportIndex": 23,
+      "CurrentTimeLength": 1.3954693
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStatePositionBranchTarget_C",
+    "Name": "TsAnimNotifyStatePositionBranchTarget_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.TsAnimNotifyStatePositionBranchTarget_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'Default__TsAnimNotifyStatePositionBranchTarget_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.6"
+    },
+    "Properties": {
+      "Distance": 200.0,
+      "MaxSpeed": 1500.0,
+      "TargetOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -50.0
+      },
+      "允许反向移动": true,
+      "MinHeightFromTargetFloor": 10.0,
+      "exportIndex": 11,
+      "CurrentTimeLength": 0.63510656
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStatePositionBranchTarget_C",
+    "Name": "TsAnimNotifyStatePositionBranchTarget_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.TsAnimNotifyStatePositionBranchTarget_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'Default__TsAnimNotifyStatePositionBranchTarget_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.6"
+    },
+    "Properties": {
+      "Distance": 200.0,
+      "MaxSpeed": 1500.0,
+      "忽略Z轴方向": false,
+      "永远修正Z轴": true,
+      "TargetOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -50.0
+      },
+      "允许反向移动": true,
+      "MinHeightFromTargetFloor": 10.0,
+      "exportIndex": 10,
+      "CurrentTimeLength": 0.63523155
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSceneInteract_C",
+    "Name": "TsAnimNotifyStateSceneInteract_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSceneInteract.TsAnimNotifyStateSceneInteract_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSceneInteract_C'Default__TsAnimNotifyStateSceneInteract_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSceneInteract.4"
+    },
+    "Properties": {
+      "SocketName": "WeaponProp07",
+      "DataAssetRef": {
+        "AssetPathName": "/Game/Aki/Data/Fight/SceneInteract/Role/Kanteleila/DA_PropSceneInteract4.DA_PropSceneInteract4",
+        "SubPathString": ""
+      },
+      "exportIndex": 13,
+      "CurrentTimeLength": 6.080771
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSubMeshControl_C",
+    "Name": "TsAnimNotifyStateSubMeshControl_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.TsAnimNotifyStateSubMeshControl_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Sp_Attack02'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Sp_Attack02.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSubMeshControl_C'Default__TsAnimNotifyStateSubMeshControl_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.4"
+    },
+    "Properties": {
+      "MeshName": "OtherCase02",
+      "开始是否可见": true,
+      "开始材质": {
+        "ObjectName": "PD_CharacterControllerData_C'DA_Fx_Zhezhi_Maobi_End'",
+        "ObjectPath": "Client/Content/Aki/Effect/MaterialController/DA_Character/Zhezhi/DA_Fx_Zhezhi_Maobi_End.1"
+      },
+      "结束特效": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1KanteleilaMd10011/DA_Fx_Group_R1a_WeaponEnd.DA_Fx_Group_R1a_WeaponEnd",
+        "SubPathString": ""
+      },
+      "exportIndex": 12,
+      "CurrentTimeLength": 6.080771
+    }
+  }
+]
