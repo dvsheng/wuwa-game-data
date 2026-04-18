@@ -1,0 +1,144 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Stand1_Action01",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/MaleXL/Qiuyuan/CommonAnim/AM_Stand1_Action01",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Stand1_Action01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Qiuyuan/CommonAnim/AM_Stand1_Action01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Stand1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/BaseAnim/Stand1.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Stand1'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/BaseAnim/Stand1.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.3,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Stand1_Action01'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Qiuyuan/CommonAnim/Stand1_Action01.1"
+                },
+                "StartPos": 0.3,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 15.666667,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateShowUiWeapon_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateShowUiWeapon_C'AM_Stand1_Action01:TsAnimNotifyStateShowUiWeapon_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Qiuyuan/CommonAnim/AM_Stand1_Action01.1"
+          },
+          "Duration": 12.866668,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Stand1_Action01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Qiuyuan/CommonAnim/AM_Stand1_Action01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.3,
+            "SegmentLength": 15.666667,
+            "LinkValue": 14.500001,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Stand1_Action01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Qiuyuan/CommonAnim/Stand1_Action01.1"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Stand1_Action01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Qiuyuan/CommonAnim/AM_Stand1_Action01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.3,
+          "SegmentLength": 15.666667,
+          "LinkValue": 1.6333332,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Stand1_Action01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Qiuyuan/CommonAnim/Stand1_Action01.1"
+          }
+        }
+      ],
+      "SequenceLength": 15.966667,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1QiuyuanMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Qiuyuan/R2T1QiuyuanMd10011/Model/R2T1QiuyuanMd10011_Skeleton.13"
+      }
+    },
+    "SkeletonGuid": "5F68BF59-40CBFC2F-545B9EAB-0BF0F0E2"
+  },
+  {
+    "Type": "TsAnimNotifyStateShowUiWeapon_C",
+    "Name": "TsAnimNotifyStateShowUiWeapon_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateShowUiWeapon.TsAnimNotifyStateShowUiWeapon_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Stand1_Action01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Qiuyuan/CommonAnim/AM_Stand1_Action01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateShowUiWeapon_C'Default__TsAnimNotifyStateShowUiWeapon_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateShowUiWeapon.4"
+    },
+    "Properties": {
+      "exportIndex": 7,
+      "CurrentTimeLength": 9.276483
+    }
+  }
+]
