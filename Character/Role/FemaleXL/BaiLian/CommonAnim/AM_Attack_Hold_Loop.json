@@ -1,0 +1,637 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Attack_Hold_Loop",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.0
+      },
+      "BlendOut": {
+        "BlendTime": 0.2
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "Default",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Hold_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_Hold_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/Attack_Hold_Loop.3"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Attack_Hold_Loop'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/Attack_Hold_Loop.3"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 2.6666667,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 3
+              }
+            ]
+          }
+        }
+      ],
+      "bEnableAutoBlendOut": false,
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStateNextAtt",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateNextAtt_C'AM_Attack_Hold_Loop:TsAnimNotifyStateNextAtt_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.6"
+          },
+          "Duration": 8.0,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_Hold_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 8.0,
+            "LinkValue": 8.0,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack_Hold_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/Attack_Hold_Loop.3"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Hold_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_Hold_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/Attack_Hold_Loop.3"
+          }
+        },
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Attack_Hold_Loop:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.4"
+          },
+          "Duration": 8.0,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_Hold_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 8.0,
+            "LinkValue": 8.0,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack_Hold_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/Attack_Hold_Loop.3"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Hold_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_Hold_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/Attack_Hold_Loop.3"
+          }
+        },
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateWeaponHang_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateWeaponHang_C'AM_Attack_Hold_Loop:TsAnimNotifyStateWeaponHang_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.7"
+          },
+          "Duration": 8.0,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_Hold_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 8.0,
+            "LinkValue": 8.0,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack_Hold_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/Attack_Hold_Loop.3"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Hold_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_Hold_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/Attack_Hold_Loop.3"
+          }
+        },
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddBuff",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddBuff_C'AM_Attack_Hold_Loop:TsAnimNotifyStateAddBuff_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.2"
+          },
+          "Duration": 8.0,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_Hold_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 8.0,
+            "LinkValue": 8.0,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack_Hold_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/Attack_Hold_Loop.3"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Hold_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_Hold_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/Attack_Hold_Loop.3"
+          }
+        },
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateBulletDuration_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateBulletDuration_C'AM_Attack_Hold_Loop:TsAnimNotifyStateBulletDuration_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.5"
+          },
+          "Duration": 8.0,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_Hold_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 8.0,
+            "LinkValue": 8.0,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack_Hold_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/Attack_Hold_Loop.3"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Hold_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_Hold_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/Attack_Hold_Loop.3"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddBuff",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddBuff_C'AM_Attack_Hold_Loop:TsAnimNotifyStateAddBuff_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.3"
+          },
+          "Duration": 8.0,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_Hold_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 8.0,
+            "LinkValue": 8.0,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack_Hold_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/Attack_Hold_Loop.3"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Hold_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_Hold_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/Attack_Hold_Loop.3"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraModify",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'AM_Attack_Hold_Loop:TsAnimNotifyCameraModify_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.046322137,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Hold_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 8.0,
+          "LinkValue": 0.046322137,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_Hold_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/Attack_Hold_Loop.3"
+          }
+        }
+      ],
+      "SequenceLength": 8.0,
+      "AnimOrigin": "201",
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1BaiLianMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/R2T1BaiLianMd10011/Model/R2T1BaiLianMd10011_Skeleton.15"
+      }
+    },
+    "SkeletonGuid": "1ACCD283-4AFA57C9-504524A5-568FE034"
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Hold_Loop'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.R2T1BaiLianMd10011.状态标识.长按镜头"
+      },
+      "持续时间": 7.5,
+      "淡入时间": 0.3,
+      "淡出时间": 0.2,
+      "相机修改配置": {
+        "IsModifiedArmLength_73_1686AE5842DD198072484BB2D855CAEB": true,
+        "ArmLength_74_192752C04380D5CAF2EB7E910DC5C9C5": 350.0,
+        "ArmRotation_77_B66F0D944DE7F4829886B997E0B1B89F": {
+          "Pitch": -5.0,
+          "Yaw": -6.0,
+          "Roll": 0.0
+        },
+        "IsModifiedCameraOffset_79_43F688EC4B642A9CB92B0A8548187E16": true,
+        "CameraOffset_80_EB37D424428EBE421F9AAEB064701EAD": {
+          "X": 0.0,
+          "Y": 100.0,
+          "Z": 0.0
+        },
+        "IsModifiedCameraFov_53_1A8D869C4A5886B266452BBCB07BA93A": true,
+        "CameraFov_63_A418591F41F5EF0F2D3D19B8F9967FC9": 50.0,
+        "OverrideCameraInput_59_0083E3164D765950CF70528078BF8218": true
+      },
+      "条件": [
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator2",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": false,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 650.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": false,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 0.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "NeedSimulate": false
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddBuff_C",
+    "Name": "TsAnimNotifyStateAddBuff_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddBuff.TsAnimNotifyStateAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Hold_Loop'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddBuff_C'Default__TsAnimNotifyStateAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddBuff.4"
+    },
+    "Properties": {
+      "BuffId": 1103100017
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddBuff_C",
+    "Name": "TsAnimNotifyStateAddBuff_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddBuff.TsAnimNotifyStateAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Hold_Loop'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddBuff_C'Default__TsAnimNotifyStateAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddBuff.4"
+    },
+    "Properties": {
+      "BuffId": 1103100014
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Hold_Loop'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.R2T1BaiLianMd10011.状态标识.长按可打断"
+      }
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateBulletDuration_C",
+    "Name": "TsAnimNotifyStateBulletDuration_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateBulletDuration.TsAnimNotifyStateBulletDuration_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Hold_Loop'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateBulletDuration_C'Default__TsAnimNotifyStateBulletDuration_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateBulletDuration.5"
+    },
+    "Properties": {
+      "BulletIds": [
+        "110360601"
+      ]
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateNextAtt_C",
+    "Name": "TsAnimNotifyStateNextAtt_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.TsAnimNotifyStateNextAtt_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Hold_Loop'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateNextAtt_C'Default__TsAnimNotifyStateNextAtt_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.4"
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateWeaponHang_C",
+    "Name": "TsAnimNotifyStateWeaponHang_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateWeaponHang.TsAnimNotifyStateWeaponHang_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Hold_Loop'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/CommonAnim/AM_Attack_Hold_Loop.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateWeaponHang_C'Default__TsAnimNotifyStateWeaponHang_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateWeaponHang.4"
+    },
+    "Properties": {
+      "Id": 123,
+      "新的挂载点名": [
+        "WeaponProp07"
+      ],
+      "挂载相对位置": [
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        }
+      ],
+      "缓冲时间": 0.2
+    }
+  }
+]
