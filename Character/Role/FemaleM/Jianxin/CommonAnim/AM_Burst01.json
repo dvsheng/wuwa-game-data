@@ -1,0 +1,859 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Burst01",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.0
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.0666666,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/Burst01.9"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Burst01'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/Burst01.9"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 7.0666666,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAbsoluteTimeStop_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAbsoluteTimeStop_C'AM_Burst01:TsAnimNotifyStateAbsoluteTimeStop_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.6"
+          },
+          "Duration": 2.081757,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 7.0666666,
+            "LinkValue": 2.081757,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/Burst01.9"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.0666666,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/Burst01.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifySwitchSequenceCamera",
+          "Notify": {
+            "ObjectName": "TsAnimNotifySwitchSequenceCamera_C'AM_Burst01:TsAnimNotifySwitchSequenceCamera_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.11"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.0666666,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/Burst01.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateBurst_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateBurst_C'AM_Burst01:TsAnimNotifyStateBurst_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.7"
+          },
+          "Duration": 2.6981714,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 7.0666666,
+            "LinkValue": 2.6981714,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/Burst01.9"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.0666666,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/Burst01.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateTimeStopRequest_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateTimeStopRequest_C'AM_Burst01:TsAnimNotifyStateTimeStopRequest_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.10"
+          },
+          "Duration": 2.6989198,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 7.0666666,
+            "LinkValue": 2.6989198,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/Burst01.9"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.0666666,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/Burst01.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateRotate",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateRotate_C'AM_Burst01:TsAnimNotifyStateRotate_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.9"
+          },
+          "Duration": 0.14900482,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 7.0666666,
+            "LinkValue": 2.0459085,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/Burst01.9"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.0666666,
+          "LinkValue": 1.8969036,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/Burst01.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "添加子弹",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Burst01:TsAnimNotifyReSkillEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.0666666,
+          "LinkValue": 2.0468113,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/Burst01.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyControllerShake_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyControllerShake_C'AM_Burst01:TsAnimNotifyControllerShake_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.0666666,
+          "LinkValue": 2.05426,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/Burst01.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Burst01:TsAnimNotifyReSkillEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.0666666,
+          "LinkValue": 2.05502,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/Burst01.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateBurst_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateBurst_C'AM_Burst01:TsAnimNotifyStateBurst_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.8"
+          },
+          "Duration": 0.7161236,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 7.0666666,
+            "LinkValue": 3.3537645,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/Burst01.9"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.0666666,
+          "LinkValue": 2.637641,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/Burst01.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraModify_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'AM_Burst01:TsAnimNotifyCameraModify_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.8666666,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.0666666,
+          "LinkValue": 2.8666666,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/Burst01.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "结束技能",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyEndSkill_C'AM_Burst01:TsAnimNotifyEndSkill_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 7.0666666,
+          "LinkValue": 3.1187348,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/Burst01.9"
+          }
+        }
+      ],
+      "SequenceLength": 7.0666666,
+      "AnimOrigin": "2801",
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1JianxinMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/R2T1JianxinMd10011/Model/R2T1JianxinMd10011_Skeleton.11"
+      }
+    },
+    "SkeletonGuid": "CA1C040D-4410C710-27DCBF8B-0F61F095"
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "持续时间": 1.2,
+      "淡入时间": 0.4,
+      "淡出时间": 0.4,
+      "打断淡出时间": 0.4,
+      "相机修改配置": {
+        "Priority_101_E74404724F7BCD1A815B9E8ECCEE64EC": 40,
+        "ArmLengthAdditional_75_3ED4AAB647CA6863AC2F9F9C1D48D229": 150.0,
+        "IsModifiedArmRotationRoll_93_6CBBDC9043D8BF5E4EC3AB8E5473C625": false,
+        "IsModifiedArmRotationYaw_95_FBE820DB4C8D5B75CEF242854F6F3774": true,
+        "ArmRotation_77_B66F0D944DE7F4829886B997E0B1B89F": {
+          "Pitch": -7.0,
+          "Yaw": -35.0,
+          "Roll": 0.0
+        },
+        "IsModifiedCameraOffset_79_43F688EC4B642A9CB92B0A8548187E16": true,
+        "OverrideCameraInput_59_0083E3164D765950CF70528078BF8218": true,
+        "ResetFinalArmLength_72_0D8B0AFC4AA34A5415C9C6AC3D25FE4E": true,
+        "IsLockInput_86_CDDE4FA4418F23E40016969CB0D3623C": true
+      },
+      "exportIndex": 22
+    }
+  },
+  {
+    "Type": "TsAnimNotifyControllerShake_C",
+    "Name": "TsAnimNotifyControllerShake_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyControllerShake.TsAnimNotifyControllerShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyControllerShake_C'Default__TsAnimNotifyControllerShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyControllerShake.3"
+    },
+    "Properties": {
+      "Effect": {
+        "ObjectName": "KuroForceFeedbackEffect'FF_Common_Lv3_Long'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/Common/Data/GamePadShake/CommonShake/FF_Common_Lv3_Long.0"
+      },
+      "exportIndex": 20
+    }
+  },
+  {
+    "Type": "TsAnimNotifyEndSkill_C",
+    "Name": "TsAnimNotifyEndSkill_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.TsAnimNotifyEndSkill_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyEndSkill_C'Default__TsAnimNotifyEndSkill_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.3"
+    },
+    "Properties": {
+      "exportIndex": 23
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1405003003",
+      "exportIndex": 21
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1405003001",
+      "exportIndex": 19
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAbsoluteTimeStop_C",
+    "Name": "TsAnimNotifyStateAbsoluteTimeStop_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAbsoluteTimeStop.TsAnimNotifyStateAbsoluteTimeStop_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAbsoluteTimeStop_C'Default__TsAnimNotifyStateAbsoluteTimeStop_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAbsoluteTimeStop.4"
+    },
+    "Properties": {
+      "exportIndex": 13
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateBurst_C",
+    "Name": "TsAnimNotifyStateBurst_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateBurst.TsAnimNotifyStateBurst_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateBurst_C'Default__TsAnimNotifyStateBurst_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateBurst.4"
+    },
+    "Properties": {
+      "exportIndex": 15
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateBurst_C",
+    "Name": "TsAnimNotifyStateBurst_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateBurst.TsAnimNotifyStateBurst_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateBurst_C'Default__TsAnimNotifyStateBurst_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateBurst.4"
+    },
+    "Properties": {
+      "不能切人": false,
+      "exportIndex": 16
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateRotate_C",
+    "Name": "TsAnimNotifyStateRotate_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateRotate.TsAnimNotifyStateRotate_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateRotate_C'Default__TsAnimNotifyStateRotate_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateRotate.7"
+    },
+    "Properties": {
+      "旋转速度": 1000.0,
+      "是否自动朝向目标": true,
+      "exportIndex": 18
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateTimeStopRequest_C",
+    "Name": "TsAnimNotifyStateTimeStopRequest_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateTimeStopRequest.TsAnimNotifyStateTimeStopRequest_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateTimeStopRequest_C'Default__TsAnimNotifyStateTimeStopRequest_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateTimeStopRequest.4"
+    },
+    "Properties": {
+      "exportIndex": 17
+    }
+  },
+  {
+    "Type": "TsAnimNotifySwitchSequenceCamera_C",
+    "Name": "TsAnimNotifySwitchSequenceCamera_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySwitchSequenceCamera.TsAnimNotifySwitchSequenceCamera_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Jianxin/CommonAnim/AM_Burst01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifySwitchSequenceCamera_C'Default__TsAnimNotifySwitchSequenceCamera_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySwitchSequenceCamera.4"
+    },
+    "Properties": {
+      "特写镜头配置": {
+        "BlendOutTime_4_B229F83544CCA82D68E7B9867CC519D0": 0.6,
+        "CameraSequence_11_EA0F02DF4948AFF0A951AB8E0F790CEC": {
+          "ObjectName": "LevelSequence'SC_Jianxin_Burst01'",
+          "ObjectPath": "Client/Content/Aki/Character/SequenceCamera/Fight/Jianxin/SC_Jianxin_Burst01.10"
+        },
+        "IsHideHud_13_3FD8AC824B783C3AC1386394935251D1": true,
+        "VisibleChild_26_E1BC75D64F4C322DD3D258A5F6B6F888": [
+          "EBattleUIChild::NewEnumerator16"
+        ]
+      },
+      "AdditiveRotation": {
+        "Pitch": -7.0,
+        "Yaw": -35.0,
+        "Roll": 0.0
+      },
+      "CameraAttachSocket": "Root",
+      "ExtraDetectSphereRadius": 75.0,
+      "bResetLockOnCamera": true,
+      "IsIgnoreCharacterCollision": true,
+      "exportIndex": 14,
+      "NeedSimulate": false
+    }
+  }
+]
