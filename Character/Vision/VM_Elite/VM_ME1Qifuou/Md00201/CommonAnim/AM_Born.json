@@ -1,0 +1,272 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Born",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Qifuou/Md00201/CommonAnim/AM_Born",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Born'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Qifuou/Md00201/CommonAnim/AM_Born.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.1,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Born'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Qifuou/Md00201/CommonAnim/Born.5"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Born'",
+                  "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Qifuou/Md00201/CommonAnim/Born.5"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 3.1,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "BranchingPointMarkers": [
+        {
+          "NotifyIndex": 0,
+          "TriggerTime": 0.0001,
+          "NotifyEventType": "EAnimNotifyEventType::Begin"
+        },
+        {
+          "NotifyIndex": 0,
+          "TriggerTime": 3.1334333,
+          "NotifyEventType": "EAnimNotifyEventType::End"
+        }
+      ],
+      "BranchingPointStateNotifyIndices": [
+        0
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "DisableRootMotion",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyState_DisableRootMotion'AM_Born:AnimNotifyState_DisableRootMotion_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Qifuou/Md00201/CommonAnim/AM_Born.1"
+          },
+          "Duration": 3.1333334,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Born'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Qifuou/Md00201/CommonAnim/AM_Born.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": -1.0,
+            "SegmentLength": -1.0,
+            "LinkValue": 3.1333334,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Born'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Qifuou/Md00201/CommonAnim/AM_Born.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.1,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Born'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Qifuou/Md00201/CommonAnim/Born.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifySendGamePlayEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifySendGamePlayEvent_C'AM_Born:TsAnimNotifySendGamePlayEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Qifuou/Md00201/CommonAnim/AM_Born.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Born'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Qifuou/Md00201/CommonAnim/AM_Born.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.1,
+          "LinkValue": 0.15243945,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Born'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Qifuou/Md00201/CommonAnim/Born.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_Born:TsAnimNotifyAddBuff_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Qifuou/Md00201/CommonAnim/AM_Born.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Born'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Qifuou/Md00201/CommonAnim/AM_Born.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.1,
+          "LinkValue": 1.1556792,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Born'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Qifuou/Md00201/CommonAnim/Born.5"
+          }
+        }
+      ],
+      "SequenceLength": 3.1,
+      "Skeleton": {
+        "ObjectName": "Skeleton'ME1QifuouMd00101_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Elite/ME1QifuouMd00101/Model/ME1QifuouMd00101_Skeleton.3"
+      }
+    },
+    "SkeletonGuid": "0887487C-435399E2-135D1E97-52AC1683"
+  },
+  {
+    "Type": "AnimNotifyState_DisableRootMotion",
+    "Name": "AnimNotifyState_DisableRootMotion_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimNotifyState_DisableRootMotion'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Born'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Qifuou/Md00201/CommonAnim/AM_Born.0"
+    },
+    "Properties": {
+      "CurrentTimeLength": 0.6055577
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Born'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Qifuou/Md00201/CommonAnim/AM_Born.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 2000000
+    }
+  },
+  {
+    "Type": "TsAnimNotifySendGamePlayEvent_C",
+    "Name": "TsAnimNotifySendGamePlayEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySendGamePlayEvent.TsAnimNotifySendGamePlayEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Born'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Qifuou/Md00201/CommonAnim/AM_Born.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifySendGamePlayEvent_C'Default__TsAnimNotifySendGamePlayEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySendGamePlayEvent.3"
+    },
+    "Properties": {
+      "事件Tag": {
+        "TagName": "幻象.Common.初始化"
+      }
+    }
+  }
+]

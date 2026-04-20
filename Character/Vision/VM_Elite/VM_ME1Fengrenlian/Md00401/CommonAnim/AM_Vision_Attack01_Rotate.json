@@ -1,0 +1,916 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Vision_Attack01_Rotate",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01_Rotate_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/Attack01_Rotate_Start.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Attack01_Rotate_Start'",
+                  "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/Attack01_Rotate_Start.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.1,
+                "AnimEndTime": 0.6,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Attack01_Rotate_Loop'",
+                  "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/Attack01_Rotate_Loop.1"
+                },
+                "StartPos": 0.5,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.56666666,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Attack01_Rotate_End'",
+                  "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/Attack01_Rotate_End.2"
+                },
+                "StartPos": 1.0666666,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.7,
+                "AnimPlayRate": 2.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Attack01_Rotate_End'",
+                  "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/Attack01_Rotate_End.2"
+                },
+                "StartPos": 1.4166666,
+                "AnimStartTime": 0.7,
+                "AnimEndTime": 1.1666666,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Attack01_End'",
+                  "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/Attack01_End.1"
+                },
+                "StartPos": 1.8833332,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.5,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "ANS_Bianshenweizhi_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "ANS_Bianshenweizhi_C'AM_Vision_Attack01_Rotate:ANS_Bianshenweizhi_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.1"
+          },
+          "Duration": 1.8184705,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 3,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 1.4166666,
+            "SegmentLength": 0.46666664,
+            "LinkValue": 1.8184705,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack01_Rotate_End'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/Attack01_Rotate_End.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01_Rotate_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/Attack01_Rotate_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateRotate",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateRotate_C'AM_Vision_Attack01_Rotate:TsAnimNotifyStateRotate_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.10"
+          },
+          "Duration": 0.5,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.5,
+            "SegmentLength": 0.56666666,
+            "LinkValue": 0.5,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack01_Rotate_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/Attack01_Rotate_Loop.1"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01_Rotate_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/Attack01_Rotate_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraModify_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'AM_Vision_Attack01_Rotate:TsAnimNotifyCameraModify_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.01,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.01,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01_Rotate_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/Attack01_Rotate_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_Vision_Attack01_Rotate:TsAnimNotifyStateAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.7"
+          },
+          "Duration": 2.312674,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 4,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 1.8833332,
+            "SegmentLength": 0.5,
+            "LinkValue": 2.3317363,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack01_End'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/Attack01_End.1"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.01906228,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01_Rotate_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/Attack01_Rotate_Start.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateGoThrough",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateGoThrough_C'AM_Vision_Attack01_Rotate:TsAnimNotifyStateGoThrough_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.8"
+          },
+          "Duration": 0.5666666,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 2,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 1.0666666,
+            "SegmentLength": 0.35,
+            "LinkValue": 1.0666666,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack01_Rotate_End'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/Attack01_Rotate_End.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.5,
+          "SegmentLength": 0.56666666,
+          "LinkValue": 0.5,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01_Rotate_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/Attack01_Rotate_Loop.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Vision_Attack01_Rotate:TsAnimNotifyReSkillEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.5035211,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.5,
+          "SegmentLength": 0.56666666,
+          "LinkValue": 0.5225277,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01_Rotate_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/Attack01_Rotate_Loop.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateRotate",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateRotate_C'AM_Vision_Attack01_Rotate:TsAnimNotifyStateRotate_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.11"
+          },
+          "Duration": 0.35000002,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 3,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 1.4166666,
+            "SegmentLength": 0.46666664,
+            "LinkValue": 1.4166666,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack01_Rotate_End'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/Attack01_Rotate_End.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 2,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 1.0666666,
+          "SegmentLength": 0.35,
+          "LinkValue": 1.0666666,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01_Rotate_End'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/Attack01_Rotate_End.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStatePositionBranchTarget_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'AM_Vision_Attack01_Rotate:TsAnimNotifyStatePositionBranchTarget_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.9"
+          },
+          "Duration": 0.10070422,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 3,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 1.4166666,
+            "SegmentLength": 0.46666664,
+            "LinkValue": 1.5776994,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack01_Rotate_End'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/Attack01_Rotate_End.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 3,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 1.4166666,
+          "SegmentLength": 0.46666664,
+          "LinkValue": 1.4769952,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01_Rotate_End'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/Attack01_Rotate_End.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Vision_Attack01_Rotate:TsAnimNotifyReSkillEvent_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 1.65,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 3,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 1.4166666,
+          "SegmentLength": 0.46666664,
+          "LinkValue": 1.65,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01_Rotate_End'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/Attack01_Rotate_End.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraShake_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraShake_C'AM_Vision_Attack01_Rotate:TsAnimNotifyCameraShake_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 3,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 1.4166666,
+          "SegmentLength": 0.46666664,
+          "LinkValue": 1.6615635,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01_Rotate_End'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/Attack01_Rotate_End.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifySendGamePlayEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifySendGamePlayEvent_C'AM_Vision_Attack01_Rotate:TsAnimNotifySendGamePlayEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 4,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 1.8833332,
+          "SegmentLength": 0.5,
+          "LinkValue": 1.9133446,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01_End'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/Attack01_End.1"
+          }
+        }
+      ],
+      "SequenceLength": 2.3833332,
+      "Skeleton": {
+        "ObjectName": "Skeleton'ME1FengrenlianMd00401_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Elite/ME1FengrenlianMd00401/Model/ME1FengrenlianMd00401_Skeleton.5"
+      }
+    },
+    "SkeletonGuid": "C0664E19-41DEE49A-C69FC996-90157C3D"
+  },
+  {
+    "Type": "ANS_Bianshenweizhi_C",
+    "Name": "ANS_Bianshenweizhi_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Client/Content/Aki/Character/Vision/AnimNotifyState/ANS_Bianshenweizhi.ANS_Bianshenweizhi_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+    },
+    "Template": {
+      "ObjectName": "ANS_Bianshenweizhi_C'Default__ANS_Bianshenweizhi_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/AnimNotifyState/ANS_Bianshenweizhi.4"
+    },
+    "Properties": {
+      "exportIndex": 4
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "持续时间": 1.3,
+      "淡入时间": 0.3,
+      "淡出时间": 0.3,
+      "相机修改配置": {
+        "Priority_101_E74404724F7BCD1A815B9E8ECCEE64EC": 1,
+        "IsModifiedArmLength_73_1686AE5842DD198072484BB2D855CAEB": true,
+        "ArmLength_74_192752C04380D5CAF2EB7E910DC5C9C5": 900.0
+      },
+      "条件": [
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator2",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": false,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 900.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": false,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 0.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "exportIndex": 6
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraShake_C",
+    "Name": "TsAnimNotifyCameraShake_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraShake.TsAnimNotifyCameraShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraShake_C'Default__TsAnimNotifyCameraShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraShake.3"
+    },
+    "Properties": {
+      "震动配置": {
+        "ObjectName": "BlueprintGeneratedClass'NCS_Up_Lv6_C'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/Common/Data/CameraShake/Camera/Up/NCS_Up_Lv6.0"
+      },
+      "Radius": 200.0,
+      "bForSelf": true,
+      "exportIndex": 13
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "20004701",
+      "exportIndex": 9
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "20004702",
+      "exportIndex": 12
+    }
+  },
+  {
+    "Type": "TsAnimNotifySendGamePlayEvent_C",
+    "Name": "TsAnimNotifySendGamePlayEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySendGamePlayEvent.TsAnimNotifySendGamePlayEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifySendGamePlayEvent_C'Default__TsAnimNotifySendGamePlayEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySendGamePlayEvent.3"
+    },
+    "Properties": {
+      "事件Tag": {
+        "TagName": "幻象.变身.正常结束"
+      },
+      "exportIndex": 14
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_vision_elite_s_feirenlian_atk01_rotate.play_vision_elite_s_feirenlian_atk01_rotate",
+        "SubPathString": ""
+      },
+      "exportIndex": 7
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateGoThrough_C",
+    "Name": "TsAnimNotifyStateGoThrough_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateGoThrough.TsAnimNotifyStateGoThrough_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateGoThrough_C'Default__TsAnimNotifyStateGoThrough_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateGoThrough.5"
+    },
+    "Properties": {
+      "FirstGoThroughPriority": 100,
+      "SecondHitPriority": 100,
+      "OldGoThroughPriority": 30.0,
+      "OldHitPriority": 50.0,
+      "LeftTime": -0.0030189008,
+      "IsEnd": true,
+      "exportIndex": 8
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStatePositionBranchTarget_C",
+    "Name": "TsAnimNotifyStatePositionBranchTarget_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.TsAnimNotifyStatePositionBranchTarget_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'Default__TsAnimNotifyStatePositionBranchTarget_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.6"
+    },
+    "Properties": {
+      "Distance": 150.0,
+      "MaxSpeed": 1000.0,
+      "exportIndex": 11
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateRotate_C",
+    "Name": "TsAnimNotifyStateRotate_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateRotate.TsAnimNotifyStateRotate_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateRotate_C'Default__TsAnimNotifyStateRotate_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateRotate.7"
+    },
+    "Properties": {
+      "旋转速度": 360.0,
+      "是否自动朝向目标": true,
+      "exportIndex": 5
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateRotate_C",
+    "Name": "TsAnimNotifyStateRotate_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateRotate.TsAnimNotifyStateRotate_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Vision_Attack01_Rotate'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Fengrenlian/Md00401/CommonAnim/AM_Vision_Attack01_Rotate.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateRotate_C'Default__TsAnimNotifyStateRotate_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateRotate.7"
+    },
+    "Properties": {
+      "旋转速度": 360.0,
+      "是否自动朝向目标": true,
+      "exportIndex": 10
+    }
+  }
+]

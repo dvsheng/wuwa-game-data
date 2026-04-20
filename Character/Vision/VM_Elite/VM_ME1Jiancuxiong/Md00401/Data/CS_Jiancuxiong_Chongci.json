@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CS_Jiancuxiong_Chongci_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00401/Data/CS_Jiancuxiong_Chongci",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CameraShakeAndForceFeedback_C'",
+      "ObjectPath": "Client/Content/Aki/Data/Camera/BP_CameraShakeAndForceFeedback.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CameraShakeAndForceFeedback_C'",
+      "ObjectPath": "Client/Content/Aki/Data/Camera/BP_CameraShakeAndForceFeedback.0"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CS_Jiancuxiong_Chongci_C'Default__CS_Jiancuxiong_Chongci_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00401/Data/CS_Jiancuxiong_Chongci.1"
+    }
+  },
+  {
+    "Type": "CS_Jiancuxiong_Chongci_C",
+    "Name": "Default__CS_Jiancuxiong_Chongci_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00401/Data/CS_Jiancuxiong_Chongci.CS_Jiancuxiong_Chongci_C'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00401/Data/CS_Jiancuxiong_Chongci",
+    "Template": {
+      "ObjectName": "BP_CameraShakeAndForceFeedback_C'Default__BP_CameraShakeAndForceFeedback_C'",
+      "ObjectPath": "Client/Content/Aki/Data/Camera/BP_CameraShakeAndForceFeedback.1"
+    },
+    "Properties": {
+      "BlendInMode": "EAlphaBlendOption::ExpIn",
+      "BlendOutMode": "EAlphaBlendOption::ExpOut",
+      "OscillationDuration": 0.25,
+      "OscillationBlendInTime": 0.0,
+      "LocOscillation": {
+        "X": {
+          "Amplitude": 3.0,
+          "Frequency": 20.0,
+          "Waveform": "EOscillatorWaveform::PerlinNoise"
+        },
+        "Y": {
+          "Amplitude": 3.0,
+          "Frequency": 20.0,
+          "Waveform": "EOscillatorWaveform::PerlinNoise"
+        },
+        "Z": {
+          "Amplitude": 4.5,
+          "Frequency": 60.0,
+          "InitialOffset": "EOO_OffsetZero"
+        }
+      }
+    }
+  }
+]

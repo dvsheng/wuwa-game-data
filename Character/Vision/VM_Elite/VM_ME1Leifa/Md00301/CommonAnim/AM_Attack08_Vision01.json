@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Attack08_Vision01",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Leifa/Md00301/CommonAnim/AM_Attack08_Vision01",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_Vision01'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Leifa/Md00301/CommonAnim/AM_Attack08_Vision01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.3,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08_Vision'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Leifa/Md00301/CommonAnim/Attack08_Vision.3"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Attack08_Vision'",
+                  "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Leifa/Md00301/CommonAnim/Attack08_Vision.3"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.3,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "SequenceLength": 1.3,
+      "Skeleton": {
+        "ObjectName": "Skeleton'ME1LeiFaMd00301_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Elite/ME1LeiFaMd00301/Model/ME1LeiFaMd00301_Skeleton.5"
+      }
+    },
+    "SkeletonGuid": "4B763D9B-4BCDDA99-641A81B5-D2D4CD71"
+  }
+]

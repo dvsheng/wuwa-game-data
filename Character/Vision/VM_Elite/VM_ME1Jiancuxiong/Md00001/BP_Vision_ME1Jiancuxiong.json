@@ -1,0 +1,332 @@
+[
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_ME1Jiancuxiong_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/BP_Vision_ME1Jiancuxiong.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Vision_ME1Jiancuxiong_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/BP_Vision_ME1Jiancuxiong",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.7"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Vision_ME1Jiancuxiong_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/BP_Vision_ME1Jiancuxiong.8"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Vision_ME1Jiancuxiong_C:InheritableComponentHandler'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/BP_Vision_ME1Jiancuxiong.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.7"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Vision_ME1Jiancuxiong_C:UserConstructionScript'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/BP_Vision_ME1Jiancuxiong.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "ArrayProperty",
+        "Name": "SocketNames",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Inner": {
+          "Type": "StrProperty",
+          "Name": "SocketNames",
+          "Flags": "RF_Public",
+          "ElementSize": 16
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Size",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "Size",
+          "Flags": "RF_Public",
+          "ElementSize": 12,
+          "Struct": {
+            "ObjectName": "ScriptStruct'Vector'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        }
+      }
+    ],
+    "FuncMap": {
+      "UserConstructionScript": {
+        "ObjectName": "Function'BP_Vision_ME1Jiancuxiong_C:UserConstructionScript'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/BP_Vision_ME1Jiancuxiong.0"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Vision_ME1Jiancuxiong_C'Default__BP_Vision_ME1Jiancuxiong_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/BP_Vision_ME1Jiancuxiong.2"
+    }
+  },
+  {
+    "Type": "BP_Vision_ME1Jiancuxiong_C",
+    "Name": "Default__BP_Vision_ME1Jiancuxiong_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/BP_Vision_ME1Jiancuxiong.BP_Vision_ME1Jiancuxiong_C'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/BP_Vision_ME1Jiancuxiong",
+    "Template": {
+      "ObjectName": "BP_BaseVision_C'Default__BP_BaseVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.8"
+    },
+    "Properties": {
+      "SocketNames": [
+        "Bip001Head",
+        "Bip001Center",
+        "Bip001RForearm",
+        "Bip001LForearm"
+      ],
+      "Size": [
+        {
+          "X": 60.0,
+          "Y": 60.0,
+          "Z": 0.0
+        },
+        {
+          "X": 100.0,
+          "Y": 60.0,
+          "Z": 0.0
+        },
+        {
+          "X": 30.0,
+          "Y": 30.0,
+          "Z": 0.0
+        },
+        {
+          "X": 30.0,
+          "Y": 30.0,
+          "Z": 0.0
+        }
+      ],
+      "DtHitEffect": {
+        "ObjectName": "DataTable'DT_HitEffect'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/Data/DT_HitEffect.0"
+      },
+      "DtBaseMovementSetting": {
+        "ObjectName": "DataTable'DT_BaseMovementSetting'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Elite/ME1JiancuxiongMd00001/Data/DT_BaseMovementSetting.0"
+      },
+      "DtNewBulletDataMain": {
+        "ObjectName": "DataTable'DT_ReBulletDataMain'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/Data/DT_ReBulletDataMain.0"
+      },
+      "FkData": {
+        "ObjectName": "FK_Shake_AssestData_C'FK_Shake_Data'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Elite/ME1JiancuxiongMd00001/Data/FK_Shake_Data.0"
+      },
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Vision_ME1Jiancuxiong_C:CharacterMesh0'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/BP_Vision_ME1Jiancuxiong.9"
+      },
+      "CharacterMovement": {
+        "ObjectName": "CharacterMovementComponent'Default__BP_Vision_ME1Jiancuxiong_C:CharMoveComp'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/BP_Vision_ME1Jiancuxiong.4"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Vision_ME1Jiancuxiong_C:CollisionCylinder'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/BP_Vision_ME1Jiancuxiong.3"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Vision_ME1Jiancuxiong_C:CollisionCylinder'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/BP_Vision_ME1Jiancuxiong.3"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_Vision_ME1Jiancuxiong_C'Default__BP_Vision_ME1Jiancuxiong_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/BP_Vision_ME1Jiancuxiong.2"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_BaseVision_C:CollisionCylinder'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.9"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 85.0,
+      "CapsuleRadius": 85.0
+    }
+  },
+  {
+    "Type": "CharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_Vision_ME1Jiancuxiong_C'Default__BP_Vision_ME1Jiancuxiong_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/BP_Vision_ME1Jiancuxiong.2"
+    },
+    "Template": {
+      "ObjectName": "CharacterMovementComponent'Default__BP_BaseVision_C:CharMoveComp'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.10"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_ME1Jiancuxiong_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/BP_Vision_ME1Jiancuxiong.1"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_ME1Jiancuxiong_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/BP_Vision_ME1Jiancuxiong.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Vision_ME1Jiancuxiong_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/BP_Vision_ME1Jiancuxiong.8"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Vision_ME1Jiancuxiong_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/BP_Vision_ME1Jiancuxiong.6"
+      },
+      "VariableGuid": "44AE0117-4B00C649-C02C0692-964BDB2E",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_ME1Jiancuxiong_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/BP_Vision_ME1Jiancuxiong.1"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Vision_ME1Jiancuxiong_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/BP_Vision_ME1Jiancuxiong.7"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Vision_ME1Jiancuxiong_C'Default__BP_Vision_ME1Jiancuxiong_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/BP_Vision_ME1Jiancuxiong.2"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponent'Default__BP_BaseVision_C:CharacterMesh0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.15"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_ME1JiancuxiongMd00001_Vision_C'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Elite/ME1JiancuxiongMd00001/ABP_ME1JiancuxiongMd00001_Vision.0"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'ME1JiancuxiongMd00001'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Elite/ME1JiancuxiongMd00001/Model/ME1JiancuxiongMd00001.0"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_Pawn",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "AkiCharacter",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "StraightWall_Deprecated",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AcrossBlock",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "KuroWater",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Vision_ME1Jiancuxiong_C:CollisionCylinder'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1Jiancuxiong/Md00001/BP_Vision_ME1Jiancuxiong.3"
+      },
+      "RelativeLocation": {
+        "X": -40.0,
+        "Y": 0.0,
+        "Z": -85.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.85,
+        "Y": 0.8500001,
+        "Z": 0.8500001
+      }
+    }
+  }
+]

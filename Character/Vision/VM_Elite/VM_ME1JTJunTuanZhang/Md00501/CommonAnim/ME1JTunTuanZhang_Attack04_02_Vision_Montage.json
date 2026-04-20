@@ -1,0 +1,193 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "ME1JTunTuanZhang_Attack04_02_Vision_Montage",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1JTJunTuanZhang/Md00501/CommonAnim/ME1JTunTuanZhang_Attack04_02_Vision_Montage",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'ME1JTunTuanZhang_Attack04_02_Vision_Montage'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1JTJunTuanZhang/Md00501/CommonAnim/ME1JTunTuanZhang_Attack04_02_Vision_Montage.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.6000001,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack04_Vision'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1JTJunTuanZhang/Md00501/CommonAnim/Attack04_Vision.1"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Attack04_Vision'",
+                  "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1JTJunTuanZhang/Md00501/CommonAnim/Attack04_Vision.1"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 1.7,
+                "AnimEndTime": 4.3,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'ME1JTunTuanZhang_Attack04_02_Vision_Montage:TsAnimNotifyReSkillEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1JTJunTuanZhang/Md00501/CommonAnim/ME1JTunTuanZhang_Attack04_02_Vision_Montage.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.16666667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'ME1JTunTuanZhang_Attack04_02_Vision_Montage'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1JTJunTuanZhang/Md00501/CommonAnim/ME1JTunTuanZhang_Attack04_02_Vision_Montage.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.6000001,
+          "LinkValue": 0.20518151,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack04_Vision'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1JTJunTuanZhang/Md00501/CommonAnim/Attack04_Vision.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifySendGamePlayEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifySendGamePlayEvent_C'ME1JTunTuanZhang_Attack04_02_Vision_Montage:TsAnimNotifySendGamePlayEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1JTJunTuanZhang/Md00501/CommonAnim/ME1JTunTuanZhang_Attack04_02_Vision_Montage.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'ME1JTunTuanZhang_Attack04_02_Vision_Montage'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1JTJunTuanZhang/Md00501/CommonAnim/ME1JTunTuanZhang_Attack04_02_Vision_Montage.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.6000001,
+          "LinkValue": 0.7987033,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack04_Vision'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1JTJunTuanZhang/Md00501/CommonAnim/Attack04_Vision.1"
+          }
+        }
+      ],
+      "SequenceLength": 2.6000001,
+      "Skeleton": {
+        "ObjectName": "Skeleton'ME1JTJunTuanZhangMd00501_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/Model/ME1JTJunTuanZhangMd00501_Skeleton.4"
+      }
+    },
+    "SkeletonGuid": "458D0117-44F00FC3-7BC16B9E-4923A0C0"
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'ME1JTunTuanZhang_Attack04_02_Vision_Montage'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1JTJunTuanZhang/Md00501/CommonAnim/ME1JTunTuanZhang_Attack04_02_Vision_Montage.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "200088003"
+    }
+  },
+  {
+    "Type": "TsAnimNotifySendGamePlayEvent_C",
+    "Name": "TsAnimNotifySendGamePlayEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySendGamePlayEvent.TsAnimNotifySendGamePlayEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'ME1JTunTuanZhang_Attack04_02_Vision_Montage'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1JTJunTuanZhang/Md00501/CommonAnim/ME1JTunTuanZhang_Attack04_02_Vision_Montage.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifySendGamePlayEvent_C'Default__TsAnimNotifySendGamePlayEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySendGamePlayEvent.3"
+    },
+    "Properties": {
+      "事件Tag": {
+        "TagName": "幻象.变身.正常结束"
+      }
+    }
+  }
+]

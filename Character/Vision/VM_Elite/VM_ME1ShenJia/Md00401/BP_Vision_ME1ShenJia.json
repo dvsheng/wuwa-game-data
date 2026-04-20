@@ -1,0 +1,422 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Vision_ME1ShenJia_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.7"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Vision_ME1ShenJia_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.11"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Vision_ME1ShenJia_C:InheritableComponentHandler'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.7"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Bone_Piao024",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Bip001Spine_Bone",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Vision_ME1ShenJia_C'Default__BP_Vision_ME1ShenJia_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.1"
+    }
+  },
+  {
+    "Type": "BP_Vision_ME1ShenJia_C",
+    "Name": "Default__BP_Vision_ME1ShenJia_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.BP_Vision_ME1ShenJia_C'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia",
+    "Template": {
+      "ObjectName": "BP_BaseVision_C'Default__BP_BaseVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.8"
+    },
+    "Properties": {
+      "DtHitEffect": {
+        "ObjectName": "DataTable'DT_HitEffect'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/Data/DT_HitEffect.0"
+      },
+      "DtBaseMovementSetting": {
+        "ObjectName": "DataTable'DT_BaseMovementSetting'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Elite/ME1ShenJiaMd00401/Data/DT_BaseMovementSetting.0"
+      },
+      "DtNewBulletDataMain": {
+        "ObjectName": "DataTable'DT_ReBulletDataMain'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/Data/DT_ReBulletDataMain.0"
+      },
+      "FkData": {
+        "ObjectName": "BP_PartHitEffect_C'DA_PartHitEffect'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/Data/DA_PartHitEffect.0"
+      },
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Vision_ME1ShenJia_C:CharacterMesh0'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.12"
+      },
+      "CharacterMovement": {
+        "ObjectName": "CharacterMovementComponent'Default__BP_Vision_ME1ShenJia_C:CharMoveComp'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.5"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Vision_ME1ShenJia_C:CollisionCylinder'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.4"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Vision_ME1ShenJia_C:CollisionCylinder'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.4"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Bip001Spine_Bone_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_ME1ShenJia_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 124.0,
+      "CapsuleRadius": 40.0,
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bCanCharacterStandOn": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECC_Pawn",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "AkiCharacter",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "StraightWall_Deprecated",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AcrossBlock",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "KuroWater",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -26.435436,
+        "Y": -1.385422,
+        "Z": 0.000526
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": -3.0
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Bone_Piao024_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_ME1ShenJia_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 70.0,
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bCanCharacterStandOn": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECC_Pawn",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "AkiCharacter",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "StraightWall_Deprecated",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AcrossBlock",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "KuroWater",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 45.92499,
+        "Y": 0.001331,
+        "Z": 1.316745
+      },
+      "RelativeRotation": {
+        "Pitch": -85.999916,
+        "Yaw": -8.0,
+        "Roll": 6E-06
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_Vision_ME1ShenJia_C'Default__BP_Vision_ME1ShenJia_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.1"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_BaseVision_C:CollisionCylinder'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.9"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 124.0,
+      "CapsuleRadius": 40.0
+    }
+  },
+  {
+    "Type": "CharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_Vision_ME1ShenJia_C'Default__BP_Vision_ME1ShenJia_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.1"
+    },
+    "Template": {
+      "ObjectName": "CharacterMovementComponent'Default__BP_BaseVision_C:CharMoveComp'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.10"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_ME1ShenJia_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_ME1ShenJia_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Vision_ME1ShenJia_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.11"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Vision_ME1ShenJia_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.7"
+      },
+      "VariableGuid": "1AEC148B-447B78C6-9403DCA8-BD0F56E3",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Vision_ME1ShenJia_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.11"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_Vision_ME1ShenJia_C:Bone_Piao024_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.3"
+      },
+      "AttachToName": "Bone_Piao024",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "4F14DBC9-42116BE4-20575FBE-DC4E2EA8",
+      "InternalVariableName": "Bone_Piao024"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Vision_ME1ShenJia_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.11"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_Vision_ME1ShenJia_C:Bip001Spine_Bone_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.2"
+      },
+      "AttachToName": "Bip001Spine_Bone",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "543045CB-44399BDF-8060A59E-A8C97E01",
+      "InternalVariableName": "Bip001Spine_Bone"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_ME1ShenJia_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Vision_ME1ShenJia_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision_ME1ShenJia_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.9"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Vision_ME1ShenJia_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision_ME1ShenJia_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.9"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Vision_ME1ShenJia_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.8"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Vision_ME1ShenJia_C'Default__BP_Vision_ME1ShenJia_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.1"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponent'Default__BP_BaseVision_C:CharacterMesh0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.15"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_ME1ShenJiaMd00401_Vision_C'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Elite/ME1ShenJiaMd00401/ABP_ME1ShenJiaMd00401_Vision.0"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'ME1ShenJiaMd00401'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Elite/ME1ShenJiaMd00401/Model/ME1ShenJiaMd00401.0"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Vision_ME1ShenJia_C:CollisionCylinder'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Elite/VM_ME1ShenJia/Md00401/BP_Vision_ME1ShenJia.4"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -124.00374
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  }
+]
