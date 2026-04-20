@@ -1,0 +1,222 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Vision_MB1Zhenwuguanzhe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/BP_Vision_MB1Zhenwuguanzhe",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.7"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Vision_MB1Zhenwuguanzhe_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/BP_Vision_MB1Zhenwuguanzhe.7"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Vision_MB1Zhenwuguanzhe_C:InheritableComponentHandler'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/BP_Vision_MB1Zhenwuguanzhe.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.7"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Vision_MB1Zhenwuguanzhe_C'Default__BP_Vision_MB1Zhenwuguanzhe_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/BP_Vision_MB1Zhenwuguanzhe.1"
+    }
+  },
+  {
+    "Type": "BP_Vision_MB1Zhenwuguanzhe_C",
+    "Name": "Default__BP_Vision_MB1Zhenwuguanzhe_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/BP_Vision_MB1Zhenwuguanzhe.BP_Vision_MB1Zhenwuguanzhe_C'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/BP_Vision_MB1Zhenwuguanzhe",
+    "Template": {
+      "ObjectName": "BP_BaseVision_C'Default__BP_BaseVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.8"
+    },
+    "Properties": {
+      "显像放大比例": {
+        "X": 1.5,
+        "Y": 1.5,
+        "Z": 1.5
+      },
+      "显像时是否需要特殊pose": true,
+      "DtHitEffect": {
+        "ObjectName": "DataTable'DT_HitEffect'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/Data/DT_HitEffect.0"
+      },
+      "DtBaseMovementSetting": {
+        "ObjectName": "DataTable'DT_BaseMovementSetting'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Boss/MB1ZhenwuguanzheMd00601/Data/DT_BaseMovementSetting.0"
+      },
+      "DtNewBulletDataMain": {
+        "ObjectName": "DataTable'DT_ReBulletDataMain'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/Data/DT_ReBulletDataMain.0"
+      },
+      "FkData": {
+        "ObjectName": "FK_Shake_AssestData_C'FK_Shake_Data'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Boss/MB1ZhenwuguanzheMd00601/Data/FK_Shake_Data.0"
+      },
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Vision_MB1Zhenwuguanzhe_C:CharacterMesh0'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/BP_Vision_MB1Zhenwuguanzhe.8"
+      },
+      "CharacterMovement": {
+        "ObjectName": "CharacterMovementComponent'Default__BP_Vision_MB1Zhenwuguanzhe_C:CharMoveComp'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/BP_Vision_MB1Zhenwuguanzhe.3"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Vision_MB1Zhenwuguanzhe_C:CollisionCylinder'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/BP_Vision_MB1Zhenwuguanzhe.2"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Vision_MB1Zhenwuguanzhe_C:CollisionCylinder'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/BP_Vision_MB1Zhenwuguanzhe.2"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_Vision_MB1Zhenwuguanzhe_C'Default__BP_Vision_MB1Zhenwuguanzhe_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/BP_Vision_MB1Zhenwuguanzhe.1"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_BaseVision_C:CollisionCylinder'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.9"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 125.0,
+      "CapsuleRadius": 50.0
+    }
+  },
+  {
+    "Type": "CharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_Vision_MB1Zhenwuguanzhe_C'Default__BP_Vision_MB1Zhenwuguanzhe_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/BP_Vision_MB1Zhenwuguanzhe.1"
+    },
+    "Template": {
+      "ObjectName": "CharacterMovementComponent'Default__BP_BaseVision_C:CharMoveComp'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.10"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_MB1Zhenwuguanzhe_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/BP_Vision_MB1Zhenwuguanzhe.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_MB1Zhenwuguanzhe_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/BP_Vision_MB1Zhenwuguanzhe.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Vision_MB1Zhenwuguanzhe_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/BP_Vision_MB1Zhenwuguanzhe.7"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Vision_MB1Zhenwuguanzhe_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/BP_Vision_MB1Zhenwuguanzhe.5"
+      },
+      "VariableGuid": "242F7AF0-4A7496B1-B1BA4B93-12B0A902",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_MB1Zhenwuguanzhe_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/BP_Vision_MB1Zhenwuguanzhe.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Vision_MB1Zhenwuguanzhe_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/BP_Vision_MB1Zhenwuguanzhe.6"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Vision_MB1Zhenwuguanzhe_C'Default__BP_Vision_MB1Zhenwuguanzhe_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/BP_Vision_MB1Zhenwuguanzhe.1"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponent'Default__BP_BaseVision_C:CharacterMesh0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.15"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_MB1ZhenwuguanzheMd00601_Vision_C'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Boss/MB1ZhenwuguanzheMd00601/ABP_MB1ZhenwuguanzheMd00601_Vision.0"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'MB1ZhenwuguanzheMd00601'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Boss/MB1ZhenwuguanzheMd00601/Model/MB1ZhenwuguanzheMd00601.0"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Vision_MB1Zhenwuguanzhe_C:CollisionCylinder'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/BP_Vision_MB1Zhenwuguanzhe.2"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -124.817566
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99999,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.6,
+        "Y": 0.6,
+        "Z": 0.6
+      }
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "KuroBpDataAssetGroup",
+    "Name": "DA_BulletWindRing_SuiGuang",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'KuroBpDataAssetGroup'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Suiguang/Md00501/Data/DA_BulletWindRing_SuiGuang",
+    "Properties": {
+      "Data": [
+        {
+          "ObjectName": "LogicDataForce_C'DA_BulletWindRing_SuiGuang:LogicDataForce_C_0'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Suiguang/Md00501/Data/DA_BulletWindRing_SuiGuang.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "LogicDataForce_C",
+    "Name": "LogicDataForce_C_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/NewWorld/Bullet/LogicDataClass/LogicDataForce.LogicDataForce_C'",
+    "Outer": {
+      "ObjectName": "KuroBpDataAssetGroup'DA_BulletWindRing_SuiGuang'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Suiguang/Md00501/Data/DA_BulletWindRing_SuiGuang.0"
+    },
+    "Template": {
+      "ObjectName": "LogicDataForce_C'Default__LogicDataForce_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/NewWorld/Bullet/LogicDataClass/LogicDataForce.1"
+    },
+    "Properties": {
+      "ForceBase": 550.0,
+      "ConstantForce": true,
+      "TowardsBullet": true,
+      "ContinueTime": 0.2,
+      "IsResetOnLast": true,
+      "Group": 1,
+      "ExecuteStage": "EBulletLogicStage::NewEnumerator1",
+      "NativeClass": {
+        "ObjectName": "TypeScriptGeneratedClass'LogicDataForce_C'",
+        "ObjectPath": "Client/Content/Aki/TypeScript/Game/NewWorld/Bullet/LogicDataClass/LogicDataForce.0"
+      }
+    }
+  }
+]

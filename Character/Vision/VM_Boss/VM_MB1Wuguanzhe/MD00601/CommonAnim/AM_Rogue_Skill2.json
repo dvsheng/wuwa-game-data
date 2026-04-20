@@ -1,0 +1,126 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Rogue_Skill2",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Wuguanzhe/MD00601/CommonAnim/AM_Rogue_Skill2",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Rogue_Skill2'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Wuguanzhe/MD00601/CommonAnim/AM_Rogue_Skill2.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.1999999,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack11'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Boss/MB1Wuguanzhe00601/CommonAnim/Layer3/Attack11.3"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Attack11'",
+                  "ObjectPath": "Client/Content/Aki/Character/Monster/Boss/MB1Wuguanzhe00601/CommonAnim/Layer3/Attack11.3"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 1.6,
+                "AnimEndTime": 2.8,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Rogue_Skill2:TsAnimNotifyReSkillEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Wuguanzhe/MD00601/CommonAnim/AM_Rogue_Skill2.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Rogue_Skill2'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Wuguanzhe/MD00601/CommonAnim/AM_Rogue_Skill2.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.1999999,
+          "LinkValue": 0.568593,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack11'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Boss/MB1Wuguanzhe00601/CommonAnim/Layer3/Attack11.3"
+          }
+        }
+      ],
+      "SequenceLength": 1.1999999,
+      "Skeleton": {
+        "ObjectName": "Skeleton'MB1Wuguanzhe00601_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Boss/MB1Wuguanzhe00601/Model/MB1Wuguanzhe00601_Skeleton.41"
+      }
+    },
+    "SkeletonGuid": "486B11A2-4773B4AD-39BB829A-ED22CBDB"
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Rogue_Skill2'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Wuguanzhe/MD00601/CommonAnim/AM_Rogue_Skill2.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "280005201"
+    }
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "stand3_Montage",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Fuludelisi/Md00401/CommonAnim/stand3_Montage",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'stand3_Montage'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Fuludelisi/Md00401/CommonAnim/stand3_Montage.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'stand3'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Fuludelisi/Md00401/CommonAnim/stand3.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'stand3'",
+                  "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Fuludelisi/Md00401/CommonAnim/stand3.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 2.0,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateGoThrough",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateGoThrough_C'stand3_Montage:TsAnimNotifyStateGoThrough_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Fuludelisi/Md00401/CommonAnim/stand3_Montage.1"
+          },
+          "Duration": 1.9650623,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'stand3_Montage'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Fuludelisi/Md00401/CommonAnim/stand3_Montage.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.0,
+            "LinkValue": 1.9983956,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'stand3'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Fuludelisi/Md00401/CommonAnim/stand3.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'stand3_Montage'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Fuludelisi/Md00401/CommonAnim/stand3_Montage.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.0,
+          "LinkValue": 0.033333335,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'stand3'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Fuludelisi/Md00401/CommonAnim/stand3.0"
+          }
+        }
+      ],
+      "SequenceLength": 2.0,
+      "Skeleton": {
+        "ObjectName": "Skeleton'EFuludelisiDajianMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Weapon/Prop/Role/FuludelisiProp/EFuludelisiDajianMd10011/Model/EFuludelisiDajianMd10011_Skeleton.0"
+      }
+    },
+    "SkeletonGuid": "8B83EE8C-42F563DD-D858DBAC-BF7435A2"
+  },
+  {
+    "Type": "TsAnimNotifyStateGoThrough_C",
+    "Name": "TsAnimNotifyStateGoThrough_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateGoThrough.TsAnimNotifyStateGoThrough_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'stand3_Montage'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Fuludelisi/Md00401/CommonAnim/stand3_Montage.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateGoThrough_C'Default__TsAnimNotifyStateGoThrough_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateGoThrough.5"
+    },
+    "Properties": {
+      "FirstGoThroughPriority": 100,
+      "OldGoThroughPriority": 70.0,
+      "OldHitPriority": 80.0,
+      "LeftTime": -0.0059478804,
+      "IsEnd": true,
+      "exportIndex": 24
+    }
+  }
+]

@@ -1,0 +1,432 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Attack08_Tafang_3_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/AM_Attack08_Tafang_3_1",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_Tafang_3_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/AM_Attack08_Tafang_3_1.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.8,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/Attack08.31"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Attack08'",
+                  "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/Attack08.31"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.8,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "Modify镜头",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'AM_Attack08_Tafang_3_1:TsAnimNotifyCameraModify_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/AM_Attack08_Tafang_3_1.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_Tafang_3_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/AM_Attack08_Tafang_3_1.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.8,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/Attack08.31"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_Attack08_Tafang_3_1:TsAnimNotifyStateAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/AM_Attack08_Tafang_3_1.4"
+          },
+          "Duration": 1.4630079,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack08_Tafang_3_1'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/AM_Attack08_Tafang_3_1.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.8,
+            "LinkValue": 1.8,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack08'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/Attack08.31"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_Tafang_3_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/AM_Attack08_Tafang_3_1.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.8,
+          "LinkValue": 0.336992,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/Attack08.31"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_Attack08_Tafang_3_1:TsAnimNotifyStateAudioEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/AM_Attack08_Tafang_3_1.5"
+          },
+          "Duration": 1.1425669,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack08_Tafang_3_1'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/AM_Attack08_Tafang_3_1.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.8,
+            "LinkValue": 1.8,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack08'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/Attack08.31"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_Tafang_3_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/AM_Attack08_Tafang_3_1.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.8,
+          "LinkValue": 0.657433,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/Attack08.31"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Attack08_Tafang_3_1:TsAnimNotifyReSkillEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/AM_Attack08_Tafang_3_1.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_Tafang_3_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/AM_Attack08_Tafang_3_1.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.8,
+          "LinkValue": 0.9852125,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/Attack08.31"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifySendGamePlayEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifySendGamePlayEvent_C'AM_Attack08_Tafang_3_1:TsAnimNotifySendGamePlayEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/AM_Attack08_Tafang_3_1.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack08_Tafang_3_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/AM_Attack08_Tafang_3_1.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.8,
+          "LinkValue": 1.3693585,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack08'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/Attack08.31"
+          }
+        }
+      ],
+      "SequenceLength": 1.8,
+      "Skeleton": {
+        "ObjectName": "Skeleton'MB1ZhenwuguanzheMd00601_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Boss/MB1ZhenwuguanzheMd00601/Model/MB1ZhenwuguanzheMd00601_Skeleton.7"
+      }
+    },
+    "SkeletonGuid": "4470AB14-463625BD-6062FDA0-20DF1BDA"
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack08_Tafang_3_1'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/AM_Attack08_Tafang_3_1.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "持续时间": 1.2,
+      "淡入时间": 0.2,
+      "淡出时间": 0.4,
+      "打断淡出时间": 0.4,
+      "相机修改配置": {
+        "Priority_101_E74404724F7BCD1A815B9E8ECCEE64EC": 8,
+        "IsModifiedArmLength_73_1686AE5842DD198072484BB2D855CAEB": true,
+        "ArmLength_74_192752C04380D5CAF2EB7E910DC5C9C5": 1700.0,
+        "IsModifiedArmRotationPitch_94_6C16441D44C806A072B75DA882811D0C": true,
+        "ArmRotation_77_B66F0D944DE7F4829886B997E0B1B89F": {
+          "Pitch": -30.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "CameraOffsetAdditional_81_DABDCE1243662E3E72DB62A0B56CEA53": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -100.0
+        }
+      },
+      "exportIndex": 3,
+      "NeedSimulate": false
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack08_Tafang_3_1'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/AM_Attack08_Tafang_3_1.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "28001101401"
+    }
+  },
+  {
+    "Type": "TsAnimNotifySendGamePlayEvent_C",
+    "Name": "TsAnimNotifySendGamePlayEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySendGamePlayEvent.TsAnimNotifySendGamePlayEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack08_Tafang_3_1'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/AM_Attack08_Tafang_3_1.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifySendGamePlayEvent_C'Default__TsAnimNotifySendGamePlayEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySendGamePlayEvent.3"
+    },
+    "Properties": {
+      "事件Tag": {
+        "TagName": "幻象.变身.正常结束"
+      },
+      "exportIndex": 8
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack08_Tafang_3_1'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/AM_Attack08_Tafang_3_1.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_boss_wgzzs_bat_atk03_1.play_boss_wgzzs_bat_atk03_1",
+        "SubPathString": ""
+      },
+      "exportIndex": 34,
+      "CurrentTimeLength": 0.65203154
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack08_Tafang_3_1'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/CommonAnim/AM_Attack08_Tafang_3_1.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_boss_wgzzs_bat_atk20_3.play_boss_wgzzs_bat_atk20_3",
+        "SubPathString": ""
+      },
+      "exportIndex": 35,
+      "CurrentTimeLength": 0.3315906
+    }
+  }
+]

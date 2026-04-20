@@ -1,0 +1,344 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "Mingzhongzhigui_downAtk",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Mingzhongzhigui/Md00101/Ability/Mingzhongzhigui_downAtk",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'Mingzhongzhigui_downAtk'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Mingzhongzhigui/Md00101/Ability/Mingzhongzhigui_downAtk.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.6200001,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill_Body1'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Boss/MB1MingzhongzhiguiMd00201/CommonAnim/Skill_Body1.9"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Skill_Body1'",
+                  "ObjectPath": "Client/Content/Aki/Character/Monster/Boss/MB1MingzhongzhiguiMd00201/CommonAnim/Skill_Body1.9"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 1.53,
+                "AnimEndTime": 2.15,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'Mingzhongzhigui_downAtk:TsAnimNotifyReSkillEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Mingzhongzhigui/Md00101/Ability/Mingzhongzhigui_downAtk.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'Mingzhongzhigui_downAtk'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Mingzhongzhigui/Md00101/Ability/Mingzhongzhigui_downAtk.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.6200001,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill_Body1'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Boss/MB1MingzhongzhiguiMd00201/CommonAnim/Skill_Body1.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraModify",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'Mingzhongzhigui_downAtk:TsAnimNotifyCameraModify_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Mingzhongzhigui/Md00101/Ability/Mingzhongzhigui_downAtk.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'Mingzhongzhigui_downAtk'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Mingzhongzhigui/Md00101/Ability/Mingzhongzhigui_downAtk.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.6200001,
+          "LinkValue": 0.096102856,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill_Body1'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Boss/MB1MingzhongzhiguiMd00201/CommonAnim/Skill_Body1.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'Mingzhongzhigui_downAtk:AnimNotifyEffect_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Mingzhongzhigui/Md00101/Ability/Mingzhongzhigui_downAtk.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.28024,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'Mingzhongzhigui_downAtk'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Mingzhongzhigui/Md00101/Ability/Mingzhongzhigui_downAtk.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.6200001,
+          "LinkValue": 0.38611642,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill_Body1'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Boss/MB1MingzhongzhiguiMd00201/CommonAnim/Skill_Body1.9"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'Mingzhongzhigui_downAtk:TsAnimNotifyReSkillEvent_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Mingzhongzhigui/Md00101/Ability/Mingzhongzhigui_downAtk.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'Mingzhongzhigui_downAtk'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Mingzhongzhigui/Md00101/Ability/Mingzhongzhigui_downAtk.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.6200001,
+          "LinkValue": 0.43770507,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill_Body1'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Boss/MB1MingzhongzhiguiMd00201/CommonAnim/Skill_Body1.9"
+          }
+        }
+      ],
+      "SequenceLength": 0.6200001,
+      "Skeleton": {
+        "ObjectName": "Skeleton'MB1MingzhongzhiguiMd00201_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Boss/MB1MingzhongzhiguiMd00201/Model/MB1MingzhongzhiguiMd00201_Skeleton.39"
+      }
+    },
+    "SkeletonGuid": "20615D59-4DB2D54C-777FF0AE-877989EA"
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'Mingzhongzhigui_downAtk'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Mingzhongzhigui/Md00101/Ability/Mingzhongzhigui_downAtk.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "DetachWhenSkillEnd": true,
+      "WhenSkillEnd": "ESkillEffectType::NewEnumerator1",
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/DataAsset/Niagara/MB1Mingzhongzhigui/DA_Fx_MBa18_IceAirboom.DA_Fx_MBa18_IceAirboom",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 45.0
+      }
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'Mingzhongzhigui_downAtk'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Mingzhongzhigui/Md00101/Ability/Mingzhongzhigui_downAtk.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "持续时间": 1.2,
+      "淡入时间": 0.1,
+      "淡出时间": 0.3,
+      "相机修改配置": {
+        "IsModifiedArmLength_73_1686AE5842DD198072484BB2D855CAEB": true,
+        "ArmLength_74_192752C04380D5CAF2EB7E910DC5C9C5": 700.0,
+        "ArmLengthAdditional_75_3ED4AAB647CA6863AC2F9F9C1D48D229": 200.0,
+        "ArmRotation_77_B66F0D944DE7F4829886B997E0B1B89F": {
+          "Pitch": -10.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        }
+      },
+      "NeedSimulate": false
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'Mingzhongzhigui_downAtk'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Mingzhongzhigui/Md00101/Ability/Mingzhongzhigui_downAtk.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "280005003"
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'Mingzhongzhigui_downAtk'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Mingzhongzhigui/Md00101/Ability/Mingzhongzhigui_downAtk.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "280003001"
+    }
+  }
+]

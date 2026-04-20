@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "FLD_Up_Lv_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Fuludelisi/Md00401/Abilities/FLD_Up_Lv",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CameraShakeAndForceFeedback_C'",
+      "ObjectPath": "Client/Content/Aki/Data/Camera/BP_CameraShakeAndForceFeedback.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CameraShakeAndForceFeedback_C'",
+      "ObjectPath": "Client/Content/Aki/Data/Camera/BP_CameraShakeAndForceFeedback.0"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "FLD_Up_Lv_C'Default__FLD_Up_Lv_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Fuludelisi/Md00401/Abilities/FLD_Up_Lv.1"
+    }
+  },
+  {
+    "Type": "FLD_Up_Lv_C",
+    "Name": "Default__FLD_Up_Lv_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Fuludelisi/Md00401/Abilities/FLD_Up_Lv.FLD_Up_Lv_C'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Boss/VM_MB1Fuludelisi/Md00401/Abilities/FLD_Up_Lv",
+    "Template": {
+      "ObjectName": "BP_CameraShakeAndForceFeedback_C'Default__BP_CameraShakeAndForceFeedback_C'",
+      "ObjectPath": "Client/Content/Aki/Data/Camera/BP_CameraShakeAndForceFeedback.1"
+    },
+    "Properties": {
+      "ForceFeedbackEffect": {
+        "ObjectName": "KuroForceFeedbackEffect'FF_Common_Lv5'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/Common/Data/GamePadShake/CommonShake/FF_Common_Lv5.0"
+      },
+      "OscillationDuration": 0.2,
+      "OscillationBlendInTime": 0.0,
+      "OscillationBlendOutTime": 0.05,
+      "LocOscillation": {
+        "X": {
+          "Amplitude": 4.0,
+          "Frequency": 15.0,
+          "Waveform": "EOscillatorWaveform::PerlinNoise"
+        },
+        "Y": {
+          "Amplitude": 5.0,
+          "Frequency": 15.0,
+          "Waveform": "EOscillatorWaveform::PerlinNoise"
+        },
+        "Z": {
+          "Amplitude": -30.4,
+          "Frequency": 55.0,
+          "InitialOffset": "EOO_OffsetZero"
+        }
+      }
+    }
+  }
+]
