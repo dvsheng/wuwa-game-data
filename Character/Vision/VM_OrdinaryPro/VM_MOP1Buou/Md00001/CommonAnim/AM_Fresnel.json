@@ -1,0 +1,148 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Fresnel",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_OrdinaryPro/VM_MOP1Buou/Md00001/CommonAnim/AM_Fresnel",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Fresnel'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_OrdinaryPro/VM_MOP1Buou/Md00001/CommonAnim/AM_Fresnel.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.499991,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Vision_Attack01_01'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_OrdinaryPro/VM_MOP1Buou/Md00001/CommonAnim/Vision_Attack01_01.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Vision_Attack01_01'",
+                  "ObjectPath": "Client/Content/Aki/Character/Vision/VM_OrdinaryPro/VM_MOP1Buou/Md00001/CommonAnim/Vision_Attack01_01.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 2.5,
+                "AnimEndTime": 2.6,
+                "AnimPlayRate": 0.066667,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Vision_Attack01_01'",
+                  "ObjectPath": "Client/Content/Aki/Character/Vision/VM_OrdinaryPro/VM_MOP1Buou/Md00001/CommonAnim/Vision_Attack01_01.0"
+                },
+                "StartPos": 1.499991,
+                "AnimStartTime": 2.6,
+                "AnimEndTime": 2.7,
+                "AnimPlayRate": 0.029047,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyStateAddMaterialControllerData_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateAddMaterialControllerData_C'AM_Fresnel:AnimNotifyStateAddMaterialControllerData_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_OrdinaryPro/VM_MOP1Buou/Md00001/CommonAnim/AM_Fresnel.1"
+          },
+          "Duration": 1.6799841,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Fresnel'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_OrdinaryPro/VM_MOP1Buou/Md00001/CommonAnim/AM_Fresnel.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 1.499991,
+            "SegmentLength": 3.4427013,
+            "LinkValue": 1.6799841,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Vision_Attack01_01'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_OrdinaryPro/VM_MOP1Buou/Md00001/CommonAnim/Vision_Attack01_01.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Fresnel'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_OrdinaryPro/VM_MOP1Buou/Md00001/CommonAnim/AM_Fresnel.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.499991,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Vision_Attack01_01'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_OrdinaryPro/VM_MOP1Buou/Md00001/CommonAnim/Vision_Attack01_01.0"
+          }
+        }
+      ],
+      "SequenceLength": 4.9426923,
+      "Skeleton": {
+        "ObjectName": "Skeleton'MOP1BuouMd00001_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/OrdinaryPro/MOP1BuouMd00001/Model/MOP1BuouMd00001_Skeleton.3"
+      }
+    },
+    "SkeletonGuid": "185D935B-40FAA52C-DA5404AB-37363E7B"
+  },
+  {
+    "Type": "AnimNotifyStateAddMaterialControllerData_C",
+    "Name": "AnimNotifyStateAddMaterialControllerData_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Character/AnimNotify/AnimNotifyStateAddMaterialControllerData.AnimNotifyStateAddMaterialControllerData_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Fresnel'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_OrdinaryPro/VM_MOP1Buou/Md00001/CommonAnim/AM_Fresnel.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateAddMaterialControllerData_C'Default__AnimNotifyStateAddMaterialControllerData_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Character/AnimNotify/AnimNotifyStateAddMaterialControllerData.4"
+    },
+    "Properties": {
+      "MaterialAssetData": {
+        "ObjectName": "PD_CharacterControllerData_C'DA_Fx_Chanzibuou_Fresnel'",
+        "ObjectPath": "Client/Content/Aki/Effect/MaterialController/Common/DA_Fx_Chanzibuou_Fresnel.1"
+      },
+      "exportIndex": 0,
+      "CurrentTimeLength": 1.704097
+    }
+  }
+]
